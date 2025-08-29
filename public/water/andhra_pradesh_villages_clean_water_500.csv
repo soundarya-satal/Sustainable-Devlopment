@@ -1,0 +1,501 @@
+Village_Code,District,Village_Name,Clean_Water_Access_Percent,Population,Primary_Water_Source,Hours_of_Water_Supply_Per_Day,Water_Quality_Rating,Toilet_Access_Percent,Waste_Collection_Frequency,Open_Defecation_Status,Drainage_System,Electricity_Access_Percent,Internet_Connectivity,Healthcare_Center_Available,School_Distance_km,Village_Sustainability_Index,NGO_Interventions,Government_Schemes_Active,Annual_Funding_Received,Progress_Since_Last_Year,Last_Updated,Data_Source,Verified_By
+1,Chittoor,Charlespalli,73.0,2878,Handpump,7,Poor,79.67,Weekly,No,None,61.21,Yes,Yes,2.75,64.58,No,None,290415.93,1.69,2025-03-27,NGO Report,Angela Martin
+2,East Godavari,Nicolepalli,76.72,1206,Borewell,11,Moderate,99.97,None,No,Closed,91.17,Yes,Yes,9.74,74.96,No,Swachh Bharat,343253.41,-1.39,2025-02-05,NGO Report,Gregory Carr
+3,Vizianagaram,Scottpalli,75.27,1557,River,18,Good,88.2,Weekly,No,Open,58.1,Yes,No,9.5,66.32,No,Jal Jeevan Mission,132796.6,5.88,2025-05-02,NGO Report,Austin Watts
+4,Krishna,Tinapalli,47.51,2980,Tank,19,Good,65.18,Weekly,Yes,Open,82.94,No,Yes,8.34,31.99,Yes,None,387800.96,-3.38,2025-05-02,Census,Arthur Gentry
+5,YSR Kadapa,Tiffanypalli,74.33,748,River,22,Poor,50.28,Monthly,No,Open,90.23,No,No,4.81,78.2,Yes,Swachh Bharat,213654.66,1.61,2025-07-29,Govt Survey,Amanda Jones
+6,Visakhapatnam,Triciapalli,48.62,3115,Handpump,14,Good,83.25,Daily,No,Open,73.32,No,No,2.86,36.78,No,Swachh Bharat,433440.29,0.45,2025-01-02,Census,Trevor Lopez
+7,Kurnool,Adampalli,96.03,3061,Tap,7,Moderate,99.72,None,No,Closed,74.87,Yes,No,5.3,97.67,Yes,None,182918.59,-8.74,2025-04-05,Govt Survey,Derek Holmes
+8,Visakhapatnam,Alexandrapalli,92.94,4355,Handpump,19,Good,89.3,None,Yes,Closed,86.38,No,No,0.93,33.58,Yes,Swachh Bharat,281079.23,-8.16,2025-04-02,NGO Report,Susan Wade
+9,Prakasam,Amandapalli,85.86,2791,Tank,23,Poor,38.32,Daily,No,Closed,89.74,No,No,7.67,43.93,No,None,29724.9,-9.03,2025-02-13,NGO Report,Paul Schmidt
+10,Kurnool,Jamespalli,88.24,4754,River,6,Poor,92.52,Weekly,No,None,65.93,No,No,6.14,65.51,No,None,285832.89,1.87,2025-08-10,Census,William Phillips
+11,Kurnool,Janepalli,59.87,1397,River,20,Moderate,85.77,Daily,No,Closed,98.35,Yes,Yes,6.04,41.94,No,Jal Jeevan Mission,412614.03,-3.95,2025-03-19,NGO Report,Roger Henry
+12,West Godavari,Robertpalli,46.59,655,River,12,Moderate,40.6,Weekly,No,None,88.75,No,Yes,7.2,66.31,No,None,244401.78,-0.58,2025-06-13,Census,Alexander Franklin
+13,Prakasam,Kimberlypalli,94.73,3304,Tank,13,Poor,84.04,Monthly,No,Open,97.87,No,No,2.64,98.1,No,Swachh Bharat,355401.46,7.26,2025-04-03,Govt Survey,Jonathan Stuart
+14,Kurnool,Jessicapalli,68.79,2740,Handpump,5,Poor,77.36,None,No,Closed,97.73,Yes,No,0.9,96.87,Yes,Swachh Bharat,462764.72,6.4,2025-01-13,NGO Report,Matthew Quinn
+15,Prakasam,Sarahpalli,52.84,4912,Handpump,19,Poor,49.01,Daily,Yes,Open,52.54,Yes,Yes,1.0,58.93,No,Jal Jeevan Mission,343784.07,-6.56,2025-08-23,NGO Report,Robert Moore
+16,East Godavari,Alexanderpalli,64.41,4396,River,22,Good,82.91,Monthly,No,Closed,82.29,Yes,Yes,5.58,80.62,Yes,Jal Jeevan Mission,214763.64,10.94,2025-02-16,Census,Heather Garcia
+17,Nellore,Alyssapalli,87.28,2026,Handpump,3,Good,50.89,Daily,No,Closed,72.72,No,Yes,8.59,62.76,Yes,Jal Jeevan Mission,172035.21,8.28,2025-01-05,NGO Report,Tonya Bowers
+18,Krishna,Dustinpalli,83.12,615,Handpump,11,Poor,77.21,Weekly,Yes,None,92.81,No,No,5.4,36.07,Yes,Jal Jeevan Mission,491025.74,1.94,2025-06-24,Census,Jason Patel
+19,Anantapur,Michellepalli,55.65,2429,River,10,Moderate,51.14,Daily,No,None,67.98,Yes,Yes,6.84,62.58,Yes,Swachh Bharat,346176.07,13.08,2025-07-23,NGO Report,Gabriela Ortiz
+20,YSR Kadapa,Karenpalli,58.66,1461,Handpump,13,Poor,45.46,Weekly,No,Open,72.75,No,No,7.17,93.9,Yes,Jal Jeevan Mission,343367.54,4.9,2025-02-15,Census,Cristina Perez
+21,Srikakulam,Patrickpalli,66.8,3463,Borewell,20,Good,34.32,Weekly,Yes,Open,66.41,No,Yes,6.96,80.18,No,Jal Jeevan Mission,450455.78,1.14,2025-04-19,Census,Kimberly Kent
+22,Prakasam,Manuelpalli,47.92,3903,River,20,Good,69.12,Monthly,Yes,Closed,62.72,Yes,Yes,5.99,33.17,No,None,41242.36,14.85,2025-08-14,Census,Malik King
+23,Prakasam,Katiepalli,41.9,3849,Tap,6,Poor,98.48,None,No,Closed,72.43,No,No,1.26,97.49,Yes,None,431540.42,-7.03,2025-07-05,NGO Report,Sara Williams MD
+24,Nellore,Shannonpalli,71.73,2324,Borewell,2,Moderate,62.41,None,No,Open,62.38,No,Yes,3.12,95.62,Yes,Jal Jeevan Mission,406644.31,0.48,2025-06-17,Census,Kristen Wall
+25,Guntur,Kevinpalli,52.36,1326,Tank,3,Moderate,71.84,Daily,Yes,None,52.21,No,Yes,5.63,82.81,Yes,Jal Jeevan Mission,256908.97,-2.77,2025-02-05,NGO Report,Phyllis Kent
+26,Visakhapatnam,Kerrypalli,59.13,3126,Tap,11,Good,99.0,Weekly,No,Closed,63.76,Yes,No,5.78,33.28,No,None,338957.84,9.65,2025-05-31,Govt Survey,Brenda Gallegos
+27,West Godavari,Courtneypalli,64.98,1722,Handpump,14,Good,82.81,None,Yes,Open,65.04,Yes,No,9.19,69.37,No,None,269695.99,-0.29,2025-08-22,Govt Survey,Lisa Long
+28,Guntur,Timothypalli,59.82,1147,River,13,Good,67.49,Weekly,Yes,Closed,68.86,Yes,Yes,2.29,83.32,Yes,Swachh Bharat,112355.65,12.68,2025-04-05,Govt Survey,Cynthia Wise
+29,Anantapur,Jonathanpalli,52.71,2056,Borewell,17,Good,78.69,Weekly,No,Open,77.6,No,No,4.93,75.41,No,Swachh Bharat,186225.86,12.07,2025-06-09,Govt Survey,Kimberly Arnold
+30,Chittoor,Kimberlypalli,88.17,4346,Handpump,8,Moderate,51.9,Daily,Yes,None,57.3,No,No,3.3,43.73,Yes,Swachh Bharat,289196.86,-3.86,2025-03-25,NGO Report,Kristy Mitchell
+31,Vizianagaram,Rebeccapalli,96.61,3265,Handpump,17,Poor,74.92,None,No,Open,86.64,No,Yes,1.83,68.26,Yes,None,495258.54,13.93,2025-04-15,NGO Report,Robert Blevins
+32,Anantapur,Kylepalli,90.34,1108,Borewell,2,Moderate,39.62,Weekly,Yes,None,57.55,Yes,No,4.05,73.25,No,None,249048.65,-9.83,2025-04-04,NGO Report,Steven Marshall
+33,Nellore,Michellepalli,40.71,4836,Handpump,19,Moderate,31.2,None,Yes,Open,95.9,Yes,Yes,2.32,66.85,No,Swachh Bharat,399518.8,-8.02,2025-02-27,Govt Survey,Rebecca Vazquez
+34,Prakasam,Melindapalli,73.9,2350,Handpump,23,Good,75.76,Daily,Yes,Closed,68.96,No,Yes,6.55,79.2,Yes,Swachh Bharat,424211.6,6.12,2025-05-29,Govt Survey,Amy Wagner
+35,Visakhapatnam,Johnpalli,98.64,1281,Tank,3,Good,44.8,None,No,Open,96.21,No,Yes,2.2,89.53,Yes,Jal Jeevan Mission,297647.69,8.81,2025-08-06,NGO Report,Paul Griffin
+36,Nellore,Kelseypalli,95.73,2951,Tap,20,Good,69.67,None,No,Closed,87.78,Yes,Yes,5.26,98.2,Yes,Jal Jeevan Mission,224173.24,10.97,2025-01-01,Govt Survey,Joshua Davis
+37,Visakhapatnam,Dalepalli,86.14,3749,Handpump,2,Poor,49.13,None,No,Open,67.79,No,No,2.26,71.01,No,Jal Jeevan Mission,388362.03,-2.62,2025-07-03,Census,Anthony Phillips
+38,West Godavari,Kimberlypalli,44.41,2695,Tap,14,Poor,84.87,Weekly,No,Closed,68.04,Yes,Yes,9.46,61.13,No,Jal Jeevan Mission,74928.43,-5.32,2025-04-16,Govt Survey,Ian Wiggins
+39,Srikakulam,Josephpalli,73.28,3842,Borewell,2,Good,54.77,Daily,No,Closed,50.62,No,No,7.9,80.74,Yes,None,265341.22,7.13,2025-02-07,Census,Steven Adams
+40,East Godavari,Kimberlypalli,56.14,2698,River,6,Good,41.7,Monthly,No,Closed,74.21,Yes,No,2.89,47.26,No,None,312167.71,1.45,2025-06-24,Census,Gregory Dominguez
+41,Krishna,Billypalli,40.41,3741,Handpump,21,Moderate,86.29,Monthly,No,Closed,71.53,Yes,No,3.55,96.31,Yes,Swachh Bharat,163949.81,14.11,2025-08-11,Govt Survey,Lisa Guzman
+42,Krishna,Pamelapalli,84.09,4522,Tank,9,Moderate,56.32,None,No,Open,96.6,Yes,Yes,6.98,68.51,No,None,112727.71,9.94,2025-05-03,NGO Report,Brooke Anderson DVM
+43,Chittoor,Randypalli,89.14,3851,River,6,Poor,51.2,Monthly,Yes,None,71.16,No,Yes,4.77,71.86,No,None,258240.2,13.01,2025-01-14,NGO Report,Jessica Gutierrez
+44,Nellore,Zacharypalli,72.62,3445,Tank,21,Poor,94.01,Daily,Yes,None,83.23,Yes,Yes,5.85,75.15,No,Swachh Bharat,483201.22,0.76,2025-05-26,Census,Dr. Hannah Heath DDS
+45,Chittoor,Susanpalli,55.52,4683,Tank,19,Poor,78.14,Weekly,No,Closed,69.56,Yes,No,9.98,63.79,No,Swachh Bharat,461068.3,-7.85,2025-06-29,NGO Report,Lisa Williams
+46,East Godavari,Amandapalli,60.9,3310,River,8,Poor,63.8,None,Yes,Closed,86.1,No,No,1.14,33.13,Yes,Jal Jeevan Mission,426098.2,6.2,2025-07-07,NGO Report,Frances Miller
+47,YSR Kadapa,Wesleypalli,49.86,2498,Tank,7,Poor,41.21,None,No,Open,89.89,Yes,Yes,6.58,60.25,Yes,None,310912.4,-5.07,2025-03-02,NGO Report,Stanley Brooks
+48,Nellore,Danielpalli,63.33,2259,Tap,10,Poor,86.61,Daily,Yes,None,59.35,No,Yes,4.85,48.36,No,None,483299.04,-2.16,2025-03-21,Govt Survey,Renee Ortiz
+49,Visakhapatnam,Jenniferpalli,63.55,1435,Handpump,13,Moderate,73.22,Monthly,Yes,None,56.7,Yes,Yes,3.4,42.81,Yes,None,200347.0,4.91,2025-07-16,NGO Report,Jordan Hughes
+50,Nellore,Paigepalli,65.38,4486,Tank,24,Poor,95.15,Weekly,Yes,Closed,64.44,Yes,No,8.5,73.36,No,Jal Jeevan Mission,247458.37,-5.12,2025-07-25,Govt Survey,Jeremy Kane
+51,Srikakulam,Jocelynpalli,70.33,4554,River,23,Moderate,59.09,None,No,Open,54.13,Yes,Yes,3.27,49.24,No,Jal Jeevan Mission,392562.7,4.14,2025-06-29,Govt Survey,William Campbell
+52,Srikakulam,Codypalli,70.65,1435,Handpump,19,Moderate,67.94,Daily,No,None,60.93,No,Yes,7.49,75.76,Yes,Swachh Bharat,438656.82,-9.19,2025-03-17,Govt Survey,Michael Evans
+53,Kurnool,Robertpalli,91.73,1212,River,5,Good,44.69,Monthly,No,Open,80.81,Yes,Yes,8.15,69.91,No,None,273996.59,-1.91,2025-01-15,NGO Report,Mary King
+54,Krishna,Amberpalli,57.36,2690,Tank,23,Good,39.49,None,Yes,Closed,93.35,Yes,Yes,2.87,79.8,Yes,None,202423.37,-6.45,2025-02-26,NGO Report,Jack Morales
+55,Krishna,Dianepalli,77.67,3573,River,4,Poor,85.62,Daily,No,None,87.49,No,No,9.53,52.91,Yes,None,55639.41,14.3,2025-06-13,NGO Report,Ellen Booth
+56,Vizianagaram,Josephpalli,81.84,1018,Tank,14,Good,97.77,Weekly,No,Closed,66.14,No,No,5.7,39.14,No,Swachh Bharat,448135.78,9.06,2025-01-29,Census,Matthew Johnson
+57,Chittoor,Victorpalli,77.57,4264,Borewell,5,Good,60.89,Daily,No,Open,99.78,Yes,No,2.01,95.29,No,Jal Jeevan Mission,330748.1,-3.74,2025-07-07,Govt Survey,Lisa Jenkins
+58,Vizianagaram,Timothypalli,94.23,1855,Borewell,14,Poor,51.39,Weekly,No,None,54.56,Yes,Yes,2.53,35.46,Yes,None,343191.54,-9.77,2025-07-24,NGO Report,Jeffery Jefferson
+59,Kurnool,Glennpalli,89.03,3959,Tap,17,Good,46.03,Daily,Yes,Open,65.67,No,Yes,4.14,86.94,Yes,None,496540.68,-6.43,2025-08-13,NGO Report,Robin Wyatt
+60,Visakhapatnam,Shannonpalli,40.51,1844,River,13,Poor,44.91,Weekly,No,None,84.33,Yes,Yes,9.02,39.8,Yes,None,367704.48,-1.21,2025-07-22,Govt Survey,Samantha Gibbs DDS
+61,Kurnool,Katiepalli,87.46,2529,Handpump,22,Good,47.37,Monthly,Yes,None,93.79,Yes,Yes,7.6,50.69,Yes,Jal Jeevan Mission,252494.98,-7.18,2025-03-15,Govt Survey,Andrew Kirby
+62,Vizianagaram,Debbiepalli,75.64,4827,Borewell,13,Moderate,39.24,None,No,None,84.15,No,Yes,0.66,34.73,No,Jal Jeevan Mission,29515.16,-8.49,2025-07-16,Govt Survey,Jon Moore
+63,Srikakulam,Toddpalli,57.19,4604,River,15,Poor,58.16,Weekly,No,Open,65.5,Yes,Yes,5.6,57.35,Yes,Swachh Bharat,352351.18,8.25,2025-06-03,Census,Jessica Williams
+64,Anantapur,Bettypalli,54.67,4059,Borewell,16,Poor,72.62,Monthly,Yes,Open,50.63,Yes,Yes,2.06,96.71,No,Jal Jeevan Mission,192216.02,8.74,2025-01-11,Govt Survey,Susan Tran
+65,West Godavari,Jasonpalli,93.18,740,Handpump,15,Moderate,66.67,Monthly,Yes,Closed,72.76,No,Yes,5.25,69.68,No,Jal Jeevan Mission,135006.88,-7.43,2025-03-19,NGO Report,Amy Stewart
+66,Vizianagaram,Toddpalli,83.37,2371,Tank,2,Good,90.11,Daily,Yes,Open,73.59,No,Yes,2.2,97.22,Yes,None,403526.59,7.85,2025-03-12,NGO Report,Jose Juarez
+67,Nellore,Nicolepalli,53.47,2533,River,12,Moderate,87.82,Monthly,Yes,None,83.67,Yes,Yes,2.62,66.1,Yes,Swachh Bharat,43773.95,1.63,2025-01-27,Govt Survey,Allison Perez
+68,YSR Kadapa,Davidpalli,90.69,3181,Borewell,19,Moderate,30.56,Weekly,No,None,89.23,Yes,No,4.0,98.03,Yes,None,451217.22,9.01,2025-01-07,Census,Angela Carlson
+69,East Godavari,Timothypalli,40.38,3859,Borewell,9,Poor,54.25,Daily,No,Open,87.95,No,No,1.49,67.09,Yes,Swachh Bharat,251094.15,-8.5,2025-01-11,Census,Erika Marks
+70,West Godavari,Nicolepalli,56.79,859,Tap,18,Moderate,79.06,Monthly,No,None,54.25,Yes,Yes,6.55,57.6,Yes,Swachh Bharat,334597.52,-6.73,2025-08-17,Govt Survey,Helen Martin
+71,Krishna,Anthonypalli,91.05,3719,Handpump,12,Moderate,49.04,Daily,Yes,Open,89.0,Yes,Yes,1.5,61.47,No,Swachh Bharat,69161.0,-1.04,2025-04-30,Census,Kendra Ortiz
+72,Prakasam,Glendapalli,58.5,2670,Borewell,4,Good,86.53,Monthly,Yes,Open,91.8,No,Yes,1.37,47.38,No,Swachh Bharat,261595.24,6.93,2025-07-22,Govt Survey,Stephanie Adams
+73,East Godavari,Justinpalli,41.86,3812,River,19,Poor,68.51,Daily,No,Open,90.19,Yes,Yes,0.61,88.13,Yes,Jal Jeevan Mission,107085.19,0.01,2025-06-03,NGO Report,Mario Sims
+74,Vizianagaram,Haroldpalli,96.25,1188,Tank,20,Moderate,94.22,Daily,Yes,Open,59.89,No,Yes,1.37,89.31,No,Jal Jeevan Mission,30921.2,1.52,2025-05-16,Census,Andrew Montgomery
+75,Visakhapatnam,Emilypalli,65.99,3735,River,2,Moderate,77.82,Weekly,No,Open,95.42,No,No,4.74,40.4,Yes,None,154601.53,0.3,2025-03-28,NGO Report,Julie House
+76,Prakasam,Sarahpalli,43.66,2791,River,6,Moderate,43.96,Weekly,Yes,Closed,89.1,No,No,5.67,63.93,No,Swachh Bharat,142513.49,-9.35,2025-06-16,NGO Report,Eric Mason
+77,Guntur,Tracipalli,41.76,2801,Borewell,17,Poor,55.02,Weekly,Yes,Open,62.39,Yes,No,5.57,85.39,Yes,Jal Jeevan Mission,292089.13,14.57,2025-08-02,Govt Survey,Cheyenne Lutz
+78,Kurnool,Nicholaspalli,96.11,1923,Tap,9,Poor,52.26,Monthly,Yes,None,85.03,Yes,Yes,8.45,86.73,No,None,161436.01,2.26,2025-06-24,Census,Thomas Martinez
+79,Anantapur,Jonathanpalli,53.96,2292,Borewell,18,Moderate,30.05,Weekly,Yes,Closed,85.85,No,Yes,0.71,71.06,Yes,Jal Jeevan Mission,424775.63,11.52,2025-06-08,Census,Joel Ali
+80,Kurnool,Samanthapalli,82.27,3740,Tank,5,Moderate,51.12,Weekly,Yes,None,97.43,No,No,2.15,97.81,No,Jal Jeevan Mission,336110.52,10.36,2025-06-23,Govt Survey,James Shepherd
+81,Krishna,Patriciapalli,84.04,2912,Tap,7,Poor,30.13,None,Yes,Open,80.12,Yes,Yes,9.4,39.85,Yes,Jal Jeevan Mission,179936.96,-2.01,2025-01-24,NGO Report,Michael Ramirez
+82,Chittoor,Jacobpalli,89.3,3250,River,2,Moderate,44.68,Daily,No,Closed,89.35,Yes,Yes,4.17,81.28,Yes,Swachh Bharat,251610.18,-0.53,2025-01-14,NGO Report,Ashley Wise
+83,Nellore,Tinapalli,46.09,4427,Tank,22,Poor,45.79,None,Yes,Open,64.75,No,No,9.54,35.19,Yes,Swachh Bharat,88843.2,-8.12,2025-05-06,Census,Jasmine Camacho
+84,Kurnool,Joshuapalli,75.64,4454,Borewell,15,Poor,41.55,None,Yes,Open,55.06,Yes,Yes,4.39,68.79,No,None,147946.31,-4.06,2025-01-10,Census,Jennifer Morris
+85,Nellore,Adampalli,74.31,4521,Tap,3,Moderate,30.27,Daily,No,None,81.25,No,Yes,1.42,44.49,No,Jal Jeevan Mission,242049.62,-7.11,2025-06-16,Govt Survey,Jill Mills
+86,Prakasam,Pamelapalli,69.35,2670,Borewell,22,Poor,57.13,Monthly,No,Closed,59.33,Yes,No,4.68,48.44,No,None,40203.29,8.81,2025-06-27,NGO Report,Ross Warren
+87,Chittoor,Kevinpalli,45.14,3316,Tank,15,Poor,45.93,Daily,No,None,70.93,No,Yes,5.02,35.53,Yes,None,289897.77,2.92,2025-02-19,NGO Report,Jennifer Evans
+88,Vizianagaram,Cherylpalli,98.97,1707,Borewell,16,Good,96.43,Weekly,Yes,Open,56.31,No,Yes,9.89,60.48,Yes,None,136364.32,12.77,2025-07-28,Census,Erin Gardner
+89,Chittoor,Karenpalli,63.29,3755,Tank,12,Moderate,66.38,Daily,No,Open,70.72,Yes,Yes,9.29,69.39,Yes,Swachh Bharat,435062.88,12.0,2025-03-21,Govt Survey,Mary Levine
+90,Krishna,Frankpalli,62.98,4477,Tank,21,Moderate,32.62,Monthly,No,Open,80.91,No,Yes,4.26,91.53,Yes,Jal Jeevan Mission,375417.41,13.02,2025-07-21,Govt Survey,Adam Robinson MD
+91,Anantapur,Matthewpalli,60.27,2982,Handpump,10,Moderate,90.08,Daily,Yes,Open,65.02,No,No,3.06,59.17,Yes,Jal Jeevan Mission,226441.13,12.84,2025-06-23,Govt Survey,Marissa Conway
+92,West Godavari,Carolpalli,69.07,4731,Handpump,3,Poor,85.4,Daily,No,None,75.34,Yes,Yes,2.15,91.26,Yes,Jal Jeevan Mission,132250.23,1.41,2025-07-27,Govt Survey,Joshua Ellison
+93,West Godavari,Markpalli,51.95,3517,River,18,Moderate,74.48,Daily,Yes,Open,68.62,No,Yes,9.62,63.22,No,Swachh Bharat,90121.67,12.36,2025-02-17,NGO Report,Amanda Smith
+94,West Godavari,Derekpalli,45.42,724,River,3,Good,89.77,Weekly,Yes,None,61.26,Yes,No,6.69,65.93,Yes,Swachh Bharat,456642.56,6.18,2025-08-20,NGO Report,Peter Howard
+95,YSR Kadapa,Josephpalli,40.51,2567,Tank,11,Poor,97.69,Monthly,No,Closed,92.58,No,No,2.57,51.15,No,None,60132.93,2.79,2025-01-31,NGO Report,Jeff Scott
+96,Kurnool,Anthonypalli,73.69,2815,Handpump,23,Good,63.72,Monthly,No,None,66.26,No,No,6.73,96.65,No,Jal Jeevan Mission,83465.36,9.14,2025-05-01,Census,Elizabeth Davis
+97,YSR Kadapa,Stephaniepalli,91.44,3810,Handpump,23,Good,80.49,None,No,Closed,95.35,No,No,7.5,70.81,Yes,Swachh Bharat,366009.44,-4.44,2025-03-19,NGO Report,Thomas Garcia
+98,Vizianagaram,Lisapalli,87.09,3436,Tank,11,Good,88.84,Weekly,No,Open,73.54,No,Yes,9.5,92.97,Yes,Jal Jeevan Mission,184088.86,8.61,2025-04-16,Govt Survey,Tina Taylor
+99,Nellore,Jorgepalli,87.29,3214,Handpump,10,Poor,50.58,Daily,No,Open,93.32,Yes,No,8.95,65.03,No,None,156194.32,-8.65,2025-07-16,Census,Michael Johnson
+100,East Godavari,Vanessapalli,99.54,3307,River,20,Moderate,40.03,Weekly,Yes,Closed,66.63,Yes,No,6.53,30.33,No,Jal Jeevan Mission,382984.71,-5.78,2025-05-10,Census,Sandra Lopez
+101,Prakasam,Amberpalli,87.11,1221,Tap,21,Moderate,74.34,None,No,Closed,69.17,Yes,Yes,7.44,96.5,No,None,103382.59,6.92,2025-01-25,NGO Report,James Richardson
+102,West Godavari,Jeffpalli,54.93,3320,Handpump,6,Good,56.85,Monthly,Yes,Open,91.19,No,No,4.83,66.42,No,Swachh Bharat,445107.28,14.89,2025-05-24,Govt Survey,Steven Miller
+103,Prakasam,Robertpalli,61.56,2043,Tap,14,Good,45.99,Weekly,Yes,None,51.1,Yes,Yes,3.98,75.54,Yes,Swachh Bharat,439506.63,-3.61,2025-04-01,NGO Report,Deborah Sparks
+104,Visakhapatnam,Jonpalli,42.92,892,Borewell,22,Good,33.38,Daily,No,Closed,69.01,No,No,7.17,44.38,Yes,Swachh Bharat,216227.01,-7.48,2025-06-09,NGO Report,Joshua Taylor
+105,Krishna,Richardpalli,77.37,1623,River,5,Poor,80.31,Daily,No,Open,89.24,No,Yes,6.29,84.46,Yes,Swachh Bharat,354684.01,-2.62,2025-02-12,Census,Roger Torres
+106,Srikakulam,Calvinpalli,69.78,2201,River,12,Good,30.19,Daily,Yes,None,83.45,Yes,Yes,7.91,35.25,Yes,Swachh Bharat,325725.03,1.42,2025-04-19,Govt Survey,David Lawrence
+107,Krishna,Jamespalli,67.86,1317,Tap,3,Moderate,55.22,Monthly,No,None,55.8,Yes,Yes,8.59,76.43,Yes,Swachh Bharat,185188.43,0.94,2025-07-16,NGO Report,John Roberson
+108,Krishna,Marissapalli,92.71,1261,Handpump,12,Good,37.97,None,No,Closed,91.79,No,No,6.66,85.78,Yes,Jal Jeevan Mission,351123.24,-8.53,2025-07-02,Census,Jessica Horn
+109,Chittoor,Mitchellpalli,64.96,4454,Tank,23,Moderate,42.69,None,No,None,51.44,Yes,No,9.24,37.91,No,Swachh Bharat,32526.44,-3.46,2025-08-04,Govt Survey,Mark Terry
+110,Anantapur,Robertpalli,82.27,4799,Tank,20,Good,98.45,Monthly,Yes,Closed,83.09,Yes,No,3.78,77.34,No,Jal Jeevan Mission,421126.18,3.96,2025-02-17,NGO Report,David Lucas
+111,Anantapur,Michaelpalli,40.7,1785,Tank,17,Moderate,90.86,Daily,No,Closed,62.04,No,Yes,5.32,68.53,No,Swachh Bharat,410380.62,-8.03,2025-04-10,Govt Survey,Eric Brown
+112,YSR Kadapa,Nicholaspalli,74.38,1221,River,16,Moderate,38.31,None,Yes,Open,70.17,Yes,Yes,8.35,85.42,No,None,285542.96,6.36,2025-06-21,Govt Survey,Paul Williams
+113,Kurnool,Sarahpalli,61.8,944,Tap,16,Moderate,69.21,None,No,None,72.63,Yes,Yes,0.52,54.86,No,None,265772.69,7.55,2025-05-22,Census,Marvin Norman
+114,East Godavari,Alexispalli,69.55,3852,Borewell,10,Poor,43.71,Daily,No,Open,72.85,Yes,No,1.52,59.01,Yes,Swachh Bharat,234120.06,4.73,2025-03-29,NGO Report,Aaron Lewis
+115,East Godavari,Amandapalli,97.83,535,Tank,3,Poor,95.47,None,Yes,None,78.93,Yes,Yes,4.18,72.04,No,None,441881.38,0.47,2025-03-09,NGO Report,Michael Williams
+116,West Godavari,Douglaspalli,85.74,2741,River,12,Moderate,61.7,Weekly,Yes,Closed,80.13,No,No,7.26,95.49,Yes,Jal Jeevan Mission,112759.22,7.86,2025-04-09,NGO Report,Mary Bradley
+117,Kurnool,Jamespalli,95.27,1586,Tap,18,Poor,78.6,Monthly,Yes,Closed,78.11,No,No,8.84,59.57,Yes,None,62170.53,-0.48,2025-01-06,Census,Deborah Colon
+118,Vizianagaram,Melaniepalli,43.4,2687,Tap,11,Poor,47.54,Daily,No,Open,87.68,Yes,No,8.23,37.17,Yes,None,327088.53,-0.28,2025-07-02,NGO Report,Renee Howard
+119,YSR Kadapa,Crystalpalli,87.81,2856,Borewell,14,Moderate,59.16,Monthly,Yes,Open,87.18,Yes,No,8.38,93.8,No,None,277841.42,5.08,2025-06-04,NGO Report,Kevin Cook
+120,Guntur,Michellepalli,57.65,1953,Borewell,7,Good,81.46,Daily,No,Open,71.43,No,Yes,2.03,89.22,Yes,Swachh Bharat,238502.36,13.44,2025-08-14,Census,Michael Frost
+121,East Godavari,Bradleypalli,95.72,916,Tank,23,Moderate,64.34,Monthly,Yes,None,65.89,Yes,Yes,5.45,85.04,Yes,Swachh Bharat,276109.28,0.09,2025-04-11,Govt Survey,Brian Davidson
+122,Guntur,Kylepalli,93.0,3218,Handpump,13,Moderate,45.29,None,Yes,Open,83.45,No,Yes,9.09,72.96,Yes,Jal Jeevan Mission,344450.17,-1.98,2025-04-09,Census,Linda Watts
+123,Nellore,Brendapalli,55.4,2816,Borewell,18,Moderate,66.0,None,No,Open,64.82,Yes,No,5.38,96.37,Yes,None,271270.85,5.67,2025-01-12,Census,Charles Lopez
+124,Vizianagaram,Melindapalli,77.77,2246,River,5,Good,67.64,None,Yes,None,84.3,Yes,No,7.31,32.65,Yes,Jal Jeevan Mission,97216.16,-3.7,2025-02-08,Census,Taylor Lee
+125,Visakhapatnam,Sarahpalli,89.3,2618,River,14,Moderate,74.12,None,No,Open,69.48,Yes,Yes,6.59,73.28,Yes,None,425643.11,-1.06,2025-02-01,NGO Report,Robert Mccoy
+126,Chittoor,Lisapalli,57.39,2968,Tank,4,Moderate,83.57,None,No,Closed,91.11,Yes,No,1.99,45.39,No,None,154539.45,5.85,2025-01-25,Govt Survey,Mrs. Amanda Nolan
+127,Vizianagaram,Russellpalli,93.22,3556,Borewell,19,Poor,39.9,Daily,Yes,None,79.83,Yes,No,2.5,81.9,No,Jal Jeevan Mission,212200.7,6.15,2025-03-28,NGO Report,Thomas Gordon
+128,East Godavari,Jakepalli,49.66,2308,Tank,10,Good,38.02,Daily,No,None,77.48,No,Yes,2.88,43.82,No,Swachh Bharat,184997.8,6.78,2025-01-25,Census,Christopher Adams
+129,Chittoor,Juliapalli,57.11,1071,Tap,12,Moderate,61.55,Monthly,Yes,None,78.34,No,No,2.1,51.93,Yes,None,372509.95,0.9,2025-05-11,Govt Survey,Jeffrey Mata
+130,East Godavari,Tracypalli,80.77,3216,River,16,Moderate,55.11,Monthly,No,None,55.44,Yes,No,8.66,39.8,Yes,Swachh Bharat,369436.86,5.67,2025-05-03,NGO Report,Richard Floyd
+131,Chittoor,Brettpalli,93.53,4654,Borewell,20,Poor,58.36,Weekly,Yes,None,63.03,No,Yes,3.98,45.63,No,Jal Jeevan Mission,237703.56,2.76,2025-02-15,Govt Survey,Toni Gardner
+132,Kurnool,Yolandapalli,70.13,2456,Tank,23,Good,83.0,Weekly,No,Open,58.96,Yes,No,9.42,32.83,No,Jal Jeevan Mission,40801.97,-0.76,2025-07-03,Census,Amanda Olson
+133,Vizianagaram,Lisapalli,52.41,3459,River,17,Moderate,91.71,Daily,No,Open,85.19,No,No,6.0,69.91,No,None,195474.07,4.69,2025-04-05,Census,Martha Gregory
+134,Srikakulam,Melissapalli,55.1,2325,Tank,14,Moderate,87.21,Monthly,No,Closed,94.36,Yes,Yes,4.68,46.1,No,Jal Jeevan Mission,83617.8,-6.07,2025-08-03,NGO Report,Benjamin Anderson
+135,West Godavari,Taylorpalli,89.02,2386,River,12,Poor,37.93,None,No,Open,79.54,No,Yes,2.81,38.95,Yes,Jal Jeevan Mission,318474.81,-9.02,2025-06-18,NGO Report,Steven Diaz MD
+136,East Godavari,Briannapalli,43.35,2615,Tap,18,Moderate,71.96,Daily,No,Open,60.83,No,No,2.12,88.13,Yes,None,412022.06,-5.45,2025-01-31,NGO Report,Patricia Conley
+137,Srikakulam,Jonathanpalli,55.87,3307,River,21,Poor,34.82,None,No,Open,55.43,Yes,No,8.35,72.39,Yes,Swachh Bharat,451788.03,5.0,2025-03-19,NGO Report,John Craig
+138,Srikakulam,Andrewpalli,85.14,1263,River,23,Good,93.14,Daily,No,None,71.03,Yes,No,2.68,86.16,No,Swachh Bharat,298633.56,8.53,2025-06-17,NGO Report,Michael Sanchez
+139,Visakhapatnam,Lancepalli,45.86,1596,Handpump,17,Good,93.71,Daily,No,None,93.84,No,No,2.3,79.64,Yes,None,266044.91,2.99,2025-07-04,Govt Survey,Suzanne Cox
+140,Vizianagaram,Jamespalli,52.33,3087,River,13,Good,40.83,Monthly,No,None,71.18,No,No,9.92,57.82,Yes,Swachh Bharat,280531.42,3.94,2025-03-12,Census,Amy Pratt
+141,Kurnool,Donaldpalli,73.55,4462,Handpump,11,Poor,54.1,None,Yes,None,55.95,Yes,No,7.94,96.45,Yes,Jal Jeevan Mission,259088.34,9.65,2025-03-29,NGO Report,Julie Murillo
+142,Visakhapatnam,Melissapalli,81.82,926,Tap,14,Poor,30.37,Daily,Yes,Closed,96.29,No,Yes,1.11,45.52,Yes,None,28500.12,-0.39,2025-06-21,Govt Survey,Susan Lopez
+143,Visakhapatnam,Shellypalli,79.37,2846,Tank,3,Good,74.82,None,Yes,Open,92.53,No,Yes,0.82,71.97,Yes,None,93046.62,-9.1,2025-01-29,Census,Kimberly Silva
+144,Vizianagaram,Reneepalli,40.02,1789,Borewell,10,Moderate,54.72,None,No,None,60.02,Yes,Yes,9.23,68.47,No,Swachh Bharat,482010.96,-3.09,2025-04-14,NGO Report,Paula Miranda
+145,Guntur,Johnpalli,67.29,3809,Tank,2,Moderate,42.25,Daily,Yes,None,64.71,Yes,No,8.82,86.92,No,None,226956.63,-0.57,2025-08-04,Govt Survey,Caleb Hoffman
+146,YSR Kadapa,Davidpalli,54.6,3282,River,23,Moderate,92.76,Daily,No,Open,62.89,No,Yes,6.93,46.1,No,Swachh Bharat,478168.39,2.91,2025-01-06,Census,Kelly Banks
+147,West Godavari,Jessicapalli,89.93,2533,Handpump,4,Moderate,77.16,Monthly,Yes,None,96.57,No,No,3.86,92.6,No,Jal Jeevan Mission,474087.87,7.08,2025-04-05,Census,Alan Chandler
+148,Prakasam,Bryanpalli,84.23,2423,Tap,10,Good,46.04,Weekly,No,Open,88.95,Yes,Yes,6.92,76.44,Yes,None,479416.61,11.2,2025-01-20,Govt Survey,Donald Barton III
+149,Visakhapatnam,Robertpalli,58.93,2750,River,7,Poor,49.62,Weekly,Yes,Open,76.29,No,No,9.43,32.28,No,Swachh Bharat,431596.06,9.4,2025-01-17,Govt Survey,Jennifer Harrison
+150,Chittoor,Sheilapalli,81.89,4268,Handpump,24,Good,30.83,Weekly,No,None,55.04,No,No,2.28,48.4,No,Swachh Bharat,479678.14,-1.42,2025-01-13,Census,Diana Alvarez
+151,Prakasam,Sharonpalli,65.44,3933,Handpump,13,Moderate,49.57,Weekly,Yes,None,84.3,Yes,No,8.14,68.87,No,Jal Jeevan Mission,81463.43,13.98,2025-05-28,Census,Ashley Taylor
+152,Prakasam,Margaretpalli,88.34,1946,River,17,Good,99.69,Monthly,No,Closed,62.55,Yes,No,1.44,41.43,Yes,Swachh Bharat,243504.32,5.75,2025-02-19,Govt Survey,Shelby Ramirez
+153,West Godavari,Mauricepalli,60.08,3457,Handpump,19,Poor,95.23,Monthly,No,Open,70.59,No,Yes,5.98,75.49,Yes,Swachh Bharat,184003.43,6.83,2025-07-14,Govt Survey,Carrie Weber
+154,YSR Kadapa,Denisepalli,84.19,1142,River,21,Moderate,62.46,Weekly,Yes,None,90.39,No,No,6.5,70.01,Yes,Jal Jeevan Mission,89379.75,-4.29,2025-01-01,Govt Survey,Gabrielle Huang
+155,Vizianagaram,Thomaspalli,57.48,2691,Tank,22,Moderate,48.99,None,No,None,79.35,No,No,2.09,89.79,Yes,None,124967.32,-3.71,2025-07-03,NGO Report,Denise Cortez
+156,West Godavari,Emilypalli,84.98,2225,Tap,14,Good,36.69,None,Yes,Open,88.55,Yes,Yes,2.99,40.87,No,Swachh Bharat,122384.42,8.44,2025-04-06,Govt Survey,Colin Gamble
+157,Vizianagaram,Jenniferpalli,47.58,4815,Tap,2,Good,76.45,Monthly,No,Closed,98.75,No,No,1.78,96.39,Yes,None,302816.26,5.78,2025-04-16,NGO Report,Patricia Blankenship
+158,Visakhapatnam,Scottpalli,66.1,4872,Handpump,13,Moderate,67.78,Daily,No,Closed,68.29,No,Yes,3.38,30.01,Yes,Swachh Bharat,150513.5,3.38,2025-06-30,NGO Report,Sean James
+159,Prakasam,Williampalli,96.82,4408,Handpump,2,Moderate,85.86,Weekly,Yes,None,68.68,No,No,4.25,41.43,No,Swachh Bharat,118090.29,-8.02,2025-06-03,NGO Report,Sierra Hammond
+160,Guntur,Cindypalli,71.0,2727,Handpump,22,Poor,67.24,Monthly,No,Open,92.67,Yes,Yes,3.25,74.58,No,Swachh Bharat,353231.57,2.3,2025-07-19,Govt Survey,Joshua Hamilton
+161,Anantapur,Aaronpalli,49.13,4882,Borewell,7,Good,49.75,Weekly,No,None,50.41,Yes,Yes,0.64,45.2,No,Swachh Bharat,395005.42,2.46,2025-07-12,Govt Survey,Regina Dyer
+162,Prakasam,Marypalli,81.82,759,Handpump,4,Good,33.92,None,Yes,None,73.51,Yes,No,8.26,87.98,Yes,None,131991.56,9.28,2025-02-25,Govt Survey,Melissa Brown
+163,Guntur,Jonathanpalli,84.26,774,Tap,16,Poor,83.97,Weekly,No,Closed,84.07,No,No,2.01,80.98,Yes,Swachh Bharat,245802.5,-2.53,2025-08-14,Govt Survey,Vanessa Martinez
+164,Anantapur,Richardpalli,91.82,2284,Borewell,9,Poor,60.39,Daily,Yes,Closed,79.23,No,Yes,0.58,32.94,No,None,302144.02,-0.72,2025-06-04,Census,Keith Coleman
+165,Guntur,Jopalli,49.46,1248,Tank,12,Poor,34.2,Monthly,Yes,None,76.82,Yes,Yes,5.13,52.17,No,Swachh Bharat,369262.53,-9.47,2025-04-27,Govt Survey,Lisa Zimmerman
+166,Kurnool,Jackpalli,83.46,2553,Borewell,17,Poor,60.63,Monthly,No,Open,78.34,No,No,7.46,49.27,Yes,Jal Jeevan Mission,270257.34,1.23,2025-05-27,Govt Survey,Caitlin Miller
+167,Srikakulam,Brianapalli,62.03,505,Tank,14,Poor,42.99,Daily,No,None,61.94,Yes,No,2.3,77.83,Yes,None,148733.25,0.25,2025-03-18,Govt Survey,Robert Holland
+168,Chittoor,Suzannepalli,45.78,1046,Borewell,6,Good,91.14,Weekly,Yes,Closed,59.58,Yes,No,6.75,66.81,No,Jal Jeevan Mission,189513.47,5.15,2025-02-15,Census,Tracy Rivera
+169,Anantapur,Vanessapalli,95.81,2209,River,4,Moderate,86.07,Daily,No,None,87.17,No,No,8.05,34.08,No,None,29920.04,-8.24,2025-04-12,Govt Survey,April Stephens
+170,Chittoor,Robinpalli,96.68,4755,Borewell,5,Poor,46.17,None,Yes,Open,76.31,Yes,Yes,5.81,69.07,Yes,None,292516.19,6.86,2025-02-26,NGO Report,Diana Williams
+171,Vizianagaram,Tarapalli,65.62,1352,Tap,7,Poor,58.11,Monthly,Yes,None,99.92,No,No,9.07,68.51,No,Swachh Bharat,212048.21,5.83,2025-02-02,NGO Report,Juan Martinez
+172,Kurnool,Jessepalli,76.5,4969,Tap,14,Poor,94.83,Monthly,No,Closed,72.37,No,Yes,7.4,98.81,Yes,None,76192.0,12.26,2025-07-05,Census,Kimberly Faulkner
+173,Krishna,Jonathonpalli,99.06,2259,Handpump,2,Poor,87.56,Weekly,Yes,Open,73.02,Yes,Yes,3.02,92.27,Yes,Jal Jeevan Mission,135559.48,-2.49,2025-05-23,NGO Report,Aaron Byrd
+174,Nellore,Jessicapalli,74.14,2281,Borewell,12,Moderate,42.1,Daily,No,Open,86.54,No,Yes,7.91,94.53,No,Swachh Bharat,441098.33,0.86,2025-02-24,Census,James Davis
+175,YSR Kadapa,Michaelpalli,53.6,593,River,3,Moderate,66.71,Monthly,Yes,Closed,75.12,Yes,Yes,0.98,81.21,No,Swachh Bharat,378891.7,4.38,2025-06-01,Census,Candice Johnson
+176,Guntur,Sandypalli,65.92,3730,Tap,6,Moderate,35.78,Daily,No,Closed,54.25,No,Yes,7.74,63.66,Yes,Swachh Bharat,203706.21,4.28,2025-08-09,NGO Report,Aaron Murray
+177,Visakhapatnam,Margaretpalli,99.82,4794,Tap,9,Good,48.64,None,No,None,96.21,Yes,Yes,6.88,59.65,No,Jal Jeevan Mission,167161.8,4.85,2025-01-03,Census,Joe Moon
+178,YSR Kadapa,Jenniferpalli,58.29,3364,Tank,16,Poor,40.21,Daily,Yes,Open,84.27,Yes,Yes,1.57,33.82,Yes,Swachh Bharat,16729.31,7.34,2025-01-21,Census,Andrew Harris
+179,Krishna,Ericpalli,67.0,686,Handpump,8,Poor,67.66,Weekly,No,None,74.15,Yes,Yes,4.08,93.42,Yes,Swachh Bharat,93456.63,-2.9,2025-08-03,NGO Report,David Alvarez
+180,Visakhapatnam,Amandapalli,56.28,4308,Borewell,4,Moderate,76.23,Monthly,Yes,Open,64.62,No,Yes,9.81,65.6,Yes,Swachh Bharat,247484.45,4.93,2025-03-03,Census,Justin Hill
+181,East Godavari,Christinapalli,51.93,4251,Tank,24,Good,32.78,Monthly,No,Closed,69.67,Yes,Yes,3.79,54.63,No,Jal Jeevan Mission,498037.26,14.46,2025-07-08,Govt Survey,Daniel Miller
+182,YSR Kadapa,Ericpalli,43.72,2610,River,2,Poor,96.44,Weekly,Yes,Closed,94.86,Yes,Yes,7.43,66.45,Yes,Swachh Bharat,127776.8,-6.18,2025-05-04,Govt Survey,Randall Deleon
+183,Visakhapatnam,Paulpalli,59.76,4941,Tap,8,Poor,39.7,Weekly,Yes,Closed,84.43,Yes,No,9.96,98.3,Yes,None,467184.67,12.93,2025-07-07,Govt Survey,Jesse Sanchez
+184,Chittoor,Jamespalli,73.44,1469,Tap,12,Good,80.9,Monthly,No,Closed,65.17,No,Yes,7.9,37.47,Yes,Jal Jeevan Mission,383599.27,5.3,2025-04-13,Govt Survey,Tina Peters
+185,Visakhapatnam,Jillpalli,74.02,2391,Tank,9,Good,78.12,Monthly,Yes,None,88.99,Yes,No,7.26,56.18,No,Swachh Bharat,242184.99,-5.91,2025-01-27,Census,John Jones
+186,Anantapur,Samuelpalli,64.52,622,Handpump,15,Good,81.97,Weekly,Yes,Open,58.85,No,No,7.03,90.67,Yes,Swachh Bharat,208384.72,-8.95,2025-07-06,NGO Report,Gina Martin
+187,Nellore,Kathrynpalli,83.21,3728,Tank,20,Poor,67.53,Daily,Yes,Closed,72.85,Yes,Yes,5.43,57.69,Yes,None,199824.95,9.13,2025-03-11,Census,Caitlin Miller
+188,Guntur,Douglaspalli,57.47,3760,Handpump,11,Moderate,41.65,Monthly,Yes,None,75.85,Yes,No,8.38,61.62,Yes,Jal Jeevan Mission,391578.26,13.45,2025-01-13,NGO Report,Sandra Oconnell
+189,Srikakulam,Karenpalli,48.12,3887,Handpump,16,Good,42.52,Weekly,No,Open,62.5,Yes,Yes,1.37,79.44,No,Jal Jeevan Mission,266670.48,-0.4,2025-01-01,NGO Report,Julie Lee
+190,Visakhapatnam,Robinpalli,96.99,3602,Tank,14,Good,83.78,Monthly,Yes,Open,93.44,Yes,Yes,4.49,51.67,No,Swachh Bharat,316961.9,-7.06,2025-08-13,Census,Monica Lewis
+191,Guntur,Emilypalli,40.21,2573,Borewell,16,Moderate,89.88,Daily,No,Open,60.84,No,No,4.4,35.56,Yes,Jal Jeevan Mission,442262.25,-3.05,2025-05-10,NGO Report,Kevin Cardenas
+192,Srikakulam,Jessicapalli,89.21,2200,Borewell,7,Good,33.85,Monthly,Yes,Open,92.69,No,No,9.24,33.43,No,Jal Jeevan Mission,89054.26,-2.89,2025-01-02,NGO Report,Adrian Daniel
+193,West Godavari,Markpalli,81.99,1953,River,20,Moderate,95.2,Daily,No,Closed,68.43,No,Yes,7.71,89.03,Yes,Swachh Bharat,240700.25,-6.95,2025-04-30,Govt Survey,Danielle Gardner
+194,Kurnool,Thomaspalli,71.62,4797,Tap,24,Good,72.84,Daily,Yes,Closed,86.2,No,No,6.28,52.15,No,Jal Jeevan Mission,311002.09,2.41,2025-07-07,NGO Report,Francisco Adams
+195,Vizianagaram,Jasminepalli,69.86,1973,Tank,9,Poor,50.33,Weekly,Yes,Open,51.2,Yes,Yes,8.1,99.93,No,Jal Jeevan Mission,173558.21,4.01,2025-04-07,NGO Report,Brenda Dickson
+196,Guntur,Troypalli,40.68,2148,Handpump,10,Good,51.54,Monthly,Yes,Open,84.29,No,No,7.38,73.12,Yes,Jal Jeevan Mission,105067.63,10.85,2025-05-26,NGO Report,Emily Smith
+197,Prakasam,Chloepalli,94.97,791,Tap,17,Good,73.9,Monthly,No,Closed,96.39,Yes,No,5.87,77.47,Yes,Jal Jeevan Mission,292924.84,-1.71,2025-06-13,Govt Survey,Amy Fisher
+198,Chittoor,Shannonpalli,98.18,2797,Borewell,12,Moderate,73.86,Weekly,No,Open,79.76,No,No,7.24,49.0,Yes,Swachh Bharat,439753.88,-0.71,2025-03-22,Govt Survey,Rebecca Romero
+199,Guntur,Jeremypalli,71.51,1933,Borewell,13,Good,84.45,Daily,No,None,51.25,No,Yes,2.31,94.65,No,Swachh Bharat,80214.57,11.79,2025-05-31,NGO Report,Raymond Nguyen
+200,Vizianagaram,Ericpalli,99.56,2180,Borewell,16,Moderate,79.96,Daily,Yes,Closed,96.62,Yes,No,4.94,33.23,No,Jal Jeevan Mission,293004.32,-2.2,2025-07-10,Census,William Reed
+201,Kurnool,Scottpalli,52.03,2847,Handpump,19,Moderate,84.1,Daily,No,Open,57.87,Yes,Yes,9.6,69.17,Yes,Jal Jeevan Mission,275839.07,3.73,2025-06-26,Govt Survey,Alyssa Watson
+202,East Godavari,Sharipalli,96.6,2820,Tank,9,Good,34.99,Monthly,No,Open,56.5,No,Yes,1.51,33.77,No,Swachh Bharat,97701.67,4.9,2025-07-20,NGO Report,Dorothy Phillips
+203,Vizianagaram,Margaretpalli,90.17,4152,Tank,13,Moderate,53.26,Weekly,Yes,Closed,78.39,Yes,No,1.42,51.73,No,Swachh Bharat,123530.16,-4.41,2025-08-01,NGO Report,Debbie Mendez
+204,Krishna,Alisonpalli,94.77,3711,Tap,24,Poor,53.12,Monthly,No,Closed,51.51,No,Yes,3.84,62.29,Yes,Swachh Bharat,386291.34,5.11,2025-02-22,Census,Priscilla Morton
+205,Srikakulam,Patrickpalli,46.18,1376,Handpump,19,Poor,34.96,Monthly,No,Closed,79.53,Yes,Yes,5.71,98.17,No,Jal Jeevan Mission,176949.94,10.35,2025-05-03,NGO Report,Diana Weaver
+206,Nellore,Kaitlynpalli,87.06,4066,Tank,12,Poor,78.59,Weekly,Yes,None,96.54,No,Yes,6.13,62.4,Yes,Swachh Bharat,96325.26,13.9,2025-07-22,Census,Antonio Gallegos
+207,Visakhapatnam,Lindseypalli,46.52,3604,Handpump,17,Poor,76.21,Daily,Yes,Open,94.36,Yes,Yes,6.78,61.71,No,Swachh Bharat,311630.36,1.18,2025-03-26,Census,Tanya Li
+208,Vizianagaram,Christopherpalli,92.65,2955,Tank,23,Moderate,94.3,None,No,Open,79.14,No,Yes,8.6,34.37,Yes,Jal Jeevan Mission,354643.52,10.52,2025-06-27,Govt Survey,Karen Torres
+209,Chittoor,Michellepalli,91.67,755,Tap,15,Poor,71.31,Monthly,No,Closed,69.08,Yes,Yes,5.01,43.18,No,Swachh Bharat,421581.72,-6.14,2025-02-10,NGO Report,Kim Zimmerman
+210,East Godavari,Rachelpalli,48.06,1087,Borewell,6,Poor,91.94,None,Yes,Open,56.86,No,No,8.99,78.68,No,None,98100.71,2.74,2025-08-12,NGO Report,Amber Peterson
+211,Prakasam,Meganpalli,63.08,2349,Tap,15,Poor,30.52,None,Yes,None,75.09,No,No,0.82,32.65,No,None,190603.51,4.51,2025-05-14,NGO Report,Angelica Williams
+212,Chittoor,Danielpalli,48.53,4812,Handpump,16,Poor,35.48,Daily,Yes,Closed,81.53,Yes,No,6.32,93.25,Yes,Swachh Bharat,232477.04,12.65,2025-07-05,NGO Report,Suzanne Cox
+213,West Godavari,Amandapalli,59.89,3391,Handpump,11,Good,32.47,Monthly,No,Open,81.47,Yes,Yes,6.74,50.42,Yes,Swachh Bharat,247532.49,-6.83,2025-03-20,Census,Philip Harrell PhD
+214,YSR Kadapa,Joshuapalli,56.67,1585,Tank,10,Moderate,90.05,Daily,Yes,None,58.73,Yes,No,4.01,42.28,Yes,Swachh Bharat,98596.5,3.18,2025-07-15,Census,Michael Lane
+215,Kurnool,Barbarapalli,99.04,1688,Tank,6,Moderate,82.69,None,No,Open,83.03,Yes,Yes,5.99,88.93,Yes,None,139553.79,10.49,2025-06-14,Census,Kelly Brown
+216,East Godavari,Michellepalli,67.84,4401,Handpump,17,Poor,96.38,Weekly,No,None,85.28,No,No,1.88,90.92,Yes,Swachh Bharat,464339.04,1.22,2025-06-01,NGO Report,Vanessa Rojas
+217,Kurnool,Robertpalli,97.71,836,Borewell,19,Poor,54.77,None,No,Closed,63.52,Yes,No,6.72,57.38,Yes,None,339226.03,9.26,2025-05-24,NGO Report,Lisa Jacobs
+218,Kurnool,Kathleenpalli,80.66,1973,Handpump,19,Good,77.1,Daily,Yes,Closed,54.88,Yes,No,3.84,80.77,No,Jal Jeevan Mission,26680.46,5.48,2025-06-20,Census,Briana Robinson
+219,Visakhapatnam,Kevinpalli,79.4,2276,Tank,22,Good,79.57,Daily,Yes,None,56.5,Yes,Yes,7.11,47.73,No,None,468729.21,5.97,2025-06-05,Govt Survey,Daniel Miller
+220,YSR Kadapa,Tylerpalli,65.62,3149,Handpump,7,Good,49.41,Daily,No,Closed,66.63,Yes,No,9.58,48.53,No,Jal Jeevan Mission,250943.68,13.21,2025-04-29,NGO Report,Lisa Fitzpatrick
+221,Nellore,Andreapalli,50.71,4530,Borewell,6,Poor,83.81,Weekly,Yes,Closed,85.77,Yes,Yes,1.19,69.99,No,Swachh Bharat,19194.75,2.44,2025-02-03,NGO Report,Hannah Smith
+222,Vizianagaram,Michaelpalli,40.05,809,River,10,Good,79.0,None,Yes,None,85.38,No,No,4.64,89.08,Yes,None,120664.95,-0.39,2025-05-30,NGO Report,Shawn Cunningham
+223,YSR Kadapa,Derekpalli,68.92,4885,Handpump,12,Poor,51.2,Daily,Yes,Closed,76.73,No,Yes,8.49,83.23,No,None,109529.03,3.86,2025-04-28,Govt Survey,Margaret Barker
+224,Vizianagaram,Lisapalli,51.46,3695,Borewell,22,Poor,55.15,Daily,No,None,59.47,Yes,Yes,0.74,99.75,Yes,Swachh Bharat,200496.09,9.82,2025-03-31,NGO Report,Shannon Miranda
+225,Krishna,Donnapalli,69.98,4180,Borewell,3,Moderate,33.92,Daily,No,Open,60.58,No,Yes,7.54,46.31,Yes,Jal Jeevan Mission,370375.26,2.22,2025-03-08,Census,Ryan Anderson
+226,Prakasam,Andrewpalli,94.43,875,Tap,24,Poor,39.14,Weekly,Yes,Closed,91.04,Yes,No,6.31,88.47,Yes,Jal Jeevan Mission,65948.04,4.87,2025-02-05,NGO Report,Garrett Weiss
+227,Guntur,Lauriepalli,43.79,2160,River,12,Poor,77.49,Monthly,Yes,None,78.8,Yes,No,8.45,85.52,Yes,None,94989.35,-8.42,2025-06-15,Govt Survey,Hunter Arroyo
+228,East Godavari,Josephpalli,85.45,1876,Handpump,19,Good,60.71,Daily,Yes,Open,89.55,No,Yes,0.65,64.09,Yes,Jal Jeevan Mission,97912.3,-7.77,2025-03-11,NGO Report,Lauren Wu MD
+229,Visakhapatnam,Joannapalli,93.21,3909,River,24,Good,44.43,Monthly,No,Closed,61.96,Yes,Yes,6.16,80.2,Yes,None,414976.96,-2.47,2025-04-12,Govt Survey,Fernando Walter
+230,Anantapur,Aprilpalli,73.46,2072,Borewell,18,Good,73.32,Weekly,No,None,82.97,No,Yes,2.34,85.76,No,Swachh Bharat,96398.67,6.75,2025-06-24,Census,Karen Williams
+231,Anantapur,Jimmypalli,78.69,2835,Tap,15,Moderate,53.4,None,Yes,Open,87.02,Yes,Yes,7.96,63.95,Yes,Jal Jeevan Mission,448588.8,8.04,2025-06-15,NGO Report,Jason Harrison
+232,Visakhapatnam,Amypalli,59.56,2128,Handpump,9,Good,52.83,Daily,Yes,None,70.63,Yes,No,8.97,35.15,No,Jal Jeevan Mission,446339.53,-6.38,2025-02-05,NGO Report,Brooke Ford
+233,Prakasam,Latoyapalli,50.68,3559,Tap,16,Poor,43.59,Monthly,No,Open,66.79,Yes,Yes,3.17,37.78,No,Swachh Bharat,214929.68,9.01,2025-04-30,Census,Mrs. Amber Moss
+234,Krishna,Chadpalli,76.22,1892,Tank,19,Good,36.05,None,Yes,None,73.67,No,No,0.64,59.97,Yes,Jal Jeevan Mission,170375.01,4.49,2025-07-01,NGO Report,Nicole Mccarthy
+235,East Godavari,Morganpalli,94.83,541,River,3,Good,99.39,Daily,No,None,69.72,Yes,No,5.21,35.82,Yes,None,368575.28,13.75,2025-06-11,Census,Donna Roberson
+236,Kurnool,Curtispalli,57.75,1243,Borewell,17,Poor,51.34,None,Yes,Closed,73.19,Yes,No,2.26,91.01,No,None,320367.13,11.51,2025-03-03,Census,Daniel Stokes
+237,Nellore,Marthapalli,93.61,3227,Tank,3,Moderate,59.81,Monthly,Yes,None,54.05,No,Yes,5.39,93.7,No,Jal Jeevan Mission,64373.61,-0.86,2025-07-21,NGO Report,Lindsay Boyle
+238,Anantapur,Stevenpalli,61.93,1935,Tank,24,Good,69.25,Weekly,Yes,Closed,61.93,Yes,No,7.51,82.66,Yes,None,382834.09,-1.99,2025-06-09,Govt Survey,Jacob Choi
+239,Srikakulam,Denisepalli,80.81,2770,Borewell,4,Moderate,54.17,None,Yes,Closed,85.49,No,No,6.4,85.99,Yes,Jal Jeevan Mission,447032.57,1.45,2025-01-05,Census,Christopher Crawford
+240,Nellore,Melissapalli,93.88,2862,Borewell,5,Good,49.32,Weekly,No,Open,93.75,Yes,No,4.46,77.77,Yes,Swachh Bharat,179883.12,1.1,2025-02-03,NGO Report,Julian Mcdonald
+241,Anantapur,Sarahpalli,57.49,1015,Borewell,9,Poor,75.13,None,No,None,82.3,No,No,6.14,78.78,No,Swachh Bharat,159000.35,-6.7,2025-03-26,Govt Survey,Rebecca Mann
+242,East Godavari,Richardpalli,87.36,2357,River,13,Moderate,83.88,Daily,Yes,Closed,64.22,Yes,Yes,7.26,49.97,Yes,None,349501.04,6.66,2025-08-10,Census,Jonathan Giles
+243,East Godavari,Jenniferpalli,54.27,837,Handpump,20,Good,60.86,Monthly,Yes,Open,78.12,Yes,No,9.79,40.36,No,None,487978.18,3.34,2025-04-08,Census,Robyn Moore
+244,Anantapur,Connorpalli,64.27,4591,Tap,16,Moderate,40.92,Monthly,No,Closed,94.8,Yes,No,3.72,37.86,No,Jal Jeevan Mission,78317.41,3.77,2025-08-18,Govt Survey,Carl Valdez
+245,Anantapur,Sarahpalli,64.1,2305,River,13,Good,52.85,Weekly,Yes,Closed,59.79,Yes,No,6.93,97.03,No,Jal Jeevan Mission,250328.03,5.08,2025-03-17,NGO Report,Douglas Hamilton DDS
+246,Anantapur,Michaelpalli,94.51,3457,River,6,Poor,89.77,Monthly,No,Closed,50.61,No,No,3.43,61.19,Yes,Jal Jeevan Mission,366648.14,1.11,2025-02-02,Govt Survey,Christine Perry
+247,YSR Kadapa,Angelapalli,66.55,1841,River,15,Good,88.49,Daily,Yes,Open,65.16,No,Yes,9.36,71.35,No,Jal Jeevan Mission,13243.25,5.97,2025-02-24,Govt Survey,Frances Medina
+248,Nellore,Triciapalli,50.49,4285,Tank,6,Good,43.02,None,No,None,74.53,No,No,5.19,81.79,Yes,Jal Jeevan Mission,397697.58,-6.15,2025-01-01,Govt Survey,Mark Perry
+249,Vizianagaram,Robertpalli,90.05,4371,Borewell,22,Poor,92.49,None,Yes,Closed,95.34,Yes,Yes,1.63,49.41,Yes,None,375327.13,4.53,2025-06-07,NGO Report,Melanie Campos
+250,Nellore,Ginapalli,92.1,4399,Borewell,13,Poor,81.31,Daily,No,Open,79.08,Yes,No,4.88,78.53,No,Jal Jeevan Mission,35915.28,-0.97,2025-05-13,NGO Report,Meghan Swanson
+251,Kurnool,Shaunpalli,42.92,2889,Tank,22,Good,65.97,Weekly,Yes,None,87.63,No,No,8.35,77.95,No,Swachh Bharat,345867.42,7.21,2025-07-19,Census,Patrick Stephens
+252,Srikakulam,Leahpalli,74.8,1677,Borewell,6,Poor,49.7,None,No,Closed,96.05,Yes,Yes,2.57,65.24,Yes,None,310579.9,10.79,2025-08-14,NGO Report,Karen Gregory
+253,Srikakulam,Lesliepalli,82.75,1433,River,16,Good,38.16,Weekly,Yes,Closed,67.41,No,Yes,8.26,92.28,No,Jal Jeevan Mission,357848.49,-9.28,2025-07-25,Census,Amy Hood
+254,Guntur,Robertpalli,47.72,1666,Tap,11,Good,44.69,Daily,No,None,88.15,Yes,Yes,0.68,63.9,No,Jal Jeevan Mission,106211.99,-9.18,2025-01-01,NGO Report,Brian Torres
+255,Srikakulam,Danielpalli,75.59,4342,Borewell,10,Good,34.64,Daily,Yes,Open,96.0,Yes,Yes,2.26,54.61,Yes,Jal Jeevan Mission,424472.15,13.55,2025-02-14,NGO Report,Steven Goodman
+256,Kurnool,Jenniferpalli,61.13,4601,Tank,9,Poor,69.92,Daily,Yes,None,60.85,Yes,No,2.13,82.78,Yes,None,58356.0,-4.65,2025-03-01,NGO Report,Lisa Bender
+257,West Godavari,Elizabethpalli,68.48,2016,River,23,Good,42.66,Monthly,No,Closed,60.71,Yes,No,1.57,98.92,Yes,Swachh Bharat,64054.92,-6.6,2025-04-25,Govt Survey,Kimberly Mills
+258,West Godavari,Raymondpalli,57.3,832,Borewell,12,Moderate,38.1,Monthly,No,None,86.81,No,Yes,5.76,50.34,No,Jal Jeevan Mission,429819.14,12.37,2025-02-16,Govt Survey,Melissa Watkins
+259,Vizianagaram,Susanpalli,62.05,604,River,23,Good,57.75,Daily,Yes,Open,69.74,Yes,Yes,1.11,98.26,No,Jal Jeevan Mission,301530.81,14.77,2025-05-15,Census,Theodore Martin
+260,Guntur,Aliciapalli,90.29,4588,Handpump,24,Poor,71.56,None,No,Closed,83.33,No,No,5.36,40.32,No,Jal Jeevan Mission,69873.13,2.23,2025-04-01,Census,Morgan Moran
+261,Vizianagaram,Carlpalli,96.54,743,Borewell,3,Good,64.87,Daily,Yes,Closed,80.23,No,Yes,3.38,73.63,Yes,None,378288.78,9.19,2025-01-27,Govt Survey,Ronald Mcneil
+262,Guntur,Andrewpalli,57.61,4578,River,18,Moderate,67.97,Daily,Yes,Closed,94.01,Yes,No,4.78,89.7,No,Swachh Bharat,27630.75,-5.58,2025-05-11,NGO Report,Vanessa Knight
+263,YSR Kadapa,Christinepalli,58.18,1844,River,15,Good,51.87,None,No,Open,78.44,No,No,5.02,89.8,Yes,Swachh Bharat,139061.58,4.78,2025-05-21,Govt Survey,Lauren Johnson
+264,Visakhapatnam,Shawnpalli,80.59,2830,Handpump,3,Good,71.33,Weekly,No,Closed,90.48,Yes,No,4.12,59.97,No,Swachh Bharat,182121.94,6.53,2025-03-26,Census,Mark Romero Jr.
+265,Guntur,Zacharypalli,78.88,1195,Borewell,11,Good,53.63,Daily,No,Open,73.05,No,No,3.03,78.72,Yes,Swachh Bharat,195091.42,-0.24,2025-07-15,NGO Report,Michele Carter
+266,Chittoor,Michaelpalli,88.5,1319,Tap,12,Moderate,65.19,Monthly,Yes,None,64.98,No,Yes,5.22,89.31,Yes,None,114899.25,-3.37,2025-05-16,Govt Survey,Leslie Reynolds MD
+267,Visakhapatnam,Laurapalli,64.12,2350,Tank,4,Poor,89.09,Daily,No,Closed,53.36,No,No,2.49,85.7,No,None,404022.09,0.82,2025-05-10,NGO Report,Amanda Fuller
+268,Kurnool,Gabrielapalli,52.0,3795,Handpump,21,Poor,61.73,Weekly,Yes,None,85.17,Yes,No,2.52,97.35,No,Swachh Bharat,469209.83,3.32,2025-04-02,NGO Report,David Rivas
+269,YSR Kadapa,Allenpalli,94.41,990,Tank,8,Moderate,62.37,Weekly,Yes,None,84.27,No,No,4.4,90.21,Yes,None,109743.44,0.31,2025-06-18,Govt Survey,Leslie Santos
+270,Vizianagaram,Kristapalli,49.64,2434,River,9,Good,40.5,Daily,Yes,Closed,73.21,No,No,6.65,32.59,Yes,Swachh Bharat,76851.01,-3.54,2025-03-03,Govt Survey,Christina Contreras
+271,Vizianagaram,Jasminpalli,73.04,845,River,2,Good,90.17,Daily,No,None,64.9,Yes,No,9.02,77.02,Yes,Swachh Bharat,472149.45,8.11,2025-03-11,Census,Steven Figueroa
+272,Guntur,Noahpalli,46.72,4598,Borewell,18,Poor,88.03,Monthly,No,Open,61.9,Yes,No,3.63,70.9,No,None,374539.9,13.39,2025-05-01,Census,Susan Mcintyre
+273,East Godavari,Patriciapalli,46.41,2253,Handpump,16,Moderate,47.8,Daily,No,None,68.74,Yes,No,5.68,63.24,Yes,Swachh Bharat,440922.44,13.42,2025-06-29,Govt Survey,Edward Williams
+274,Prakasam,Andrewpalli,82.94,3024,Borewell,22,Poor,32.44,Daily,Yes,Closed,77.64,No,No,9.08,77.97,Yes,Swachh Bharat,200350.8,12.74,2025-08-23,Govt Survey,Tammy Schroeder
+275,Krishna,Sergiopalli,58.05,2428,Handpump,8,Good,94.11,Monthly,No,Open,63.7,Yes,No,4.98,58.91,No,None,216959.34,12.96,2025-01-29,Census,Daniel Oliver
+276,East Godavari,Donnapalli,81.91,4647,Borewell,13,Moderate,72.15,Monthly,No,None,51.37,Yes,Yes,6.49,85.37,Yes,Jal Jeevan Mission,206324.31,5.71,2025-02-28,Govt Survey,Robin Garrett
+277,Visakhapatnam,Meredithpalli,44.93,1792,Tap,18,Poor,97.88,Weekly,No,Closed,72.57,Yes,No,2.15,71.51,No,Swachh Bharat,107345.22,0.36,2025-01-22,Census,Jeffrey Alexander
+278,Nellore,Jamiepalli,92.58,2338,Borewell,2,Poor,75.3,Weekly,Yes,Closed,59.91,Yes,Yes,4.31,60.02,No,Jal Jeevan Mission,53640.02,-0.8,2025-04-09,NGO Report,Justin Garcia
+279,Chittoor,Anthonypalli,40.85,4807,River,16,Poor,64.59,Weekly,Yes,Open,97.3,No,No,7.59,56.75,No,Jal Jeevan Mission,304040.57,14.88,2025-05-21,Govt Survey,Dennis Hebert
+280,West Godavari,Michelepalli,80.63,3926,Tap,15,Good,32.01,Monthly,Yes,None,72.55,Yes,No,6.04,75.31,Yes,Jal Jeevan Mission,239751.99,11.79,2025-06-24,NGO Report,Sean Mitchell
+281,Nellore,Christopherpalli,81.21,3641,River,21,Moderate,35.11,Daily,Yes,Closed,96.55,No,No,9.97,95.75,Yes,Jal Jeevan Mission,134291.87,5.49,2025-08-08,Govt Survey,Jon Roberts
+282,Nellore,Danielpalli,80.28,1583,Tank,3,Poor,42.56,Weekly,No,Closed,93.89,Yes,Yes,3.51,67.13,Yes,Swachh Bharat,67252.61,-8.9,2025-01-10,Census,Breanna Jenkins
+283,Prakasam,Stephaniepalli,92.3,2801,Handpump,15,Moderate,93.2,Monthly,No,None,65.65,Yes,No,7.5,64.39,Yes,None,427986.49,6.44,2025-03-15,Govt Survey,Daniel Kim
+284,Anantapur,Christopherpalli,51.34,947,Tap,7,Good,62.92,Weekly,No,Closed,55.8,No,Yes,4.69,99.22,No,Swachh Bharat,251564.39,11.15,2025-04-24,Census,Michael Brown
+285,Chittoor,Lorettapalli,60.98,2168,Handpump,7,Good,82.5,Monthly,Yes,None,99.9,Yes,Yes,4.46,35.38,No,None,56209.56,-1.78,2025-08-05,Govt Survey,Cynthia Gardner
+286,Vizianagaram,Richardpalli,98.88,1499,River,13,Poor,95.04,Daily,No,Open,51.44,No,No,4.81,96.86,Yes,Swachh Bharat,485187.55,6.4,2025-01-21,Govt Survey,John Sharp
+287,Kurnool,Joshuapalli,96.85,1559,Tap,3,Poor,49.81,Daily,Yes,None,97.6,No,Yes,4.29,42.46,No,Jal Jeevan Mission,20050.9,-4.79,2025-04-11,Govt Survey,Rose Carey
+288,YSR Kadapa,Kennethpalli,64.14,1762,Borewell,11,Moderate,86.08,Monthly,Yes,Closed,83.28,No,Yes,5.15,91.98,No,Swachh Bharat,285897.97,0.58,2025-04-07,Govt Survey,Aaron Campbell
+289,YSR Kadapa,Brianpalli,62.09,2026,River,22,Moderate,36.51,Monthly,No,None,61.21,Yes,No,5.51,75.31,Yes,Swachh Bharat,239427.39,-8.02,2025-01-28,Govt Survey,Zachary Hughes
+290,Krishna,Michellepalli,48.92,1546,Handpump,9,Poor,59.94,Daily,Yes,Open,75.67,No,No,1.4,76.26,No,Swachh Bharat,134881.5,-7.96,2025-01-12,NGO Report,Brandon Alexander
+291,Anantapur,Cristianpalli,46.84,4291,Tap,7,Moderate,33.17,None,No,Closed,79.36,No,No,6.43,48.56,Yes,Jal Jeevan Mission,100692.82,8.68,2025-05-14,NGO Report,Dr. Alexandria Williams
+292,Krishna,Carolinepalli,92.3,1371,River,19,Good,30.41,Daily,Yes,Open,82.79,No,No,8.75,97.61,No,Swachh Bharat,313064.69,14.35,2025-05-05,Govt Survey,Shirley Moran
+293,West Godavari,Kristenpalli,80.43,3735,Handpump,4,Good,39.46,Weekly,Yes,Open,84.8,Yes,Yes,2.49,75.4,Yes,Swachh Bharat,422623.96,11.45,2025-01-24,NGO Report,Nathaniel Zimmerman
+294,Guntur,Ryanpalli,45.17,4296,Tap,17,Moderate,31.53,Weekly,Yes,None,85.13,No,No,0.69,61.47,Yes,Jal Jeevan Mission,154467.39,10.74,2025-06-07,Govt Survey,Kevin Curry
+295,Anantapur,Jenniferpalli,60.03,1341,River,15,Moderate,81.6,Monthly,Yes,Closed,69.98,No,Yes,7.29,66.98,No,None,164766.57,-8.41,2025-06-21,NGO Report,Ethan Harrell
+296,Nellore,Samanthapalli,93.35,1457,River,21,Poor,54.27,None,Yes,Open,64.4,Yes,No,3.77,46.25,Yes,None,455444.38,-1.52,2025-05-26,NGO Report,Kathleen Baker
+297,West Godavari,Robertpalli,79.42,1574,Handpump,24,Moderate,97.19,Monthly,No,Open,81.09,No,Yes,6.84,39.04,Yes,Jal Jeevan Mission,306817.01,-7.48,2025-04-24,Govt Survey,Carrie Hall
+298,Prakasam,Williampalli,58.22,2215,Tank,3,Good,55.12,Monthly,No,None,57.93,Yes,Yes,3.71,37.98,Yes,Jal Jeevan Mission,285370.91,2.16,2025-05-02,Govt Survey,Gary Harris
+299,YSR Kadapa,Anitapalli,61.31,882,Tank,10,Good,89.74,Daily,Yes,Closed,89.95,Yes,Yes,7.93,72.68,Yes,None,30565.02,-7.36,2025-05-22,NGO Report,Michael Edwards
+300,Chittoor,Sandypalli,92.25,3462,Tap,11,Poor,60.91,None,Yes,Open,82.35,No,Yes,1.67,44.13,No,Jal Jeevan Mission,130204.87,10.23,2025-06-22,Govt Survey,Brenda Bell
+301,Krishna,Amberpalli,70.3,1198,Handpump,13,Poor,82.84,Monthly,Yes,Open,87.66,No,Yes,1.81,60.02,No,Swachh Bharat,476401.87,2.9,2025-05-17,NGO Report,Jose Gonzalez
+302,Kurnool,Jacquelinepalli,96.62,4125,Tap,2,Poor,86.44,Daily,Yes,Closed,65.74,Yes,No,1.08,83.14,Yes,None,38326.82,5.79,2025-04-09,NGO Report,Joseph Sims
+303,YSR Kadapa,Caseypalli,79.62,4758,Handpump,15,Moderate,92.0,Monthly,No,Closed,50.4,No,Yes,7.15,61.23,Yes,None,315936.24,5.45,2025-05-31,Govt Survey,Harold Faulkner
+304,West Godavari,Jamespalli,60.72,3813,Tap,11,Good,32.59,Monthly,No,None,85.94,Yes,No,2.53,65.82,No,None,176947.35,5.89,2025-01-09,Census,Tyler Jones
+305,Anantapur,Emilypalli,93.42,4923,Tank,10,Good,88.26,Monthly,No,None,55.52,Yes,No,2.97,65.52,Yes,Jal Jeevan Mission,380714.37,13.53,2025-05-30,Govt Survey,Ann Chase
+306,Krishna,Jaredpalli,74.35,542,River,12,Good,86.38,Weekly,No,Closed,64.23,Yes,No,5.44,47.33,No,None,295360.83,10.57,2025-06-23,Govt Survey,Christopher Rodriguez
+307,Prakasam,Monicapalli,45.88,3987,River,4,Good,34.35,Weekly,No,Open,72.31,No,No,6.09,66.33,No,Swachh Bharat,296308.85,5.91,2025-08-17,Govt Survey,Robert Nguyen
+308,West Godavari,Brittneypalli,95.86,4510,River,7,Good,65.41,None,No,Open,98.4,Yes,Yes,4.83,32.28,Yes,None,190972.71,13.8,2025-03-27,NGO Report,Jacob Harris
+309,Nellore,Williampalli,46.62,3527,Tank,11,Good,66.59,Daily,No,Closed,99.55,No,No,5.12,85.38,Yes,None,216660.91,13.42,2025-05-02,Govt Survey,Cassandra Fisher
+310,Krishna,Nicolepalli,52.93,4504,Borewell,5,Poor,54.41,Daily,No,Closed,78.65,No,No,7.92,63.27,Yes,Jal Jeevan Mission,257334.29,1.52,2025-02-18,Govt Survey,Kristen Vargas
+311,Vizianagaram,Kellypalli,66.94,3164,Borewell,21,Poor,73.65,None,Yes,Closed,66.95,Yes,No,7.49,75.21,Yes,None,22154.0,5.75,2025-07-09,NGO Report,Kevin Jackson
+312,Krishna,Jessicapalli,73.66,1514,Tank,4,Good,96.86,Daily,Yes,Closed,75.13,Yes,Yes,6.75,67.23,Yes,Swachh Bharat,395510.95,-3.87,2025-06-30,NGO Report,Laura Bernard
+313,Visakhapatnam,Damonpalli,66.65,4870,Tank,12,Moderate,71.22,None,Yes,Closed,71.85,No,Yes,8.67,52.22,No,Jal Jeevan Mission,66175.87,-7.52,2025-04-22,Census,Katherine Garcia
+314,Krishna,Melvinpalli,48.64,2593,Borewell,6,Moderate,96.65,Weekly,Yes,None,98.06,Yes,Yes,7.28,50.86,Yes,Swachh Bharat,79805.67,12.33,2025-08-01,Govt Survey,Daniel Green
+315,Nellore,Shannonpalli,96.49,1490,Borewell,8,Good,82.65,Weekly,No,None,87.62,No,Yes,3.06,52.28,No,Jal Jeevan Mission,247244.04,0.19,2025-06-02,Census,Daniel Garcia
+316,Anantapur,Davidpalli,56.15,1331,Tap,19,Poor,84.96,Monthly,No,Closed,54.2,Yes,Yes,4.05,98.97,Yes,None,476780.19,14.03,2025-04-12,NGO Report,Sylvia Patterson DDS
+317,Prakasam,Anthonypalli,42.51,4306,Tank,11,Poor,98.05,Daily,Yes,Closed,63.67,No,No,9.99,88.97,Yes,None,421935.26,-2.97,2025-01-13,Census,Jose Hernandez
+318,West Godavari,Jonathanpalli,72.05,1072,Handpump,4,Moderate,78.89,Weekly,No,Closed,60.54,No,No,6.53,98.57,No,Swachh Bharat,130504.86,14.58,2025-08-06,Govt Survey,Alex Whitehead
+319,Guntur,Danielpalli,67.59,3190,Borewell,24,Good,75.25,Daily,No,Open,95.07,Yes,No,5.78,78.75,No,Swachh Bharat,273684.41,9.68,2025-06-06,NGO Report,Jill Williams
+320,Vizianagaram,Annapalli,44.65,753,River,23,Good,54.71,None,No,Closed,58.86,Yes,Yes,4.9,95.54,No,Jal Jeevan Mission,118545.17,-9.51,2025-04-04,Govt Survey,Beth Stokes
+321,Vizianagaram,Rachelpalli,95.28,3431,Tap,4,Poor,73.77,Weekly,Yes,Closed,98.36,Yes,No,5.18,79.28,Yes,Jal Jeevan Mission,106082.53,10.53,2025-06-18,Govt Survey,James Wood
+322,Chittoor,Oscarpalli,92.19,4598,River,7,Poor,43.56,Weekly,Yes,None,56.41,Yes,Yes,2.97,69.89,Yes,None,367160.44,-3.14,2025-02-18,NGO Report,Vanessa Smith
+323,Anantapur,Chelseypalli,99.52,4865,Tank,10,Poor,69.21,None,Yes,Closed,82.05,Yes,No,4.61,99.66,No,Jal Jeevan Mission,343285.0,1.66,2025-04-19,Govt Survey,Pamela Moreno
+324,Srikakulam,Brandonpalli,85.54,2339,Borewell,10,Moderate,67.27,Monthly,Yes,Closed,59.73,Yes,Yes,9.91,45.79,No,Jal Jeevan Mission,459327.66,-5.08,2025-08-19,Govt Survey,Jeffrey Dillon
+325,Krishna,Christopherpalli,43.77,1292,Borewell,17,Moderate,86.56,Monthly,No,Open,55.39,Yes,No,8.41,87.51,Yes,Jal Jeevan Mission,390117.24,5.49,2025-07-23,Census,Dwayne Harris
+326,Vizianagaram,Thomaspalli,66.79,1522,Borewell,3,Good,56.42,Daily,Yes,Open,95.96,No,Yes,3.36,73.83,Yes,Jal Jeevan Mission,342006.58,3.98,2025-02-10,Govt Survey,Justin Knapp DDS
+327,Nellore,Jonpalli,64.1,3867,Tap,21,Poor,73.68,None,No,Closed,89.76,Yes,No,6.68,77.3,Yes,Swachh Bharat,263434.32,4.7,2025-06-16,Census,Lisa Carter
+328,Chittoor,Heatherpalli,40.74,1053,Tank,8,Poor,38.82,Monthly,No,Closed,74.07,No,Yes,2.81,85.79,Yes,Jal Jeevan Mission,162716.76,0.9,2025-03-23,NGO Report,Brianna Jackson
+329,YSR Kadapa,Samanthapalli,61.46,4933,Tap,6,Moderate,51.61,Monthly,No,Closed,98.51,Yes,Yes,2.76,87.34,Yes,Swachh Bharat,178469.89,14.41,2025-02-19,NGO Report,Henry Gilbert
+330,Guntur,Williampalli,87.12,3297,Tap,23,Moderate,78.63,None,No,None,78.3,No,No,4.48,41.36,No,Jal Jeevan Mission,253006.03,13.0,2025-03-10,NGO Report,Cristina Keller
+331,Guntur,Timothypalli,81.59,4321,Tank,8,Good,63.65,Monthly,No,Open,70.02,Yes,No,0.59,55.05,Yes,Jal Jeevan Mission,152382.35,-5.14,2025-01-11,NGO Report,Jordan Wilson
+332,YSR Kadapa,Jenniferpalli,61.59,743,Tap,8,Moderate,42.19,Monthly,Yes,Closed,92.38,Yes,Yes,2.36,42.33,No,Jal Jeevan Mission,20286.94,6.94,2025-02-20,Govt Survey,Bethany Brown
+333,Vizianagaram,Franciscopalli,87.24,1409,Handpump,8,Moderate,61.93,Monthly,No,None,58.57,No,Yes,1.63,91.79,Yes,Jal Jeevan Mission,103923.83,-0.55,2025-03-10,Govt Survey,Tyler Oliver
+334,Kurnool,Michaelpalli,75.97,2503,Borewell,21,Poor,43.24,Monthly,Yes,Closed,62.36,No,Yes,8.59,97.79,No,Jal Jeevan Mission,366376.29,9.62,2025-08-03,NGO Report,Gregory Stanley
+335,Visakhapatnam,Timothypalli,43.89,4666,River,22,Poor,56.2,None,Yes,Closed,85.62,No,No,5.0,70.68,Yes,Jal Jeevan Mission,117567.88,-4.92,2025-07-26,Census,Lucas Padilla
+336,Nellore,Sherripalli,53.12,3981,River,20,Good,95.48,Monthly,No,None,54.24,Yes,No,4.72,54.61,Yes,Swachh Bharat,261008.42,-1.59,2025-03-07,Govt Survey,Eric Smith
+337,Prakasam,Michaelpalli,65.95,3510,River,12,Moderate,56.77,Weekly,No,Open,63.28,Yes,No,9.06,50.62,Yes,Swachh Bharat,464036.9,-7.54,2025-04-27,Census,Dr. Tina Campbell
+338,Kurnool,Marypalli,42.3,2140,Handpump,8,Poor,53.05,Monthly,No,Open,85.28,Yes,No,0.58,50.96,No,Swachh Bharat,473449.35,10.55,2025-04-17,NGO Report,Phillip Mendoza
+339,Anantapur,Jasonpalli,68.32,4699,Tap,14,Good,45.88,Weekly,No,Open,75.79,No,No,3.74,36.01,Yes,Swachh Bharat,387364.22,7.45,2025-05-07,Census,Mark Durham
+340,Prakasam,Briannapalli,67.0,746,Handpump,6,Poor,91.16,Monthly,Yes,Closed,90.52,No,No,2.64,59.8,No,None,273425.96,-1.85,2025-06-09,Census,James Johnson
+341,Visakhapatnam,Stevenpalli,87.12,1639,Tap,12,Poor,74.09,None,No,Open,97.43,Yes,No,2.29,37.6,No,None,448424.46,-7.67,2025-03-20,Census,Kristen Ali
+342,Vizianagaram,Adrianpalli,73.17,762,Tank,17,Good,43.07,Daily,No,Closed,60.29,No,Yes,4.82,55.81,Yes,Jal Jeevan Mission,170118.31,12.75,2025-08-19,Govt Survey,Jason Silva
+343,East Godavari,Veronicapalli,99.38,1557,Tank,15,Moderate,82.02,None,Yes,Open,93.52,No,No,8.27,76.54,Yes,None,291794.78,-2.24,2025-03-17,Census,Troy Perez
+344,Srikakulam,Randallpalli,83.01,4259,Handpump,8,Good,99.38,None,Yes,Closed,80.24,Yes,No,9.15,91.55,No,Swachh Bharat,292305.05,8.43,2025-04-07,Govt Survey,Brett Luna
+345,Vizianagaram,Arthurpalli,92.86,4238,Handpump,24,Poor,85.46,None,Yes,Closed,62.46,No,No,4.15,76.14,Yes,Swachh Bharat,352335.93,-8.91,2025-02-27,Census,Andrew Bray
+346,Krishna,Troypalli,92.95,4905,Handpump,23,Good,78.86,Weekly,No,Closed,99.62,Yes,No,1.23,37.37,No,Swachh Bharat,230958.63,-3.68,2025-01-18,NGO Report,Judy Cain
+347,Anantapur,Meganpalli,67.73,1099,River,14,Moderate,82.22,Weekly,No,Open,50.54,Yes,Yes,3.61,82.41,No,Swachh Bharat,43436.21,3.71,2025-06-26,Census,Stephen Macdonald
+348,West Godavari,Michellepalli,97.0,1648,River,10,Good,41.94,Daily,Yes,Open,64.71,No,Yes,1.24,83.45,No,Jal Jeevan Mission,225922.42,-5.55,2025-04-22,NGO Report,Sarah Cameron
+349,Anantapur,Jamespalli,93.56,4860,Tap,16,Poor,33.34,Daily,No,None,65.42,Yes,Yes,0.96,56.42,Yes,Jal Jeevan Mission,193575.9,-4.04,2025-04-30,Census,Christopher Duran
+350,Anantapur,Marilynpalli,65.3,619,Handpump,8,Poor,76.83,Weekly,Yes,None,58.39,Yes,Yes,4.45,37.54,No,Swachh Bharat,285406.52,-5.26,2025-07-24,Census,Jacob Wright
+351,Srikakulam,Amandapalli,63.7,4005,Borewell,9,Good,37.41,Monthly,Yes,Open,70.11,No,Yes,4.2,62.11,Yes,None,409391.6,6.25,2025-06-17,Govt Survey,Alan Powell
+352,Anantapur,Jenniferpalli,44.04,2290,River,11,Poor,64.97,Daily,Yes,Closed,97.95,No,No,6.94,98.07,Yes,Swachh Bharat,95912.21,9.04,2025-05-31,NGO Report,Pamela Spears
+353,Kurnool,Jacquelinepalli,98.68,4449,Borewell,12,Good,72.6,None,No,None,82.03,Yes,Yes,2.71,73.14,Yes,Swachh Bharat,125834.2,0.71,2025-06-05,Census,Melanie Alvarado
+354,Visakhapatnam,Lindsaypalli,44.76,1626,Handpump,17,Moderate,44.14,None,Yes,None,51.9,No,No,1.78,52.23,Yes,None,397972.09,0.37,2025-05-22,Govt Survey,Victor Jones
+355,YSR Kadapa,Teresapalli,41.42,3213,Handpump,9,Good,67.75,Weekly,Yes,None,93.64,No,Yes,4.7,30.42,No,Jal Jeevan Mission,477293.98,-8.7,2025-08-03,Census,Ryan Roberts
+356,Guntur,Anthonypalli,47.53,1922,Tank,19,Good,46.54,Daily,No,None,73.35,Yes,Yes,2.83,42.35,Yes,Swachh Bharat,149822.92,1.21,2025-06-29,NGO Report,Nicole Compton
+357,Guntur,Michaelpalli,56.31,4441,Borewell,13,Moderate,56.44,None,No,Closed,75.26,No,Yes,8.29,85.55,Yes,Swachh Bharat,219424.67,-7.92,2025-02-27,Govt Survey,Maria Mason
+358,Visakhapatnam,Nathanpalli,72.23,1939,Handpump,14,Moderate,51.41,Monthly,No,None,80.3,Yes,No,1.8,62.85,Yes,Jal Jeevan Mission,12048.47,11.54,2025-08-02,NGO Report,Stephen Hester
+359,West Godavari,Dalepalli,62.46,3814,River,14,Poor,56.12,None,No,None,99.38,Yes,No,8.91,99.47,Yes,Swachh Bharat,466743.48,-5.94,2025-08-15,Govt Survey,Kari Perez
+360,Krishna,Leahpalli,86.28,3355,Tank,24,Moderate,74.45,Monthly,Yes,None,69.27,No,Yes,2.8,32.42,No,None,356213.89,-9.29,2025-08-12,NGO Report,Lisa Carrillo
+361,Vizianagaram,Samuelpalli,48.87,4231,Tap,10,Good,72.15,Weekly,Yes,Open,88.55,No,No,7.21,98.19,Yes,None,455875.08,11.9,2025-08-21,Census,Suzanne Mccall
+362,Nellore,Alexandrapalli,55.17,2975,Tank,19,Poor,92.07,Monthly,No,None,93.47,Yes,No,8.24,48.83,Yes,None,205005.41,-2.3,2025-07-31,Census,Andrew Ford
+363,Prakasam,Robertpalli,40.09,1072,River,18,Moderate,75.82,None,Yes,Open,68.73,Yes,Yes,5.12,65.18,Yes,Swachh Bharat,287875.15,-4.69,2025-07-12,Census,Brent Acevedo
+364,Anantapur,Dariuspalli,84.99,2071,Handpump,15,Moderate,73.88,Daily,Yes,Open,64.66,No,Yes,3.13,53.95,Yes,Swachh Bharat,247745.23,9.01,2025-05-13,Census,Amy Gonzalez
+365,Anantapur,Christopherpalli,55.96,559,Tank,3,Good,44.77,Daily,No,None,76.0,No,No,5.0,53.59,No,Swachh Bharat,191684.71,12.25,2025-05-20,Govt Survey,Scott Morgan
+366,Guntur,Samanthapalli,96.46,3764,River,21,Good,98.27,Monthly,Yes,Open,72.85,No,Yes,0.74,38.6,No,None,378205.47,-3.79,2025-07-15,Govt Survey,Pamela Gutierrez
+367,Visakhapatnam,Sethpalli,81.17,4392,Tank,15,Poor,43.16,Monthly,Yes,None,68.01,Yes,No,6.94,46.35,No,Swachh Bharat,372210.27,9.85,2025-01-19,Govt Survey,Peter Nguyen
+368,Nellore,Tiffanypalli,96.35,4400,Borewell,14,Moderate,72.5,Weekly,Yes,Open,74.9,Yes,No,8.41,99.74,No,Jal Jeevan Mission,449240.2,13.88,2025-04-28,Govt Survey,Kendra Woods
+369,Vizianagaram,Aaronpalli,72.44,2493,Tap,7,Poor,78.99,Daily,No,None,51.46,No,No,7.78,45.43,No,None,243388.14,12.44,2025-03-25,Census,Crystal Gonzalez
+370,Vizianagaram,Alyssapalli,48.15,4878,River,4,Poor,53.3,Weekly,Yes,None,67.16,No,No,8.18,45.65,Yes,Swachh Bharat,52963.37,-7.77,2025-08-01,NGO Report,Alexander Kerr
+371,Visakhapatnam,Carlapalli,96.23,1451,Tank,13,Good,89.73,None,Yes,Closed,53.09,Yes,No,9.81,52.38,No,None,467623.33,-6.84,2025-03-23,NGO Report,Lisa Grimes
+372,Visakhapatnam,Anthonypalli,75.45,1373,River,2,Poor,89.67,Monthly,Yes,Closed,91.86,No,No,1.9,49.84,Yes,None,166868.29,2.56,2025-07-25,NGO Report,Benjamin Lewis
+373,Chittoor,Joannapalli,56.41,4418,Tap,17,Moderate,79.29,None,Yes,Closed,57.64,Yes,Yes,7.15,33.68,Yes,Swachh Bharat,366423.78,-2.52,2025-04-14,NGO Report,Donna Monroe
+374,East Godavari,Angelapalli,99.46,4988,River,12,Moderate,77.45,Monthly,No,Closed,53.59,No,No,7.12,43.66,No,Jal Jeevan Mission,74141.33,8.81,2025-07-05,NGO Report,Troy Ramirez
+375,YSR Kadapa,Josepalli,43.25,2990,River,22,Good,70.4,None,No,Closed,94.86,Yes,Yes,8.14,43.7,Yes,Swachh Bharat,365719.18,4.39,2025-03-20,NGO Report,Mrs. Theresa Jones
+376,YSR Kadapa,Josephpalli,99.31,1709,River,15,Poor,88.92,Daily,Yes,Closed,98.71,Yes,Yes,1.61,66.08,No,None,222572.51,-6.29,2025-04-27,NGO Report,Tiffany Abbott
+377,Nellore,Paulpalli,54.7,1473,Tap,14,Moderate,51.19,Weekly,No,None,99.56,Yes,No,8.72,75.52,No,None,330065.78,-0.82,2025-07-09,Census,Christina Walker
+378,Chittoor,Rebeccapalli,44.96,4507,Tank,9,Good,71.08,None,No,None,87.27,Yes,No,5.1,75.12,No,Swachh Bharat,289997.32,-7.51,2025-06-15,Census,Mrs. Melanie Wang
+379,West Godavari,Michaelpalli,94.53,4903,Tap,14,Poor,31.38,None,Yes,None,91.86,Yes,Yes,9.67,92.83,Yes,None,350655.79,-9.87,2025-05-02,Govt Survey,Angela Salazar
+380,YSR Kadapa,Priscillapalli,58.86,820,Tap,20,Good,75.68,Daily,No,Open,54.23,Yes,No,3.95,68.11,No,None,10041.93,-2.49,2025-04-14,NGO Report,Carolyn Cunningham
+381,YSR Kadapa,Andreapalli,57.6,4875,River,6,Poor,64.33,Monthly,No,None,76.91,Yes,Yes,6.79,33.13,Yes,Jal Jeevan Mission,79416.99,11.4,2025-04-21,Census,Alec Hall
+382,East Godavari,Patrickpalli,76.13,2269,Tank,13,Moderate,38.99,None,Yes,None,62.75,No,Yes,4.3,35.83,No,None,218418.25,7.36,2025-06-29,NGO Report,John Wood
+383,Guntur,Reginapalli,44.23,2706,Tap,24,Moderate,69.45,Weekly,No,Open,65.82,No,No,0.75,72.25,Yes,Swachh Bharat,71064.4,-7.25,2025-02-18,NGO Report,Rachael Barron
+384,Nellore,Michaelpalli,43.96,1228,Handpump,12,Moderate,40.24,Weekly,No,Open,54.9,Yes,No,9.54,84.79,Yes,Jal Jeevan Mission,267973.08,11.89,2025-03-02,NGO Report,William Dunlap
+385,YSR Kadapa,Christopherpalli,69.38,4833,Handpump,24,Poor,90.58,Monthly,Yes,Open,58.54,No,Yes,3.78,81.89,No,Swachh Bharat,300231.96,-3.52,2025-01-19,NGO Report,Kimberly Cruz
+386,Srikakulam,Markpalli,82.79,1535,Tap,14,Poor,81.48,Daily,No,None,88.88,No,No,2.24,99.04,No,None,150541.63,13.82,2025-04-26,NGO Report,Hayley Navarro
+387,West Godavari,Tammypalli,92.88,2374,Handpump,22,Good,96.32,None,No,Open,81.73,Yes,Yes,9.48,41.56,Yes,Jal Jeevan Mission,374270.63,3.85,2025-04-09,Govt Survey,Joshua Sanchez
+388,YSR Kadapa,Bryanpalli,92.46,3973,Tank,6,Moderate,64.85,Daily,No,Open,80.81,Yes,No,7.17,82.48,Yes,None,333975.31,13.01,2025-03-29,NGO Report,David Hernandez
+389,Vizianagaram,Michaelpalli,76.55,4175,Tap,23,Poor,93.27,Weekly,Yes,Closed,91.97,No,Yes,4.52,56.54,No,Jal Jeevan Mission,175599.71,6.98,2025-03-08,NGO Report,Eileen Blair
+390,YSR Kadapa,Jenniferpalli,91.47,2876,Handpump,17,Moderate,48.53,Daily,No,Open,96.15,Yes,No,8.98,89.38,Yes,Swachh Bharat,12886.64,1.51,2025-08-16,Govt Survey,Deborah Johnson
+391,Kurnool,Jasonpalli,46.43,3364,Tap,14,Moderate,30.62,None,No,Open,54.24,Yes,No,1.68,64.12,Yes,None,132566.03,1.77,2025-05-29,Govt Survey,Katie Robinson
+392,Krishna,Angelapalli,61.87,1992,Tank,10,Good,99.26,None,Yes,Open,67.69,No,Yes,3.91,90.94,Yes,Jal Jeevan Mission,102887.86,-8.99,2025-06-28,Govt Survey,Stephen Torres
+393,Nellore,Stacypalli,84.64,758,Tap,23,Good,96.39,Monthly,Yes,Closed,74.45,No,Yes,3.59,83.51,No,None,365737.33,8.55,2025-01-03,Govt Survey,Cameron Ball
+394,East Godavari,Christinapalli,46.58,1383,Borewell,6,Good,54.09,Daily,Yes,Open,83.92,No,No,9.78,81.62,No,Swachh Bharat,151838.65,2.15,2025-08-04,Govt Survey,Douglas Ritter
+395,Guntur,Jamespalli,77.06,4688,Tap,9,Moderate,83.67,Monthly,Yes,None,91.03,Yes,No,7.21,86.7,Yes,Jal Jeevan Mission,496350.32,4.78,2025-04-20,NGO Report,Dennis Reid
+396,East Godavari,Timothypalli,53.76,1583,River,3,Moderate,99.33,Weekly,No,Open,80.82,Yes,Yes,4.11,66.75,Yes,Jal Jeevan Mission,174727.15,1.98,2025-02-12,NGO Report,Andrew Cannon
+397,Nellore,Jamespalli,78.63,2992,Borewell,10,Moderate,49.64,Monthly,No,Open,65.99,Yes,Yes,0.89,33.65,No,Jal Jeevan Mission,149805.32,-3.0,2025-08-16,NGO Report,Brooke Smith
+398,Chittoor,Jessicapalli,65.85,2566,River,13,Moderate,51.3,Daily,Yes,None,77.59,Yes,No,3.93,86.7,No,Jal Jeevan Mission,328621.69,-4.75,2025-07-28,Govt Survey,Kenneth Garrison
+399,Chittoor,Rebekahpalli,93.23,1568,Tank,5,Good,71.06,Weekly,Yes,None,72.29,Yes,Yes,9.45,73.33,No,None,242357.27,9.02,2025-07-09,NGO Report,Gregory Garcia
+400,West Godavari,Laurenpalli,49.22,1547,Tap,15,Poor,79.81,Monthly,No,Closed,81.49,Yes,No,1.14,59.33,Yes,Jal Jeevan Mission,303585.29,7.42,2025-08-15,Census,Joshua Ward
+401,Krishna,Lynnpalli,42.73,998,Tap,14,Moderate,77.93,Daily,Yes,Closed,87.54,No,No,4.31,49.0,Yes,Jal Jeevan Mission,88401.5,-4.55,2025-07-10,NGO Report,Todd Perez
+402,Anantapur,Katiepalli,92.75,4700,River,18,Poor,80.44,Monthly,No,Open,64.82,No,Yes,2.13,33.19,Yes,Swachh Bharat,29154.43,-6.3,2025-04-17,Govt Survey,Eric Juarez
+403,East Godavari,Kathleenpalli,56.23,922,Tap,8,Poor,38.13,Monthly,No,Closed,54.16,No,Yes,4.38,72.8,No,Jal Jeevan Mission,316718.1,-9.74,2025-04-07,Govt Survey,Donald Kelley
+404,Guntur,Peterpalli,83.83,2791,Tap,10,Good,67.62,Daily,No,None,62.87,Yes,No,2.6,48.82,No,Jal Jeevan Mission,228567.39,8.25,2025-01-24,Govt Survey,Nicholas Jones MD
+405,Kurnool,Trevorpalli,48.9,4424,Borewell,17,Good,62.16,Weekly,Yes,None,74.53,Yes,No,0.7,41.4,Yes,Swachh Bharat,346809.74,-5.3,2025-08-23,Census,Debbie Shelton
+406,Chittoor,Brittneypalli,65.58,4227,River,5,Poor,66.87,Daily,Yes,Closed,69.2,Yes,Yes,7.75,75.11,Yes,Jal Jeevan Mission,131688.04,-7.91,2025-04-17,Census,William Hodge
+407,Vizianagaram,Natashapalli,75.98,576,Borewell,19,Poor,87.28,Daily,Yes,Open,74.02,No,Yes,3.42,63.52,Yes,Jal Jeevan Mission,276327.95,-3.31,2025-05-15,NGO Report,Robyn Stone
+408,Chittoor,Michaelpalli,41.27,864,Borewell,19,Moderate,37.18,None,Yes,Open,95.61,Yes,Yes,4.56,40.32,No,Jal Jeevan Mission,461628.55,7.11,2025-02-24,NGO Report,Hayden Jones
+409,West Godavari,Josepalli,89.37,1420,River,7,Good,45.72,Monthly,No,Open,80.78,Yes,No,9.27,94.39,Yes,None,84040.45,0.72,2025-02-28,Govt Survey,Kevin Carter
+410,Visakhapatnam,Johnpalli,50.88,3983,Tap,23,Poor,51.11,Monthly,No,Open,63.55,No,No,9.36,86.75,Yes,Jal Jeevan Mission,432239.85,14.45,2025-08-11,NGO Report,Laurie Reeves
+411,East Godavari,Bethpalli,59.22,3699,River,17,Good,37.92,None,No,Open,54.52,Yes,Yes,7.79,54.68,No,Swachh Bharat,245831.39,14.32,2025-03-31,NGO Report,Justin Phillips
+412,YSR Kadapa,Brittanypalli,78.2,1632,Tap,14,Moderate,68.45,None,Yes,Closed,54.18,No,Yes,7.18,46.46,Yes,Jal Jeevan Mission,497013.6,-9.57,2025-05-23,NGO Report,Lisa Garcia
+413,Prakasam,Samanthapalli,97.46,1402,Borewell,13,Moderate,89.41,Weekly,No,Closed,57.21,No,Yes,2.5,45.72,Yes,Jal Jeevan Mission,481405.47,7.6,2025-03-17,Govt Survey,Nicole Carroll
+414,West Godavari,Lisapalli,41.58,3979,Handpump,3,Poor,37.42,Daily,No,None,93.52,Yes,Yes,3.97,35.53,Yes,Jal Jeevan Mission,288899.75,10.34,2025-07-08,Census,Sheena Lopez
+415,YSR Kadapa,Amandapalli,50.95,1647,Tank,24,Moderate,62.91,Monthly,No,None,84.76,No,Yes,1.98,91.68,Yes,None,378055.14,2.58,2025-04-05,Census,Rhonda Bennett
+416,Nellore,Melaniepalli,89.96,4221,Tank,24,Moderate,94.34,Monthly,Yes,Closed,96.57,No,Yes,5.45,98.45,Yes,None,113813.48,5.48,2025-02-23,Census,Joshua King
+417,Nellore,Philippalli,51.02,1132,River,17,Moderate,75.69,None,No,Open,52.73,No,No,2.35,37.59,Yes,Swachh Bharat,305563.18,11.17,2025-04-22,Census,Philip Williams
+418,Guntur,Douglaspalli,56.93,4936,Borewell,4,Good,71.8,Monthly,Yes,None,60.09,Yes,Yes,3.06,98.37,Yes,None,493382.05,2.1,2025-07-31,Census,Mitchell Schroeder
+419,Kurnool,Corypalli,45.59,3028,Borewell,13,Moderate,97.11,Weekly,No,Closed,86.28,Yes,Yes,3.65,92.76,Yes,None,405672.22,-6.25,2025-05-19,NGO Report,Ms. Marcia Perez
+420,YSR Kadapa,Meredithpalli,62.93,806,Handpump,7,Good,77.77,Daily,Yes,None,61.58,Yes,Yes,7.8,41.27,No,Swachh Bharat,394822.41,-1.52,2025-05-29,Govt Survey,Marissa Lee
+421,Visakhapatnam,Karapalli,91.36,4029,Borewell,24,Poor,57.13,Weekly,Yes,Open,78.35,No,Yes,8.14,39.98,No,None,435091.5,9.93,2025-02-26,Census,Joshua Soto
+422,Prakasam,Jacobpalli,45.65,3069,Tap,11,Good,34.77,Monthly,No,Open,53.56,No,No,9.87,98.49,No,None,462838.78,13.5,2025-08-12,NGO Report,Lauren Ellis
+423,Prakasam,Sarahpalli,42.38,2848,River,15,Poor,94.2,Weekly,No,Closed,75.62,No,No,1.29,58.92,No,Swachh Bharat,439930.23,14.78,2025-07-13,Census,Jessica Johnson
+424,Visakhapatnam,Nathanpalli,98.65,967,Tap,24,Poor,30.56,Daily,No,Closed,57.91,No,Yes,2.62,91.19,Yes,Swachh Bharat,238280.02,6.06,2025-05-04,Govt Survey,James Miller
+425,Chittoor,Bobbypalli,45.15,1387,River,15,Good,58.11,Daily,No,Closed,99.82,No,Yes,7.17,63.34,No,Swachh Bharat,28758.35,-6.11,2025-05-16,Govt Survey,Jessica Johnson
+426,East Godavari,Jamespalli,78.41,3122,Tank,3,Poor,84.19,Daily,No,Closed,98.93,Yes,Yes,2.51,31.61,No,Swachh Bharat,133514.93,-5.6,2025-01-23,Census,Daniel Turner
+427,Chittoor,Robertpalli,56.43,1169,Handpump,24,Moderate,90.99,Weekly,No,Open,91.53,Yes,No,3.75,82.72,Yes,Jal Jeevan Mission,181145.37,0.48,2025-07-31,Govt Survey,Dr. Jessica Collins DDS
+428,Srikakulam,Samuelpalli,81.33,1816,River,13,Poor,69.92,Daily,Yes,Open,86.14,Yes,No,6.81,87.65,No,Jal Jeevan Mission,83748.08,1.47,2025-04-01,Census,Deborah Evans
+429,Prakasam,Markpalli,91.86,1430,River,10,Poor,80.56,None,Yes,None,72.47,Yes,Yes,2.58,98.53,No,None,277582.25,-5.85,2025-07-24,Govt Survey,Lauren Mcconnell
+430,Guntur,Angelapalli,60.89,2065,Tank,2,Moderate,86.96,Daily,No,Closed,75.1,Yes,No,6.66,61.92,No,Swachh Bharat,182583.5,3.56,2025-06-15,NGO Report,William Warren
+431,YSR Kadapa,Oscarpalli,60.15,1940,River,15,Moderate,42.38,Weekly,No,Closed,64.25,No,No,7.17,95.65,Yes,Jal Jeevan Mission,404910.48,-7.4,2025-07-14,NGO Report,Charles Young
+432,Anantapur,Briannapalli,76.98,3869,Borewell,17,Poor,82.62,Daily,No,None,79.06,Yes,No,8.59,44.83,No,None,196729.12,-5.11,2025-07-15,Govt Survey,Bobby Flores
+433,Chittoor,Sarapalli,61.04,4300,River,22,Poor,84.92,None,Yes,Closed,89.11,No,No,8.86,48.51,No,None,128361.68,12.5,2025-06-16,Govt Survey,Lisa Sharp
+434,Anantapur,Kristinepalli,40.93,1756,Handpump,18,Poor,72.0,Monthly,Yes,None,99.64,Yes,No,2.33,75.11,Yes,None,220260.2,13.48,2025-01-18,Govt Survey,Natasha Brown
+435,West Godavari,Laurenpalli,50.42,3106,Tank,7,Moderate,46.17,Weekly,Yes,None,78.85,No,No,8.45,41.13,No,Jal Jeevan Mission,55694.67,-9.36,2025-04-01,Census,Tony Pineda
+436,Vizianagaram,Robertpalli,86.2,1753,Borewell,21,Poor,68.06,Daily,No,Open,87.12,Yes,No,6.53,84.43,Yes,Jal Jeevan Mission,329736.13,-4.46,2025-01-31,Census,Chelsea Huffman
+437,Srikakulam,Ashleypalli,90.43,3597,Handpump,23,Good,49.25,Weekly,Yes,None,99.24,Yes,Yes,4.86,71.71,Yes,Jal Jeevan Mission,148406.89,12.37,2025-03-19,Census,Jennifer Lee
+438,Chittoor,Christinapalli,69.65,3460,Tap,14,Good,64.37,Daily,No,Open,74.33,Yes,Yes,7.03,56.27,No,None,455068.18,10.21,2025-03-22,Census,Melanie Park
+439,Krishna,Donnapalli,40.61,1963,Tank,22,Poor,89.84,Daily,No,Closed,74.2,Yes,Yes,5.46,47.82,Yes,Jal Jeevan Mission,306994.28,3.4,2025-04-06,NGO Report,Steven Brown
+440,Srikakulam,Nicolepalli,85.66,2271,Handpump,5,Good,32.06,Weekly,Yes,Open,86.39,Yes,No,3.1,43.95,Yes,Swachh Bharat,356960.95,6.3,2025-03-02,Govt Survey,Courtney Harrington
+441,West Godavari,Brettpalli,88.54,4072,Tank,14,Good,47.51,Weekly,No,Closed,55.14,No,Yes,8.04,96.76,No,Swachh Bharat,442600.09,0.59,2025-04-24,NGO Report,Kimberly Curtis
+442,Krishna,Jonathanpalli,88.95,1381,Tank,14,Moderate,43.98,Monthly,No,None,90.97,No,Yes,8.95,97.07,No,None,210806.05,5.1,2025-05-18,NGO Report,Mason Price
+443,Srikakulam,Troypalli,61.14,745,Borewell,7,Moderate,60.06,Weekly,No,Open,53.63,No,No,1.88,52.01,Yes,Swachh Bharat,347263.28,7.92,2025-08-01,Census,Dr. Anthony Reyes MD
+444,Prakasam,Donaldpalli,74.05,3134,Tap,19,Good,56.99,Weekly,Yes,Open,78.05,Yes,No,6.98,60.46,No,Jal Jeevan Mission,106590.39,10.07,2025-07-05,Govt Survey,Alicia Richardson DDS
+445,Anantapur,Peterpalli,99.42,3950,Borewell,5,Moderate,41.98,Monthly,No,Open,78.82,No,Yes,6.61,89.93,Yes,Swachh Bharat,149339.25,11.04,2025-04-19,Govt Survey,Kathryn Baxter
+446,Anantapur,Tiffanypalli,93.75,4821,Borewell,12,Poor,31.14,None,Yes,Closed,86.16,No,No,7.66,58.02,No,Swachh Bharat,310037.12,-0.17,2025-07-27,NGO Report,Jamie Leonard
+447,Prakasam,Beverlypalli,69.6,1494,Handpump,21,Good,32.05,Daily,Yes,Open,55.26,No,No,2.65,36.16,No,None,494886.86,13.35,2025-05-28,Census,Jean Scott
+448,Krishna,Dawnpalli,93.0,852,Borewell,3,Moderate,35.25,Monthly,No,Closed,84.93,Yes,No,1.64,52.35,Yes,None,445021.22,14.15,2025-06-09,Govt Survey,Joshua Stanley
+449,Vizianagaram,Stephenpalli,66.81,1502,Tank,18,Good,70.45,None,No,Closed,88.63,No,Yes,1.37,83.63,Yes,Swachh Bharat,283672.46,11.82,2025-07-05,NGO Report,Joseph Nelson
+450,Vizianagaram,Williampalli,84.12,2186,Borewell,4,Moderate,34.22,Daily,Yes,Closed,90.93,Yes,No,1.49,44.61,No,Swachh Bharat,357171.06,6.38,2025-02-27,NGO Report,Jason Howard
+451,Chittoor,Angelapalli,94.85,2292,Handpump,14,Moderate,90.75,Weekly,No,Open,53.43,No,Yes,7.02,96.6,Yes,Jal Jeevan Mission,235867.52,-7.32,2025-01-29,Census,Todd Robertson
+452,Guntur,Carriepalli,41.0,4275,Tap,10,Good,63.34,None,No,Closed,55.92,Yes,No,4.6,40.54,No,None,173532.36,1.03,2025-08-01,Govt Survey,Jon Mosley
+453,Chittoor,Kerrypalli,42.95,3633,River,8,Moderate,43.26,Weekly,No,None,80.37,No,Yes,6.97,75.24,Yes,Jal Jeevan Mission,66442.07,12.38,2025-05-15,NGO Report,Kristin Howard
+454,Krishna,Jasminepalli,54.33,4859,Borewell,10,Good,91.78,None,No,Closed,55.07,No,No,2.45,85.0,No,None,151116.35,4.91,2025-04-17,NGO Report,Christopher Garcia
+455,Anantapur,Christopherpalli,45.65,4622,Tank,17,Poor,51.37,Weekly,Yes,Closed,84.07,Yes,Yes,3.66,61.87,Yes,None,242554.34,-1.65,2025-02-10,Census,Sean Wilkinson
+456,Krishna,Josephpalli,92.88,1898,Borewell,21,Moderate,97.87,Daily,No,Open,73.63,Yes,Yes,5.89,99.33,Yes,None,256541.77,8.87,2025-06-16,Census,Nathan Morgan
+457,Chittoor,Robertpalli,58.28,3249,River,17,Poor,54.55,Monthly,No,Closed,68.21,Yes,No,3.36,53.36,No,Jal Jeevan Mission,142269.35,2.98,2025-06-28,NGO Report,Matthew Aguirre
+458,Anantapur,Anthonypalli,48.87,3861,Tap,23,Good,55.0,Daily,Yes,None,87.05,No,No,2.46,36.25,No,None,62886.51,-3.15,2025-04-21,NGO Report,Phillip Thompson
+459,Vizianagaram,Bryanpalli,72.69,4180,Tank,7,Moderate,93.72,Monthly,No,Closed,79.46,No,No,2.31,70.57,No,None,70251.02,9.88,2025-05-14,NGO Report,Michael Donaldson
+460,YSR Kadapa,Parkerpalli,87.54,2862,Borewell,2,Moderate,94.91,Weekly,No,None,57.51,No,Yes,3.38,50.18,No,Jal Jeevan Mission,232390.51,-4.57,2025-08-14,NGO Report,Richard Mccarthy
+461,Chittoor,Jeffreypalli,43.19,3005,Borewell,15,Moderate,76.22,Daily,Yes,Closed,56.89,No,Yes,9.56,79.92,Yes,None,106396.43,4.63,2025-08-09,Census,Jennifer Knight
+462,Krishna,Dylanpalli,53.13,4376,Handpump,9,Poor,74.59,None,No,Open,94.65,No,No,2.15,60.51,No,None,78196.42,9.19,2025-03-13,Govt Survey,Thomas Green
+463,East Godavari,Haleypalli,64.98,2134,Handpump,11,Good,50.81,None,Yes,Closed,89.12,No,Yes,1.82,60.93,No,None,468091.11,7.81,2025-02-01,Govt Survey,Mary Williams
+464,Kurnool,Lisapalli,65.66,3944,River,16,Good,93.88,Daily,No,Open,87.79,No,Yes,6.01,56.12,No,Jal Jeevan Mission,380114.23,-0.18,2025-04-20,Govt Survey,Barbara Hall DDS
+465,Vizianagaram,Davidpalli,40.36,4743,River,3,Good,33.83,Daily,No,None,54.87,No,No,7.06,90.5,Yes,None,296462.57,2.77,2025-07-08,NGO Report,Joel Monroe
+466,Anantapur,Donnapalli,82.09,4729,Tap,19,Poor,97.71,Weekly,Yes,None,81.98,Yes,No,6.47,80.34,Yes,Swachh Bharat,315595.32,-4.98,2025-05-12,Census,Kenneth Barnes
+467,Anantapur,Davidpalli,49.18,1491,Tank,5,Good,44.3,None,Yes,None,72.19,Yes,Yes,3.35,63.86,Yes,Jal Jeevan Mission,422443.19,3.67,2025-05-26,NGO Report,Timothy Bryant
+468,Vizianagaram,Jamespalli,66.35,1509,River,6,Poor,31.52,Weekly,Yes,Open,75.58,Yes,No,5.06,50.26,Yes,None,251552.43,6.69,2025-03-22,Govt Survey,John Valentine
+469,Nellore,Michaelpalli,81.86,1379,River,15,Moderate,40.37,Monthly,No,Open,78.21,Yes,No,0.82,75.53,No,Jal Jeevan Mission,454973.09,-1.13,2025-04-02,Census,Alejandro Morris
+470,Prakasam,Chelseapalli,92.95,4254,Handpump,2,Good,55.04,Weekly,No,None,76.25,Yes,Yes,6.73,54.63,No,Swachh Bharat,360439.34,9.67,2025-08-08,Govt Survey,Brian Palmer
+471,YSR Kadapa,Jacobpalli,85.76,2981,River,4,Poor,63.86,None,Yes,None,85.43,No,Yes,7.13,71.22,No,None,312562.76,0.09,2025-05-18,Census,Jeremy Ross
+472,Anantapur,Kimberlypalli,91.12,1803,Tap,5,Poor,37.44,None,No,Open,99.07,Yes,Yes,9.05,42.18,No,Swachh Bharat,461964.14,-8.45,2025-08-05,Govt Survey,Lauren Long
+473,Chittoor,Karlpalli,42.25,1097,River,13,Poor,74.19,Daily,Yes,Closed,55.38,No,No,1.77,74.62,Yes,Jal Jeevan Mission,133722.52,0.94,2025-01-29,Govt Survey,Dana Johnson
+474,Guntur,Heatherpalli,52.07,1827,River,18,Good,36.02,Daily,Yes,Open,51.66,Yes,Yes,3.92,58.56,Yes,Swachh Bharat,100799.13,8.25,2025-03-31,NGO Report,William Woods
+475,Vizianagaram,Brittneypalli,71.69,2057,Tap,20,Moderate,65.06,Monthly,Yes,Open,71.94,No,Yes,5.91,38.9,No,Jal Jeevan Mission,67784.47,-4.24,2025-03-29,NGO Report,Brenda Livingston
+476,Srikakulam,Lindapalli,59.86,2335,Handpump,10,Moderate,79.23,Daily,Yes,Closed,53.74,Yes,No,4.29,33.97,Yes,None,240779.57,12.93,2025-05-26,Govt Survey,Amber Smith
+477,Vizianagaram,Crystalpalli,41.8,3269,River,10,Good,53.42,Daily,Yes,Open,77.35,No,Yes,2.74,35.1,Yes,Swachh Bharat,490717.46,13.75,2025-08-10,NGO Report,Gina Martin
+478,West Godavari,Codypalli,76.75,1160,Tank,17,Good,48.94,Daily,Yes,Open,74.83,Yes,No,4.6,51.24,Yes,Jal Jeevan Mission,466310.8,-9.34,2025-03-19,Census,Susan Fry
+479,Srikakulam,Michaelpalli,76.49,3607,Borewell,19,Moderate,33.65,None,Yes,Closed,85.07,Yes,Yes,4.66,92.8,No,Swachh Bharat,104886.36,0.91,2025-08-01,Census,Nathaniel Allison
+480,Guntur,Thomaspalli,53.92,582,Tap,15,Poor,82.68,Daily,Yes,None,62.5,Yes,Yes,1.04,60.7,No,Jal Jeevan Mission,163921.68,5.06,2025-03-11,Census,Ashley Macias
+481,Krishna,Christopherpalli,47.78,3758,River,23,Good,75.96,Daily,No,None,60.29,No,Yes,4.71,51.19,No,None,153414.87,6.34,2025-08-05,NGO Report,Paul Cooper
+482,Krishna,Peterpalli,59.13,4935,Tank,5,Good,54.26,None,No,Closed,53.92,Yes,Yes,3.4,68.71,Yes,Swachh Bharat,365206.27,9.7,2025-03-18,Census,Peter Shaw DVM
+483,Guntur,Johnpalli,81.9,4217,Borewell,2,Moderate,88.54,Monthly,No,None,69.21,Yes,Yes,3.15,72.68,No,Jal Jeevan Mission,432758.68,-0.38,2025-03-23,Census,Teresa Newman
+484,Guntur,Amberpalli,52.34,2010,River,19,Good,76.23,Daily,No,Open,95.5,No,No,8.2,71.37,Yes,Swachh Bharat,365635.28,5.54,2025-06-04,Govt Survey,Edward Griffin
+485,YSR Kadapa,Jasonpalli,83.75,967,Borewell,19,Moderate,96.67,Monthly,No,Closed,78.63,No,Yes,9.62,62.71,Yes,Jal Jeevan Mission,454779.17,-2.98,2025-04-20,NGO Report,Pamela Wells
+486,Krishna,Kylepalli,45.13,2547,Tank,11,Moderate,69.98,Daily,No,Closed,63.44,No,Yes,1.68,69.79,No,Swachh Bharat,425320.41,1.1,2025-05-27,Census,Elizabeth Reid
+487,Prakasam,Marcuspalli,40.53,803,Handpump,17,Poor,89.1,Weekly,No,Open,78.98,Yes,No,9.02,68.6,Yes,Swachh Bharat,98103.92,9.15,2025-07-23,Govt Survey,Harold Jordan
+488,Krishna,Deborahpalli,92.14,1542,Tap,22,Good,40.28,Daily,Yes,Open,82.73,Yes,No,6.01,32.94,Yes,Jal Jeevan Mission,476334.86,14.8,2025-03-21,Govt Survey,Charles Bates
+489,Anantapur,Cynthiapalli,80.7,3394,Tank,24,Good,72.04,Monthly,Yes,Open,75.35,Yes,Yes,2.75,52.81,No,None,213825.14,6.05,2025-03-13,Govt Survey,Jordan Chapman
+490,East Godavari,Kevinpalli,41.48,3451,Handpump,15,Poor,56.23,Monthly,Yes,Open,68.42,No,Yes,9.16,31.79,Yes,Swachh Bharat,260290.11,9.52,2025-01-22,NGO Report,Paul Mitchell
+491,YSR Kadapa,Randypalli,74.89,3318,Tap,14,Poor,32.28,Weekly,No,None,53.92,Yes,Yes,5.87,99.85,No,None,369192.37,11.19,2025-05-24,NGO Report,Sandra Graham
+492,YSR Kadapa,Robertpalli,43.09,4369,Tank,18,Moderate,52.19,Weekly,No,Open,66.43,No,Yes,4.83,82.37,Yes,None,128112.77,8.32,2025-05-13,Govt Survey,Kenneth Cross
+493,Kurnool,Carriepalli,44.78,4642,Borewell,13,Poor,63.89,Weekly,No,Closed,61.49,Yes,Yes,7.88,58.53,Yes,None,137536.69,-2.83,2025-01-30,Govt Survey,Jose Shepherd
+494,Chittoor,Anitapalli,44.89,3949,Tank,6,Poor,64.59,Weekly,Yes,Closed,50.78,Yes,No,3.0,68.82,No,None,59487.73,11.74,2025-03-04,Govt Survey,Christopher Bennett
+495,Anantapur,Jerrypalli,81.4,1098,Tap,18,Poor,94.3,None,No,Open,70.12,Yes,No,1.63,92.82,No,None,308291.15,-7.31,2025-03-18,NGO Report,Alejandro Avila
+496,Anantapur,Johnpalli,44.43,3407,River,15,Poor,61.48,None,No,Closed,85.01,Yes,Yes,1.95,30.54,No,None,328208.33,-0.52,2025-01-08,Govt Survey,David Wheeler
+497,East Godavari,Victorpalli,70.52,2788,Borewell,9,Moderate,64.53,Daily,No,Closed,66.14,No,Yes,9.56,32.94,Yes,Swachh Bharat,264376.14,4.38,2025-05-14,NGO Report,Madison Flores
+498,Kurnool,Blakepalli,45.97,2833,Tap,5,Moderate,49.17,None,Yes,Open,64.42,No,Yes,9.28,76.65,Yes,Jal Jeevan Mission,111353.12,10.97,2025-01-20,Census,Diane Smith
+499,Anantapur,Emilypalli,75.9,825,Tank,19,Good,30.47,Daily,No,Open,64.09,No,No,5.45,88.17,No,Jal Jeevan Mission,360962.95,12.98,2025-07-26,Census,Harry Medina
+500,Prakasam,Josephpalli,93.33,4540,Handpump,4,Good,99.52,Daily,No,Open,87.21,Yes,Yes,3.61,65.49,No,Swachh Bharat,319005.73,2.82,2025-06-15,Census,Jordan Harris

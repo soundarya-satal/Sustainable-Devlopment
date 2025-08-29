@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+  <div class="signin-container">
+    <div class="signin-box">
+      <h1 class="signin-title">Welcome Back</h1>
+      <p class="signin-subtitle">Please sign in to continue</p>
+
+      <form id="signinForm">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password">
+        </div>
+
+        <button type="submit" class="signin-btn">Sign In</button>
+
+        <p class="signup-link">
+          Don’t have an account? SingUp
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // Dummy login: always succeeds
+    document.getElementById("signinForm").addEventListener("submit", function(e) {
+      e.preventDefault(); // stop form refresh
+      // Redirect to dashboard.html no matter what is entered
+      window.location.href = "index.html";
+    });
+  </script>
+</body>
+</html>
+

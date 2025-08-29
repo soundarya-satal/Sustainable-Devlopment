@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Road Connectivity - Village360</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="road-connectivity.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+  <div class="category-detail">
+    <header class="page-header">
+      <h1><i class="fas fa-road"></i> Road Connectivity</h1>
+      <p>Track and compare road connectivity metrics across villages</p>
+    </header>
+
+    <!-- Village Selector -->
+    <div class="village-selector card">
+      <label for="village-select">Select your village:</label>
+      <div class="select-wrapper">
+        <select id="village-select">
+          <option value="">--Select Village--</option>
+          <!-- Villages will be populated via JavaScript -->
+        </select>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+
+    <!-- Main Dashboard -->
+    <div class="dashboard">
+      <!-- Score Card -->
+      <div class="score-card card">
+        <h2>Road Connectivity Score</h2>
+        <div class="score-display" id="score-display">
+          <div class="score-circle">
+            <span id="score-value">--</span>
+            <small>out of 100</small>
+          </div>
+        </div>
+        <div class="score-status" id="score-status">
+          <p>Select a village to see road connectivity status</p>
+        </div>
+      </div>
+
+      <!-- Main Chart -->
+      <div class="chart-container card">
+        <h2>Road Connectivity Metrics</h2>
+        <div class="chart-wrapper">
+          <canvas id="roadChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Metrics Breakdown -->
+    <div class="metrics-breakdown card">
+      <h2>Detailed Metrics</h2>
+      <div class="metrics-grid" id="metrics-grid">
+        <!-- Metrics will be populated via JavaScript -->
+      </div>
+    </div>
+
+    <!-- Comparison Tool -->
+    <div class="comparison-tool card">
+      <h2><i class="fas fa-compress-alt"></i> Compare Villages</h2>
+      <div class="comparison-selectors">
+        <div class="select-group">
+          <label for="compare-village-1">Village 1:</label>
+          <select id="compare-village-1">
+            <option value="">--Select Village--</option>
+            <!-- Villages will be populated via JavaScript -->
+          </select>
+        </div>
+        <div class="select-group">
+          <label for="compare-village-2">Village 2:</label>
+          <select id="compare-village-2">
+            <option value="">--Select Village--</option>
+            <!-- Villages will be populated via JavaScript -->
+          </select>
+        </div>
+        <button id="compare-btn" class="btn-primary">
+          <i class="fas fa-exchange-alt"></i> Compare
+        </button>
+      </div>
+      <div class="comparison-results" id="comparison-results">
+        <p class="placeholder">Select two villages to compare their road connectivity</p>
+      </div>
+    </div>
+
+    <!-- Recommendations -->
+    <div class="recommendations card">
+      <h2><i class="fas fa-lightbulb"></i> Improvement Recommendations</h2>
+      <div class="recommendations-content" id="recommendations-content">
+        <p class="placeholder">Select a village to see improvement recommendations</p>
+      </div>
+    </div>
+
+    <!-- Action Plan -->
+    <div class="action-plan card">
+      <h2><i class="fas fa-tasks"></i> Suggested Action Plan</h2>
+      <div class="timeline" id="action-timeline">
+        <p class="placeholder">Select a village to see the action plan</p>
+      </div>
+    </div>
+
+    <div class="navigation">
+      <a href="../management/index.html" class="back-btn">
+        <i class="fas fa-arrow-left"></i> Back to Dashboard
+      </a>
+      <button id="download-report" class="btn-secondary">
+        <i class="fas fa-download"></i> Download Report
+      </button>
+    </div>
+  </div>
+
+  <script src="road-connectivity.js"></script>
+</body>
+</html>

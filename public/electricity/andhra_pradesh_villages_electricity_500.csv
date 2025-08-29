@@ -1,0 +1,501 @@
+Village_Code,District,Village_Name,Electricity_Access_Percent,Street_Lighting_Percent,Average_Hours_Power_Supply,Transformer_Count,Solar_Power_Implemented,Electricity_Metering_Percent,Power_Outage_Frequency,Recent_Upgrades,Last_Updated,Data_Source,Verified_By
+1,Chittoor,Charlespalli,87,59,19.681985292966754,10,Partial,98,Moderate,Yes,2025-08-11,State Electricity Board,Gram Panchayat Officer
+2,East Godavari,Nicolepalli,75,60,18.845479649446542,8,No,96,High,Yes,2025-08-10,State Electricity Board,District Engineer
+3,Vizianagaram,Scottpalli,95,95,23.28984868507251,5,Partial,91,Moderate,Yes,2025-08-21,State Electricity Board,Independent Auditor
+4,Krishna,Tinapalli,81,93,19.76189086017825,8,Yes,90,Moderate,Yes,2025-08-24,State Electricity Board,Independent Auditor
+5,YSR Kadapa,Tiffanypalli,74,58,23.06738452030615,6,No,80,High,Yes,2025-07-25,State Electricity Board,Independent Auditor
+6,Visakhapatnam,Triciapalli,71,54,21.792709591953386,4,Partial,90,Moderate,No,2025-07-25,State Electricity Board,District Engineer
+7,Kurnool,Adampalli,84,60,19.267632715133466,3,No,95,Low,Yes,2025-07-26,State Electricity Board,Independent Auditor
+8,Visakhapatnam,Alexandrapalli,89,70,23.324544968655086,5,Yes,81,Low,No,2025-08-08,State Electricity Board,Independent Auditor
+9,Prakasam,Amandapalli,100,83,19.096609316509266,5,Partial,94,Low,Yes,2025-08-20,State Electricity Board,Gram Panchayat Officer
+10,Kurnool,Jamespalli,72,74,23.64958508017482,9,No,80,Moderate,Yes,2025-08-23,State Electricity Board,Gram Panchayat Officer
+11,Kurnool,Janepalli,100,85,21.848882527560665,1,Yes,83,High,No,2025-08-24,State Electricity Board,Independent Auditor
+12,West Godavari,Robertpalli,75,79,23.315451479282782,2,Partial,82,Moderate,Yes,2025-08-11,State Electricity Board,District Engineer
+13,Prakasam,Kimberlypalli,93,52,22.463209049227565,4,No,81,High,Yes,2025-08-18,State Electricity Board,District Engineer
+14,Kurnool,Jessicapalli,71,79,18.425281039312274,7,Partial,90,High,Yes,2025-08-24,State Electricity Board,Gram Panchayat Officer
+15,Prakasam,Sarahpalli,78,94,22.979862614928525,2,Partial,98,Moderate,No,2025-08-02,State Electricity Board,Gram Panchayat Officer
+16,East Godavari,Alexanderpalli,77,91,18.845095476394093,10,Partial,94,Moderate,Yes,2025-07-28,State Electricity Board,Gram Panchayat Officer
+17,Nellore,Alyssapalli,81,58,21.57106761293519,5,No,83,Moderate,Yes,2025-07-25,State Electricity Board,Independent Auditor
+18,Krishna,Dustinpalli,95,96,21.088022407547925,3,No,86,Moderate,Yes,2025-08-18,State Electricity Board,Independent Auditor
+19,Anantapur,Michellepalli,94,54,18.213130038581056,6,Yes,84,Moderate,No,2025-08-17,State Electricity Board,Independent Auditor
+20,YSR Kadapa,Karenpalli,75,54,20.809632400828683,5,Yes,91,Moderate,No,2025-08-08,State Electricity Board,District Engineer
+21,Srikakulam,Patrickpalli,80,59,20.524061167088433,1,No,88,High,No,2025-08-23,State Electricity Board,Independent Auditor
+22,Prakasam,Manuelpalli,83,78,19.162536826206118,9,Yes,88,Moderate,Yes,2025-08-07,State Electricity Board,Gram Panchayat Officer
+23,Prakasam,Katiepalli,100,61,19.907516947397674,4,No,100,Moderate,No,2025-07-26,State Electricity Board,District Engineer
+24,Nellore,Shannonpalli,87,53,19.985089942842386,1,No,94,Moderate,Yes,2025-08-12,State Electricity Board,Gram Panchayat Officer
+25,Guntur,Kevinpalli,84,89,20.013381258507337,2,No,92,Low,Yes,2025-08-06,State Electricity Board,District Engineer
+26,Visakhapatnam,Kerrypalli,93,50,21.56439972075884,9,No,90,Low,Yes,2025-08-09,State Electricity Board,Independent Auditor
+27,West Godavari,Courtneypalli,92,69,22.38371922198935,10,Yes,87,Low,Yes,2025-08-21,State Electricity Board,Gram Panchayat Officer
+28,Guntur,Timothypalli,94,82,23.648422720487424,2,Partial,80,Low,No,2025-07-30,State Electricity Board,Gram Panchayat Officer
+29,Anantapur,Jonathanpalli,92,78,22.09186297904246,1,Partial,85,Low,Yes,2025-08-12,State Electricity Board,Independent Auditor
+30,Chittoor,Kimberlypalli,89,73,23.516263525209183,6,No,82,High,Yes,2025-08-24,State Electricity Board,District Engineer
+31,Vizianagaram,Rebeccapalli,91,58,19.093445305723133,6,Partial,91,Low,Yes,2025-08-19,State Electricity Board,Gram Panchayat Officer
+32,Anantapur,Kylepalli,94,94,23.513837146048573,2,No,83,Moderate,Yes,2025-07-28,State Electricity Board,Independent Auditor
+33,Nellore,Michellepalli,99,61,23.439033592276623,6,Partial,98,Moderate,No,2025-08-04,State Electricity Board,Independent Auditor
+34,Prakasam,Melindapalli,80,52,20.628370118849855,1,No,83,Moderate,Yes,2025-07-28,State Electricity Board,District Engineer
+35,Visakhapatnam,Johnpalli,84,88,21.304467203446514,6,Partial,98,High,No,2025-08-04,State Electricity Board,District Engineer
+36,Nellore,Kelseypalli,99,64,21.998562399342482,2,Yes,80,Moderate,No,2025-07-25,State Electricity Board,Independent Auditor
+37,Visakhapatnam,Dalepalli,89,63,23.819008349063804,1,Yes,98,Low,Yes,2025-08-16,State Electricity Board,Gram Panchayat Officer
+38,West Godavari,Kimberlypalli,74,52,23.26972126429586,7,Yes,96,High,No,2025-08-22,State Electricity Board,District Engineer
+39,Srikakulam,Josephpalli,87,69,21.76116597414453,2,Yes,100,Moderate,Yes,2025-07-25,State Electricity Board,Independent Auditor
+40,East Godavari,Kimberlypalli,81,72,22.559791166337256,4,No,98,Moderate,Yes,2025-08-23,State Electricity Board,Gram Panchayat Officer
+41,Krishna,Billypalli,82,54,18.199545982151847,7,No,98,High,Yes,2025-08-04,State Electricity Board,District Engineer
+42,Krishna,Pamelapalli,82,86,20.570839000176097,9,Yes,82,High,No,2025-08-02,State Electricity Board,Gram Panchayat Officer
+43,Chittoor,Randypalli,85,66,18.264532988293197,4,No,96,Moderate,Yes,2025-08-02,State Electricity Board,District Engineer
+44,Nellore,Zacharypalli,91,62,21.421655990851434,5,No,98,High,No,2025-07-28,State Electricity Board,District Engineer
+45,Chittoor,Susanpalli,70,50,20.355783037429,8,No,85,Moderate,No,2025-08-24,State Electricity Board,District Engineer
+46,East Godavari,Amandapalli,75,90,20.08763309546302,1,Yes,95,Low,No,2025-08-14,State Electricity Board,Gram Panchayat Officer
+47,YSR Kadapa,Wesleypalli,74,75,19.101869357490646,2,No,97,Moderate,Yes,2025-08-06,State Electricity Board,District Engineer
+48,Nellore,Danielpalli,90,61,21.968948764220997,10,Partial,84,Low,Yes,2025-08-15,State Electricity Board,Gram Panchayat Officer
+49,Visakhapatnam,Jenniferpalli,97,56,18.418464035476745,1,Partial,81,High,No,2025-07-29,State Electricity Board,Independent Auditor
+50,Nellore,Paigepalli,71,72,19.465711757791873,9,Partial,93,High,No,2025-08-17,State Electricity Board,District Engineer
+51,Srikakulam,Jocelynpalli,74,57,18.53031748759863,7,No,87,Low,Yes,2025-08-15,State Electricity Board,Independent Auditor
+52,Srikakulam,Codypalli,80,79,20.00449797902571,10,Partial,97,Moderate,No,2025-07-28,State Electricity Board,Independent Auditor
+53,Kurnool,Robertpalli,97,61,18.52636104096436,10,Partial,98,Moderate,No,2025-08-19,State Electricity Board,Gram Panchayat Officer
+54,Krishna,Amberpalli,71,64,23.71950753822167,4,No,85,Low,Yes,2025-08-10,State Electricity Board,Gram Panchayat Officer
+55,Krishna,Dianepalli,81,83,19.119231644767716,5,No,94,Low,Yes,2025-08-24,State Electricity Board,Gram Panchayat Officer
+56,Vizianagaram,Josephpalli,73,55,22.806918621551347,3,Yes,97,Low,Yes,2025-08-18,State Electricity Board,Gram Panchayat Officer
+57,Chittoor,Victorpalli,92,60,18.593847944454918,10,Partial,85,Low,No,2025-07-26,State Electricity Board,Independent Auditor
+58,Vizianagaram,Timothypalli,95,57,21.13352383253801,8,Partial,80,High,No,2025-08-06,State Electricity Board,District Engineer
+59,Kurnool,Glennpalli,83,56,22.636815329435372,9,No,86,High,No,2025-08-14,State Electricity Board,Independent Auditor
+60,Visakhapatnam,Shannonpalli,87,55,22.381980147445557,6,Partial,94,High,No,2025-08-19,State Electricity Board,Independent Auditor
+61,Kurnool,Katiepalli,92,56,20.29031849902926,9,Yes,81,Moderate,Yes,2025-08-09,State Electricity Board,Independent Auditor
+62,Vizianagaram,Debbiepalli,94,94,21.623243310663703,4,Yes,97,Moderate,Yes,2025-08-08,State Electricity Board,Independent Auditor
+63,Srikakulam,Toddpalli,85,61,22.822234936463737,5,No,89,Low,Yes,2025-08-08,State Electricity Board,District Engineer
+64,Anantapur,Bettypalli,75,96,22.523956528757754,3,Yes,81,Low,Yes,2025-08-05,State Electricity Board,Gram Panchayat Officer
+65,West Godavari,Jasonpalli,87,58,21.751632344422692,4,Yes,84,Low,No,2025-08-22,State Electricity Board,Gram Panchayat Officer
+66,Vizianagaram,Toddpalli,78,81,23.924417910520482,4,Partial,84,High,Yes,2025-08-22,State Electricity Board,Gram Panchayat Officer
+67,Nellore,Nicolepalli,100,73,21.463645961989915,4,Partial,80,High,Yes,2025-08-01,State Electricity Board,Independent Auditor
+68,YSR Kadapa,Davidpalli,93,50,18.7654840366296,4,Yes,88,High,Yes,2025-08-17,State Electricity Board,District Engineer
+69,East Godavari,Timothypalli,74,95,20.633440129370705,6,Yes,83,Low,No,2025-08-02,State Electricity Board,District Engineer
+70,West Godavari,Nicolepalli,71,99,22.555824330328825,9,Yes,93,Moderate,Yes,2025-08-11,State Electricity Board,Gram Panchayat Officer
+71,Krishna,Anthonypalli,82,62,18.017315030791547,1,No,99,Low,No,2025-08-10,State Electricity Board,Gram Panchayat Officer
+72,Prakasam,Glendapalli,81,75,23.41856018831859,2,Partial,97,Low,Yes,2025-07-31,State Electricity Board,District Engineer
+73,East Godavari,Justinpalli,91,51,21.910567678298015,10,Yes,93,High,Yes,2025-08-09,State Electricity Board,Gram Panchayat Officer
+74,Vizianagaram,Haroldpalli,82,88,18.24525980028215,3,Partial,96,Low,Yes,2025-07-25,State Electricity Board,District Engineer
+75,Visakhapatnam,Emilypalli,78,65,23.05288114988927,9,No,82,High,No,2025-08-12,State Electricity Board,District Engineer
+76,Prakasam,Sarahpalli,74,86,18.48695919520222,4,Yes,93,Moderate,Yes,2025-08-08,State Electricity Board,District Engineer
+77,Guntur,Tracipalli,81,75,21.343080277061375,6,No,92,Moderate,Yes,2025-08-12,State Electricity Board,District Engineer
+78,Kurnool,Nicholaspalli,92,75,23.579169324918315,2,Partial,96,Moderate,No,2025-08-13,State Electricity Board,District Engineer
+79,Anantapur,Jonathanpalli,79,87,19.72163834179057,5,No,100,Low,No,2025-07-25,State Electricity Board,Gram Panchayat Officer
+80,Kurnool,Samanthapalli,82,62,22.109146862007805,10,Yes,87,High,No,2025-08-13,State Electricity Board,District Engineer
+81,Krishna,Patriciapalli,79,91,21.627110453408754,3,No,86,Low,Yes,2025-08-12,State Electricity Board,District Engineer
+82,Chittoor,Jacobpalli,83,57,18.530757902362243,3,No,86,Moderate,Yes,2025-07-26,State Electricity Board,Independent Auditor
+83,Nellore,Tinapalli,80,91,21.328831569645985,6,No,84,Low,Yes,2025-08-07,State Electricity Board,Independent Auditor
+84,Kurnool,Joshuapalli,85,88,23.702226058568506,10,Yes,99,Moderate,Yes,2025-08-04,State Electricity Board,District Engineer
+85,Nellore,Adampalli,93,69,23.444639227717843,2,Partial,99,High,No,2025-08-16,State Electricity Board,District Engineer
+86,Prakasam,Pamelapalli,76,85,20.033012858256605,4,Yes,89,Moderate,Yes,2025-07-27,State Electricity Board,Gram Panchayat Officer
+87,Chittoor,Kevinpalli,91,53,20.18802302472124,4,Yes,87,Moderate,Yes,2025-07-25,State Electricity Board,District Engineer
+88,Vizianagaram,Cherylpalli,95,94,19.445313784966544,2,Partial,91,High,No,2025-08-12,State Electricity Board,District Engineer
+89,Chittoor,Karenpalli,81,96,19.602457092842233,8,Partial,92,High,No,2025-08-09,State Electricity Board,Gram Panchayat Officer
+90,Krishna,Frankpalli,95,79,20.408259790546886,5,Partial,100,Moderate,Yes,2025-08-13,State Electricity Board,District Engineer
+91,Anantapur,Matthewpalli,83,73,21.38590601707346,5,No,92,High,No,2025-07-25,State Electricity Board,District Engineer
+92,West Godavari,Carolpalli,83,63,23.43566864492106,3,Yes,85,Moderate,No,2025-08-13,State Electricity Board,District Engineer
+93,West Godavari,Markpalli,87,94,23.44955237245199,10,No,99,Moderate,Yes,2025-07-29,State Electricity Board,Gram Panchayat Officer
+94,West Godavari,Derekpalli,75,98,20.394605737743284,3,No,91,High,No,2025-08-12,State Electricity Board,Gram Panchayat Officer
+95,YSR Kadapa,Josephpalli,97,78,19.090343137659506,4,Yes,94,Moderate,Yes,2025-08-17,State Electricity Board,Gram Panchayat Officer
+96,Kurnool,Anthonypalli,94,95,21.53100791516747,2,No,85,Moderate,Yes,2025-07-26,State Electricity Board,Gram Panchayat Officer
+97,YSR Kadapa,Stephaniepalli,71,92,23.721941661750016,9,Partial,86,Low,Yes,2025-07-25,State Electricity Board,Gram Panchayat Officer
+98,Vizianagaram,Lisapalli,96,57,19.805984561596134,6,No,86,High,Yes,2025-08-10,State Electricity Board,Independent Auditor
+99,Nellore,Jorgepalli,83,64,21.946712885960334,8,Yes,83,High,Yes,2025-08-24,State Electricity Board,Independent Auditor
+100,East Godavari,Vanessapalli,90,93,22.38522385606089,8,Partial,91,Low,Yes,2025-07-26,State Electricity Board,District Engineer
+101,Prakasam,Amberpalli,72,73,22.379336783989494,8,Yes,97,Moderate,No,2025-08-19,State Electricity Board,District Engineer
+102,West Godavari,Jeffpalli,81,92,19.67616090502401,3,No,96,Moderate,No,2025-08-16,State Electricity Board,Independent Auditor
+103,Prakasam,Robertpalli,90,93,20.988331901219908,2,No,86,High,Yes,2025-07-28,State Electricity Board,Independent Auditor
+104,Visakhapatnam,Jonpalli,99,93,18.151890442885502,9,No,90,High,Yes,2025-08-17,State Electricity Board,Gram Panchayat Officer
+105,Krishna,Richardpalli,84,78,18.792341287909657,7,No,90,Moderate,Yes,2025-08-18,State Electricity Board,Gram Panchayat Officer
+106,Srikakulam,Calvinpalli,70,57,19.67194407780588,1,Partial,81,High,No,2025-07-29,State Electricity Board,District Engineer
+107,Krishna,Jamespalli,96,78,23.59457416252836,2,Yes,91,Moderate,Yes,2025-08-23,State Electricity Board,District Engineer
+108,Krishna,Marissapalli,99,59,20.903069608941742,3,Partial,84,Low,No,2025-08-19,State Electricity Board,Gram Panchayat Officer
+109,Chittoor,Mitchellpalli,84,92,23.08009126538171,4,Yes,93,Low,No,2025-08-17,State Electricity Board,Independent Auditor
+110,Anantapur,Robertpalli,92,100,18.74050738375959,4,No,96,High,Yes,2025-08-09,State Electricity Board,District Engineer
+111,Anantapur,Michaelpalli,99,52,19.190756907535633,4,No,99,Moderate,No,2025-08-02,State Electricity Board,District Engineer
+112,YSR Kadapa,Nicholaspalli,86,99,20.344592534423334,1,Partial,100,Low,No,2025-07-30,State Electricity Board,District Engineer
+113,Kurnool,Sarahpalli,81,58,22.31481896520535,10,No,86,Low,Yes,2025-08-19,State Electricity Board,District Engineer
+114,East Godavari,Alexispalli,90,94,22.625146946967313,8,Yes,99,Low,Yes,2025-08-24,State Electricity Board,Gram Panchayat Officer
+115,East Godavari,Amandapalli,81,80,22.147139341838333,4,No,87,Low,Yes,2025-08-11,State Electricity Board,Gram Panchayat Officer
+116,West Godavari,Douglaspalli,72,82,20.1000484215614,1,No,92,Low,Yes,2025-08-07,State Electricity Board,Gram Panchayat Officer
+117,Kurnool,Jamespalli,71,82,19.124625312794297,10,No,83,High,Yes,2025-07-29,State Electricity Board,District Engineer
+118,Vizianagaram,Melaniepalli,82,52,18.59202173415539,8,Yes,84,Moderate,Yes,2025-08-13,State Electricity Board,Independent Auditor
+119,YSR Kadapa,Crystalpalli,97,85,19.333568255288082,9,Partial,97,High,Yes,2025-08-02,State Electricity Board,District Engineer
+120,Guntur,Michellepalli,100,81,21.99732384653788,7,Partial,88,High,No,2025-07-31,State Electricity Board,Gram Panchayat Officer
+121,East Godavari,Bradleypalli,85,62,19.94587108981384,5,Yes,84,Low,Yes,2025-08-02,State Electricity Board,District Engineer
+122,Guntur,Kylepalli,74,60,23.51785588467438,9,Yes,100,Low,No,2025-08-16,State Electricity Board,District Engineer
+123,Nellore,Brendapalli,81,85,23.942337185309214,10,Yes,100,Low,Yes,2025-08-01,State Electricity Board,Gram Panchayat Officer
+124,Vizianagaram,Melindapalli,82,53,20.26216163559439,10,No,86,Moderate,Yes,2025-07-27,State Electricity Board,Gram Panchayat Officer
+125,Visakhapatnam,Sarahpalli,77,90,22.74213475236564,8,Yes,82,High,Yes,2025-08-07,State Electricity Board,District Engineer
+126,Chittoor,Lisapalli,78,75,22.102045243664804,8,No,83,Low,Yes,2025-08-09,State Electricity Board,Independent Auditor
+127,Vizianagaram,Russellpalli,80,64,23.14063111955928,5,Yes,100,High,No,2025-08-20,State Electricity Board,District Engineer
+128,East Godavari,Jakepalli,98,92,18.43042258410535,7,Yes,92,High,Yes,2025-08-08,State Electricity Board,Gram Panchayat Officer
+129,Chittoor,Juliapalli,91,75,19.37543162275451,8,Partial,91,Moderate,Yes,2025-08-14,State Electricity Board,Independent Auditor
+130,East Godavari,Tracypalli,78,100,20.856863381491582,6,No,88,High,Yes,2025-07-30,State Electricity Board,District Engineer
+131,Chittoor,Brettpalli,99,90,21.958129408983563,6,Yes,93,High,No,2025-08-22,State Electricity Board,District Engineer
+132,Kurnool,Yolandapalli,88,99,23.509871974880863,6,No,93,Moderate,Yes,2025-08-06,State Electricity Board,Independent Auditor
+133,Vizianagaram,Lisapalli,72,86,22.32537913513073,10,Yes,98,Moderate,No,2025-08-07,State Electricity Board,Gram Panchayat Officer
+134,Srikakulam,Melissapalli,81,61,18.361188745967763,1,Yes,80,Moderate,Yes,2025-08-11,State Electricity Board,District Engineer
+135,West Godavari,Taylorpalli,91,50,18.426723880592704,8,Yes,84,High,Yes,2025-08-20,State Electricity Board,Gram Panchayat Officer
+136,East Godavari,Briannapalli,72,62,21.429441746040474,7,Partial,92,Moderate,No,2025-08-12,State Electricity Board,District Engineer
+137,Srikakulam,Jonathanpalli,88,83,20.847398812276992,2,Yes,93,Moderate,No,2025-08-17,State Electricity Board,District Engineer
+138,Srikakulam,Andrewpalli,95,88,23.910539780728126,3,Yes,94,High,No,2025-08-03,State Electricity Board,District Engineer
+139,Visakhapatnam,Lancepalli,84,71,22.172717239414556,9,Partial,99,Moderate,No,2025-08-13,State Electricity Board,District Engineer
+140,Vizianagaram,Jamespalli,96,90,23.615816304445485,10,Partial,89,Low,Yes,2025-08-05,State Electricity Board,District Engineer
+141,Kurnool,Donaldpalli,90,99,20.29338742772411,5,Yes,80,High,No,2025-08-19,State Electricity Board,District Engineer
+142,Visakhapatnam,Melissapalli,73,59,18.274084128076115,2,Partial,82,Moderate,Yes,2025-07-31,State Electricity Board,Gram Panchayat Officer
+143,Visakhapatnam,Shellypalli,85,74,19.633724659376767,5,Partial,100,Moderate,No,2025-08-09,State Electricity Board,District Engineer
+144,Vizianagaram,Reneepalli,92,53,18.00714366765084,7,Partial,94,Moderate,No,2025-08-15,State Electricity Board,Independent Auditor
+145,Guntur,Johnpalli,91,98,20.61155062152796,7,No,98,Moderate,No,2025-07-26,State Electricity Board,Gram Panchayat Officer
+146,YSR Kadapa,Davidpalli,98,55,20.518737531433214,4,No,91,Moderate,Yes,2025-08-16,State Electricity Board,Gram Panchayat Officer
+147,West Godavari,Jessicapalli,71,51,20.44023626644599,6,No,87,Moderate,Yes,2025-08-23,State Electricity Board,Independent Auditor
+148,Prakasam,Bryanpalli,93,74,23.85030896689294,10,No,99,Low,No,2025-08-10,State Electricity Board,District Engineer
+149,Visakhapatnam,Robertpalli,73,90,21.392595901343547,6,Yes,98,High,No,2025-08-17,State Electricity Board,Gram Panchayat Officer
+150,Chittoor,Sheilapalli,76,53,22.16832895745166,10,No,80,Low,No,2025-08-13,State Electricity Board,District Engineer
+151,Prakasam,Sharonpalli,75,83,18.966613656103874,7,Partial,86,Moderate,No,2025-08-17,State Electricity Board,District Engineer
+152,Prakasam,Margaretpalli,97,70,21.68448911413465,9,Partial,97,High,No,2025-08-05,State Electricity Board,Gram Panchayat Officer
+153,West Godavari,Mauricepalli,81,68,20.48368503112163,7,Yes,89,Moderate,No,2025-07-28,State Electricity Board,Gram Panchayat Officer
+154,YSR Kadapa,Denisepalli,93,64,19.844349311696142,5,Yes,89,High,Yes,2025-08-12,State Electricity Board,Independent Auditor
+155,Vizianagaram,Thomaspalli,99,88,21.534529577698773,10,Yes,88,Moderate,No,2025-08-15,State Electricity Board,District Engineer
+156,West Godavari,Emilypalli,88,67,23.262440550770663,5,Yes,96,High,Yes,2025-08-20,State Electricity Board,District Engineer
+157,Vizianagaram,Jenniferpalli,71,87,19.96912803503145,7,Yes,99,High,No,2025-08-01,State Electricity Board,District Engineer
+158,Visakhapatnam,Scottpalli,88,92,22.905434513085126,9,Partial,88,Low,Yes,2025-08-19,State Electricity Board,District Engineer
+159,Prakasam,Williampalli,100,50,23.98623816196097,10,No,84,Low,Yes,2025-08-21,State Electricity Board,Gram Panchayat Officer
+160,Guntur,Cindypalli,94,52,20.87358111114011,5,Partial,91,Low,No,2025-08-04,State Electricity Board,Independent Auditor
+161,Anantapur,Aaronpalli,95,76,20.223264157921587,8,Partial,84,Low,Yes,2025-08-17,State Electricity Board,District Engineer
+162,Prakasam,Marypalli,71,69,19.66882599443279,7,No,92,Low,Yes,2025-08-01,State Electricity Board,Independent Auditor
+163,Guntur,Jonathanpalli,77,86,18.32764608366611,1,Yes,91,Low,Yes,2025-07-31,State Electricity Board,District Engineer
+164,Anantapur,Richardpalli,76,96,23.182646623021554,6,No,91,High,No,2025-08-18,State Electricity Board,Gram Panchayat Officer
+165,Guntur,Jopalli,88,71,21.768026665339207,8,Yes,97,Moderate,Yes,2025-07-26,State Electricity Board,Independent Auditor
+166,Kurnool,Jackpalli,89,63,23.66629100153376,5,Partial,91,High,No,2025-08-18,State Electricity Board,Gram Panchayat Officer
+167,Srikakulam,Brianapalli,92,70,20.379292639548463,4,Yes,82,Low,No,2025-08-23,State Electricity Board,District Engineer
+168,Chittoor,Suzannepalli,79,61,19.142962209678302,7,Yes,84,Low,Yes,2025-08-18,State Electricity Board,Gram Panchayat Officer
+169,Anantapur,Vanessapalli,84,68,19.09866957061543,7,Yes,100,Low,Yes,2025-08-15,State Electricity Board,District Engineer
+170,Chittoor,Robinpalli,91,78,22.285233717237958,7,Partial,92,High,Yes,2025-08-23,State Electricity Board,Independent Auditor
+171,Vizianagaram,Tarapalli,95,91,19.882755415622395,3,Partial,88,Moderate,Yes,2025-08-20,State Electricity Board,Independent Auditor
+172,Kurnool,Jessepalli,72,91,21.975985048962187,8,No,89,Low,No,2025-08-16,State Electricity Board,District Engineer
+173,Krishna,Jonathonpalli,71,69,19.24703594333555,6,Yes,84,Low,No,2025-07-25,State Electricity Board,District Engineer
+174,Nellore,Jessicapalli,75,60,22.890400419790353,10,No,93,Moderate,No,2025-08-19,State Electricity Board,Gram Panchayat Officer
+175,YSR Kadapa,Michaelpalli,94,71,22.378996292001336,3,Yes,86,Low,Yes,2025-08-05,State Electricity Board,District Engineer
+176,Guntur,Sandypalli,70,58,18.097450292160005,6,No,98,Low,Yes,2025-08-18,State Electricity Board,District Engineer
+177,Visakhapatnam,Margaretpalli,77,51,19.316757523891415,5,No,94,Moderate,Yes,2025-08-01,State Electricity Board,Independent Auditor
+178,YSR Kadapa,Jenniferpalli,73,92,23.405422185112965,8,No,80,Moderate,No,2025-08-20,State Electricity Board,Gram Panchayat Officer
+179,Krishna,Ericpalli,89,89,20.084240768145193,6,Yes,81,Low,No,2025-08-04,State Electricity Board,Gram Panchayat Officer
+180,Visakhapatnam,Amandapalli,76,53,18.4694514397485,3,Yes,98,High,No,2025-07-29,State Electricity Board,Gram Panchayat Officer
+181,East Godavari,Christinapalli,75,65,18.17426031306914,5,Partial,84,Low,Yes,2025-08-07,State Electricity Board,Gram Panchayat Officer
+182,YSR Kadapa,Ericpalli,84,54,23.67928808803285,10,Partial,80,Low,No,2025-08-02,State Electricity Board,District Engineer
+183,Visakhapatnam,Paulpalli,100,60,21.971504366266817,3,No,81,Moderate,Yes,2025-08-10,State Electricity Board,Independent Auditor
+184,Chittoor,Jamespalli,83,66,21.963323096175394,9,No,83,Moderate,No,2025-08-14,State Electricity Board,Gram Panchayat Officer
+185,Visakhapatnam,Jillpalli,83,56,21.7337915354964,10,Yes,88,Low,No,2025-08-13,State Electricity Board,Independent Auditor
+186,Anantapur,Samuelpalli,87,64,21.220937618869417,8,Yes,95,High,Yes,2025-08-14,State Electricity Board,Independent Auditor
+187,Nellore,Kathrynpalli,97,54,19.079272277156345,6,Partial,81,High,No,2025-08-12,State Electricity Board,Gram Panchayat Officer
+188,Guntur,Douglaspalli,94,84,19.690484525827088,5,Partial,84,Low,No,2025-08-17,State Electricity Board,Independent Auditor
+189,Srikakulam,Karenpalli,76,78,21.4404205427805,2,Yes,83,Low,Yes,2025-08-22,State Electricity Board,District Engineer
+190,Visakhapatnam,Robinpalli,73,83,20.74733765271352,9,Yes,87,High,No,2025-08-02,State Electricity Board,Independent Auditor
+191,Guntur,Emilypalli,83,97,21.685144456475822,2,No,81,Moderate,No,2025-08-02,State Electricity Board,District Engineer
+192,Srikakulam,Jessicapalli,95,90,23.595194409439053,10,Yes,91,Low,No,2025-08-02,State Electricity Board,Gram Panchayat Officer
+193,West Godavari,Markpalli,75,88,19.91003661164129,2,No,83,Low,Yes,2025-08-20,State Electricity Board,Gram Panchayat Officer
+194,Kurnool,Thomaspalli,100,74,22.490629758888208,4,Yes,97,Moderate,Yes,2025-08-19,State Electricity Board,District Engineer
+195,Vizianagaram,Jasminepalli,81,68,18.897921106711415,2,No,85,Moderate,No,2025-08-03,State Electricity Board,Gram Panchayat Officer
+196,Guntur,Troypalli,88,91,20.295000844448687,4,Yes,80,High,Yes,2025-08-18,State Electricity Board,Gram Panchayat Officer
+197,Prakasam,Chloepalli,79,69,20.656911710375955,1,No,96,High,No,2025-08-08,State Electricity Board,Independent Auditor
+198,Chittoor,Shannonpalli,88,71,18.07046141941676,8,Yes,85,Low,No,2025-08-05,State Electricity Board,Independent Auditor
+199,Guntur,Jeremypalli,82,99,21.04492104132569,6,Yes,99,Moderate,Yes,2025-07-30,State Electricity Board,Independent Auditor
+200,Vizianagaram,Ericpalli,84,81,19.544271944042176,3,No,93,High,Yes,2025-08-19,State Electricity Board,Independent Auditor
+201,Kurnool,Scottpalli,93,70,20.484689052395737,5,Yes,94,Moderate,No,2025-08-14,State Electricity Board,District Engineer
+202,East Godavari,Sharipalli,75,72,21.40343236119796,1,No,82,Moderate,No,2025-08-07,State Electricity Board,District Engineer
+203,Vizianagaram,Margaretpalli,74,88,18.80292736118035,6,Partial,85,Low,No,2025-08-21,State Electricity Board,District Engineer
+204,Krishna,Alisonpalli,80,99,20.46307630323021,1,Yes,98,Moderate,No,2025-07-31,State Electricity Board,Independent Auditor
+205,Srikakulam,Patrickpalli,92,87,20.413339163329812,7,Yes,94,High,Yes,2025-08-04,State Electricity Board,Gram Panchayat Officer
+206,Nellore,Kaitlynpalli,75,89,22.33631919160451,3,Yes,93,Moderate,Yes,2025-08-14,State Electricity Board,Independent Auditor
+207,Visakhapatnam,Lindseypalli,78,89,21.08623235048657,9,No,83,Low,Yes,2025-08-01,State Electricity Board,District Engineer
+208,Vizianagaram,Christopherpalli,77,91,21.229858641041062,1,Yes,88,High,Yes,2025-08-02,State Electricity Board,District Engineer
+209,Chittoor,Michellepalli,72,91,18.502247758661817,3,Yes,85,Low,No,2025-08-01,State Electricity Board,Gram Panchayat Officer
+210,East Godavari,Rachelpalli,86,92,23.47017913535695,2,Partial,91,High,Yes,2025-07-28,State Electricity Board,Gram Panchayat Officer
+211,Prakasam,Meganpalli,87,76,21.214712776221493,7,No,80,Low,Yes,2025-08-08,State Electricity Board,Gram Panchayat Officer
+212,Chittoor,Danielpalli,78,85,21.22340239845906,7,No,89,Low,Yes,2025-08-23,State Electricity Board,Gram Panchayat Officer
+213,West Godavari,Amandapalli,75,86,23.56841189425332,8,No,100,High,No,2025-08-17,State Electricity Board,Gram Panchayat Officer
+214,YSR Kadapa,Joshuapalli,86,70,22.65563029364119,7,Partial,92,Moderate,No,2025-08-01,State Electricity Board,Gram Panchayat Officer
+215,Kurnool,Barbarapalli,94,97,18.71251173000604,7,Partial,84,Low,No,2025-08-03,State Electricity Board,District Engineer
+216,East Godavari,Michellepalli,73,89,18.845456140407578,7,Yes,85,Low,Yes,2025-08-19,State Electricity Board,District Engineer
+217,Kurnool,Robertpalli,79,94,18.383783074265963,5,Yes,99,Moderate,Yes,2025-07-30,State Electricity Board,District Engineer
+218,Kurnool,Kathleenpalli,79,96,20.913585302427155,9,Partial,83,Low,No,2025-07-28,State Electricity Board,Independent Auditor
+219,Visakhapatnam,Kevinpalli,84,59,22.952294100538705,7,Partial,99,High,No,2025-08-06,State Electricity Board,Independent Auditor
+220,YSR Kadapa,Tylerpalli,86,56,21.910126097241804,9,Partial,86,Low,Yes,2025-08-23,State Electricity Board,District Engineer
+221,Nellore,Andreapalli,98,77,20.533490020475746,1,Partial,85,High,Yes,2025-08-23,State Electricity Board,District Engineer
+222,Vizianagaram,Michaelpalli,81,62,22.48797445720257,9,No,86,High,No,2025-08-18,State Electricity Board,District Engineer
+223,YSR Kadapa,Derekpalli,70,70,21.79084982185423,6,Yes,88,Low,Yes,2025-08-07,State Electricity Board,Independent Auditor
+224,Vizianagaram,Lisapalli,70,72,21.318904356171746,3,No,99,Low,Yes,2025-08-23,State Electricity Board,Gram Panchayat Officer
+225,Krishna,Donnapalli,82,84,22.1850388541309,3,No,93,Low,Yes,2025-08-19,State Electricity Board,Independent Auditor
+226,Prakasam,Andrewpalli,98,63,23.29208479249838,9,Partial,92,High,Yes,2025-08-18,State Electricity Board,Gram Panchayat Officer
+227,Guntur,Lauriepalli,83,97,18.499810718252874,6,Partial,83,High,No,2025-08-19,State Electricity Board,Gram Panchayat Officer
+228,East Godavari,Josephpalli,84,56,19.486992959710363,9,No,83,Low,Yes,2025-08-18,State Electricity Board,District Engineer
+229,Visakhapatnam,Joannapalli,91,82,22.74661164686909,4,Yes,99,Low,Yes,2025-08-03,State Electricity Board,Independent Auditor
+230,Anantapur,Aprilpalli,97,82,22.386538891679784,4,No,85,Moderate,Yes,2025-08-08,State Electricity Board,Gram Panchayat Officer
+231,Anantapur,Jimmypalli,80,95,23.627373476218605,1,No,95,Moderate,No,2025-08-21,State Electricity Board,Independent Auditor
+232,Visakhapatnam,Amypalli,71,77,22.53310590814723,6,Partial,85,Low,Yes,2025-07-28,State Electricity Board,Independent Auditor
+233,Prakasam,Latoyapalli,96,67,19.4841737048473,2,Partial,84,Moderate,No,2025-07-25,State Electricity Board,Gram Panchayat Officer
+234,Krishna,Chadpalli,73,79,23.509325333081243,2,No,98,Moderate,Yes,2025-08-07,State Electricity Board,Independent Auditor
+235,East Godavari,Morganpalli,79,72,21.96444692451411,3,Partial,80,High,Yes,2025-08-02,State Electricity Board,Gram Panchayat Officer
+236,Kurnool,Curtispalli,82,73,22.175586996376857,7,Partial,92,Low,No,2025-08-06,State Electricity Board,District Engineer
+237,Nellore,Marthapalli,74,70,20.68930422682196,5,Partial,96,High,Yes,2025-08-14,State Electricity Board,Gram Panchayat Officer
+238,Anantapur,Stevenpalli,77,88,19.63697230835985,7,Partial,100,Low,No,2025-08-01,State Electricity Board,Gram Panchayat Officer
+239,Srikakulam,Denisepalli,98,58,21.475989454760544,10,Yes,94,Moderate,No,2025-08-20,State Electricity Board,Independent Auditor
+240,Nellore,Melissapalli,83,77,21.541594013055985,5,Yes,94,High,No,2025-08-09,State Electricity Board,District Engineer
+241,Anantapur,Sarahpalli,87,50,21.319474776767798,10,No,89,High,No,2025-08-16,State Electricity Board,Independent Auditor
+242,East Godavari,Richardpalli,81,93,21.70684159624315,10,No,92,Moderate,Yes,2025-07-25,State Electricity Board,Independent Auditor
+243,East Godavari,Jenniferpalli,76,88,22.811895959261136,5,Yes,93,Moderate,Yes,2025-08-15,State Electricity Board,Gram Panchayat Officer
+244,Anantapur,Connorpalli,86,90,20.06017609862646,7,Partial,98,High,Yes,2025-08-12,State Electricity Board,Gram Panchayat Officer
+245,Anantapur,Sarahpalli,94,87,21.202225149927482,5,No,90,Low,Yes,2025-08-03,State Electricity Board,Independent Auditor
+246,Anantapur,Michaelpalli,86,75,23.255029678787864,6,Yes,83,Low,Yes,2025-08-12,State Electricity Board,District Engineer
+247,YSR Kadapa,Angelapalli,100,79,18.234507116528196,7,No,97,High,Yes,2025-08-24,State Electricity Board,Independent Auditor
+248,Nellore,Triciapalli,75,67,21.207847721885017,5,No,96,Low,Yes,2025-08-24,State Electricity Board,Independent Auditor
+249,Vizianagaram,Robertpalli,98,84,21.43880637983432,4,Partial,81,Moderate,No,2025-08-15,State Electricity Board,Independent Auditor
+250,Nellore,Ginapalli,96,84,21.306391383869702,10,Partial,95,Moderate,Yes,2025-08-07,State Electricity Board,Gram Panchayat Officer
+251,Kurnool,Shaunpalli,83,65,18.087413332583488,8,No,80,Low,Yes,2025-08-18,State Electricity Board,District Engineer
+252,Srikakulam,Leahpalli,91,72,22.32122309760946,7,Yes,98,High,No,2025-08-04,State Electricity Board,District Engineer
+253,Srikakulam,Lesliepalli,70,72,20.32441539881157,2,Partial,88,High,Yes,2025-07-29,State Electricity Board,Gram Panchayat Officer
+254,Guntur,Robertpalli,87,92,23.068024407202124,5,No,94,High,Yes,2025-08-08,State Electricity Board,Gram Panchayat Officer
+255,Srikakulam,Danielpalli,99,96,23.473597169794395,2,Partial,95,Low,No,2025-07-27,State Electricity Board,Independent Auditor
+256,Kurnool,Jenniferpalli,95,52,18.187380020901497,4,No,91,High,Yes,2025-08-23,State Electricity Board,District Engineer
+257,West Godavari,Elizabethpalli,78,68,19.818096575872328,5,Yes,99,High,Yes,2025-08-12,State Electricity Board,Gram Panchayat Officer
+258,West Godavari,Raymondpalli,78,92,20.0576646009695,7,Partial,92,Moderate,Yes,2025-08-15,State Electricity Board,District Engineer
+259,Vizianagaram,Susanpalli,82,59,22.72438461086685,3,Yes,90,Moderate,No,2025-07-28,State Electricity Board,Gram Panchayat Officer
+260,Guntur,Aliciapalli,74,70,23.594633389657893,3,Yes,85,Low,Yes,2025-08-14,State Electricity Board,District Engineer
+261,Vizianagaram,Carlpalli,76,90,21.88509775667965,5,No,80,Moderate,No,2025-08-15,State Electricity Board,Gram Panchayat Officer
+262,Guntur,Andrewpalli,98,74,19.821443954461092,5,Partial,90,Moderate,Yes,2025-08-05,State Electricity Board,Gram Panchayat Officer
+263,YSR Kadapa,Christinepalli,80,60,18.57833343065246,4,Partial,87,Moderate,Yes,2025-08-09,State Electricity Board,District Engineer
+264,Visakhapatnam,Shawnpalli,74,68,19.998101624637282,6,Yes,83,Low,Yes,2025-08-24,State Electricity Board,Independent Auditor
+265,Guntur,Zacharypalli,77,75,18.76635479890162,3,Yes,82,High,No,2025-08-17,State Electricity Board,Independent Auditor
+266,Chittoor,Michaelpalli,74,90,23.819463348238816,8,Yes,93,Moderate,Yes,2025-08-05,State Electricity Board,Gram Panchayat Officer
+267,Visakhapatnam,Laurapalli,87,70,22.27419298924983,6,Partial,90,Low,Yes,2025-08-06,State Electricity Board,Independent Auditor
+268,Kurnool,Gabrielapalli,79,60,22.08760709352932,6,Yes,90,Low,No,2025-08-21,State Electricity Board,Independent Auditor
+269,YSR Kadapa,Allenpalli,80,81,20.20946036048,2,No,82,Low,No,2025-07-26,State Electricity Board,District Engineer
+270,Vizianagaram,Kristapalli,86,90,18.282981650379575,5,Partial,82,Moderate,No,2025-08-10,State Electricity Board,Gram Panchayat Officer
+271,Vizianagaram,Jasminpalli,78,80,19.38192646643605,6,Partial,86,Moderate,Yes,2025-08-15,State Electricity Board,Gram Panchayat Officer
+272,Guntur,Noahpalli,97,83,22.390800822228933,5,Yes,94,Low,No,2025-08-06,State Electricity Board,Gram Panchayat Officer
+273,East Godavari,Patriciapalli,92,86,20.756773987387366,5,No,99,Low,Yes,2025-08-14,State Electricity Board,District Engineer
+274,Prakasam,Andrewpalli,85,82,21.205893562597865,4,Yes,83,High,Yes,2025-08-11,State Electricity Board,District Engineer
+275,Krishna,Sergiopalli,97,100,18.411886037366727,4,Yes,100,High,Yes,2025-08-11,State Electricity Board,District Engineer
+276,East Godavari,Donnapalli,86,80,21.036165589166337,3,Partial,82,Moderate,Yes,2025-08-09,State Electricity Board,Independent Auditor
+277,Visakhapatnam,Meredithpalli,85,62,18.057856065865202,9,No,85,Moderate,Yes,2025-08-14,State Electricity Board,District Engineer
+278,Nellore,Jamiepalli,73,78,22.14905701454265,7,No,86,Moderate,Yes,2025-08-09,State Electricity Board,Independent Auditor
+279,Chittoor,Anthonypalli,71,56,21.07130436142646,2,No,93,High,No,2025-08-18,State Electricity Board,Gram Panchayat Officer
+280,West Godavari,Michelepalli,78,74,20.979384143097207,8,No,92,Low,No,2025-08-06,State Electricity Board,District Engineer
+281,Nellore,Christopherpalli,79,64,19.25940088094619,7,Yes,98,High,No,2025-07-27,State Electricity Board,Gram Panchayat Officer
+282,Nellore,Danielpalli,90,100,20.58006974735825,6,Yes,99,High,Yes,2025-08-02,State Electricity Board,District Engineer
+283,Prakasam,Stephaniepalli,73,53,21.19359588305253,9,No,95,Low,Yes,2025-08-07,State Electricity Board,District Engineer
+284,Anantapur,Christopherpalli,96,93,22.253221452551216,3,Yes,82,High,No,2025-08-03,State Electricity Board,Independent Auditor
+285,Chittoor,Lorettapalli,79,68,19.021207123274404,5,No,88,High,No,2025-08-05,State Electricity Board,Independent Auditor
+286,Vizianagaram,Richardpalli,89,96,20.746927078791213,6,No,85,High,No,2025-07-29,State Electricity Board,Gram Panchayat Officer
+287,Kurnool,Joshuapalli,80,90,22.259872536555587,6,Partial,84,High,Yes,2025-07-29,State Electricity Board,Independent Auditor
+288,YSR Kadapa,Kennethpalli,71,61,18.86075534245925,8,Partial,98,Moderate,Yes,2025-07-29,State Electricity Board,District Engineer
+289,YSR Kadapa,Brianpalli,79,83,21.242687442341364,10,No,82,Moderate,Yes,2025-07-26,State Electricity Board,Gram Panchayat Officer
+290,Krishna,Michellepalli,94,87,21.174725411798747,5,No,83,Moderate,Yes,2025-08-11,State Electricity Board,Gram Panchayat Officer
+291,Anantapur,Cristianpalli,94,60,21.13843372441443,7,Partial,83,Low,Yes,2025-08-01,State Electricity Board,District Engineer
+292,Krishna,Carolinepalli,90,51,19.259520271189352,9,No,93,High,Yes,2025-07-31,State Electricity Board,District Engineer
+293,West Godavari,Kristenpalli,88,65,21.658527641865827,8,Partial,82,Moderate,No,2025-08-06,State Electricity Board,District Engineer
+294,Guntur,Ryanpalli,98,51,22.427330991398996,10,Partial,98,High,Yes,2025-07-29,State Electricity Board,District Engineer
+295,Anantapur,Jenniferpalli,84,79,21.46255316050324,6,No,84,High,No,2025-07-26,State Electricity Board,Gram Panchayat Officer
+296,Nellore,Samanthapalli,88,63,19.326066962917714,6,Yes,100,High,No,2025-08-01,State Electricity Board,Independent Auditor
+297,West Godavari,Robertpalli,87,98,18.124005172604807,8,Partial,80,High,No,2025-08-18,State Electricity Board,District Engineer
+298,Prakasam,Williampalli,91,75,18.11985114572028,2,Yes,98,Low,Yes,2025-08-24,State Electricity Board,District Engineer
+299,YSR Kadapa,Anitapalli,100,84,18.753901355840174,10,No,89,Low,No,2025-08-13,State Electricity Board,District Engineer
+300,Chittoor,Sandypalli,77,96,20.559551464420373,10,Yes,96,Moderate,Yes,2025-07-28,State Electricity Board,Independent Auditor
+301,Krishna,Amberpalli,92,57,18.256298986825662,6,Yes,84,Moderate,Yes,2025-08-02,State Electricity Board,Gram Panchayat Officer
+302,Kurnool,Jacquelinepalli,76,75,18.41807278569535,6,Partial,96,Moderate,Yes,2025-08-12,State Electricity Board,Gram Panchayat Officer
+303,YSR Kadapa,Caseypalli,74,78,18.473195368812963,6,Partial,99,Moderate,Yes,2025-08-18,State Electricity Board,Gram Panchayat Officer
+304,West Godavari,Jamespalli,77,89,18.36212185193514,1,Partial,90,High,No,2025-07-28,State Electricity Board,Gram Panchayat Officer
+305,Anantapur,Emilypalli,72,73,21.79721469978808,5,No,87,Low,No,2025-07-28,State Electricity Board,Gram Panchayat Officer
+306,Krishna,Jaredpalli,96,74,19.436452727829657,8,Partial,85,Moderate,No,2025-07-30,State Electricity Board,District Engineer
+307,Prakasam,Monicapalli,73,74,19.741063903842836,7,Partial,99,Low,Yes,2025-07-29,State Electricity Board,Independent Auditor
+308,West Godavari,Brittneypalli,99,65,20.829220733917907,3,No,80,Low,No,2025-07-31,State Electricity Board,Independent Auditor
+309,Nellore,Williampalli,82,76,18.028115913709197,4,No,85,High,Yes,2025-08-12,State Electricity Board,Gram Panchayat Officer
+310,Krishna,Nicolepalli,78,54,22.90200129321793,7,Yes,81,Low,No,2025-07-25,State Electricity Board,Gram Panchayat Officer
+311,Vizianagaram,Kellypalli,90,63,20.008572647068494,5,No,88,Low,No,2025-07-25,State Electricity Board,District Engineer
+312,Krishna,Jessicapalli,71,62,22.015672917375706,9,Yes,84,Moderate,Yes,2025-08-24,State Electricity Board,Gram Panchayat Officer
+313,Visakhapatnam,Damonpalli,74,81,20.51819055714595,7,Yes,96,Low,No,2025-08-04,State Electricity Board,Gram Panchayat Officer
+314,Krishna,Melvinpalli,91,67,20.719725837531353,9,Partial,87,High,No,2025-07-30,State Electricity Board,District Engineer
+315,Nellore,Shannonpalli,99,51,21.45206681244499,10,Yes,93,Moderate,No,2025-08-16,State Electricity Board,Independent Auditor
+316,Anantapur,Davidpalli,94,92,23.161602375215836,1,Partial,85,Low,No,2025-07-25,State Electricity Board,Independent Auditor
+317,Prakasam,Anthonypalli,86,79,22.59156459285121,6,No,83,High,Yes,2025-07-29,State Electricity Board,Gram Panchayat Officer
+318,West Godavari,Jonathanpalli,87,97,23.356539910450927,3,No,83,Moderate,No,2025-07-27,State Electricity Board,District Engineer
+319,Guntur,Danielpalli,70,91,23.807011369980195,9,Partial,83,Low,No,2025-07-29,State Electricity Board,Gram Panchayat Officer
+320,Vizianagaram,Annapalli,94,96,22.593999661311504,1,Yes,89,Low,Yes,2025-08-08,State Electricity Board,Gram Panchayat Officer
+321,Vizianagaram,Rachelpalli,76,85,20.819359679960645,6,Partial,87,High,Yes,2025-08-18,State Electricity Board,Gram Panchayat Officer
+322,Chittoor,Oscarpalli,79,98,20.849377980061192,1,No,83,Low,Yes,2025-08-05,State Electricity Board,District Engineer
+323,Anantapur,Chelseypalli,89,57,23.65247739634725,6,Yes,96,High,No,2025-08-24,State Electricity Board,District Engineer
+324,Srikakulam,Brandonpalli,87,58,20.375388002391468,6,No,85,Low,No,2025-08-22,State Electricity Board,Independent Auditor
+325,Krishna,Christopherpalli,97,60,23.1741386742841,4,Yes,99,Low,No,2025-08-10,State Electricity Board,Gram Panchayat Officer
+326,Vizianagaram,Thomaspalli,74,50,19.611185688881363,5,Yes,80,Low,No,2025-08-02,State Electricity Board,Independent Auditor
+327,Nellore,Jonpalli,96,95,19.63266836552492,10,Yes,85,Moderate,No,2025-07-31,State Electricity Board,District Engineer
+328,Chittoor,Heatherpalli,96,85,21.859479281691463,1,Partial,95,High,No,2025-08-21,State Electricity Board,Independent Auditor
+329,YSR Kadapa,Samanthapalli,99,59,18.865190316020826,5,Partial,94,Low,No,2025-08-20,State Electricity Board,Independent Auditor
+330,Guntur,Williampalli,82,66,23.193300914762997,10,No,86,Low,Yes,2025-08-13,State Electricity Board,District Engineer
+331,Guntur,Timothypalli,85,69,22.76070553708761,3,No,80,Moderate,Yes,2025-08-19,State Electricity Board,Gram Panchayat Officer
+332,YSR Kadapa,Jenniferpalli,73,56,21.201416410286896,10,Yes,81,Low,No,2025-08-12,State Electricity Board,Independent Auditor
+333,Vizianagaram,Franciscopalli,83,56,22.125253619915956,4,Yes,95,Low,Yes,2025-08-07,State Electricity Board,Gram Panchayat Officer
+334,Kurnool,Michaelpalli,84,94,21.91678629084685,1,Yes,81,Low,No,2025-07-31,State Electricity Board,District Engineer
+335,Visakhapatnam,Timothypalli,82,76,22.328650212386634,2,Partial,91,Low,No,2025-07-25,State Electricity Board,Independent Auditor
+336,Nellore,Sherripalli,88,51,18.059858381999916,8,No,99,Moderate,Yes,2025-08-23,State Electricity Board,District Engineer
+337,Prakasam,Michaelpalli,85,65,18.81936895848237,10,Yes,80,Moderate,Yes,2025-08-05,State Electricity Board,Gram Panchayat Officer
+338,Kurnool,Marypalli,72,62,22.515811433435633,1,Partial,94,Low,Yes,2025-08-22,State Electricity Board,District Engineer
+339,Anantapur,Jasonpalli,76,84,22.877981560558442,10,Yes,96,Moderate,Yes,2025-08-04,State Electricity Board,Gram Panchayat Officer
+340,Prakasam,Briannapalli,85,59,19.113827219007177,1,No,90,High,No,2025-08-01,State Electricity Board,Gram Panchayat Officer
+341,Visakhapatnam,Stevenpalli,95,57,23.992761678813903,2,Partial,85,High,Yes,2025-08-09,State Electricity Board,District Engineer
+342,Vizianagaram,Adrianpalli,84,66,19.838359515885042,7,Yes,84,Low,No,2025-08-15,State Electricity Board,District Engineer
+343,East Godavari,Veronicapalli,75,73,18.86534813461496,7,Yes,84,Moderate,Yes,2025-08-18,State Electricity Board,Independent Auditor
+344,Srikakulam,Randallpalli,78,98,18.493692985560717,1,Partial,88,Moderate,No,2025-07-30,State Electricity Board,Gram Panchayat Officer
+345,Vizianagaram,Arthurpalli,98,61,20.25496573524285,1,Yes,85,Moderate,No,2025-08-14,State Electricity Board,District Engineer
+346,Krishna,Troypalli,77,58,20.821948546572415,2,Partial,94,High,No,2025-08-01,State Electricity Board,Independent Auditor
+347,Anantapur,Meganpalli,70,93,18.80361915843256,6,Partial,91,High,No,2025-08-21,State Electricity Board,Gram Panchayat Officer
+348,West Godavari,Michellepalli,71,58,18.634612177594033,10,Partial,83,Moderate,Yes,2025-08-19,State Electricity Board,Gram Panchayat Officer
+349,Anantapur,Jamespalli,87,75,23.960206333880784,5,Partial,99,High,No,2025-08-16,State Electricity Board,Gram Panchayat Officer
+350,Anantapur,Marilynpalli,87,77,22.74698227102197,9,Partial,93,Low,Yes,2025-08-10,State Electricity Board,Gram Panchayat Officer
+351,Srikakulam,Amandapalli,71,50,21.00119932855005,5,No,94,Moderate,Yes,2025-08-08,State Electricity Board,Independent Auditor
+352,Anantapur,Jenniferpalli,77,78,22.925186261118167,9,Yes,98,Low,Yes,2025-08-09,State Electricity Board,Gram Panchayat Officer
+353,Kurnool,Jacquelinepalli,89,86,18.783776972551077,7,No,81,Low,No,2025-08-06,State Electricity Board,Independent Auditor
+354,Visakhapatnam,Lindsaypalli,93,98,21.174519133565873,4,No,99,High,Yes,2025-07-29,State Electricity Board,District Engineer
+355,YSR Kadapa,Teresapalli,95,70,23.877884487679356,5,Partial,88,High,No,2025-08-16,State Electricity Board,Gram Panchayat Officer
+356,Guntur,Anthonypalli,100,52,21.02501808811964,2,Yes,98,High,No,2025-08-14,State Electricity Board,Gram Panchayat Officer
+357,Guntur,Michaelpalli,83,61,18.88820523237061,1,Yes,82,Low,Yes,2025-08-01,State Electricity Board,Independent Auditor
+358,Visakhapatnam,Nathanpalli,85,93,23.632802534515125,3,Yes,91,Moderate,Yes,2025-07-27,State Electricity Board,District Engineer
+359,West Godavari,Dalepalli,94,63,18.011870029313542,1,Yes,97,High,No,2025-08-17,State Electricity Board,Gram Panchayat Officer
+360,Krishna,Leahpalli,93,95,23.9643835903692,8,Yes,98,Low,Yes,2025-08-24,State Electricity Board,Independent Auditor
+361,Vizianagaram,Samuelpalli,86,86,22.608707686281722,10,Yes,83,Moderate,Yes,2025-08-12,State Electricity Board,District Engineer
+362,Nellore,Alexandrapalli,70,87,23.72966984760198,2,No,98,High,Yes,2025-07-29,State Electricity Board,District Engineer
+363,Prakasam,Robertpalli,74,93,20.966832706401117,8,Partial,98,High,No,2025-08-01,State Electricity Board,Independent Auditor
+364,Anantapur,Dariuspalli,89,52,20.329227492611395,9,Partial,90,Moderate,Yes,2025-07-25,State Electricity Board,Independent Auditor
+365,Anantapur,Christopherpalli,83,80,23.999849629015323,7,Yes,81,Low,Yes,2025-07-26,State Electricity Board,Independent Auditor
+366,Guntur,Samanthapalli,96,87,21.090299931645244,4,Yes,93,Low,Yes,2025-08-01,State Electricity Board,District Engineer
+367,Visakhapatnam,Sethpalli,100,78,18.49489161057334,2,Partial,82,Moderate,Yes,2025-08-03,State Electricity Board,Independent Auditor
+368,Nellore,Tiffanypalli,87,91,20.216280148668716,5,No,96,Low,No,2025-08-20,State Electricity Board,District Engineer
+369,Vizianagaram,Aaronpalli,76,90,19.55864541850626,1,Yes,91,Low,No,2025-07-31,State Electricity Board,District Engineer
+370,Vizianagaram,Alyssapalli,78,76,20.466694862990288,8,No,92,High,No,2025-08-15,State Electricity Board,Independent Auditor
+371,Visakhapatnam,Carlapalli,98,95,19.640029454077638,7,No,94,Low,Yes,2025-08-21,State Electricity Board,District Engineer
+372,Visakhapatnam,Anthonypalli,87,58,19.60197936957633,1,Yes,97,Low,Yes,2025-07-26,State Electricity Board,District Engineer
+373,Chittoor,Joannapalli,90,64,21.080033560696467,10,No,80,Low,No,2025-08-20,State Electricity Board,District Engineer
+374,East Godavari,Angelapalli,86,72,21.004782686557288,2,No,88,High,No,2025-07-27,State Electricity Board,District Engineer
+375,YSR Kadapa,Josepalli,84,64,22.738011758599104,6,Partial,86,Moderate,No,2025-08-19,State Electricity Board,District Engineer
+376,YSR Kadapa,Josephpalli,81,79,18.104381069917437,5,Yes,85,High,Yes,2025-07-31,State Electricity Board,Independent Auditor
+377,Nellore,Paulpalli,100,58,21.309962810630477,6,Yes,97,Low,No,2025-07-25,State Electricity Board,District Engineer
+378,Chittoor,Rebeccapalli,90,61,22.717810688832998,6,No,98,Low,No,2025-08-03,State Electricity Board,Gram Panchayat Officer
+379,West Godavari,Michaelpalli,73,52,18.36499354830302,10,Yes,87,Low,No,2025-08-11,State Electricity Board,Gram Panchayat Officer
+380,YSR Kadapa,Priscillapalli,70,53,18.511518275489813,9,Yes,96,Low,No,2025-08-22,State Electricity Board,District Engineer
+381,YSR Kadapa,Andreapalli,72,96,23.27387218530346,3,Yes,84,High,No,2025-08-22,State Electricity Board,Gram Panchayat Officer
+382,East Godavari,Patrickpalli,72,58,18.17619040555644,5,Partial,91,Low,No,2025-08-01,State Electricity Board,Gram Panchayat Officer
+383,Guntur,Reginapalli,83,98,19.95061380674191,5,No,92,High,Yes,2025-07-27,State Electricity Board,Gram Panchayat Officer
+384,Nellore,Michaelpalli,90,61,23.36300191928416,8,No,87,High,No,2025-08-12,State Electricity Board,District Engineer
+385,YSR Kadapa,Christopherpalli,73,89,18.528675526361003,4,Yes,91,Moderate,Yes,2025-07-25,State Electricity Board,Independent Auditor
+386,Srikakulam,Markpalli,79,81,23.072065747480128,5,Yes,91,High,No,2025-08-22,State Electricity Board,Gram Panchayat Officer
+387,West Godavari,Tammypalli,83,84,19.014461569332266,6,Yes,84,Moderate,Yes,2025-08-12,State Electricity Board,Gram Panchayat Officer
+388,YSR Kadapa,Bryanpalli,70,82,20.351907708375336,7,Partial,92,Moderate,No,2025-07-25,State Electricity Board,District Engineer
+389,Vizianagaram,Michaelpalli,97,58,19.65637166724645,2,Partial,94,Moderate,No,2025-08-08,State Electricity Board,Gram Panchayat Officer
+390,YSR Kadapa,Jenniferpalli,95,89,19.76071087151639,8,Yes,85,High,Yes,2025-08-04,State Electricity Board,District Engineer
+391,Kurnool,Jasonpalli,81,50,18.21899657306586,2,Partial,89,High,No,2025-08-15,State Electricity Board,District Engineer
+392,Krishna,Angelapalli,74,65,19.87924204159205,5,Yes,89,Low,No,2025-08-01,State Electricity Board,Gram Panchayat Officer
+393,Nellore,Stacypalli,98,97,22.523400144803688,9,Yes,83,Low,Yes,2025-08-14,State Electricity Board,Independent Auditor
+394,East Godavari,Christinapalli,83,66,21.627607482891744,6,Yes,91,Moderate,Yes,2025-08-24,State Electricity Board,Gram Panchayat Officer
+395,Guntur,Jamespalli,91,94,19.658473661587976,5,Partial,82,Low,Yes,2025-08-03,State Electricity Board,Independent Auditor
+396,East Godavari,Timothypalli,89,81,22.64466039220533,9,Partial,82,High,Yes,2025-08-10,State Electricity Board,District Engineer
+397,Nellore,Jamespalli,70,92,20.574206973619837,5,Yes,90,High,No,2025-08-08,State Electricity Board,Independent Auditor
+398,Chittoor,Jessicapalli,95,61,22.34409392169593,9,Partial,88,High,No,2025-08-07,State Electricity Board,District Engineer
+399,Chittoor,Rebekahpalli,82,75,19.558022209979804,1,No,83,Low,Yes,2025-08-19,State Electricity Board,District Engineer
+400,West Godavari,Laurenpalli,75,73,19.86601250750154,5,Yes,85,Low,Yes,2025-08-21,State Electricity Board,Independent Auditor
+401,Krishna,Lynnpalli,82,53,19.865732145814633,9,No,80,Low,No,2025-08-20,State Electricity Board,District Engineer
+402,Anantapur,Katiepalli,92,96,21.85116017784007,9,No,81,Low,Yes,2025-08-19,State Electricity Board,District Engineer
+403,East Godavari,Kathleenpalli,92,62,18.630207431078308,8,Partial,98,High,Yes,2025-08-22,State Electricity Board,District Engineer
+404,Guntur,Peterpalli,95,67,18.194602397308874,1,Yes,89,Moderate,Yes,2025-08-17,State Electricity Board,District Engineer
+405,Kurnool,Trevorpalli,94,94,20.978291932383414,2,Partial,94,High,No,2025-08-23,State Electricity Board,Independent Auditor
+406,Chittoor,Brittneypalli,73,90,22.546022387800534,3,No,99,Low,No,2025-08-21,State Electricity Board,Independent Auditor
+407,Vizianagaram,Natashapalli,90,68,23.07240602276546,8,Partial,90,Moderate,Yes,2025-08-04,State Electricity Board,District Engineer
+408,Chittoor,Michaelpalli,72,63,23.749226485381254,6,Yes,90,High,Yes,2025-08-02,State Electricity Board,District Engineer
+409,West Godavari,Josepalli,70,80,23.535743869832206,9,Partial,94,High,Yes,2025-08-09,State Electricity Board,District Engineer
+410,Visakhapatnam,Johnpalli,94,79,21.592465807219718,1,Partial,87,Moderate,Yes,2025-07-25,State Electricity Board,Gram Panchayat Officer
+411,East Godavari,Bethpalli,73,77,18.164942244553185,9,Yes,99,Moderate,Yes,2025-08-20,State Electricity Board,District Engineer
+412,YSR Kadapa,Brittanypalli,91,88,23.274691600717667,10,Partial,92,Moderate,No,2025-08-09,State Electricity Board,District Engineer
+413,Prakasam,Samanthapalli,87,62,20.910987958558557,4,Yes,94,Moderate,Yes,2025-07-27,State Electricity Board,District Engineer
+414,West Godavari,Lisapalli,75,68,21.282179296683864,9,No,91,Moderate,Yes,2025-08-24,State Electricity Board,District Engineer
+415,YSR Kadapa,Amandapalli,90,66,22.014778056806023,5,Yes,84,Low,No,2025-07-25,State Electricity Board,District Engineer
+416,Nellore,Melaniepalli,75,57,20.344218429256088,1,No,99,High,No,2025-08-07,State Electricity Board,Gram Panchayat Officer
+417,Nellore,Philippalli,97,79,19.557489591765886,8,Yes,92,Moderate,No,2025-08-22,State Electricity Board,Gram Panchayat Officer
+418,Guntur,Douglaspalli,89,94,18.710365008379867,10,No,84,Low,No,2025-08-23,State Electricity Board,Independent Auditor
+419,Kurnool,Corypalli,73,76,23.36789472244047,3,No,82,Low,No,2025-07-26,State Electricity Board,District Engineer
+420,YSR Kadapa,Meredithpalli,76,62,20.183872061062782,9,No,85,Moderate,Yes,2025-08-02,State Electricity Board,Independent Auditor
+421,Visakhapatnam,Karapalli,92,57,21.720016682365248,4,Partial,84,Moderate,No,2025-08-08,State Electricity Board,District Engineer
+422,Prakasam,Jacobpalli,77,51,18.06131338930552,2,Partial,93,High,Yes,2025-07-29,State Electricity Board,District Engineer
+423,Prakasam,Sarahpalli,80,64,18.281104317934517,2,No,82,Moderate,No,2025-08-01,State Electricity Board,Gram Panchayat Officer
+424,Visakhapatnam,Nathanpalli,94,95,21.300297036282497,7,Partial,89,Moderate,Yes,2025-08-17,State Electricity Board,Independent Auditor
+425,Chittoor,Bobbypalli,97,89,23.175010591596134,4,No,97,Low,Yes,2025-08-24,State Electricity Board,Gram Panchayat Officer
+426,East Godavari,Jamespalli,70,57,23.282786731171043,5,No,93,Moderate,Yes,2025-08-09,State Electricity Board,Independent Auditor
+427,Chittoor,Robertpalli,96,87,22.723427985213085,2,No,95,Low,No,2025-08-14,State Electricity Board,Independent Auditor
+428,Srikakulam,Samuelpalli,94,57,18.82089442965427,2,No,95,Moderate,Yes,2025-08-20,State Electricity Board,District Engineer
+429,Prakasam,Markpalli,88,73,22.59046114516797,8,Partial,83,Moderate,No,2025-08-16,State Electricity Board,District Engineer
+430,Guntur,Angelapalli,82,90,18.273686696399476,10,No,85,Low,No,2025-08-24,State Electricity Board,District Engineer
+431,YSR Kadapa,Oscarpalli,79,100,19.75631267287426,6,No,93,Moderate,No,2025-08-20,State Electricity Board,District Engineer
+432,Anantapur,Briannapalli,81,54,20.649257679361654,1,No,86,Low,No,2025-08-21,State Electricity Board,Gram Panchayat Officer
+433,Chittoor,Sarapalli,82,66,22.528192191675544,8,Partial,100,Low,No,2025-08-03,State Electricity Board,Independent Auditor
+434,Anantapur,Kristinepalli,71,63,18.586215756237923,6,No,87,High,Yes,2025-07-31,State Electricity Board,District Engineer
+435,West Godavari,Laurenpalli,98,78,19.779041103482452,2,No,96,Moderate,No,2025-08-03,State Electricity Board,District Engineer
+436,Vizianagaram,Robertpalli,82,53,18.971985901711395,3,No,88,Moderate,No,2025-08-20,State Electricity Board,Gram Panchayat Officer
+437,Srikakulam,Ashleypalli,75,85,21.0971665010112,5,Yes,94,Moderate,No,2025-08-16,State Electricity Board,District Engineer
+438,Chittoor,Christinapalli,70,78,21.91621590669608,7,Partial,86,Low,No,2025-07-25,State Electricity Board,District Engineer
+439,Krishna,Donnapalli,97,95,19.239163396198116,6,Yes,97,Moderate,No,2025-08-11,State Electricity Board,Independent Auditor
+440,Srikakulam,Nicolepalli,74,72,21.622452339174465,4,Partial,93,High,No,2025-08-05,State Electricity Board,District Engineer
+441,West Godavari,Brettpalli,83,92,22.1644957079087,5,Partial,96,Moderate,Yes,2025-08-19,State Electricity Board,District Engineer
+442,Krishna,Jonathanpalli,92,71,22.681032584779693,4,No,80,Moderate,Yes,2025-08-03,State Electricity Board,Independent Auditor
+443,Srikakulam,Troypalli,100,88,22.632017127191585,8,Yes,98,Moderate,Yes,2025-07-25,State Electricity Board,Gram Panchayat Officer
+444,Prakasam,Donaldpalli,89,78,20.574385819653187,5,Yes,90,Low,No,2025-08-11,State Electricity Board,Gram Panchayat Officer
+445,Anantapur,Peterpalli,71,97,20.842139862486345,10,No,95,High,No,2025-08-13,State Electricity Board,Gram Panchayat Officer
+446,Anantapur,Tiffanypalli,75,77,23.10323024140184,10,Partial,80,Low,No,2025-08-20,State Electricity Board,District Engineer
+447,Prakasam,Beverlypalli,85,63,23.16188033234065,3,No,86,Low,Yes,2025-08-02,State Electricity Board,District Engineer
+448,Krishna,Dawnpalli,75,91,18.883350244856416,2,Yes,82,Moderate,No,2025-08-04,State Electricity Board,Gram Panchayat Officer
+449,Vizianagaram,Stephenpalli,83,88,18.7241520867666,8,Yes,93,Low,Yes,2025-07-31,State Electricity Board,Gram Panchayat Officer
+450,Vizianagaram,Williampalli,75,89,23.298245275461465,6,Yes,89,Moderate,No,2025-08-06,State Electricity Board,Independent Auditor
+451,Chittoor,Angelapalli,77,52,20.248781390892926,2,No,98,Low,Yes,2025-08-06,State Electricity Board,District Engineer
+452,Guntur,Carriepalli,75,51,23.390932612725326,7,Partial,97,Low,Yes,2025-07-27,State Electricity Board,Gram Panchayat Officer
+453,Chittoor,Kerrypalli,75,93,20.385124024836912,8,Yes,81,Moderate,Yes,2025-07-28,State Electricity Board,District Engineer
+454,Krishna,Jasminepalli,84,79,23.30122844369974,1,Yes,82,Moderate,Yes,2025-08-10,State Electricity Board,District Engineer
+455,Anantapur,Christopherpalli,98,71,22.111505315189675,1,No,98,Low,Yes,2025-08-19,State Electricity Board,Gram Panchayat Officer
+456,Krishna,Josephpalli,96,79,19.101238858124844,5,No,98,Low,Yes,2025-07-28,State Electricity Board,Gram Panchayat Officer
+457,Chittoor,Robertpalli,75,86,19.671822344475377,8,No,87,High,Yes,2025-08-07,State Electricity Board,District Engineer
+458,Anantapur,Anthonypalli,100,86,18.195067885880153,7,No,88,Low,Yes,2025-07-27,State Electricity Board,Gram Panchayat Officer
+459,Vizianagaram,Bryanpalli,89,96,21.676489002300364,9,No,83,High,Yes,2025-08-01,State Electricity Board,Independent Auditor
+460,YSR Kadapa,Parkerpalli,77,58,20.772103996606813,3,No,85,High,Yes,2025-08-19,State Electricity Board,Independent Auditor
+461,Chittoor,Jeffreypalli,73,74,19.333252043190374,1,No,98,Moderate,Yes,2025-08-20,State Electricity Board,Gram Panchayat Officer
+462,Krishna,Dylanpalli,92,76,20.715374994060376,6,Yes,94,Low,No,2025-08-13,State Electricity Board,District Engineer
+463,East Godavari,Haleypalli,88,81,19.588649941538065,10,No,80,Moderate,Yes,2025-08-08,State Electricity Board,Independent Auditor
+464,Kurnool,Lisapalli,83,69,22.89638717485022,7,Partial,95,Moderate,No,2025-07-28,State Electricity Board,District Engineer
+465,Vizianagaram,Davidpalli,75,52,21.273841739158165,2,Partial,85,High,Yes,2025-08-19,State Electricity Board,District Engineer
+466,Anantapur,Donnapalli,94,54,23.424710126432938,5,Yes,99,Low,No,2025-08-16,State Electricity Board,Independent Auditor
+467,Anantapur,Davidpalli,88,52,21.50868948810565,3,Yes,91,Low,Yes,2025-08-18,State Electricity Board,District Engineer
+468,Vizianagaram,Jamespalli,70,60,19.468071089276116,2,Yes,84,Moderate,No,2025-08-13,State Electricity Board,District Engineer
+469,Nellore,Michaelpalli,73,89,23.308417427363338,4,No,89,Moderate,Yes,2025-08-17,State Electricity Board,Gram Panchayat Officer
+470,Prakasam,Chelseapalli,88,82,22.878956283079862,9,No,86,High,Yes,2025-07-31,State Electricity Board,District Engineer
+471,YSR Kadapa,Jacobpalli,76,60,19.767259501656973,4,No,85,High,No,2025-08-20,State Electricity Board,District Engineer
+472,Anantapur,Kimberlypalli,95,84,18.159913764006777,10,Partial,97,High,Yes,2025-08-21,State Electricity Board,District Engineer
+473,Chittoor,Karlpalli,96,100,19.61679472413623,5,Yes,85,High,Yes,2025-08-10,State Electricity Board,Gram Panchayat Officer
+474,Guntur,Heatherpalli,94,88,20.35693079142527,10,Partial,99,Low,Yes,2025-08-21,State Electricity Board,District Engineer
+475,Vizianagaram,Brittneypalli,77,81,20.408930995974895,2,No,94,Moderate,No,2025-08-16,State Electricity Board,District Engineer
+476,Srikakulam,Lindapalli,72,50,20.30358468810852,10,No,100,Low,Yes,2025-07-27,State Electricity Board,Gram Panchayat Officer
+477,Vizianagaram,Crystalpalli,80,89,23.91590205416813,2,Partial,84,Low,No,2025-08-10,State Electricity Board,District Engineer
+478,West Godavari,Codypalli,92,64,18.59924735791762,6,Yes,92,Low,No,2025-07-28,State Electricity Board,Gram Panchayat Officer
+479,Srikakulam,Michaelpalli,85,70,18.906868621756722,9,Partial,92,Moderate,No,2025-08-21,State Electricity Board,District Engineer
+480,Guntur,Thomaspalli,92,51,23.342137394285686,7,Yes,94,Low,Yes,2025-08-24,State Electricity Board,Independent Auditor
+481,Krishna,Christopherpalli,88,60,21.959068614624144,9,No,90,Low,No,2025-08-23,State Electricity Board,District Engineer
+482,Krishna,Peterpalli,75,95,18.635368335073945,6,Partial,87,Moderate,No,2025-08-24,State Electricity Board,Gram Panchayat Officer
+483,Guntur,Johnpalli,73,67,19.259302394977002,3,Yes,98,High,Yes,2025-08-15,State Electricity Board,District Engineer
+484,Guntur,Amberpalli,91,53,21.104548343331473,8,No,98,Moderate,Yes,2025-08-16,State Electricity Board,Gram Panchayat Officer
+485,YSR Kadapa,Jasonpalli,89,58,20.24617041762579,5,Yes,84,Low,Yes,2025-08-02,State Electricity Board,Gram Panchayat Officer
+486,Krishna,Kylepalli,90,93,19.928016485292254,9,Yes,98,Low,Yes,2025-08-15,State Electricity Board,Independent Auditor
+487,Prakasam,Marcuspalli,85,81,18.24868406793872,8,Partial,92,High,Yes,2025-07-25,State Electricity Board,District Engineer
+488,Krishna,Deborahpalli,98,65,22.545322142697373,10,Partial,97,Moderate,No,2025-08-21,State Electricity Board,Gram Panchayat Officer
+489,Anantapur,Cynthiapalli,97,89,23.65653616445481,3,No,94,High,No,2025-07-25,State Electricity Board,Gram Panchayat Officer
+490,East Godavari,Kevinpalli,78,53,23.300522469867705,6,Partial,96,Moderate,Yes,2025-07-29,State Electricity Board,Independent Auditor
+491,YSR Kadapa,Randypalli,87,60,23.835963149734027,6,Partial,93,High,No,2025-08-20,State Electricity Board,Gram Panchayat Officer
+492,YSR Kadapa,Robertpalli,95,61,18.107936772986772,9,No,92,Moderate,Yes,2025-08-03,State Electricity Board,Independent Auditor
+493,Kurnool,Carriepalli,94,60,20.17447557919369,4,Partial,90,High,No,2025-08-22,State Electricity Board,Independent Auditor
+494,Chittoor,Anitapalli,82,60,21.332694865421534,3,Yes,91,Low,Yes,2025-08-07,State Electricity Board,District Engineer
+495,Anantapur,Jerrypalli,81,96,22.77488648878134,7,Yes,89,Moderate,Yes,2025-08-07,State Electricity Board,Gram Panchayat Officer
+496,Anantapur,Johnpalli,76,87,22.562874253926516,3,Partial,80,Low,Yes,2025-07-30,State Electricity Board,District Engineer
+497,East Godavari,Victorpalli,77,67,18.523137075639077,10,Partial,85,High,Yes,2025-07-30,State Electricity Board,District Engineer
+498,Kurnool,Blakepalli,89,94,21.930745545812194,7,Yes,94,Low,Yes,2025-08-11,State Electricity Board,Gram Panchayat Officer
+499,Anantapur,Emilypalli,70,66,23.511364675955956,6,Yes,98,Moderate,No,2025-08-18,State Electricity Board,District Engineer
+500,Prakasam,Josephpalli,72,80,23.015723226295723,1,Yes,87,High,Yes,2025-08-23,State Electricity Board,Independent Auditor

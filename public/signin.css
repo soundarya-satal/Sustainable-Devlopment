@@ -1,0 +1,116 @@
+/* ---------- Base Styles ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #272757; /* primaryDark */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ---------- Container ---------- */
+.signin-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+}
+
+.signin-box {
+  background: #505081; /* secondary */
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+/* ---------- Titles ---------- */
+.signin-title {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.signin-subtitle {
+  color: #8686AC; /* primaryLight */
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ---------- Form Elements ---------- */
+.form-group {
+  text-align: left;
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  color: #fff;
+  margin-bottom: 0.4rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: 1px solid #8686AC;
+  background: #272757;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input::placeholder {
+  color: #8686AC; /* primaryLight */
+}
+
+.form-group input:focus {
+  border-color: #fff;
+}
+
+/* ---------- Button ---------- */
+.signin-btn {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: none;
+  background: #272757; /* primaryDark */
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.25s, transform 0.1s;
+}
+
+.signin-btn:hover {
+  background: #0F0E47; /* accentDark */
+  transform: translateY(-2px);
+}
+
+.signin-btn:active {
+  transform: translateY(0);
+}
+
+/* ---------- Extra Links ---------- */
+.signup-link {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #8686AC;
+}
+
+.signup-link a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

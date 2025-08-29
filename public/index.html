@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Village360 - Empowering Rural Communities</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="js" href="index.js" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="logo">Village360</div>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#demo">Dashboard</a></li>
+          <li><a href="#roles">Access</a></li>
+          <li><a href="../management/index.html">Management</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="form.html">Complaint</a></li>
+        </ul>
+        <div class="language-selector">
+          <select id="language-select" onchange="changeLanguage(this.value)">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी (Hindi)</option>
+            <option value="te">తెలుగు (Telugu)</option>
+            <option value="ta">தமிழ் (Tamil)</option>
+          </select>
+        </div>
+        <div class="sign">
+          <a href="signin.html" class="sign-btn">Sign in</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h1>Village360</h1>
+        <p>
+          We empower rural communities with localized data tools to track
+          sustainability progress, advocate for better services, and celebrate
+          development milestones.
+        </p>
+        <a href="#demo" class="cta-button">Explore Platform</a>
+      </div>
+    </section>
+
+    <!-- Live Demo Section -->
+    <section id="demo" class="demo">
+      <div class="container">
+        <h2 class="section-title">Live Dashboard Preview</h2>
+        <div class="demo-showcase">
+          <div class="vsi-overview">
+            <div class="vsi-score">7.2</div>
+            <p>Average Village Sustainability Index Score</p>
+          </div>
+
+          <!-- VSI Graph -->
+          <div class="vsi-graph-container">
+            <h3>VSI Trends Over Time</h3>
+            <div class="graph-wrapper">
+              <canvas id="vsiChart" width="800" height="400"></canvas>
+            </div>
+
+            <!-- Category Breakdown -->
+            <div class="vsi-categories">
+              <a href="water.html" class="category-link">
+                <div class="category-item category-1">
+                  <div class="category-bar">
+                    <div class="category-fill" data-score="8.5"></div>
+                  </div>
+                  <span>Water Access</span>
+                  <strong>8.5/10</strong>
+                </div>
+              </a>
+
+              <div class="category-item category-2">
+                <div class="category-bar">
+                  <div class="category-fill" data-score="7.2"></div>
+                </div>
+                <span>Sanitation</span>
+                <strong>7.2/10</strong>
+              </div>
+              <div class="category-item category-3">
+                <div class="category-bar">
+                  <div class="category-fill" data-score="6.8"></div>
+                </div>
+                <span>Electricity</span>
+                <strong>6.8/10</strong>
+              </div>
+              <div class="category-item category-4">
+                <div class="category-bar">
+                  <div class="category-fill" data-score="7.9"></div>
+                </div>
+                <span>Education</span>
+                <strong>7.9/10</strong>
+              </div>
+              <div class="category-item category-1">
+                <div class="category-bar">
+                  <div class="category-fill" data-score="6.1"></div>
+                </div>
+                <span>Waste Management</span>
+                <strong>6.1/10</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="demo-stats">
+            <div class="stat-item stat-item-1">
+              <div class="stat-number">156</div>
+              <p>Villages Tracked</p>
+            </div>
+            <div class="stat-item stat-item-2">
+              <div class="stat-number">2,840</div>
+              <p data-translate="statLabel" data-index="1">Active Users</p>
+            </div>
+            <div class="stat-item stat-item-3">
+              <div class="stat-number">94%</div>
+              <p>Data Accuracy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Recommendations Section -->
+    <section id="ai-recommendations" class="ai-recommendations">
+      <div class="container">
+        <h2 class="section-title" data-translate="aiRecommendations">
+          AI-Powered Recommendations
+        </h2>
+        <div class="ai-intro">
+          <p>
+            Our artificial intelligence system analyzes village data to provide
+            personalized recommendations for sustainable development.
+          </p>
+        </div>
+        <div class="ai-recommendation-cards">
+          <!-- AI Recommendation Card 1 -->
+          <div class="ai-card">
+            <div class="ai-card-header">
+              <div class="ai-icon">🤖</div>
+              <h3>Water Management</h3>
+            </div>
+            <div class="ai-analysis">
+              <p>
+                <strong>AI Analysis:</strong> Based on rainfall patterns and
+                current infrastructure, we predict a 15% water shortage in the
+                next dry season.
+              </p>
+            </div>
+            <div class="ai-recommendations-list">
+              <h4 data-translate="recommendedActions">Recommended Actions:</h4>
+              <ul>
+                <li>
+                  Implement rainwater harvesting systems in public buildings
+                </li>
+                <li>
+                  Repair leaking community pipes (estimated 20% water loss)
+                </li>
+                <li>Introduce drip irrigation for local farms</li>
+              </ul>
+            </div>
+            <div class="ai-impact">
+              <p>
+                <strong>Predicted Impact:</strong> 30% increase in water
+                availability during dry months
+              </p>
+            </div>
+          </div>
+
+          <!-- AI Recommendation Card 2 -->
+          <div class="ai-card">
+            <div class="ai-card-header">
+              <div class="ai-icon">🤖</div>
+              <h3>Education Enhancement</h3>
+            </div>
+            <div class="ai-analysis">
+              <p>
+                <strong>AI Analysis:</strong> School attendance drops 40% during
+                harvest seasons, creating learning gaps.
+              </p>
+            </div>
+            <div class="ai-recommendations-list">
+              <h4 data-translate="recommendedActions">Recommended Actions:</h4>
+              <ul>
+                <li>Adjust school calendar to accommodate harvest seasons</li>
+                <li>
+                  Implement mobile learning programs for remote participation
+                </li>
+                <li>Create after-hours catch-up programs with peer tutoring</li>
+              </ul>
+            </div>
+            <div class="ai-impact">
+              <p>
+                <strong>Predicted Impact:</strong> 25% improvement in yearly
+                learning outcomes
+              </p>
+            </div>
+          </div>
+
+          <!-- AI Recommendation Card 3 -->
+          <div class="ai-card">
+            <div class="ai-card-header">
+              <div class="ai-icon">🤖</div>
+              <h3>Healthcare Optimization</h3>
+            </div>
+            <div class="ai-analysis">
+              <p>
+                <strong>AI Analysis:</strong> Preventable diseases account for
+                65% of health center visits.
+              </p>
+            </div>
+            <div class="ai-recommendations-list">
+              <h4 data-translate="recommendedActions">Recommended Actions:</h4>
+              <ul>
+                <li>Launch monthly preventive health workshops</li>
+                <li>Implement community health worker program</li>
+                <li>Create early warning system for disease outbreaks</li>
+              </ul>
+            </div>
+            <div class="ai-impact">
+              <p>
+                <strong>Predicted Impact:</strong> 40% reduction in preventable
+                disease burden
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="ai-cta">
+          <p>
+            Our AI continuously learns from new data to improve recommendations.
+            The more data collected, the more accurate and helpful the
+            suggestions become.
+          </p>
+          <button
+            id="generate-custom-recommendation"
+            class="cta-button"
+            data-translate="generateRecommendation"
+          >
+            Generate Custom Recommendation
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Core Capabilities</h2>
+        <div class="features-grid">
+          <div class="feature-card feature-card-1">
+            <div class="feature-icon">📊</div>
+            <h3>Sustainability Tracking</h3>
+            <p>
+              Monitor village progress across water, sanitation, electricity,
+              education, and waste management with real-time VSI scoring.
+            </p>
+          </div>
+          <div class="feature-card feature-card-2">
+            <div class="feature-icon">🌱</div>
+            <h3>Community Empowerment</h3>
+            <p>
+              Put data directly into villagers' hands to identify needs, take
+              collective action, and drive change from the ground up.
+            </p>
+          </div>
+          <div class="feature-card feature-card-3">
+            <div class="feature-icon">📱</div>
+            <h3>Mobile-First Platform</h3>
+            <p>
+              Progressive web app designed for low-end smartphones with offline
+              access and intuitive user experience.
+            </p>
+          </div>
+          <div class="feature-card feature-card-4">
+            <div class="feature-icon">🔒</div>
+            <h3>Secure Data Management</h3>
+            <p>
+              Role-based access control ensures data integrity while maintaining
+              transparency for community members.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Usage Scenarios -->
+    <section class="scenarios">
+      <div class="container">
+        <h2 class="section-title">Who Uses Village360</h2>
+        <div class="scenarios-grid">
+          <div class="scenario-card scenario-card-1">
+            <h4>Village Residents</h4>
+            <p>
+              Access transparent sustainability data, track community progress,
+              and engage in data-driven advocacy for better services.
+            </p>
+          </div>
+          <div class="scenario-card scenario-card-2">
+            <h4>Village Leaders & Panchayats</h4>
+            <p>
+              Use VSI scores to plan targeted improvements and request
+              government/NGO support for priority areas.
+            </p>
+          </div>
+          <div class="scenario-card scenario-card-3">
+            <h4>Local Government Officials</h4>
+            <p>
+              Secure portal for data updates, analysis, and evidence-based
+              policy-making across multiple villages.
+            </p>
+          </div>
+          <div class="scenario-card scenario-card-4">
+            <h4>NGOs & Development Agencies</h4>
+            <p>
+              Identify underserved areas, measure intervention impact, and
+              enhance development strategies with real data.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Role-Based Access -->
+    <section id="roles" class="roles">
+      <div class="container">
+        <h2 class="section-title">Role-Based Access</h2>
+        <div class="roles-grid">
+          <div class="role-card role-card-1">
+            <h4>Citizens (View Access)</h4>
+            <p>
+              Browse sustainability data, view VSI scores, charts, and trends.
+              Engage with transparent community information.
+            </p>
+          </div>
+          <div class="role-card role-card-2">
+            <h4>Verified Officials (Edit Access)</h4>
+            <p>
+              Update village data, manage sustainability metrics, and maintain
+              accurate information for the community.
+            </p>
+          </div>
+          <div class="role-card role-card-3">
+            <h4>Development Partners</h4>
+            <p>
+              Access aggregated insights, identify intervention opportunities,
+              and track development impact across regions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="container">
+        <h2 class="section-title">Key Benefits & Impact</h2>
+        <div class="benefits-list">
+          <div class="benefit-item benefit-item-1">
+            <div class="benefit-icon">🌟</div>
+            <div>
+              <h4>Transparency</h4>
+              <p>Open access to village sustainability data</p>
+            </div>
+          </div>
+          <div class="benefit-item benefit-item-2">
+            <div class="benefit-icon">📈</div>
+            <div>
+              <h4>Data-Driven Action</h4>
+              <p>Evidence-based community improvement</p>
+            </div>
+          </div>
+          <div class="benefit-item benefit-item-3">
+            <div class="benefit-icon">🚀</div>
+            <div>
+              <h4>Scalability</h4>
+              <p>Cloud-based architecture for rapid expansion</p>
+            </div>
+          </div>
+          <div class="benefit-item benefit-item-4">
+            <div class="benefit-icon">🤝</div>
+            <div>
+              <h4>Civic Engagement</h4>
+              <p>Strengthened community participation</p>
+            </div>
+          </div>
+          <div class="benefit-item benefit-item-1">
+            <div class="benefit-icon">🌍</div>
+            <div>
+              <h4>Inclusivity</h4>
+              <p>Multilingual support and accessibility</p>
+            </div>
+          </div>
+          <div class="benefit-item benefit-item-2">
+            <div class="benefit-icon">⚡</div>
+            <div>
+              <h4>Real-Time Insights</h4>
+              <p>Live data synchronization and analysis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="team-info">
+          <h3>SAHAAYA Team</h3>
+          <p>
+            Team Lead: Banda Vyshnavi Sai | Anand Priyadarshini | Soundarya
+            Satalgoan | P. Hemanth Kumar Reddy
+          </p>
+          <p>Amrita Vishwa Vidyapeetham | 3rd Year B.Tech CSE</p>
+        </div>
+        <div class="contact-info">
+          <p>Contact: vyshnavisai03@gmail.com</p>
+          <p>
+            Building sustainable rural communities through data-driven
+            transparency
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

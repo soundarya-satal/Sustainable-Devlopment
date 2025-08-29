@@ -1,0 +1,501 @@
+Village_Code,District,Village_Name,School_Distance_km,Government_Schemes_Active,Village_Sustainability_Index,Educational_Quality_Percentage
+1,Chittoor,Charlespalli,2.75,None,64.58,68.54885506941946
+2,East Godavari,Nicolepalli,9.74,Swachh Bharat,74.96,38.75750562931589
+3,Vizianagaram,Scottpalli,9.5,Jal Jeevan Mission,66.32,35.6356807122343
+4,Krishna,Tinapalli,8.34,None,31.99,24.264462601298384
+5,YSR Kadapa,Tiffanypalli,4.81,Swachh Bharat,78.2,65.05331509834663
+6,Visakhapatnam,Triciapalli,2.86,Swachh Bharat,36.78,54.088567703097866
+7,Kurnool,Adampalli,5.3,None,97.67,72.34268191938561
+8,Visakhapatnam,Alexandrapalli,0.93,Swachh Bharat,33.58,62.147106578208344
+9,Prakasam,Amandapalli,7.67,None,43.93,33.59199788200088
+10,Kurnool,Jamespalli,6.14,None,65.51,52.047213830462105
+11,Kurnool,Janepalli,6.04,Jal Jeevan Mission,41.94,40.754459052267514
+12,West Godavari,Robertpalli,7.2,None,66.31,47.142188721294104
+13,Prakasam,Kimberlypalli,2.64,Swachh Bharat,98.1,85.87114583812271
+14,Kurnool,Jessicapalli,0.9,Swachh Bharat,96.87,93.96442374527034
+15,Prakasam,Sarahpalli,1.0,Jal Jeevan Mission,58.93,74.48063494295857
+16,East Godavari,Alexanderpalli,5.58,Jal Jeevan Mission,80.62,62.41030883780809
+17,Nellore,Alyssapalli,8.59,Jal Jeevan Mission,62.76,38.408988393977886
+18,Krishna,Dustinpalli,5.4,Jal Jeevan Mission,36.07,41.020606316313305
+19,Anantapur,Michellepalli,6.84,Swachh Bharat,62.58,47.07768410860575
+20,YSR Kadapa,Karenpalli,7.17,Jal Jeevan Mission,93.9,61.09700213572925
+21,Srikakulam,Patrickpalli,6.96,Jal Jeevan Mission,80.18,55.283247823025675
+22,Prakasam,Manuelpalli,5.99,None,33.17,36.616637652362655
+23,Prakasam,Katiepalli,1.26,None,97.49,92.47283909547494
+24,Nellore,Shannonpalli,3.12,Jal Jeevan Mission,95.62,82.2278748276947
+25,Guntur,Kevinpalli,5.63,Jal Jeevan Mission,82.81,63.25582562448369
+26,Visakhapatnam,Kerrypalli,5.78,None,33.28,37.72272723038259
+27,West Godavari,Courtneypalli,9.19,None,69.37,38.7133005115593
+28,Guntur,Timothypalli,2.29,Swachh Bharat,83.32,80.22772096623792
+29,Anantapur,Jonathanpalli,4.93,Swachh Bharat,75.41,63.05673731371719
+30,Chittoor,Kimberlypalli,3.3,Swachh Bharat,43.73,55.36379970483843
+31,Vizianagaram,Rebeccapalli,1.83,None,68.26,74.99474857625563
+32,Anantapur,Kylepalli,4.05,None,73.25,66.3803851885509
+33,Nellore,Michellepalli,2.32,Swachh Bharat,66.85,71.8368022781112
+34,Prakasam,Melindapalli,6.55,Swachh Bharat,79.2,56.84495663480953
+35,Visakhapatnam,Johnpalli,2.2,Jal Jeevan Mission,89.53,83.78534643920413
+36,Nellore,Kelseypalli,5.26,Jal Jeevan Mission,98.2,72.80806774952677
+37,Visakhapatnam,Dalepalli,2.26,Jal Jeevan Mission,71.01,74.21855959832544
+38,West Godavari,Kimberlypalli,9.46,Jal Jeevan Mission,61.13,33.23906313999379
+39,Srikakulam,Josephpalli,7.9,None,80.74,50.85873925561707
+40,East Godavari,Kimberlypalli,2.89,None,47.26,59.1820881223463
+41,Krishna,Billypalli,3.55,Swachh Bharat,96.31,80.42096434471097
+42,Krishna,Pamelapalli,6.98,None,68.51,49.34406036177276
+43,Chittoor,Randypalli,4.77,None,71.86,62.08129474415874
+44,Nellore,Zacharypalli,5.85,Swachh Bharat,75.15,58.322041645367975
+45,Chittoor,Susanpalli,9.98,Swachh Bharat,63.79,31.967392189547695
+46,East Godavari,Amandapalli,1.14,Jal Jeevan Mission,33.13,60.870897916830074
+47,YSR Kadapa,Wesleypalli,6.58,None,60.25,47.213169338657174
+48,Nellore,Danielpalli,4.85,None,48.36,49.922663582225276
+49,Visakhapatnam,Jenniferpalli,3.4,None,42.81,54.40297697878004
+50,Nellore,Paigepalli,8.5,Jal Jeevan Mission,73.36,44.16315144324751
+51,Srikakulam,Jocelynpalli,3.27,Jal Jeevan Mission,49.24,58.2708797058842
+52,Srikakulam,Codypalli,7.49,Swachh Bharat,75.76,50.41904708671446
+53,Kurnool,Robertpalli,8.15,None,69.91,44.188694849157166
+54,Krishna,Amberpalli,2.87,None,79.8,75.56358520033092
+55,Krishna,Dianepalli,9.53,None,52.91,28.775833774332725
+56,Vizianagaram,Josephpalli,5.7,Swachh Bharat,39.14,41.05518006748868
+57,Chittoor,Victorpalli,2.01,Jal Jeevan Mission,95.29,87.61831480234363
+58,Vizianagaram,Timothypalli,2.53,None,35.46,55.07975703112299
+59,Kurnool,Glennpalli,4.14,None,86.94,72.77972959449994
+60,Visakhapatnam,Shannonpalli,9.02,None,39.8,24.768794612685337
+61,Kurnool,Katiepalli,7.6,Jal Jeevan Mission,50.69,37.324715889711385
+62,Vizianagaram,Debbiepalli,0.66,Jal Jeevan Mission,34.73,64.07386071150707
+63,Srikakulam,Toddpalli,5.6,Swachh Bharat,57.35,50.66705853256439
+64,Anantapur,Bettypalli,2.06,Jal Jeevan Mission,96.71,88.07856190023706
+65,West Godavari,Jasonpalli,5.25,Jal Jeevan Mission,69.68,58.58812880728222
+66,Vizianagaram,Toddpalli,2.2,None,97.22,87.6330398245739
+67,Nellore,Nicolepalli,2.62,Swachh Bharat,66.1,69.96003809273097
+68,YSR Kadapa,Davidpalli,4.0,None,98.03,79.0293145141539
+69,East Godavari,Timothypalli,1.49,Swachh Bharat,67.09,76.11104049110654
+70,West Godavari,Nicolepalli,6.55,Swachh Bharat,57.6,46.037391339102534
+71,Krishna,Anthonypalli,1.5,Swachh Bharat,61.47,73.24902206319199
+72,Prakasam,Glendapalli,1.37,Swachh Bharat,47.38,66.8497377593745
+73,East Godavari,Justinpalli,0.61,Jal Jeevan Mission,88.13,91.04281405392183
+74,Vizianagaram,Haroldpalli,1.37,Jal Jeevan Mission,89.31,87.82942353942053
+75,Visakhapatnam,Emilypalli,4.74,None,40.4,46.49042618120973
+76,Prakasam,Sarahpalli,5.67,Swachh Bharat,63.93,53.60901279544329
+77,Guntur,Tracipalli,5.57,Jal Jeevan Mission,85.39,64.84702955732676
+78,Kurnool,Nicholaspalli,8.45,None,86.73,51.10308447144232
+79,Anantapur,Jonathanpalli,0.71,Jal Jeevan Mission,71.06,82.00133486834179
+80,Kurnool,Samanthapalli,2.15,Jal Jeevan Mission,97.81,88.1784967194754
+81,Krishna,Patriciapalli,9.4,Jal Jeevan Mission,39.85,22.891910223042014
+82,Chittoor,Jacobpalli,4.17,Swachh Bharat,81.28,69.79759705667841
+83,Nellore,Tinapalli,9.54,Swachh Bharat,35.19,19.859577379841568
+84,Kurnool,Joshuapalli,4.39,None,68.79,62.44712139338378
+85,Nellore,Adampalli,1.42,Jal Jeevan Mission,44.49,65.15347530057826
+86,Prakasam,Pamelapalli,4.68,None,48.44,50.81354245268985
+87,Chittoor,Kevinpalli,5.02,None,35.53,42.65231908582254
+88,Vizianagaram,Cherylpalli,9.89,None,60.48,30.761683328480082
+89,Chittoor,Karenpalli,9.29,Swachh Bharat,69.39,38.22280701596223
+90,Krishna,Frankpalli,4.26,Jal Jeevan Mission,91.53,74.47573661923707
+91,Anantapur,Matthewpalli,3.06,Jal Jeevan Mission,59.17,64.29040869148945
+92,West Godavari,Carolpalli,2.15,Jal Jeevan Mission,91.26,84.9012026136013
+93,West Godavari,Markpalli,9.62,Swachh Bharat,63.22,33.48399435160167
+94,West Godavari,Derekpalli,6.69,Swachh Bharat,65.93,49.50460818068143
+95,YSR Kadapa,Josephpalli,2.57,None,51.15,62.730052177665506
+96,Kurnool,Anthonypalli,6.73,Jal Jeevan Mission,96.65,64.67516751215341
+97,YSR Kadapa,Stephaniepalli,7.5,Swachh Bharat,70.81,47.89226332306488
+98,Vizianagaram,Lisapalli,9.5,Jal Jeevan Mission,92.97,48.97001474605798
+99,Nellore,Jorgepalli,8.95,None,65.03,37.74298164871567
+100,East Godavari,Vanessapalli,6.53,Jal Jeevan Mission,30.33,32.49294025337255
+101,Prakasam,Amberpalli,7.44,None,96.5,61.0465614218241
+102,West Godavari,Jeffpalli,4.83,Swachh Bharat,66.42,59.05908911012483
+103,Prakasam,Robertpalli,3.98,Swachh Bharat,75.54,67.87653760034426
+104,Visakhapatnam,Jonpalli,7.17,Swachh Bharat,44.38,36.31965799483062
+105,Krishna,Richardpalli,6.29,Swachh Bharat,84.46,60.77810022571355
+106,Srikakulam,Calvinpalli,7.91,Swachh Bharat,35.25,28.04775655271002
+107,Krishna,Jamespalli,8.59,Swachh Bharat,76.43,45.24877624547394
+108,Krishna,Marissapalli,6.66,Jal Jeevan Mission,85.78,59.58671069748824
+109,Chittoor,Mitchellpalli,9.24,Swachh Bharat,37.91,22.72203154820987
+110,Anantapur,Robertpalli,3.78,Jal Jeevan Mission,77.34,69.77816904265418
+111,Anantapur,Michaelpalli,5.32,Swachh Bharat,68.53,57.6623756749845
+112,YSR Kadapa,Nicholaspalli,8.35,None,85.42,50.948126150768005
+113,Kurnool,Sarahpalli,0.52,None,54.86,74.84661184751248
+114,East Godavari,Alexispalli,1.52,Swachh Bharat,59.01,71.9180603599697
+115,East Godavari,Amandapalli,4.18,None,72.04,65.1243107412426
+116,West Godavari,Douglaspalli,7.26,Jal Jeevan Mission,95.49,61.44210857510167
+117,Kurnool,Jamespalli,8.84,None,59.57,35.561619860629165
+118,Vizianagaram,Melaniepalli,8.23,None,37.17,27.406827421837928
+119,YSR Kadapa,Crystalpalli,8.38,None,93.8,54.99091105515601
+120,Guntur,Michellepalli,2.03,Swachh Bharat,89.22,84.4810887140518
+121,East Godavari,Bradleypalli,5.45,Swachh Bharat,85.04,65.27250757211729
+122,Guntur,Kylepalli,9.09,Jal Jeevan Mission,72.96,41.01005839222591
+123,Nellore,Brendapalli,5.38,None,96.37,71.29182620026211
+124,Vizianagaram,Melindapalli,7.31,Jal Jeevan Mission,32.65,29.74984891826681
+125,Visakhapatnam,Sarahpalli,6.59,None,73.28,53.68268298319334
+126,Chittoor,Lisapalli,1.99,None,45.39,62.750937668379876
+127,Vizianagaram,Russellpalli,2.5,Jal Jeevan Mission,81.9,78.46617256704317
+128,East Godavari,Jakepalli,2.88,Swachh Bharat,43.82,57.51093332900598
+129,Chittoor,Juliapalli,2.1,None,51.93,65.47267772125173
+130,East Godavari,Tracypalli,8.66,Swachh Bharat,39.8,26.570596414487134
+131,Chittoor,Brettpalli,3.98,Jal Jeevan Mission,45.63,52.9110617672611
+132,Kurnool,Yolandapalli,9.42,Jal Jeevan Mission,32.83,19.279351401837143
+133,Vizianagaram,Lisapalli,6.0,None,69.91,54.94945560991793
+134,Srikakulam,Melissapalli,4.68,Jal Jeevan Mission,46.1,49.642722878988266
+135,West Godavari,Taylorpalli,2.81,Jal Jeevan Mission,38.95,55.42457798537054
+136,East Godavari,Briannapalli,2.12,None,88.13,83.48525649636427
+137,Srikakulam,Jonathanpalli,8.35,Swachh Bharat,72.39,44.428562456181794
+138,Srikakulam,Andrewpalli,2.68,Swachh Bharat,86.16,79.69676371057338
+139,Visakhapatnam,Lancepalli,2.3,None,79.64,78.33638201395632
+140,Vizianagaram,Jamespalli,9.92,Swachh Bharat,57.82,29.280601526173427
+141,Kurnool,Donaldpalli,7.94,Jal Jeevan Mission,96.45,58.519041407063014
+142,Visakhapatnam,Melissapalli,1.11,None,45.52,67.2203876046566
+143,Visakhapatnam,Shellypalli,0.82,None,71.97,81.90610304089739
+144,Vizianagaram,Reneepalli,9.23,Swachh Bharat,68.47,38.06278509070463
+145,Guntur,Johnpalli,8.82,None,86.92,49.346299166173075
+146,YSR Kadapa,Davidpalli,6.93,Swachh Bharat,46.1,38.38146161772701
+147,West Godavari,Jessicapalli,3.86,Jal Jeevan Mission,92.6,77.0131133835727
+148,Prakasam,Bryanpalli,6.92,None,76.44,53.61213810628401
+149,Visakhapatnam,Robertpalli,9.43,Swachh Bharat,32.28,18.954108716942702
+150,Chittoor,Sheilapalli,2.28,Swachh Bharat,48.4,62.80554045489501
+151,Prakasam,Sharonpalli,8.14,Jal Jeevan Mission,68.87,43.71838064422873
+152,Prakasam,Margaretpalli,1.44,Swachh Bharat,41.43,63.52230345025302
+153,West Godavari,Mauricepalli,5.98,Swachh Bharat,75.49,57.841510078075665
+154,YSR Kadapa,Denisepalli,6.5,Jal Jeevan Mission,70.01,52.496988131932596
+155,Vizianagaram,Thomaspalli,2.09,None,89.79,84.4659880534993
+156,West Godavari,Emilypalli,2.99,Swachh Bharat,40.87,55.484349555199145
+157,Vizianagaram,Jenniferpalli,1.78,None,96.39,89.31985122318355
+158,Visakhapatnam,Scottpalli,3.38,Swachh Bharat,30.01,48.09859394068341
+159,Prakasam,Williampalli,4.25,Swachh Bharat,41.43,49.45823938618895
+160,Guntur,Cindypalli,3.25,Swachh Bharat,74.58,71.04985501863317
+161,Anantapur,Aaronpalli,0.64,Swachh Bharat,45.2,69.41262787855402
+162,Prakasam,Marypalli,8.26,None,87.98,52.6794732288578
+163,Guntur,Jonathanpalli,2.01,Swachh Bharat,80.98,80.45830279393775
+164,Anantapur,Richardpalli,0.58,None,32.94,63.57863417305026
+165,Guntur,Jopalli,5.13,Swachh Bharat,52.17,50.427596614927744
+166,Kurnool,Jackpalli,7.46,Jal Jeevan Mission,49.27,37.31491924226839
+167,Srikakulam,Brianapalli,2.3,None,77.83,77.43074807019568
+168,Chittoor,Suzannepalli,6.75,Jal Jeevan Mission,66.81,49.644616096132154
+169,Anantapur,Vanessapalli,8.05,None,34.08,26.761646065158523
+170,Chittoor,Robinpalli,5.81,None,69.07,55.480112354924714
+171,Vizianagaram,Tarapalli,9.07,Swachh Bharat,68.51,38.88359990131231
+172,Kurnool,Jessepalli,7.4,None,98.81,62.402570688370744
+173,Krishna,Jonathonpalli,3.02,Jal Jeevan Mission,92.27,81.05220200687026
+174,Nellore,Jessicapalli,7.91,Swachh Bharat,94.53,57.708519086483655
+175,YSR Kadapa,Michaelpalli,0.98,Swachh Bharat,81.21,85.72853850548236
+176,Guntur,Sandypalli,7.74,Swachh Bharat,63.66,43.113557868886595
+177,Visakhapatnam,Margaretpalli,6.88,Jal Jeevan Mission,59.65,45.4114576900527
+178,YSR Kadapa,Jenniferpalli,1.57,Swachh Bharat,33.82,59.063987433846336
+179,Krishna,Ericpalli,4.08,Swachh Bharat,93.42,76.32229948351232
+180,Visakhapatnam,Amandapalli,9.81,Swachh Bharat,65.6,33.723876984159176
+181,East Godavari,Christinapalli,3.79,Jal Jeevan Mission,54.63,58.36516492475664
+182,YSR Kadapa,Ericpalli,7.43,Swachh Bharat,66.45,46.061086604466965
+183,Visakhapatnam,Paulpalli,9.96,None,98.3,49.3345792505204
+184,Chittoor,Jamespalli,7.9,Jal Jeevan Mission,37.47,29.20858414704106
+185,Visakhapatnam,Jillpalli,7.26,Swachh Bharat,56.18,41.77334043740528
+186,Anantapur,Samuelpalli,7.03,Swachh Bharat,90.67,60.18157154452561
+187,Nellore,Kathrynpalli,5.43,None,57.69,51.68802846677359
+188,Guntur,Douglaspalli,8.38,Jal Jeevan Mission,61.62,38.88964016553329
+189,Srikakulam,Karenpalli,1.37,Jal Jeevan Mission,79.44,82.89096661957663
+190,Visakhapatnam,Robinpalli,4.49,Swachh Bharat,51.67,53.38062469554514
+191,Guntur,Emilypalli,4.4,Jal Jeevan Mission,35.56,45.770432696280785
+192,Srikakulam,Jessicapalli,9.24,Jal Jeevan Mission,33.43,20.48046244984101
+193,West Godavari,Markpalli,7.71,Swachh Bharat,89.03,55.95759373904075
+194,Kurnool,Thomaspalli,6.28,Jal Jeevan Mission,52.15,44.66183385426855
+195,Vizianagaram,Jasminepalli,8.1,Jal Jeevan Mission,99.93,59.45945945945947
+196,Guntur,Troypalli,7.38,Jal Jeevan Mission,73.12,49.648672990011924
+197,Prakasam,Chloepalli,5.87,Jal Jeevan Mission,77.47,59.38275411406603
+198,Chittoor,Shannonpalli,7.24,Swachh Bharat,49.0,38.28092577717315
+199,Guntur,Jeremypalli,2.31,Swachh Bharat,94.65,85.7965891439323
+200,Vizianagaram,Ericpalli,4.94,Jal Jeevan Mission,33.23,41.90191392232821
+201,Kurnool,Scottpalli,9.6,Jal Jeevan Mission,69.17,36.56117841047292
+202,East Godavari,Sharipalli,1.51,Swachh Bharat,33.77,59.33927022188806
+203,Vizianagaram,Margaretpalli,1.42,Swachh Bharat,51.73,68.7760110756208
+204,Krishna,Alisonpalli,3.84,Swachh Bharat,62.29,61.94759755252099
+205,Srikakulam,Patrickpalli,5.71,Jal Jeevan Mission,98.17,70.54080498991937
+206,Nellore,Kaitlynpalli,6.13,Swachh Bharat,62.4,50.54117461802842
+207,Visakhapatnam,Lindseypalli,6.78,Swachh Bharat,61.71,46.94267969560674
+208,Vizianagaram,Christopherpalli,8.6,Jal Jeevan Mission,34.37,24.153994883505543
+209,Chittoor,Michellepalli,5.01,Swachh Bharat,43.18,46.53004851143548
+210,East Godavari,Rachelpalli,8.99,None,78.68,44.372562295108075
+211,Prakasam,Meganpalli,0.82,None,32.65,62.23233140074929
+212,Chittoor,Danielpalli,6.32,Swachh Bharat,93.25,65.02602873062193
+213,West Godavari,Amandapalli,6.74,Swachh Bharat,50.42,41.49392562781935
+214,YSR Kadapa,Joshuapalli,4.01,Swachh Bharat,42.28,51.08473829578603
+215,Kurnool,Barbarapalli,5.99,None,88.93,64.5161673231322
+216,East Godavari,Michellepalli,1.88,Swachh Bharat,90.92,86.0824348815943
+217,Kurnool,Robertpalli,6.72,None,57.38,45.076463434313936
+218,Kurnool,Kathleenpalli,3.84,Jal Jeevan Mission,80.77,71.19407008329253
+219,Visakhapatnam,Kevinpalli,7.11,None,47.73,38.29613161645584
+220,YSR Kadapa,Tylerpalli,9.58,Jal Jeevan Mission,48.53,26.334049450230776
+221,Nellore,Andreapalli,1.19,Swachh Bharat,69.99,79.06355770360574
+222,Vizianagaram,Michaelpalli,4.64,None,89.08,71.3479766166647
+223,YSR Kadapa,Derekpalli,8.49,None,83.23,49.15165841314145
+224,Vizianagaram,Lisapalli,0.74,Swachh Bharat,99.75,96.2062332521654
+225,Krishna,Donnapalli,7.54,Jal Jeevan Mission,46.31,35.43348211615999
+226,Prakasam,Andrewpalli,6.31,Jal Jeevan Mission,88.47,62.68440460875165
+227,Guntur,Lauriepalli,8.45,None,85.52,50.49766067478466
+228,East Godavari,Josephpalli,0.65,Jal Jeevan Mission,64.09,78.81419395979589
+229,Visakhapatnam,Joannapalli,6.16,None,80.2,59.29725883193311
+230,Anantapur,Aprilpalli,2.34,Swachh Bharat,85.76,81.19832531420643
+231,Anantapur,Jimmypalli,7.96,Jal Jeevan Mission,63.95,42.157558338885266
+232,Visakhapatnam,Amypalli,8.97,Jal Jeevan Mission,35.15,22.692416222887545
+233,Prakasam,Latoyapalli,3.17,Swachh Bharat,37.78,53.037366396717935
+234,Krishna,Chadpalli,0.64,Jal Jeevan Mission,59.97,76.80280099973885
+235,East Godavari,Morganpalli,5.21,None,35.82,41.84646970597136
+236,Kurnool,Curtispalli,2.26,None,91.01,84.22556450175784
+237,Nellore,Marthapalli,5.39,Jal Jeevan Mission,93.7,69.90584099560382
+238,Anantapur,Stevenpalli,7.51,None,82.66,53.771363678298535
+239,Srikakulam,Denisepalli,6.4,Jal Jeevan Mission,85.99,60.99308555027558
+240,Nellore,Melissapalli,4.46,Swachh Bharat,77.77,66.58991624467457
+241,Anantapur,Sarahpalli,6.14,Swachh Bharat,78.78,58.6868615838895
+242,East Godavari,Richardpalli,7.26,None,49.97,38.66616541488952
+243,East Godavari,Jenniferpalli,9.79,None,40.36,21.195136896127593
+244,Anantapur,Connorpalli,3.72,Jal Jeevan Mission,37.86,50.324641663578916
+245,Anantapur,Sarahpalli,6.93,Jal Jeevan Mission,97.03,63.86429960431762
+246,Anantapur,Michaelpalli,3.43,Jal Jeevan Mission,61.19,63.44926433488426
+247,YSR Kadapa,Angelapalli,9.36,Jal Jeevan Mission,71.35,38.85314314614825
+248,Nellore,Triciapalli,5.19,Jal Jeevan Mission,81.79,64.94767057661083
+249,Vizianagaram,Robertpalli,1.63,None,49.41,66.56414745577159
+250,Nellore,Ginapalli,4.88,Jal Jeevan Mission,78.53,64.8680803289029
+251,Kurnool,Shaunpalli,8.35,Swachh Bharat,77.95,47.210509819336
+252,Srikakulam,Leahpalli,2.57,None,65.24,69.77998713213364
+253,Srikakulam,Lesliepalli,8.26,Jal Jeevan Mission,92.28,54.83097928309577
+254,Guntur,Robertpalli,0.68,Jal Jeevan Mission,63.9,78.56897726306312
+255,Srikakulam,Danielpalli,2.26,Jal Jeevan Mission,54.61,66.01281557751086
+256,Kurnool,Jenniferpalli,2.13,None,82.78,80.75833263464605
+257,West Godavari,Elizabethpalli,1.57,Swachh Bharat,98.92,91.6367883945188
+258,West Godavari,Raymondpalli,5.76,Jal Jeevan Mission,50.34,46.35880251311053
+259,Vizianagaram,Susanpalli,1.11,Jal Jeevan Mission,98.26,93.60885953500784
+260,Guntur,Aliciapalli,5.36,Jal Jeevan Mission,40.32,43.3472950584929
+261,Vizianagaram,Carlpalli,3.38,None,73.63,69.92387163506947
+262,Guntur,Andrewpalli,4.78,Swachh Bharat,89.7,70.9574930679704
+263,YSR Kadapa,Christinepalli,5.02,Swachh Bharat,89.8,69.80632689128636
+264,Visakhapatnam,Shawnpalli,4.12,Swachh Bharat,59.97,59.38538358232144
+265,Guntur,Zacharypalli,3.03,Swachh Bharat,78.72,74.22240613474477
+266,Chittoor,Michaelpalli,5.22,None,89.31,68.56015427015127
+267,Visakhapatnam,Laurapalli,2.49,None,85.7,80.41755354874539
+268,Kurnool,Gabrielapalli,2.52,Swachh Bharat,97.35,86.0964837548446
+269,YSR Kadapa,Allenpalli,4.4,None,90.21,73.11457359490983
+270,Vizianagaram,Kristapalli,6.65,Swachh Bharat,32.59,33.023131206859816
+271,Vizianagaram,Jasminpalli,9.02,Swachh Bharat,77.02,43.39183073797304
+272,Guntur,Noahpalli,3.63,None,70.9,67.3066642144997
+273,East Godavari,Patriciapalli,5.68,Swachh Bharat,63.24,53.21372107622483
+274,Prakasam,Andrewpalli,9.08,Swachh Bharat,77.97,43.56686317058577
+275,Krishna,Sergiopalli,4.98,None,58.91,54.55070801813521
+276,East Godavari,Donnapalli,6.49,Jal Jeevan Mission,85.37,60.23241794781873
+277,Visakhapatnam,Meredithpalli,2.15,Swachh Bharat,71.51,75.0192852714618
+278,Nellore,Jamiepalli,4.31,Jal Jeevan Mission,60.02,58.45945014362907
+279,Chittoor,Anthonypalli,7.59,Jal Jeevan Mission,56.75,40.40688842550145
+280,West Godavari,Michelepalli,6.04,Jal Jeevan Mission,75.31,57.45114673364448
+281,Nellore,Christopherpalli,9.97,Jal Jeevan Mission,95.75,48.00863607528272
+282,Nellore,Danielpalli,3.51,Swachh Bharat,67.13,66.0209443908033
+283,Prakasam,Stephaniepalli,7.5,None,64.39,44.68001474906309
+284,Anantapur,Christopherpalli,4.69,Swachh Bharat,99.22,76.17127785245466
+285,Chittoor,Lorettapalli,4.46,None,35.38,45.3800693518496
+286,Vizianagaram,Richardpalli,4.81,Swachh Bharat,96.86,74.38985067324904
+287,Kurnool,Joshuapalli,4.29,Jal Jeevan Mission,42.46,49.773399938515524
+288,YSR Kadapa,Kennethpalli,5.15,Swachh Bharat,91.98,70.24643977510985
+289,YSR Kadapa,Brianpalli,5.51,Swachh Bharat,75.31,60.10379938629713
+290,Krishna,Michellepalli,1.4,Swachh Bharat,76.26,81.14970268978075
+291,Anantapur,Cristianpalli,6.43,Jal Jeevan Mission,48.56,42.1148257233517
+292,Krishna,Carolinepalli,8.75,Swachh Bharat,97.61,55.04539363740804
+293,West Godavari,Kristenpalli,2.49,Swachh Bharat,75.4,75.2639460234777
+294,Guntur,Ryanpalli,0.69,Jal Jeevan Mission,61.47,77.30307611724604
+295,Anantapur,Jenniferpalli,7.29,None,66.98,47.02697293510863
+296,Nellore,Samanthapalli,3.77,None,46.25,54.27232997031855
+297,West Godavari,Robertpalli,6.84,Jal Jeevan Mission,39.04,35.29943933726582
+298,Prakasam,Williampalli,3.71,Jal Jeevan Mission,37.98,50.43473374304956
+299,YSR Kadapa,Anitapalli,7.93,None,72.68,46.67576612938366
+300,Chittoor,Sandypalli,1.67,Jal Jeevan Mission,44.13,63.72209796106524
+301,Krishna,Amberpalli,1.81,Swachh Bharat,60.02,70.97196265614159
+302,Kurnool,Jacquelinepalli,1.08,None,83.14,86.19371397816309
+303,YSR Kadapa,Caseypalli,7.15,None,61.23,44.85065972607251
+304,West Godavari,Jamespalli,2.53,None,65.82,70.27039047453337
+305,Anantapur,Emilypalli,2.97,Jal Jeevan Mission,65.52,67.91808319877967
+306,Krishna,Jaredpalli,5.44,None,47.33,46.45434987674555
+307,Prakasam,Monicapalli,6.09,Swachh Bharat,66.33,52.70775128175308
+308,West Godavari,Brittneypalli,4.83,None,32.28,41.97713173996573
+309,Nellore,Williampalli,5.12,None,85.38,67.0942783071273
+310,Krishna,Nicolepalli,7.92,Jal Jeevan Mission,63.27,42.017520372368764
+311,Vizianagaram,Kellypalli,7.49,None,75.21,50.143854451870055
+312,Krishna,Jessicapalli,6.75,Swachh Bharat,67.23,49.85476319910424
+313,Visakhapatnam,Damonpalli,8.67,Jal Jeevan Mission,52.22,32.73489640946861
+314,Krishna,Melvinpalli,7.28,Swachh Bharat,50.86,39.01137703299216
+315,Nellore,Shannonpalli,3.06,Jal Jeevan Mission,52.28,60.84299550225698
+316,Anantapur,Davidpalli,4.05,None,98.97,79.24939349436497
+317,Prakasam,Anthonypalli,9.99,None,88.97,44.51616131291904
+318,West Godavari,Jonathanpalli,6.53,Swachh Bharat,98.57,66.6368409838839
+319,Guntur,Danielpalli,5.78,Swachh Bharat,78.75,60.473652878336146
+320,Vizianagaram,Annapalli,4.9,Jal Jeevan Mission,95.54,73.27893789917206
+321,Vizianagaram,Rachelpalli,5.18,Jal Jeevan Mission,79.28,63.74184151128012
+322,Chittoor,Oscarpalli,2.97,None,69.89,70.10461377017965
+323,Anantapur,Chelseypalli,4.61,Jal Jeevan Mission,99.66,76.79183236073058
+324,Srikakulam,Brandonpalli,9.91,Jal Jeevan Mission,45.79,23.311438126808888
+325,Krishna,Christopherpalli,8.41,Jal Jeevan Mission,87.51,51.69355786287638
+326,Vizianagaram,Thomaspalli,3.36,Jal Jeevan Mission,73.83,70.12404178420388
+327,Nellore,Jonpalli,6.68,Swachh Bharat,77.3,55.2436405183328
+328,Chittoor,Heatherpalli,2.81,Jal Jeevan Mission,85.79,78.86098346920923
+329,YSR Kadapa,Samanthapalli,2.76,Swachh Bharat,87.34,79.8867765994755
+330,Guntur,Williampalli,4.48,Jal Jeevan Mission,41.36,48.27206371787578
+331,Guntur,Timothypalli,0.59,Jal Jeevan Mission,55.05,74.59132804374472
+332,YSR Kadapa,Jenniferpalli,2.36,Jal Jeevan Mission,42.33,59.36801406630286
+333,Vizianagaram,Franciscopalli,1.63,Jal Jeevan Mission,91.79,87.76899084614485
+334,Kurnool,Michaelpalli,8.59,Jal Jeevan Mission,97.79,55.93625748233974
+335,Visakhapatnam,Timothypalli,5.0,Jal Jeevan Mission,70.68,60.33973030370508
+336,Nellore,Sherripalli,4.72,Swachh Bharat,54.61,53.70050326519855
+337,Prakasam,Michaelpalli,9.06,Swachh Bharat,50.62,29.982384065242066
+338,Kurnool,Marypalli,0.58,Swachh Bharat,50.96,72.59494559104286
+339,Anantapur,Jasonpalli,3.74,Swachh Bharat,36.01,49.29889360991132
+340,Prakasam,Briannapalli,2.64,None,59.8,66.70773144804967
+341,Visakhapatnam,Stevenpalli,2.29,None,37.6,57.35170775699146
+342,Vizianagaram,Adrianpalli,4.82,Jal Jeevan Mission,55.81,53.800423058904
+343,East Godavari,Veronicapalli,8.27,None,76.54,46.90541637404441
+344,Srikakulam,Randallpalli,9.15,Swachh Bharat,91.55,50.01126914966602
+345,Vizianagaram,Arthurpalli,4.15,Swachh Bharat,76.14,67.32589689659639
+346,Krishna,Troypalli,1.23,Swachh Bharat,37.37,62.54193250590728
+347,Anantapur,Meganpalli,3.61,Swachh Bharat,82.41,73.16579563652515
+348,West Godavari,Michellepalli,1.24,Jal Jeevan Mission,83.45,85.5480217533655
+349,Anantapur,Jamespalli,0.96,Jal Jeevan Mission,56.42,73.424956027778
+350,Anantapur,Marilynpalli,4.45,Swachh Bharat,37.54,46.510875931470345
+351,Srikakulam,Amandapalli,4.2,None,62.11,60.0557327065883
+352,Anantapur,Jenniferpalli,6.94,Swachh Bharat,98.07,64.33461380924605
+353,Kurnool,Jacquelinepalli,2.71,Swachh Bharat,73.14,73.03205336828873
+354,Visakhapatnam,Lindsaypalli,1.78,None,52.23,67.22438439640482
+355,YSR Kadapa,Teresapalli,4.7,Jal Jeevan Mission,30.42,41.697130934597155
+356,Guntur,Anthonypalli,2.83,Swachh Bharat,42.35,57.02566871885395
+357,Guntur,Michaelpalli,8.29,Swachh Bharat,85.55,51.31347198294061
+358,Visakhapatnam,Nathanpalli,1.8,Jal Jeevan Mission,62.85,72.43800390002733
+359,West Godavari,Dalepalli,8.91,Swachh Bharat,99.47,55.17524429262645
+360,Krishna,Leahpalli,2.8,None,32.42,52.20734093444992
+361,Vizianagaram,Samuelpalli,7.21,None,98.19,63.0433044873153
+362,Nellore,Alexandrapalli,8.24,None,48.83,33.19086123048897
+363,Prakasam,Robertpalli,5.12,Swachh Bharat,65.18,56.98720335466058
+364,Anantapur,Dariuspalli,3.13,Swachh Bharat,53.95,61.32823006134324
+365,Anantapur,Christopherpalli,5.0,Swachh Bharat,53.59,51.788744613722095
+366,Guntur,Samanthapalli,0.74,None,38.6,65.60981575992083
+367,Visakhapatnam,Sethpalli,6.94,Swachh Bharat,46.35,38.45649912896986
+368,Nellore,Tiffanypalli,8.41,Jal Jeevan Mission,99.74,57.81284136132529
+369,Vizianagaram,Aaronpalli,7.78,None,45.43,33.79197269920776
+370,Vizianagaram,Alyssapalli,8.18,Swachh Bharat,45.65,31.900047751143518
+371,Visakhapatnam,Carlapalli,9.81,None,52.38,27.10924674299036
+372,Visakhapatnam,Anthonypalli,1.9,None,49.84,65.42794670984404
+373,Chittoor,Joannapalli,7.15,Swachh Bharat,33.68,31.06601047159438
+374,East Godavari,Angelapalli,7.12,Jal Jeevan Mission,43.66,36.209656068557294
+375,YSR Kadapa,Josepalli,8.14,Swachh Bharat,43.7,31.124564973259055
+376,YSR Kadapa,Josephpalli,1.61,None,66.08,75.00508614288259
+377,Nellore,Paulpalli,8.72,None,75.52,44.1428068717171
+378,Chittoor,Rebeccapalli,5.1,Swachh Bharat,75.12,62.06078489176658
+379,West Godavari,Michaelpalli,9.67,None,92.83,48.049114860883094
+380,YSR Kadapa,Priscillapalli,3.95,None,68.11,64.30908542886928
+381,YSR Kadapa,Andreapalli,6.79,Jal Jeevan Mission,33.13,32.592619638551795
+382,East Godavari,Patrickpalli,4.3,None,35.83,46.40602776297763
+383,Guntur,Reginapalli,0.75,Swachh Bharat,72.25,82.39655145989579
+384,Nellore,Michaelpalli,9.54,Jal Jeevan Mission,84.79,44.676949540353924
+385,YSR Kadapa,Christopherpalli,3.78,Swachh Bharat,81.89,72.05476265818506
+386,Srikakulam,Markpalli,2.24,None,99.04,88.34347707058605
+387,West Godavari,Tammypalli,9.48,Jal Jeevan Mission,41.56,23.347108741885084
+388,YSR Kadapa,Bryanpalli,7.17,None,82.48,55.38300233586934
+389,Vizianagaram,Michaelpalli,4.52,Jal Jeevan Mission,56.54,55.66718023938078
+390,YSR Kadapa,Jenniferpalli,8.98,Swachh Bharat,89.38,49.776359968494454
+391,Kurnool,Jasonpalli,1.68,None,64.12,73.67404931199587
+392,Krishna,Angelapalli,3.91,Jal Jeevan Mission,90.94,75.93228172633756
+393,Nellore,Stacypalli,3.59,None,83.51,73.81628100631403
+394,East Godavari,Christinapalli,9.78,Swachh Bharat,81.62,41.889638061958685
+395,Guntur,Jamespalli,7.21,Jal Jeevan Mission,86.7,57.29428017029338
+396,East Godavari,Timothypalli,4.11,Jal Jeevan Mission,66.75,62.827808294635076
+397,Nellore,Jamespalli,0.89,Jal Jeevan Mission,33.65,62.38233129557056
+398,Chittoor,Jessicapalli,3.93,Jal Jeevan Mission,86.7,73.7106965867098
+399,Chittoor,Rebekahpalli,9.45,None,73.33,39.39338618113761
+400,West Godavari,Laurenpalli,1.14,Jal Jeevan Mission,59.33,73.98007434032651
+401,Krishna,Lynnpalli,4.31,Jal Jeevan Mission,49.0,52.94559044183782
+402,Anantapur,Katiepalli,2.13,Swachh Bharat,33.19,55.94596397658541
+403,East Godavari,Kathleenpalli,4.38,Jal Jeevan Mission,72.8,64.50357592657201
+404,Guntur,Peterpalli,2.6,Jal Jeevan Mission,48.82,61.41408595626548
+405,Kurnool,Trevorpalli,0.7,Swachh Bharat,41.4,67.21099664660157
+406,Chittoor,Brittneypalli,7.75,Jal Jeevan Mission,75.11,48.7925181260516
+407,Vizianagaram,Natashapalli,3.42,Jal Jeevan Mission,63.52,64.66513045618419
+408,Chittoor,Michaelpalli,4.56,Jal Jeevan Mission,40.32,47.351299062496906
+409,West Godavari,Josepalli,9.27,None,94.39,50.83166324535283
+410,Visakhapatnam,Johnpalli,9.36,Jal Jeevan Mission,86.75,46.5585369217912
+411,East Godavari,Bethpalli,7.79,Swachh Bharat,54.68,38.3701624169952
+412,YSR Kadapa,Brittanypalli,7.18,Jal Jeevan Mission,46.46,37.31033645473753
+413,Prakasam,Samanthapalli,2.5,Jal Jeevan Mission,45.72,60.36350069673395
+414,West Godavari,Lisapalli,3.97,Jal Jeevan Mission,35.53,47.90757434107779
+415,YSR Kadapa,Amandapalli,1.98,None,91.68,85.96220056742422
+416,Nellore,Melaniepalli,5.45,None,98.45,71.98220435986872
+417,Nellore,Philippalli,2.35,Swachh Bharat,37.59,57.04640395423944
+418,Guntur,Douglaspalli,3.06,None,98.37,83.90413830221695
+419,Kurnool,Corypalli,3.65,None,92.76,78.14422047385122
+420,YSR Kadapa,Meredithpalli,7.8,Swachh Bharat,41.27,31.610415579193727
+421,Visakhapatnam,Karapalli,8.14,None,39.98,29.263262061220626
+422,Prakasam,Jacobpalli,9.87,None,98.49,49.88009624755346
+423,Prakasam,Sarahpalli,1.29,Swachh Bharat,58.92,73.0241799890554
+424,Visakhapatnam,Nathanpalli,2.62,Swachh Bharat,91.19,82.51382574408692
+425,Chittoor,Bobbypalli,7.17,Swachh Bharat,63.34,45.806298643284535
+426,East Godavari,Jamespalli,2.51,Swachh Bharat,31.61,53.25350868731235
+427,Chittoor,Robertpalli,3.75,Jal Jeevan Mission,82.72,72.62020351182764
+428,Srikakulam,Samuelpalli,6.81,Jal Jeevan Mission,87.65,59.771614905208416
+429,Prakasam,Markpalli,2.58,None,98.53,86.38659674384681
+430,Guntur,Angelapalli,6.66,Swachh Bharat,61.92,47.648353847693386
+431,YSR Kadapa,Oscarpalli,7.17,Jal Jeevan Mission,95.65,61.97261506477958
+432,Anantapur,Briannapalli,8.59,None,44.83,29.43770849805074
+433,Chittoor,Sarapalli,8.86,None,48.51,29.92764604893095
+434,Anantapur,Kristinepalli,2.33,None,75.11,75.91964525317871
+435,West Godavari,Laurenpalli,8.45,Jal Jeevan Mission,41.13,28.287113291616446
+436,Vizianagaram,Robertpalli,6.53,Jal Jeevan Mission,84.43,59.5618885171572
+437,Srikakulam,Ashleypalli,4.86,Jal Jeevan Mission,71.71,61.55579175693255
+438,Chittoor,Christinapalli,7.03,None,56.27,42.96952311062188
+439,Krishna,Donnapalli,5.46,Jal Jeevan Mission,47.82,46.59942139677955
+440,Srikakulam,Nicolepalli,3.1,Swachh Bharat,43.95,56.474877759777186
+441,West Godavari,Brettpalli,8.04,Swachh Bharat,96.76,58.17364948256573
+442,Krishna,Jonathanpalli,8.95,None,97.07,53.774203504014366
+443,Srikakulam,Troypalli,1.88,Swachh Bharat,52.01,66.61380684196655
+444,Prakasam,Donaldpalli,6.98,Jal Jeevan Mission,60.46,45.316240888141216
+445,Anantapur,Peterpalli,6.61,Swachh Bharat,89.93,61.91341446520072
+446,Anantapur,Tiffanypalli,7.66,Swachh Bharat,58.02,40.69198288651906
+447,Prakasam,Beverlypalli,2.65,None,36.16,54.829401602142525
+448,Krishna,Dawnpalli,1.64,None,52.35,67.98512712652611
+449,Vizianagaram,Stephenpalli,1.37,Swachh Bharat,83.63,84.98743414684573
+450,Vizianagaram,Williampalli,1.49,Swachh Bharat,44.61,64.86316697964851
+451,Chittoor,Angelapalli,7.02,Jal Jeevan Mission,96.6,63.19869854844337
+452,Guntur,Carriepalli,4.6,None,40.54,47.26117591623446
+453,Chittoor,Kerrypalli,6.97,Jal Jeevan Mission,75.24,52.761467561827814
+454,Krishna,Jasminepalli,2.45,None,85.0,80.26750857732546
+455,Anantapur,Christopherpalli,3.66,None,61.87,62.63835135044982
+456,Krishna,Josephpalli,5.89,None,99.33,70.22031037341755
+457,Chittoor,Robertpalli,3.36,Jal Jeevan Mission,53.36,59.88187226554083
+458,Anantapur,Anthonypalli,2.46,None,36.25,55.82538407515891
+459,Vizianagaram,Bryanpalli,2.31,None,70.57,73.74815524019967
+460,YSR Kadapa,Parkerpalli,3.38,Jal Jeevan Mission,50.18,58.19065838579499
+461,Chittoor,Jeffreypalli,9.56,None,79.92,42.14014374626803
+462,Krishna,Dylanpalli,2.15,None,60.51,69.51543257457396
+463,East Godavari,Haleypalli,1.82,None,60.93,71.37723132919771
+464,Kurnool,Lisapalli,6.01,Jal Jeevan Mission,56.12,47.99957567895124
+465,Vizianagaram,Davidpalli,7.06,None,90.5,59.946361852696285
+466,Anantapur,Donnapalli,6.47,Swachh Bharat,80.34,57.81575631470558
+467,Anantapur,Davidpalli,3.35,Jal Jeevan Mission,63.86,65.1855998898929
+468,Vizianagaram,Jamespalli,5.06,None,50.26,49.8222779970003
+469,Nellore,Michaelpalli,0.82,Jal Jeevan Mission,75.53,83.68734991370836
+470,Prakasam,Chelseapalli,6.73,Swachh Bharat,54.63,43.650450210041924
+471,YSR Kadapa,Jacobpalli,7.13,None,71.22,49.94925877543709
+472,Anantapur,Kimberlypalli,9.05,Swachh Bharat,42.18,25.80947804604364
+473,Chittoor,Karlpalli,1.77,Jal Jeevan Mission,74.62,78.47727643584744
+474,Guntur,Heatherpalli,3.92,Swachh Bharat,58.56,59.680890737630456
+475,Vizianagaram,Brittneypalli,5.91,Jal Jeevan Mission,38.9,39.884044957596444
+476,Srikakulam,Lindapalli,4.29,None,33.97,45.52542635700846
+477,Vizianagaram,Crystalpalli,2.74,Swachh Bharat,35.1,53.84857989181015
+478,West Godavari,Codypalli,4.6,Jal Jeevan Mission,51.24,52.614923539570796
+479,Srikakulam,Michaelpalli,4.66,Swachh Bharat,92.8,73.10917942860303
+480,Guntur,Thomaspalli,1.04,Jal Jeevan Mission,60.7,75.16605467671214
+481,Krishna,Christopherpalli,4.71,None,51.19,52.03935547676166
+482,Krishna,Peterpalli,3.4,Swachh Bharat,68.71,67.362048328725
+483,Guntur,Johnpalli,3.15,Jal Jeevan Mission,72.68,70.59969005330758
+484,Guntur,Amberpalli,8.2,Swachh Bharat,71.37,44.66895595685749
+485,YSR Kadapa,Jasonpalli,9.62,Jal Jeevan Mission,62.71,33.22881572656415
+486,Krishna,Kylepalli,1.68,Swachh Bharat,69.79,76.51103520211896
+487,Prakasam,Marcuspalli,9.02,Swachh Bharat,68.6,39.17888167362799
+488,Krishna,Deborahpalli,6.01,Jal Jeevan Mission,32.94,36.40145699587308
+489,Anantapur,Cynthiapalli,2.75,None,52.81,62.659732683749496
+490,East Godavari,Kevinpalli,9.16,Swachh Bharat,31.79,20.06028844815996
+491,YSR Kadapa,Randypalli,5.87,None,99.85,70.58059260100688
+492,YSR Kadapa,Robertpalli,4.83,None,82.37,67.03967552061218
+493,Kurnool,Carriepalli,7.88,None,58.53,39.846060410455486
+494,Chittoor,Anitapalli,3.0,None,68.82,69.41908885769587
+495,Anantapur,Jerrypalli,1.63,None,92.82,88.28435159867162
+496,Anantapur,Johnpalli,1.95,None,30.54,55.52093672778152
+497,East Godavari,Victorpalli,9.56,Swachh Bharat,32.94,18.63368922810531
+498,Kurnool,Blakepalli,9.28,Jal Jeevan Mission,76.65,41.90539984595824
+499,Anantapur,Emilypalli,5.45,Jal Jeevan Mission,88.17,66.83860383950446
+500,Prakasam,Josephpalli,3.61,Swachh Bharat,65.49,64.69986948822134

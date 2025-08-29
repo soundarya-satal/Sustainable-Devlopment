@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Economics Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-chart-line"></i> Village Economics Dashboard</h1>
+            <p>Analyzing economic indicators across villages in Andhra Pradesh</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#" class="active" data-section="overview"><i class="fas fa-home"></i> Overview</a></li>
+                <li><a href="#" data-section="village-details"><i class="fas fa-info-circle"></i> Village Details</a></li>
+                <li><a href="#" data-section="comparison"><i class="fas fa-balance-scale"></i> Compare Villages</a></li>
+                <li><a href="#" data-section="district-analysis"><i class="fas fa-map-marked-alt"></i> District Analysis</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Overview Section -->
+        <section id="overview" class="section active">
+            <h2>Economic Overview</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-rupee-sign"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>Average Income</h3>
+                        <p class="stat-value" id="avg-income">--</p>
+                        <p class="stat-desc">Per Household (₹)</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>Employment Rate</h3>
+                        <p class="stat-value" id="avg-employment">--</p>
+                        <p class="stat-desc">Average across villages</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-house-damage"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>Poverty Rate</h3>
+                        <p class="stat-value" id="avg-poverty">--</p>
+                        <p class="stat-desc">Average across villages</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>Credit Access</h3>
+                        <p class="stat-value" id="credit-access">--</p>
+                        <p class="stat-desc">Villages with access</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-card">
+                    <h3>Income Distribution by District</h3>
+                    <canvas id="incomeChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Employment Rate by District</h3>
+                    <canvas id="employmentChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-card full-width">
+                    <h3>Main Occupation Distribution</h3>
+                    <canvas id="occupationChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Village Details Section -->
+        <section id="village-details" class="section">
+            <h2>Village Economic Details</h2>
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="district-filter">Filter by District:</label>
+                    <select id="district-filter">
+                        <option value="">All Districts</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="occupation-filter">Filter by Occupation:</label>
+                    <select id="occupation-filter">
+                        <option value="">All Occupations</option>
+                        <option value="Agriculture">Agriculture</option>
+                        <option value="Service">Service</option>
+                        <option value="Business">Business</option>
+                        <option value="Labor">Labor</option>
+                        <option value="Mixed">Mixed</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="credit-filter">Credit Access:</label>
+                    <select id="credit-filter">
+                        <option value="">All</option>
+                        <option value="Yes">With Access</option>
+                        <option value="No">Without Access</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="village-selector">
+                <label for="village-select">Select a Village:</label>
+                <select id="village-select">
+                    <option value="">-- Select a Village --</option>
+                </select>
+            </div>
+
+            <div id="village-details-card" class="details-card hidden">
+                <h3 id="village-name">Village Name</h3>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <span class="detail-label">District:</span>
+                        <span id="detail-district" class="detail-value">--</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Main Occupation:</span>
+                        <span id="detail-occupation" class="detail-value">--</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Employment Rate:</span>
+                        <span id="detail-employment" class="detail-value">--</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Average Income:</span>
+                        <span id="detail-income" class="detail-value">--</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Poverty Rate:</span>
+                        <span id="detail-poverty" class="detail-value">--</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Credit Access:</span>
+                        <span id="detail-credit" class="detail-value">--</span>
+                    </div>
+                </div>
+                
+                <div class="village-charts">
+                     <canvas id="villagePieChart" width="300" height="300"></canvas>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <h3>Village Data Table</h3>
+                <div class="table-scroll">
+                    <table id="village-table">
+                        <thead>
+                            <tr>
+                                <th>Village Code</th>
+                                <th>Village Name</th>
+                                <th>District</th>
+                                <th>Main Occupation</th>
+                                <th>Employment Rate</th>
+                                <th>Avg Income (₹)</th>
+                                <th>Poverty Rate</th>
+                                <th>Credit Access</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Data will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Section -->
+        <section id="comparison" class="section">
+            <h2>Compare Villages</h2>
+            <div class="comparison-controls">
+                <div class="village-select">
+                    <label for="compare-village-1">Select First Village:</label>
+                    <select id="compare-village-1">
+                        <option value="">-- Select Village --</option>
+                    </select>
+                </div>
+                <div class="village-select">
+                    <label for="compare-village-2">Select Second Village:</label>
+                    <select id="compare-village-2">
+                        <option value="">-- Select Village --</option>
+                    </select>
+                </div>
+                <button id="compare-btn" class="btn-primary">Compare Villages</button>
+            </div>
+
+            <div id="comparison-results" class="hidden">
+                <h3>Comparison Results</h3>
+                <div class="comparison-cards">
+                    <div class="comparison-card">
+                        <h4 id="compare-name-1">Village 1</h4>
+                        <div class="comparison-metrics" id="compare-metrics-1">
+                            <!-- Metrics will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    <div class="comparison-card">
+                        <h4 id="compare-name-2">Village 2</h4>
+                        <div class="comparison-metrics" id="compare-metrics-2">
+                            <!-- Metrics will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="comparison-chart">
+                    <canvas id="comparisonChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- District Analysis Section -->
+        <section id="district-analysis" class="section">
+            <h2>District Economic Analysis</h2>
+            <div class="district-selector">
+                <label for="district-select">Select a District:</label>
+                <select id="district-select">
+                    <option value="">-- Select District --</option>
+                </select>
+            </div>
+
+            <div id="district-details" class="hidden">
+                <h3 id="district-name">District Name</h3>
+                <div class="district-stats">
+                    <div class="district-stat">
+                        <h4>Average Income</h4>
+                        <p id="district-income">--</p>
+                    </div>
+                    <div class="district-stat">
+                        <h4>Employment Rate</h4>
+                        <p id="district-employment">--</p>
+                    </div>
+                    <div class="district-stat">
+                        <h4>Poverty Rate</h4>
+                        <p id="district-poverty">--</p>
+                    </div>
+                    <div class="district-stat">
+                        <h4>Credit Access</h4>
+                        <p id="district-credit">--</p>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <div class="chart-card">
+                        <h3>Occupation Distribution</h3>
+                        <canvas id="districtOccupationChart"></canvas>
+                    </div>
+                    <div class="chart-card">
+                        <h3>Credit Access</h3>
+                        <canvas id="districtCreditChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="top-villages">
+                    <h3>Top Performing Villages</h3>
+                    <div class="top-list">
+                        <div class="top-item">
+                            <h4>Highest Income</h4>
+                            <p id="top-income-village">--</p>
+                        </div>
+                        <div class="top-item">
+                            <h4>Highest Employment</h4>
+                            <p id="top-employment-village">--</p>
+                        </div>
+                        <div class="top-item">
+                            <h4>Lowest Poverty</h4>
+                            <p id="low-poverty-village">--</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <div class="management-button">
+    <a href="../management/index.html" class="btn-management">
+        <i class="fas fa-cogs"></i> Go to Management
+    </a>
+</div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Andhra Pradesh Village Economics Dashboard. All rights reserved.</p>
+            <p>Data Source: Andhra Pradesh Village Economic Survey</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

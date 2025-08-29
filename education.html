@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Education - Village360</title>
+  <link rel="stylesheet" href="education.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="category-detail">
+    <h1>📚 Education</h1>
+
+    <!-- Village Selector -->
+    <div class="village-selector">
+      <label for="village-select">Select your village:</label>
+      <select id="village-select">
+        <option value="">--Select Village--</option>
+        <!-- Villages will be populated via JavaScript -->
+      </select>
+    </div>
+
+    <!-- Main Chart -->
+    <div class="chart-container">
+      <canvas id="educationChart"></canvas>
+    </div>
+
+    <!-- Status -->
+    <div class="status" id="village-status">
+      <p>Select a village to see its education status</p>
+    </div>
+
+    <!-- Rankings -->
+    <div class="rankings">
+      <h2>Village Rankings - Education</h2>
+      <div class="ranking-container" id="ranking-container">
+        <!-- Rankings will be populated via JavaScript -->
+      </div>
+    </div>
+
+    <!-- Recommendations -->
+    <div class="recommendations" id="recommendations">
+      <h2>Improvement Recommendations</h2>
+      <ul id="recommendation-list">
+        <!-- Recommendations will be populated via JavaScript -->
+      </ul>
+    </div>
+
+    <a href="index.html" class="back-btn">← Back to Dashboard</a>
+  </div>
+
+  <script>
+    // DOM Elements
+    const villageSelect = document.getElementById('village-select');
+    const villageStatus = document.getElementById('village-status');
+    const rankingContainer = document.getElementById('ranking-container');
+    const recommendationList = document.getElementById('recommendation-list');
+    const ctx = document.getElementById('educationChart').getContext('2d');
+    
+    // Chart instance
+    let educationChart;
+    
+    // Villages data
+    let villages = [];
+    
+    // Fetch villages data
+    async function fetchVillages() {
+      try {
+        const response = await fetch('/api/villages');
+        villages = await response.json();
+        
+        // Populate village selector
+        villages.forEach(village => {
+          const option = document.createElement('option');
+          option.value = village.id;
+          option.textContent = village.names.en;
+          villageSelect.appendChild(option);
+        });
+        
+        // Fetch and display rankings
+        fetchRankings();
+      } catch (error) {
+        console.error('Error fetching villages:', error);
+      }
+    }
+    
+    // Fetch top villages by education score
+    async function fetchRankings() {
+      try {
+        const response = await fetch('/api/top-villages/educationScore?limit=5');
+        const topVillages = await response.json();
+        
+        // Clear previous rankings
+        rankingContainer.innerHTML = '';
+        
+        // Create ranking items
+        topVillages.forEach((village, index) => {
+          const rankItem = document.createElement('div');
+          rankItem.className = `rank-item ${getStatusClass(village.status)}`;
+          
+          rankItem.innerHTML = `
+            <div class="rank-number">${index + 1}</div>
+            <div class="rank-details">
+              <h3>${village.name}</h3>
+              <div class="score-bar">
+                <div class="score-fill" style="width: ${village.score}%"></div>
+              </div>
+              <p>${village.score.toFixed(1)}/100</p>
+            </div>
+          `;
+          
+          rankingContainer.appendChild(rankItem);
+        });
+      } catch (error) {
+        console.error('Error fetching rankings:', error);
+      }
+    }
+    
+    // Update chart and status for selected village
+    async function updateVillageData(villageId) {
+      if (!villageId) {
+        villageStatus.innerHTML = '<p>Select a village to see its education status</p>';
+        recommendationList.innerHTML = '';
+        return;
+      }
+      
+      try {
+        // Get village data
+        const village = villages.find(v => v.id === parseInt(villageId));
+        if (!village) return;
+        
+        // Update status
+        const statusClass = getStatusClass(getStatusCategory(village.educationScore));
+        villageStatus.innerHTML = `
+          <span class="indicator ${statusClass}">●</span> 
+          <b>${getStatusText(village.educationScore)}</b> 
+          (${village.educationScore}% education score)
+          <p>${getStatusEmoji(village.educationScore)} ${getStatusDescription(village.educationScore)}</p>
+        `;
+        
+        // Update chart
+        updateChart(village);
+        
+        // Fetch recommendations
+        fetchRecommendations(villageId);
+      } catch (error) {
+        console.error('Error updating village data:', error);
+      }
+    }
+    
+    // Fetch recommendations for selected village
+    async function fetchRecommendations(villageId) {
+      try {
+        const response = await fetch(`/api/recommendations/${villageId}`);
+        const data = await response.json();
+        
+        // Clear previous recommendations
+        recommendationList.innerHTML = '';
+        
+        // Add recommendations if available
+        if (data.recommendations && data.recommendations.educationScore) {
+          data.recommendations.educationScore.forEach(rec => {
+            const li = document.createElement('li');
+            li.textContent = rec;
+            recommendationList.appendChild(li);
+          });
+        } else {
+          recommendationList.innerHTML = '<li>No specific recommendations available</li>';
+        }
+      } catch (error) {
+        console.error('Error fetching recommendations:', error);
+      }
+    }
+    
+    // Update chart with village data
+    function updateChart(village) {
+      // Destroy previous chart if exists
+      if (educationChart) {
+        educationChart.destroy();
+      }
+      
+      // Create new chart
+      educationChart = new Chart(ctx, {
+        type: 'radar',
+        data: {
+          labels: [
+            'School Attendance', 
+            'Teacher Quality', 
+            'Infrastructure', 
+            'Learning Outcomes',
+            'Digital Resources'
+          ],
+          datasets: [{
+            label: village.names.en,
+            data: [
+              // Generate sample sub-metrics based on overall education score
+              Math.min(100, village.educationScore * (1 + Math.random() * 0.2)),
+              Math.min(100, village.educationScore * (1 + Math.random() * 0.1)),
+              Math.min(100, village.educationScore * (1 - Math.random() * 0.1)),
+              Math.min(100, village.educationScore * (1 - Math.random() * 0.2)),
+              Math.min(100, village.educationScore * (1 + Math.random() * 0.15))
+            ],
+            backgroundColor: 'rgba(80, 80, 129, 0.2)',
+            borderColor: '#505081',
+            pointBackgroundColor: '#272757',
+            pointBorderColor: '#fff',
+            pointHoverBackgroundColor: '#fff',
+            pointHoverBorderColor: '#272757'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            r: {
+              angleLines: {
+                display: true
+              },
+              suggestedMin: 0,
+              suggestedMax: 100
+            }
+          }
+        }
+      });
+    }
+    
+    // Helper functions
+    function getStatusCategory(score) {
+      if (score >= 80) return "excellent";
+      if (score >= 70) return "good";
+      if (score >= 50) return "needsImprovement";
+      return "critical";
+    }
+    
+    function getStatusClass(status) {
+      if (status === "excellent") return "green";
+      if (status === "good") return "light-green";
+      if (status === "needsImprovement") return "yellow";
+      return "red";
+    }
+    
+    function getStatusText(score) {
+      if (score >= 80) return "Excellent";
+      if (score >= 70) return "Good";
+      if (score >= 50) return "Needs Improvement";
+      return "Critical";
+    }
+    
+    function getStatusEmoji(score) {
+      if (score >= 80) return "😄";
+      if (score >= 70) return "🙂";
+      if (score >= 50) return "😐";
+      return "😟";
+    }
+    
+    function getStatusDescription(score) {
+      if (score >= 80) return "Excellent education facilities and outcomes";
+      if (score >= 70) return "Good education system with some areas for improvement";
+      if (score >= 50) return "Basic education available but significant improvements needed";
+      return "Critical issues in education access and quality";
+    }
+    
+    // Event listeners
+    villageSelect.addEventListener('change', (e) => {
+      updateVillageData(e.target.value);
+    });
+    
+    // Initialize
+    fetchVillages();
+  </script>
+</body>
+</html>

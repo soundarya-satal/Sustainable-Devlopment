@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Healthcare Access - Village360</title>
+  <link rel="stylesheet" href="healthcare.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="category-detail">
+    <h1>🏥 Healthcare Access</h1>
+
+    <!-- Village Selector -->
+    <div class="village-selector">
+      <label for="village-select">Select your village:</label>
+      <select id="village-select">
+        <option value="">--Select Village--</option>
+        <!-- Villages will be populated via JavaScript -->
+      </select>
+    </div>
+
+    <!-- Main Chart -->
+    <div class="chart-container">
+      <canvas id="healthcareChart"></canvas>
+    </div>
+
+    <!-- Status -->
+    <div class="status" id="village-status">
+      <p>Select a village to see its healthcare status</p>
+    </div>
+
+    <!-- Comparison Tool -->
+    <div class="comparison-tool">
+      <h2>Compare Villages</h2>
+      <div class="comparison-selectors">
+        <div>
+          <label for="compare-village-1">Village 1:</label>
+          <select id="compare-village-1">
+            <option value="">--Select Village--</option>
+            <!-- Villages will be populated via JavaScript -->
+          </select>
+        </div>
+        <div>
+          <label for="compare-village-2">Village 2:</label>
+          <select id="compare-village-2">
+            <option value="">--Select Village--</option>
+            <!-- Villages will be populated via JavaScript -->
+          </select>
+        </div>
+        <button id="compare-btn">Compare</button>
+      </div>
+      <div class="comparison-results" id="comparison-results">
+        <!-- Comparison results will be displayed here -->
+      </div>
+    </div>
+
+    <!-- Recommendations -->
+    <div class="recommendations" id="recommendations">
+      <h2>Improvement Recommendations</h2>
+      <ul id="recommendation-list">
+        <!-- Recommendations will be populated via JavaScript -->
+      </ul>
+    </div>
+
+    <a href="index.html" class="back-btn">← Back to Dashboard</a>
+  </div>
+
+  <script>
+    // DOM Elements
+    const villageSelect = document.getElementById('village-select');
+    const compareVillage1 = document.getElementById('compare-village-1');
+    const compareVillage2 = document.getElementById('compare-village-2');
+    const compareBtn = document.getElementById('compare-btn');
+    const comparisonResults = document.getElementById('comparison-results');
+    const villageStatus = document.getElementById('village-status');
+    const recommendationList = document.getElementById('recommendation-list');
+    const ctx = document.getElementById('healthcareChart').getContext('2d');
+    
+    // Chart instance
+    let healthcareChart;
+    
+    // Villages data
+    let villages = [];
+    
+    // Fetch villages data
+    async function fetchVillages() {
+      try {
+        const response = await fetch('/api/villages');
+        villages = await response.json();
+        
+        // Populate village selectors
+        villages.forEach(village => {
+          // Main selector
+          const option1 = document.createElement('option');
+          option1.value = village.id;
+          option1.textContent = village.names.en;
+          villageSelect.appendChild(option1);
+          
+          // Comparison selectors
+          const option2 = option1.cloneNode(true);
+          const option3 = option1.cloneNode(true);
+          compareVillage1.appendChild(option2);
+          compareVillage2.appendChild(option3);
+        });
+      } catch (error) {
+        console.error('Error fetching villages:', error);
+      }
+    }
+    
+    // Update chart and status for selected village
+    async function updateVillageData(villageId) {
+      if (!villageId) {
+        villageStatus.innerHTML = '<p>Select a village to see its healthcare status</p>';
+        recommendationList.innerHTML = '';
+        return;
+      }
+      
+      try {
+        // Get village data
+        const village = villages.find(v => v.id === parseInt(villageId));
+        if (!village) return;
+        
+        // Update status
+        const statusClass = getStatusClass(getStatusCategory(village.healthcareAccess));
+        villageStatus.innerHTML = `
+          <span class="indicator ${statusClass}">●</span> 
+          <b>${getStatusText(village.healthcareAccess)}</b> 
+          (${village.healthcareAccess}% healthcare access score)
+          <p>${getStatusEmoji(village.healthcareAccess)} ${getStatusDescription(village.healthcareAccess)}</p>
+        `;
+        
+        // Update chart
+        updateChart(village);
+        
+        // Fetch recommendations
+        fetchRecommendations(villageId);
+      } catch (error) {
+        console.error('Error updating village data:', error);
+      }
+    }
+    
+    // Fetch recommendations for selected village
+    async function fetchRecommendations(villageId) {
+      try {
+        const response = await fetch(`/api/recommendations/${villageId}`);
+        const data = await response.json();
+        
+        // Clear previous recommendations
+        recommendationList.innerHTML = '';
+        
+        // Add recommendations if available
+        if (data.recommendations && data.recommendations.healthcareAccess) {
+          data.recommendations.healthcareAccess.forEach(rec => {
+            const li = document.createElement('li');
+            li.textContent = rec;
+            recommendationList.appendChild(li);
+          });
+        } else {
+          recommendationList.innerHTML = '<li>No specific recommendations available</li>';
+        }
+      } catch (error) {
+        console.error('Error fetching recommendations:', error);
+      }
+    }
+    
+    // Update chart with village data
+    function updateChart(village) {
+      // Destroy previous chart if exists
+      if (healthcareChart) {
+        healthcareChart.destroy();
+      }
+      
+      // Create new chart
+      healthcareChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: [
+            'Primary Care', 
+            'Emergency Services', 
+            'Maternal Care', 
+            'Vaccination',
+            'Specialist Access'
+          ],
+          datasets: [{
+            label: village.names.en,
+            data: [
+              // Generate sample sub-metrics based on overall healthcare score
+              Math.min(100, village.healthcareAccess * (1 + Math.random() * 0.2)),
+              Math.min(100, village.healthcareAccess * (1 - Math.random() * 0.3)),
+              Math.min(100, village.healthcareAccess * (1 + Math.random() * 0.1)),
+              Math.min(100, village.healthcareAccess * (1 + Math.random() * 0.25)),
+              Math.min(100, village.healthcareAccess * (1 - Math.random() * 0.2))
+            ],
+            backgroundColor: [
+              '#8686AC',
+              '#505081',
+              '#8686AC',
+              '#505081',
+              '#8686AC'
+            ],
+            borderColor: '#272757',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 100
+            }
+          }
+        }
+      });
+    }
+    
+    // Compare villages
+    async function compareVillages(id1, id2) {
+      if (!id1 || !id2) {
+        comparisonResults.innerHTML = '<p>Please select two villages to compare</p>';
+        return;
+      }
+      
+      if (id1 === id2) {
+        comparisonResults.innerHTML = '<p>Please select different villages to compare</p>';
+        return;
+      }
+      
+      try {
+        const response = await fetch(`/api/compare-villages?ids=${id1},${id2}&metrics=healthcareAccess`);
+        const data = await response.json();
+        
+        if (data.length !== 2) {
+          comparisonResults.innerHTML = '<p>Error comparing villages</p>';
+          return;
+        }
+        
+        // Create comparison visualization
+        const village1 = data[0];
+        const village2 = data[1];
+        
+        const v1Status = getStatusClass(village1.healthcareAccess.status);
+        const v2Status = getStatusClass(village2.healthcareAccess.status);
+        
+        comparisonResults.innerHTML = `
+          <div class="comparison-header">
+            <h3>Healthcare Access Comparison</h3>
+          </div>
+          <div class="comparison-grid">
+            <div class="comparison-item">
+              <h4>${village1.name}</h4>
+              <div class="comparison-score ${v1Status}">${village1.healthcareAccess.score.toFixed(1)}</div>
+              <div class="comparison-bar">
+                <div class="comparison-fill ${v1Status}" style="width: ${village1.healthcareAccess.score}%"></div>
+              </div>
+              <p>${getStatusText(village1.healthcareAccess.score)}</p>
+            </div>
+            <div class="comparison-item">
+              <h4>${village2.name}</h4>
+              <div class="comparison-score ${v2Status}">${village2.healthcareAccess.score.toFixed(1)}</div>
+              <div class="comparison-bar">
+                <div class="comparison-fill ${v2Status}" style="width: ${village2.healthcareAccess.score}%"></div>
+              </div>
+              <p>${getStatusText(village2.healthcareAccess.score)}</p>
+            </div>
+          </div>
+          <div class="comparison-analysis">
+            <h4>Analysis</h4>
+            <p>${generateComparisonAnalysis(village1, village2)}</p>
+          </div>
+        `;
+      } catch (error) {
+        console.error('Error comparing villages:', error);
+        comparisonResults.innerHTML = '<p>Error comparing villages</p>';
+      }
+    }
+    
+    // Generate comparison analysis text
+    function generateComparisonAnalysis(village1, village2) {
+      const score1 = village1.healthcareAccess.score;
+      const score2 = village2.healthcareAccess.score;
+      const diff = Math.abs(score1 - score2).toFixed(1);
+      
+      if (score1 > score2) {
+        return `${village1.name} has better healthcare access than ${village2.name} by ${diff} points. This suggests better availability of medical facilities, healthcare professionals, and services.`;
+      } else if (score2 > score1) {
+        return `${village2.name} has better healthcare access than ${village1.name} by ${diff} points. This suggests better availability of medical facilities, healthcare professionals, and services.`;
+      } else {
+        return `Both villages have equal healthcare access scores. They likely face similar healthcare challenges and opportunities.`;
+      }
+    }
+    
+    // Helper functions
+    function getStatusCategory(score) {
+      if (score >= 80) return "excellent";
+      if (score >= 70) return "good";
+      if (score >= 50) return "needsImprovement";
+      return "critical";
+    }
+    
+    function getStatusClass(status) {
+      if (status === "excellent") return "green";
+      if (status === "good") return "light-green";
+      if (status === "needsImprovement") return "yellow";
+      return "red";
+    }
+    
+    function getStatusText(score) {
+      if (score >= 80) return "Excellent";
+      if (score >= 70) return "Good";
+      if (score >= 50) return "Needs Improvement";
+      return "Critical";
+    }
+    
+    function getStatusEmoji(score) {
+      if (score >= 80) return "😄";
+      if (score >= 70) return "🙂";
+      if (score >= 50) return "😐";
+      return "😟";
+    }
+    
+    function getStatusDescription(score) {
+      if (score >= 80) return "Excellent healthcare facilities and services";
+      if (score >= 70) return "Good healthcare access with some areas for improvement";
+      if (score >= 50) return "Basic healthcare available but significant improvements needed";
+      return "Critical issues in healthcare access and quality";
+    }
+    
+    // Event listeners
+    villageSelect.addEventListener('change', (e) => {
+      updateVillageData(e.target.value);
+    });
+    
+    compareBtn.addEventListener('click', () => {
+      compareVillages(compareVillage1.value, compareVillage2.value);
+    });
+    
+    // Initialize
+    fetchVillages();
+  </script>
+</body>
+</html>

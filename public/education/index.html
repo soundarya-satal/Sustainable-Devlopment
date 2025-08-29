@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Education Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-graduation-cap"></i> Education Analysis</h1>
+            <p>Analyzing educational quality and sustainability across villages</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#" class="active" data-section="dashboard">Dashboard</a></li>
+                <li><a href="#" data-section="comparison">Comparison</a></li>
+                <li><a href="#" data-section="district-view">District View</a></li>
+                <li><a href="#" data-section="about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="dashboard" class="section active">
+            <div class="controls">
+                <div class="control-group">
+                    <label for="village-select">Select Village:</label>
+                    <select id="village-select">
+                        <option value="">-- Select Village --</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="score-display">
+                <div class="score-card">
+                    <h3>Education Quality Score</h3>
+                    <div class="score-circle" style="--p: 0">
+                        <span id="score-value">--</span>%
+                    </div>
+                    <div id="score-status" class="score-status">Select a village to see education quality</div>
+                </div>
+
+                <div class="score-card">
+                    <h3>Sustainability Index</h3>
+                    <div class="score-circle sustainability" style="--p: 0">
+                        <span id="sustainability-value">--</span>%
+                    </div>
+                    <div id="sustainability-status" class="score-status">Select a village to see sustainability</div>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <canvas id="educationChart"></canvas>
+            </div>
+
+            <div class="metrics-grid" id="metrics-grid">
+                <!-- Will be populated by JavaScript -->
+            </div>
+
+            <div class="recommendations">
+                <h2><i class="fas fa-lightbulb"></i> Improvement Recommendations</h2>
+                <div id="recommendations-content" class="recommendations-content">
+                    <p class="placeholder">Select a village to see improvement recommendations</p>
+                </div>
+            </div>
+
+            <div class="action-plan">
+                <h2><i class="fas fa-tasks"></i> Action Plan</h2>
+                <div id="action-timeline" class="timeline">
+                    <p class="placeholder">Select a village to see the action plan</p>
+                </div>
+            </div>
+
+            <div class="download-section">
+                <button id="download-report" class="btn-download">
+                    <i class="fas fa-download"></i> Download Full Report
+                </button>
+            </div>
+        </section>
+
+        <section id="comparison" class="section">
+            <h2>Compare Villages</h2>
+            <div class="comparison-controls">
+                <div class="control-group">
+                    <label for="compare-village-1">Village 1:</label>
+                    <select id="compare-village-1">
+                        <option value="">-- Select Village --</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label for="compare-village-2">Village 2:</label>
+                    <select id="compare-village-2">
+                        <option value="">-- Select Village --</option>
+                    </select>
+                </div>
+                <button id="compare-btn" class="btn-primary">Compare</button>
+            </div>
+            <div id="comparison-results" class="comparison-results">
+                <p class="placeholder">Select two villages to compare their education metrics</p>
+            </div>
+        </section>
+
+        <section id="district-view" class="section">
+            <h2>District-wise Analysis</h2>
+            <div class="district-controls">
+                <div class="control-group">
+                    <label for="district-select">Select District:</label>
+                    <select id="district-select">
+                        <option value="">-- All Districts --</option>
+                    </select>
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="districtChart"></canvas>
+            </div>
+            <div id="district-stats" class="district-stats">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About This Project</h2>
+            <div class="about-content">
+                <p>This dashboard analyzes educational quality and sustainability metrics across villages in Andhra Pradesh, India.</p>
+                <p>The data includes information about school distance, government schemes, and educational quality percentages to help identify areas for improvement.</p>
+                
+                <h3>Data Sources</h3>
+                <p>The data is sourced from the <code>andhra_pradesh_villages_education.csv</code> file which contains information on 500 villages across multiple districts.</p>
+                
+                <h3>Metrics Explained</h3>
+                <ul>
+                    <li><strong>Educational Quality Percentage:</strong> A measure of the quality of education in the village</li>
+                    <li><strong>Village Sustainability Index:</strong> An indicator of the village's overall sustainability</li>
+                    <li><strong>School Distance:</strong> Distance to the nearest school in kilometers</li>
+                    <li><strong>Government Schemes:</strong> Active government schemes in the village</li>
+                </ul>
+            </div>
+        </section>
+
+         <div class="management-button">
+    <a href="../management/index.html" class="btn-management">
+        <i class="fas fa-cogs"></i> Go to Management
+    </a>
+</div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Andhra Pradesh Village Education Analysis</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,501 @@
+Village_Code,District,Village_Name,Toilet_Access_Percent,Waste_Collection_Frequency,Open_Defecation_Status,Drainage_System,Sanitation_Percentage
+1,Chittoor,Charlespalli,79.67,Weekly,No,None,79.67
+2,East Godavari,Nicolepalli,99.97,None,No,Closed,99.97
+3,Vizianagaram,Scottpalli,88.2,Weekly,No,Open,88.2
+4,Krishna,Tinapalli,65.18,Weekly,Yes,Open,65.18
+5,YSR Kadapa,Tiffanypalli,50.28,Monthly,No,Open,50.28
+6,Visakhapatnam,Triciapalli,83.25,Daily,No,Open,83.25
+7,Kurnool,Adampalli,99.72,None,No,Closed,99.72
+8,Visakhapatnam,Alexandrapalli,89.3,None,Yes,Closed,89.3
+9,Prakasam,Amandapalli,38.32,Daily,No,Closed,38.32
+10,Kurnool,Jamespalli,92.52,Weekly,No,None,92.52
+11,Kurnool,Janepalli,85.77,Daily,No,Closed,85.77
+12,West Godavari,Robertpalli,40.6,Weekly,No,None,40.6
+13,Prakasam,Kimberlypalli,84.04,Monthly,No,Open,84.04
+14,Kurnool,Jessicapalli,77.36,None,No,Closed,77.36
+15,Prakasam,Sarahpalli,49.01,Daily,Yes,Open,49.01
+16,East Godavari,Alexanderpalli,82.91,Monthly,No,Closed,82.91
+17,Nellore,Alyssapalli,50.89,Daily,No,Closed,50.89
+18,Krishna,Dustinpalli,77.21,Weekly,Yes,None,77.21
+19,Anantapur,Michellepalli,51.14,Daily,No,None,51.14
+20,YSR Kadapa,Karenpalli,45.46,Weekly,No,Open,45.46
+21,Srikakulam,Patrickpalli,34.32,Weekly,Yes,Open,34.32
+22,Prakasam,Manuelpalli,69.12,Monthly,Yes,Closed,69.12
+23,Prakasam,Katiepalli,98.48,None,No,Closed,98.48
+24,Nellore,Shannonpalli,62.41,None,No,Open,62.41
+25,Guntur,Kevinpalli,71.84,Daily,Yes,None,71.84
+26,Visakhapatnam,Kerrypalli,99.0,Weekly,No,Closed,99.0
+27,West Godavari,Courtneypalli,82.81,None,Yes,Open,82.81
+28,Guntur,Timothypalli,67.49,Weekly,Yes,Closed,67.49
+29,Anantapur,Jonathanpalli,78.69,Weekly,No,Open,78.69
+30,Chittoor,Kimberlypalli,51.9,Daily,Yes,None,51.9
+31,Vizianagaram,Rebeccapalli,74.92,None,No,Open,74.92
+32,Anantapur,Kylepalli,39.62,Weekly,Yes,None,39.62
+33,Nellore,Michellepalli,31.2,None,Yes,Open,31.2
+34,Prakasam,Melindapalli,75.76,Daily,Yes,Closed,75.76
+35,Visakhapatnam,Johnpalli,44.8,None,No,Open,44.8
+36,Nellore,Kelseypalli,69.67,None,No,Closed,69.67
+37,Visakhapatnam,Dalepalli,49.13,None,No,Open,49.13
+38,West Godavari,Kimberlypalli,84.87,Weekly,No,Closed,84.87
+39,Srikakulam,Josephpalli,54.77,Daily,No,Closed,54.77
+40,East Godavari,Kimberlypalli,41.7,Monthly,No,Closed,41.7
+41,Krishna,Billypalli,86.29,Monthly,No,Closed,86.29
+42,Krishna,Pamelapalli,56.32,None,No,Open,56.32
+43,Chittoor,Randypalli,51.2,Monthly,Yes,None,51.2
+44,Nellore,Zacharypalli,94.01,Daily,Yes,None,94.01
+45,Chittoor,Susanpalli,78.14,Weekly,No,Closed,78.14
+46,East Godavari,Amandapalli,63.8,None,Yes,Closed,63.8
+47,YSR Kadapa,Wesleypalli,41.21,None,No,Open,41.21
+48,Nellore,Danielpalli,86.61,Daily,Yes,None,86.61
+49,Visakhapatnam,Jenniferpalli,73.22,Monthly,Yes,None,73.22
+50,Nellore,Paigepalli,95.15,Weekly,Yes,Closed,95.15
+51,Srikakulam,Jocelynpalli,59.09,None,No,Open,59.09
+52,Srikakulam,Codypalli,67.94,Daily,No,None,67.94
+53,Kurnool,Robertpalli,44.69,Monthly,No,Open,44.69
+54,Krishna,Amberpalli,39.49,None,Yes,Closed,39.49
+55,Krishna,Dianepalli,85.62,Daily,No,None,85.62
+56,Vizianagaram,Josephpalli,97.77,Weekly,No,Closed,97.77
+57,Chittoor,Victorpalli,60.89,Daily,No,Open,60.89
+58,Vizianagaram,Timothypalli,51.39,Weekly,No,None,51.39
+59,Kurnool,Glennpalli,46.03,Daily,Yes,Open,46.03
+60,Visakhapatnam,Shannonpalli,44.91,Weekly,No,None,44.91
+61,Kurnool,Katiepalli,47.37,Monthly,Yes,None,47.37
+62,Vizianagaram,Debbiepalli,39.24,None,No,None,39.24
+63,Srikakulam,Toddpalli,58.16,Weekly,No,Open,58.16
+64,Anantapur,Bettypalli,72.62,Monthly,Yes,Open,72.62
+65,West Godavari,Jasonpalli,66.67,Monthly,Yes,Closed,66.67
+66,Vizianagaram,Toddpalli,90.11,Daily,Yes,Open,90.11
+67,Nellore,Nicolepalli,87.82,Monthly,Yes,None,87.82
+68,YSR Kadapa,Davidpalli,30.56,Weekly,No,None,30.56
+69,East Godavari,Timothypalli,54.25,Daily,No,Open,54.25
+70,West Godavari,Nicolepalli,79.06,Monthly,No,None,79.06
+71,Krishna,Anthonypalli,49.04,Daily,Yes,Open,49.04
+72,Prakasam,Glendapalli,86.53,Monthly,Yes,Open,86.53
+73,East Godavari,Justinpalli,68.51,Daily,No,Open,68.51
+74,Vizianagaram,Haroldpalli,94.22,Daily,Yes,Open,94.22
+75,Visakhapatnam,Emilypalli,77.82,Weekly,No,Open,77.82
+76,Prakasam,Sarahpalli,43.96,Weekly,Yes,Closed,43.96
+77,Guntur,Tracipalli,55.02,Weekly,Yes,Open,55.02
+78,Kurnool,Nicholaspalli,52.26,Monthly,Yes,None,52.26
+79,Anantapur,Jonathanpalli,30.05,Weekly,Yes,Closed,30.05
+80,Kurnool,Samanthapalli,51.12,Weekly,Yes,None,51.12
+81,Krishna,Patriciapalli,30.13,None,Yes,Open,30.13
+82,Chittoor,Jacobpalli,44.68,Daily,No,Closed,44.68
+83,Nellore,Tinapalli,45.79,None,Yes,Open,45.79
+84,Kurnool,Joshuapalli,41.55,None,Yes,Open,41.55
+85,Nellore,Adampalli,30.27,Daily,No,None,30.27
+86,Prakasam,Pamelapalli,57.13,Monthly,No,Closed,57.13
+87,Chittoor,Kevinpalli,45.93,Daily,No,None,45.93
+88,Vizianagaram,Cherylpalli,96.43,Weekly,Yes,Open,96.43
+89,Chittoor,Karenpalli,66.38,Daily,No,Open,66.38
+90,Krishna,Frankpalli,32.62,Monthly,No,Open,32.62
+91,Anantapur,Matthewpalli,90.08,Daily,Yes,Open,90.08
+92,West Godavari,Carolpalli,85.4,Daily,No,None,85.4
+93,West Godavari,Markpalli,74.48,Daily,Yes,Open,74.48
+94,West Godavari,Derekpalli,89.77,Weekly,Yes,None,89.77
+95,YSR Kadapa,Josephpalli,97.69,Monthly,No,Closed,97.69
+96,Kurnool,Anthonypalli,63.72,Monthly,No,None,63.72
+97,YSR Kadapa,Stephaniepalli,80.49,None,No,Closed,80.49
+98,Vizianagaram,Lisapalli,88.84,Weekly,No,Open,88.84
+99,Nellore,Jorgepalli,50.58,Daily,No,Open,50.58
+100,East Godavari,Vanessapalli,40.03,Weekly,Yes,Closed,40.03
+101,Prakasam,Amberpalli,74.34,None,No,Closed,74.34
+102,West Godavari,Jeffpalli,56.85,Monthly,Yes,Open,56.85
+103,Prakasam,Robertpalli,45.99,Weekly,Yes,None,45.99
+104,Visakhapatnam,Jonpalli,33.38,Daily,No,Closed,33.38
+105,Krishna,Richardpalli,80.31,Daily,No,Open,80.31
+106,Srikakulam,Calvinpalli,30.19,Daily,Yes,None,30.19
+107,Krishna,Jamespalli,55.22,Monthly,No,None,55.22
+108,Krishna,Marissapalli,37.97,None,No,Closed,37.97
+109,Chittoor,Mitchellpalli,42.69,None,No,None,42.69
+110,Anantapur,Robertpalli,98.45,Monthly,Yes,Closed,98.45
+111,Anantapur,Michaelpalli,90.86,Daily,No,Closed,90.86
+112,YSR Kadapa,Nicholaspalli,38.31,None,Yes,Open,38.31
+113,Kurnool,Sarahpalli,69.21,None,No,None,69.21
+114,East Godavari,Alexispalli,43.71,Daily,No,Open,43.71
+115,East Godavari,Amandapalli,95.47,None,Yes,None,95.47
+116,West Godavari,Douglaspalli,61.7,Weekly,Yes,Closed,61.7
+117,Kurnool,Jamespalli,78.6,Monthly,Yes,Closed,78.6
+118,Vizianagaram,Melaniepalli,47.54,Daily,No,Open,47.54
+119,YSR Kadapa,Crystalpalli,59.16,Monthly,Yes,Open,59.16
+120,Guntur,Michellepalli,81.46,Daily,No,Open,81.46
+121,East Godavari,Bradleypalli,64.34,Monthly,Yes,None,64.34
+122,Guntur,Kylepalli,45.29,None,Yes,Open,45.29
+123,Nellore,Brendapalli,66.0,None,No,Open,66.0
+124,Vizianagaram,Melindapalli,67.64,None,Yes,None,67.64
+125,Visakhapatnam,Sarahpalli,74.12,None,No,Open,74.12
+126,Chittoor,Lisapalli,83.57,None,No,Closed,83.57
+127,Vizianagaram,Russellpalli,39.9,Daily,Yes,None,39.9
+128,East Godavari,Jakepalli,38.02,Daily,No,None,38.02
+129,Chittoor,Juliapalli,61.55,Monthly,Yes,None,61.55
+130,East Godavari,Tracypalli,55.11,Monthly,No,None,55.11
+131,Chittoor,Brettpalli,58.36,Weekly,Yes,None,58.36
+132,Kurnool,Yolandapalli,83.0,Weekly,No,Open,83.0
+133,Vizianagaram,Lisapalli,91.71,Daily,No,Open,91.71
+134,Srikakulam,Melissapalli,87.21,Monthly,No,Closed,87.21
+135,West Godavari,Taylorpalli,37.93,None,No,Open,37.93
+136,East Godavari,Briannapalli,71.96,Daily,No,Open,71.96
+137,Srikakulam,Jonathanpalli,34.82,None,No,Open,34.82
+138,Srikakulam,Andrewpalli,93.14,Daily,No,None,93.14
+139,Visakhapatnam,Lancepalli,93.71,Daily,No,None,93.71
+140,Vizianagaram,Jamespalli,40.83,Monthly,No,None,40.83
+141,Kurnool,Donaldpalli,54.1,None,Yes,None,54.1
+142,Visakhapatnam,Melissapalli,30.37,Daily,Yes,Closed,30.37
+143,Visakhapatnam,Shellypalli,74.82,None,Yes,Open,74.82
+144,Vizianagaram,Reneepalli,54.72,None,No,None,54.72
+145,Guntur,Johnpalli,42.25,Daily,Yes,None,42.25
+146,YSR Kadapa,Davidpalli,92.76,Daily,No,Open,92.76
+147,West Godavari,Jessicapalli,77.16,Monthly,Yes,None,77.16
+148,Prakasam,Bryanpalli,46.04,Weekly,No,Open,46.04
+149,Visakhapatnam,Robertpalli,49.62,Weekly,Yes,Open,49.62
+150,Chittoor,Sheilapalli,30.83,Weekly,No,None,30.83
+151,Prakasam,Sharonpalli,49.57,Weekly,Yes,None,49.57
+152,Prakasam,Margaretpalli,99.69,Monthly,No,Closed,99.69
+153,West Godavari,Mauricepalli,95.23,Monthly,No,Open,95.23
+154,YSR Kadapa,Denisepalli,62.46,Weekly,Yes,None,62.46
+155,Vizianagaram,Thomaspalli,48.99,None,No,None,48.99
+156,West Godavari,Emilypalli,36.69,None,Yes,Open,36.69
+157,Vizianagaram,Jenniferpalli,76.45,Monthly,No,Closed,76.45
+158,Visakhapatnam,Scottpalli,67.78,Daily,No,Closed,67.78
+159,Prakasam,Williampalli,85.86,Weekly,Yes,None,85.86
+160,Guntur,Cindypalli,67.24,Monthly,No,Open,67.24
+161,Anantapur,Aaronpalli,49.75,Weekly,No,None,49.75
+162,Prakasam,Marypalli,33.92,None,Yes,None,33.92
+163,Guntur,Jonathanpalli,83.97,Weekly,No,Closed,83.97
+164,Anantapur,Richardpalli,60.39,Daily,Yes,Closed,60.39
+165,Guntur,Jopalli,34.2,Monthly,Yes,None,34.2
+166,Kurnool,Jackpalli,60.63,Monthly,No,Open,60.63
+167,Srikakulam,Brianapalli,42.99,Daily,No,None,42.99
+168,Chittoor,Suzannepalli,91.14,Weekly,Yes,Closed,91.14
+169,Anantapur,Vanessapalli,86.07,Daily,No,None,86.07
+170,Chittoor,Robinpalli,46.17,None,Yes,Open,46.17
+171,Vizianagaram,Tarapalli,58.11,Monthly,Yes,None,58.11
+172,Kurnool,Jessepalli,94.83,Monthly,No,Closed,94.83
+173,Krishna,Jonathonpalli,87.56,Weekly,Yes,Open,87.56
+174,Nellore,Jessicapalli,42.1,Daily,No,Open,42.1
+175,YSR Kadapa,Michaelpalli,66.71,Monthly,Yes,Closed,66.71
+176,Guntur,Sandypalli,35.78,Daily,No,Closed,35.78
+177,Visakhapatnam,Margaretpalli,48.64,None,No,None,48.64
+178,YSR Kadapa,Jenniferpalli,40.21,Daily,Yes,Open,40.21
+179,Krishna,Ericpalli,67.66,Weekly,No,None,67.66
+180,Visakhapatnam,Amandapalli,76.23,Monthly,Yes,Open,76.23
+181,East Godavari,Christinapalli,32.78,Monthly,No,Closed,32.78
+182,YSR Kadapa,Ericpalli,96.44,Weekly,Yes,Closed,96.44
+183,Visakhapatnam,Paulpalli,39.7,Weekly,Yes,Closed,39.7
+184,Chittoor,Jamespalli,80.9,Monthly,No,Closed,80.9
+185,Visakhapatnam,Jillpalli,78.12,Monthly,Yes,None,78.12
+186,Anantapur,Samuelpalli,81.97,Weekly,Yes,Open,81.97
+187,Nellore,Kathrynpalli,67.53,Daily,Yes,Closed,67.53
+188,Guntur,Douglaspalli,41.65,Monthly,Yes,None,41.65
+189,Srikakulam,Karenpalli,42.52,Weekly,No,Open,42.52
+190,Visakhapatnam,Robinpalli,83.78,Monthly,Yes,Open,83.78
+191,Guntur,Emilypalli,89.88,Daily,No,Open,89.88
+192,Srikakulam,Jessicapalli,33.85,Monthly,Yes,Open,33.85
+193,West Godavari,Markpalli,95.2,Daily,No,Closed,95.2
+194,Kurnool,Thomaspalli,72.84,Daily,Yes,Closed,72.84
+195,Vizianagaram,Jasminepalli,50.33,Weekly,Yes,Open,50.33
+196,Guntur,Troypalli,51.54,Monthly,Yes,Open,51.54
+197,Prakasam,Chloepalli,73.9,Monthly,No,Closed,73.9
+198,Chittoor,Shannonpalli,73.86,Weekly,No,Open,73.86
+199,Guntur,Jeremypalli,84.45,Daily,No,None,84.45
+200,Vizianagaram,Ericpalli,79.96,Daily,Yes,Closed,79.96
+201,Kurnool,Scottpalli,84.1,Daily,No,Open,84.1
+202,East Godavari,Sharipalli,34.99,Monthly,No,Open,34.99
+203,Vizianagaram,Margaretpalli,53.26,Weekly,Yes,Closed,53.26
+204,Krishna,Alisonpalli,53.12,Monthly,No,Closed,53.12
+205,Srikakulam,Patrickpalli,34.96,Monthly,No,Closed,34.96
+206,Nellore,Kaitlynpalli,78.59,Weekly,Yes,None,78.59
+207,Visakhapatnam,Lindseypalli,76.21,Daily,Yes,Open,76.21
+208,Vizianagaram,Christopherpalli,94.3,None,No,Open,94.3
+209,Chittoor,Michellepalli,71.31,Monthly,No,Closed,71.31
+210,East Godavari,Rachelpalli,91.94,None,Yes,Open,91.94
+211,Prakasam,Meganpalli,30.52,None,Yes,None,30.52
+212,Chittoor,Danielpalli,35.48,Daily,Yes,Closed,35.48
+213,West Godavari,Amandapalli,32.47,Monthly,No,Open,32.47
+214,YSR Kadapa,Joshuapalli,90.05,Daily,Yes,None,90.05
+215,Kurnool,Barbarapalli,82.69,None,No,Open,82.69
+216,East Godavari,Michellepalli,96.38,Weekly,No,None,96.38
+217,Kurnool,Robertpalli,54.77,None,No,Closed,54.77
+218,Kurnool,Kathleenpalli,77.1,Daily,Yes,Closed,77.1
+219,Visakhapatnam,Kevinpalli,79.57,Daily,Yes,None,79.57
+220,YSR Kadapa,Tylerpalli,49.41,Daily,No,Closed,49.41
+221,Nellore,Andreapalli,83.81,Weekly,Yes,Closed,83.81
+222,Vizianagaram,Michaelpalli,79.0,None,Yes,None,79.0
+223,YSR Kadapa,Derekpalli,51.2,Daily,Yes,Closed,51.2
+224,Vizianagaram,Lisapalli,55.15,Daily,No,None,55.15
+225,Krishna,Donnapalli,33.92,Daily,No,Open,33.92
+226,Prakasam,Andrewpalli,39.14,Weekly,Yes,Closed,39.14
+227,Guntur,Lauriepalli,77.49,Monthly,Yes,None,77.49
+228,East Godavari,Josephpalli,60.71,Daily,Yes,Open,60.71
+229,Visakhapatnam,Joannapalli,44.43,Monthly,No,Closed,44.43
+230,Anantapur,Aprilpalli,73.32,Weekly,No,None,73.32
+231,Anantapur,Jimmypalli,53.4,None,Yes,Open,53.4
+232,Visakhapatnam,Amypalli,52.83,Daily,Yes,None,52.83
+233,Prakasam,Latoyapalli,43.59,Monthly,No,Open,43.59
+234,Krishna,Chadpalli,36.05,None,Yes,None,36.05
+235,East Godavari,Morganpalli,99.39,Daily,No,None,99.39
+236,Kurnool,Curtispalli,51.34,None,Yes,Closed,51.34
+237,Nellore,Marthapalli,59.81,Monthly,Yes,None,59.81
+238,Anantapur,Stevenpalli,69.25,Weekly,Yes,Closed,69.25
+239,Srikakulam,Denisepalli,54.17,None,Yes,Closed,54.17
+240,Nellore,Melissapalli,49.32,Weekly,No,Open,49.32
+241,Anantapur,Sarahpalli,75.13,None,No,None,75.13
+242,East Godavari,Richardpalli,83.88,Daily,Yes,Closed,83.88
+243,East Godavari,Jenniferpalli,60.86,Monthly,Yes,Open,60.86
+244,Anantapur,Connorpalli,40.92,Monthly,No,Closed,40.92
+245,Anantapur,Sarahpalli,52.85,Weekly,Yes,Closed,52.85
+246,Anantapur,Michaelpalli,89.77,Monthly,No,Closed,89.77
+247,YSR Kadapa,Angelapalli,88.49,Daily,Yes,Open,88.49
+248,Nellore,Triciapalli,43.02,None,No,None,43.02
+249,Vizianagaram,Robertpalli,92.49,None,Yes,Closed,92.49
+250,Nellore,Ginapalli,81.31,Daily,No,Open,81.31
+251,Kurnool,Shaunpalli,65.97,Weekly,Yes,None,65.97
+252,Srikakulam,Leahpalli,49.7,None,No,Closed,49.7
+253,Srikakulam,Lesliepalli,38.16,Weekly,Yes,Closed,38.16
+254,Guntur,Robertpalli,44.69,Daily,No,None,44.69
+255,Srikakulam,Danielpalli,34.64,Daily,Yes,Open,34.64
+256,Kurnool,Jenniferpalli,69.92,Daily,Yes,None,69.92
+257,West Godavari,Elizabethpalli,42.66,Monthly,No,Closed,42.66
+258,West Godavari,Raymondpalli,38.1,Monthly,No,None,38.1
+259,Vizianagaram,Susanpalli,57.75,Daily,Yes,Open,57.75
+260,Guntur,Aliciapalli,71.56,None,No,Closed,71.56
+261,Vizianagaram,Carlpalli,64.87,Daily,Yes,Closed,64.87
+262,Guntur,Andrewpalli,67.97,Daily,Yes,Closed,67.97
+263,YSR Kadapa,Christinepalli,51.87,None,No,Open,51.87
+264,Visakhapatnam,Shawnpalli,71.33,Weekly,No,Closed,71.33
+265,Guntur,Zacharypalli,53.63,Daily,No,Open,53.63
+266,Chittoor,Michaelpalli,65.19,Monthly,Yes,None,65.19
+267,Visakhapatnam,Laurapalli,89.09,Daily,No,Closed,89.09
+268,Kurnool,Gabrielapalli,61.73,Weekly,Yes,None,61.73
+269,YSR Kadapa,Allenpalli,62.37,Weekly,Yes,None,62.37
+270,Vizianagaram,Kristapalli,40.5,Daily,Yes,Closed,40.5
+271,Vizianagaram,Jasminpalli,90.17,Daily,No,None,90.17
+272,Guntur,Noahpalli,88.03,Monthly,No,Open,88.03
+273,East Godavari,Patriciapalli,47.8,Daily,No,None,47.8
+274,Prakasam,Andrewpalli,32.44,Daily,Yes,Closed,32.44
+275,Krishna,Sergiopalli,94.11,Monthly,No,Open,94.11
+276,East Godavari,Donnapalli,72.15,Monthly,No,None,72.15
+277,Visakhapatnam,Meredithpalli,97.88,Weekly,No,Closed,97.88
+278,Nellore,Jamiepalli,75.3,Weekly,Yes,Closed,75.3
+279,Chittoor,Anthonypalli,64.59,Weekly,Yes,Open,64.59
+280,West Godavari,Michelepalli,32.01,Monthly,Yes,None,32.01
+281,Nellore,Christopherpalli,35.11,Daily,Yes,Closed,35.11
+282,Nellore,Danielpalli,42.56,Weekly,No,Closed,42.56
+283,Prakasam,Stephaniepalli,93.2,Monthly,No,None,93.2
+284,Anantapur,Christopherpalli,62.92,Weekly,No,Closed,62.92
+285,Chittoor,Lorettapalli,82.5,Monthly,Yes,None,82.5
+286,Vizianagaram,Richardpalli,95.04,Daily,No,Open,95.04
+287,Kurnool,Joshuapalli,49.81,Daily,Yes,None,49.81
+288,YSR Kadapa,Kennethpalli,86.08,Monthly,Yes,Closed,86.08
+289,YSR Kadapa,Brianpalli,36.51,Monthly,No,None,36.51
+290,Krishna,Michellepalli,59.94,Daily,Yes,Open,59.94
+291,Anantapur,Cristianpalli,33.17,None,No,Closed,33.17
+292,Krishna,Carolinepalli,30.41,Daily,Yes,Open,30.41
+293,West Godavari,Kristenpalli,39.46,Weekly,Yes,Open,39.46
+294,Guntur,Ryanpalli,31.53,Weekly,Yes,None,31.53
+295,Anantapur,Jenniferpalli,81.6,Monthly,Yes,Closed,81.6
+296,Nellore,Samanthapalli,54.27,None,Yes,Open,54.27
+297,West Godavari,Robertpalli,97.19,Monthly,No,Open,97.19
+298,Prakasam,Williampalli,55.12,Monthly,No,None,55.12
+299,YSR Kadapa,Anitapalli,89.74,Daily,Yes,Closed,89.74
+300,Chittoor,Sandypalli,60.91,None,Yes,Open,60.91
+301,Krishna,Amberpalli,82.84,Monthly,Yes,Open,82.84
+302,Kurnool,Jacquelinepalli,86.44,Daily,Yes,Closed,86.44
+303,YSR Kadapa,Caseypalli,92.0,Monthly,No,Closed,92.0
+304,West Godavari,Jamespalli,32.59,Monthly,No,None,32.59
+305,Anantapur,Emilypalli,88.26,Monthly,No,None,88.26
+306,Krishna,Jaredpalli,86.38,Weekly,No,Closed,86.38
+307,Prakasam,Monicapalli,34.35,Weekly,No,Open,34.35
+308,West Godavari,Brittneypalli,65.41,None,No,Open,65.41
+309,Nellore,Williampalli,66.59,Daily,No,Closed,66.59
+310,Krishna,Nicolepalli,54.41,Daily,No,Closed,54.41
+311,Vizianagaram,Kellypalli,73.65,None,Yes,Closed,73.65
+312,Krishna,Jessicapalli,96.86,Daily,Yes,Closed,96.86
+313,Visakhapatnam,Damonpalli,71.22,None,Yes,Closed,71.22
+314,Krishna,Melvinpalli,96.65,Weekly,Yes,None,96.65
+315,Nellore,Shannonpalli,82.65,Weekly,No,None,82.65
+316,Anantapur,Davidpalli,84.96,Monthly,No,Closed,84.96
+317,Prakasam,Anthonypalli,98.05,Daily,Yes,Closed,98.05
+318,West Godavari,Jonathanpalli,78.89,Weekly,No,Closed,78.89
+319,Guntur,Danielpalli,75.25,Daily,No,Open,75.25
+320,Vizianagaram,Annapalli,54.71,None,No,Closed,54.71
+321,Vizianagaram,Rachelpalli,73.77,Weekly,Yes,Closed,73.77
+322,Chittoor,Oscarpalli,43.56,Weekly,Yes,None,43.56
+323,Anantapur,Chelseypalli,69.21,None,Yes,Closed,69.21
+324,Srikakulam,Brandonpalli,67.27,Monthly,Yes,Closed,67.27
+325,Krishna,Christopherpalli,86.56,Monthly,No,Open,86.56
+326,Vizianagaram,Thomaspalli,56.42,Daily,Yes,Open,56.42
+327,Nellore,Jonpalli,73.68,None,No,Closed,73.68
+328,Chittoor,Heatherpalli,38.82,Monthly,No,Closed,38.82
+329,YSR Kadapa,Samanthapalli,51.61,Monthly,No,Closed,51.61
+330,Guntur,Williampalli,78.63,None,No,None,78.63
+331,Guntur,Timothypalli,63.65,Monthly,No,Open,63.65
+332,YSR Kadapa,Jenniferpalli,42.19,Monthly,Yes,Closed,42.19
+333,Vizianagaram,Franciscopalli,61.93,Monthly,No,None,61.93
+334,Kurnool,Michaelpalli,43.24,Monthly,Yes,Closed,43.24
+335,Visakhapatnam,Timothypalli,56.2,None,Yes,Closed,56.2
+336,Nellore,Sherripalli,95.48,Monthly,No,None,95.48
+337,Prakasam,Michaelpalli,56.77,Weekly,No,Open,56.77
+338,Kurnool,Marypalli,53.05,Monthly,No,Open,53.05
+339,Anantapur,Jasonpalli,45.88,Weekly,No,Open,45.88
+340,Prakasam,Briannapalli,91.16,Monthly,Yes,Closed,91.16
+341,Visakhapatnam,Stevenpalli,74.09,None,No,Open,74.09
+342,Vizianagaram,Adrianpalli,43.07,Daily,No,Closed,43.07
+343,East Godavari,Veronicapalli,82.02,None,Yes,Open,82.02
+344,Srikakulam,Randallpalli,99.38,None,Yes,Closed,99.38
+345,Vizianagaram,Arthurpalli,85.46,None,Yes,Closed,85.46
+346,Krishna,Troypalli,78.86,Weekly,No,Closed,78.86
+347,Anantapur,Meganpalli,82.22,Weekly,No,Open,82.22
+348,West Godavari,Michellepalli,41.94,Daily,Yes,Open,41.94
+349,Anantapur,Jamespalli,33.34,Daily,No,None,33.34
+350,Anantapur,Marilynpalli,76.83,Weekly,Yes,None,76.83
+351,Srikakulam,Amandapalli,37.41,Monthly,Yes,Open,37.41
+352,Anantapur,Jenniferpalli,64.97,Daily,Yes,Closed,64.97
+353,Kurnool,Jacquelinepalli,72.6,None,No,None,72.6
+354,Visakhapatnam,Lindsaypalli,44.14,None,Yes,None,44.14
+355,YSR Kadapa,Teresapalli,67.75,Weekly,Yes,None,67.75
+356,Guntur,Anthonypalli,46.54,Daily,No,None,46.54
+357,Guntur,Michaelpalli,56.44,None,No,Closed,56.44
+358,Visakhapatnam,Nathanpalli,51.41,Monthly,No,None,51.41
+359,West Godavari,Dalepalli,56.12,None,No,None,56.12
+360,Krishna,Leahpalli,74.45,Monthly,Yes,None,74.45
+361,Vizianagaram,Samuelpalli,72.15,Weekly,Yes,Open,72.15
+362,Nellore,Alexandrapalli,92.07,Monthly,No,None,92.07
+363,Prakasam,Robertpalli,75.82,None,Yes,Open,75.82
+364,Anantapur,Dariuspalli,73.88,Daily,Yes,Open,73.88
+365,Anantapur,Christopherpalli,44.77,Daily,No,None,44.77
+366,Guntur,Samanthapalli,98.27,Monthly,Yes,Open,98.27
+367,Visakhapatnam,Sethpalli,43.16,Monthly,Yes,None,43.16
+368,Nellore,Tiffanypalli,72.5,Weekly,Yes,Open,72.5
+369,Vizianagaram,Aaronpalli,78.99,Daily,No,None,78.99
+370,Vizianagaram,Alyssapalli,53.3,Weekly,Yes,None,53.3
+371,Visakhapatnam,Carlapalli,89.73,None,Yes,Closed,89.73
+372,Visakhapatnam,Anthonypalli,89.67,Monthly,Yes,Closed,89.67
+373,Chittoor,Joannapalli,79.29,None,Yes,Closed,79.29
+374,East Godavari,Angelapalli,77.45,Monthly,No,Closed,77.45
+375,YSR Kadapa,Josepalli,70.4,None,No,Closed,70.4
+376,YSR Kadapa,Josephpalli,88.92,Daily,Yes,Closed,88.92
+377,Nellore,Paulpalli,51.19,Weekly,No,None,51.19
+378,Chittoor,Rebeccapalli,71.08,None,No,None,71.08
+379,West Godavari,Michaelpalli,31.38,None,Yes,None,31.38
+380,YSR Kadapa,Priscillapalli,75.68,Daily,No,Open,75.68
+381,YSR Kadapa,Andreapalli,64.33,Monthly,No,None,64.33
+382,East Godavari,Patrickpalli,38.99,None,Yes,None,38.99
+383,Guntur,Reginapalli,69.45,Weekly,No,Open,69.45
+384,Nellore,Michaelpalli,40.24,Weekly,No,Open,40.24
+385,YSR Kadapa,Christopherpalli,90.58,Monthly,Yes,Open,90.58
+386,Srikakulam,Markpalli,81.48,Daily,No,None,81.48
+387,West Godavari,Tammypalli,96.32,None,No,Open,96.32
+388,YSR Kadapa,Bryanpalli,64.85,Daily,No,Open,64.85
+389,Vizianagaram,Michaelpalli,93.27,Weekly,Yes,Closed,93.27
+390,YSR Kadapa,Jenniferpalli,48.53,Daily,No,Open,48.53
+391,Kurnool,Jasonpalli,30.62,None,No,Open,30.62
+392,Krishna,Angelapalli,99.26,None,Yes,Open,99.26
+393,Nellore,Stacypalli,96.39,Monthly,Yes,Closed,96.39
+394,East Godavari,Christinapalli,54.09,Daily,Yes,Open,54.09
+395,Guntur,Jamespalli,83.67,Monthly,Yes,None,83.67
+396,East Godavari,Timothypalli,99.33,Weekly,No,Open,99.33
+397,Nellore,Jamespalli,49.64,Monthly,No,Open,49.64
+398,Chittoor,Jessicapalli,51.3,Daily,Yes,None,51.3
+399,Chittoor,Rebekahpalli,71.06,Weekly,Yes,None,71.06
+400,West Godavari,Laurenpalli,79.81,Monthly,No,Closed,79.81
+401,Krishna,Lynnpalli,77.93,Daily,Yes,Closed,77.93
+402,Anantapur,Katiepalli,80.44,Monthly,No,Open,80.44
+403,East Godavari,Kathleenpalli,38.13,Monthly,No,Closed,38.13
+404,Guntur,Peterpalli,67.62,Daily,No,None,67.62
+405,Kurnool,Trevorpalli,62.16,Weekly,Yes,None,62.16
+406,Chittoor,Brittneypalli,66.87,Daily,Yes,Closed,66.87
+407,Vizianagaram,Natashapalli,87.28,Daily,Yes,Open,87.28
+408,Chittoor,Michaelpalli,37.18,None,Yes,Open,37.18
+409,West Godavari,Josepalli,45.72,Monthly,No,Open,45.72
+410,Visakhapatnam,Johnpalli,51.11,Monthly,No,Open,51.11
+411,East Godavari,Bethpalli,37.92,None,No,Open,37.92
+412,YSR Kadapa,Brittanypalli,68.45,None,Yes,Closed,68.45
+413,Prakasam,Samanthapalli,89.41,Weekly,No,Closed,89.41
+414,West Godavari,Lisapalli,37.42,Daily,No,None,37.42
+415,YSR Kadapa,Amandapalli,62.91,Monthly,No,None,62.91
+416,Nellore,Melaniepalli,94.34,Monthly,Yes,Closed,94.34
+417,Nellore,Philippalli,75.69,None,No,Open,75.69
+418,Guntur,Douglaspalli,71.8,Monthly,Yes,None,71.8
+419,Kurnool,Corypalli,97.11,Weekly,No,Closed,97.11
+420,YSR Kadapa,Meredithpalli,77.77,Daily,Yes,None,77.77
+421,Visakhapatnam,Karapalli,57.13,Weekly,Yes,Open,57.13
+422,Prakasam,Jacobpalli,34.77,Monthly,No,Open,34.77
+423,Prakasam,Sarahpalli,94.2,Weekly,No,Closed,94.2
+424,Visakhapatnam,Nathanpalli,30.56,Daily,No,Closed,30.56
+425,Chittoor,Bobbypalli,58.11,Daily,No,Closed,58.11
+426,East Godavari,Jamespalli,84.19,Daily,No,Closed,84.19
+427,Chittoor,Robertpalli,90.99,Weekly,No,Open,90.99
+428,Srikakulam,Samuelpalli,69.92,Daily,Yes,Open,69.92
+429,Prakasam,Markpalli,80.56,None,Yes,None,80.56
+430,Guntur,Angelapalli,86.96,Daily,No,Closed,86.96
+431,YSR Kadapa,Oscarpalli,42.38,Weekly,No,Closed,42.38
+432,Anantapur,Briannapalli,82.62,Daily,No,None,82.62
+433,Chittoor,Sarapalli,84.92,None,Yes,Closed,84.92
+434,Anantapur,Kristinepalli,72.0,Monthly,Yes,None,72.0
+435,West Godavari,Laurenpalli,46.17,Weekly,Yes,None,46.17
+436,Vizianagaram,Robertpalli,68.06,Daily,No,Open,68.06
+437,Srikakulam,Ashleypalli,49.25,Weekly,Yes,None,49.25
+438,Chittoor,Christinapalli,64.37,Daily,No,Open,64.37
+439,Krishna,Donnapalli,89.84,Daily,No,Closed,89.84
+440,Srikakulam,Nicolepalli,32.06,Weekly,Yes,Open,32.06
+441,West Godavari,Brettpalli,47.51,Weekly,No,Closed,47.51
+442,Krishna,Jonathanpalli,43.98,Monthly,No,None,43.98
+443,Srikakulam,Troypalli,60.06,Weekly,No,Open,60.06
+444,Prakasam,Donaldpalli,56.99,Weekly,Yes,Open,56.99
+445,Anantapur,Peterpalli,41.98,Monthly,No,Open,41.98
+446,Anantapur,Tiffanypalli,31.14,None,Yes,Closed,31.14
+447,Prakasam,Beverlypalli,32.05,Daily,Yes,Open,32.05
+448,Krishna,Dawnpalli,35.25,Monthly,No,Closed,35.25
+449,Vizianagaram,Stephenpalli,70.45,None,No,Closed,70.45
+450,Vizianagaram,Williampalli,34.22,Daily,Yes,Closed,34.22
+451,Chittoor,Angelapalli,90.75,Weekly,No,Open,90.75
+452,Guntur,Carriepalli,63.34,None,No,Closed,63.34
+453,Chittoor,Kerrypalli,43.26,Weekly,No,None,43.26
+454,Krishna,Jasminepalli,91.78,None,No,Closed,91.78
+455,Anantapur,Christopherpalli,51.37,Weekly,Yes,Closed,51.37
+456,Krishna,Josephpalli,97.87,Daily,No,Open,97.87
+457,Chittoor,Robertpalli,54.55,Monthly,No,Closed,54.55
+458,Anantapur,Anthonypalli,55.0,Daily,Yes,None,55.0
+459,Vizianagaram,Bryanpalli,93.72,Monthly,No,Closed,93.72
+460,YSR Kadapa,Parkerpalli,94.91,Weekly,No,None,94.91
+461,Chittoor,Jeffreypalli,76.22,Daily,Yes,Closed,76.22
+462,Krishna,Dylanpalli,74.59,None,No,Open,74.59
+463,East Godavari,Haleypalli,50.81,None,Yes,Closed,50.81
+464,Kurnool,Lisapalli,93.88,Daily,No,Open,93.88
+465,Vizianagaram,Davidpalli,33.83,Daily,No,None,33.83
+466,Anantapur,Donnapalli,97.71,Weekly,Yes,None,97.71
+467,Anantapur,Davidpalli,44.3,None,Yes,None,44.3
+468,Vizianagaram,Jamespalli,31.52,Weekly,Yes,Open,31.52
+469,Nellore,Michaelpalli,40.37,Monthly,No,Open,40.37
+470,Prakasam,Chelseapalli,55.04,Weekly,No,None,55.04
+471,YSR Kadapa,Jacobpalli,63.86,None,Yes,None,63.86
+472,Anantapur,Kimberlypalli,37.44,None,No,Open,37.44
+473,Chittoor,Karlpalli,74.19,Daily,Yes,Closed,74.19
+474,Guntur,Heatherpalli,36.02,Daily,Yes,Open,36.02
+475,Vizianagaram,Brittneypalli,65.06,Monthly,Yes,Open,65.06
+476,Srikakulam,Lindapalli,79.23,Daily,Yes,Closed,79.23
+477,Vizianagaram,Crystalpalli,53.42,Daily,Yes,Open,53.42
+478,West Godavari,Codypalli,48.94,Daily,Yes,Open,48.94
+479,Srikakulam,Michaelpalli,33.65,None,Yes,Closed,33.65
+480,Guntur,Thomaspalli,82.68,Daily,Yes,None,82.68
+481,Krishna,Christopherpalli,75.96,Daily,No,None,75.96
+482,Krishna,Peterpalli,54.26,None,No,Closed,54.26
+483,Guntur,Johnpalli,88.54,Monthly,No,None,88.54
+484,Guntur,Amberpalli,76.23,Daily,No,Open,76.23
+485,YSR Kadapa,Jasonpalli,96.67,Monthly,No,Closed,96.67
+486,Krishna,Kylepalli,69.98,Daily,No,Closed,69.98
+487,Prakasam,Marcuspalli,89.1,Weekly,No,Open,89.1
+488,Krishna,Deborahpalli,40.28,Daily,Yes,Open,40.28
+489,Anantapur,Cynthiapalli,72.04,Monthly,Yes,Open,72.04
+490,East Godavari,Kevinpalli,56.23,Monthly,Yes,Open,56.23
+491,YSR Kadapa,Randypalli,32.28,Weekly,No,None,32.28
+492,YSR Kadapa,Robertpalli,52.19,Weekly,No,Open,52.19
+493,Kurnool,Carriepalli,63.89,Weekly,No,Closed,63.89
+494,Chittoor,Anitapalli,64.59,Weekly,Yes,Closed,64.59
+495,Anantapur,Jerrypalli,94.3,None,No,Open,94.3
+496,Anantapur,Johnpalli,61.48,None,No,Closed,61.48
+497,East Godavari,Victorpalli,64.53,Daily,No,Closed,64.53
+498,Kurnool,Blakepalli,49.17,None,Yes,Open,49.17
+499,Anantapur,Emilypalli,30.47,Daily,No,Open,30.47
+500,Prakasam,Josephpalli,99.52,Daily,No,Open,99.52

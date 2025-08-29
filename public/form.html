@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complaint Management System</title>
+  <style>
+    :root {
+      --primaryDark: #1a1a2e;
+      --primaryLight: #16213e;
+      --secondary: #0f3460;
+      --accent: #e94560;
+      --accentLight: #ff6b7a;
+      --success: #00d4aa;
+      --warning: #ffa726;
+      --text: #ffffff;
+      --textSecondary: #b0bec5;
+      --border: #34495e;
+      --glass: rgba(255, 255, 255, 0.1);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, var(--primaryDark) 0%, var(--primaryLight) 50%, var(--secondary) 100%);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 20px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="80" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="60" r="1" fill="rgba(255,255,255,0.08)"/><circle cx="90" cy="30" r="1.5" fill="rgba(255,255,255,0.08)"/><circle cx="10" cy="70" r="1" fill="rgba(255,255,255,0.08)"/></svg>') repeat;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      animation: fadeInDown 0.8s ease;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      background: linear-gradient(45deg, var(--accent), var(--accentLight));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      color: var(--textSecondary);
+      font-size: 1.1rem;
+    }
+
+    .form-container {
+      background: var(--glass);
+      backdrop-filter: blur(20px);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      width: 100%;
+      animation: fadeInUp 0.8s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .form-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--accent), transparent);
+      animation: shimmer 3s infinite;
+    }
+
+    .form-group {
+      margin-bottom: 25px;
+      position: relative;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: var(--text);
+      font-size: 0.95rem;
+      transition: color 0.3s ease;
+    }
+
+    .input-wrapper {
+      position: relative;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 15px 20px;
+      border-radius: 12px;
+      border: 2px solid var(--border);
+      background: rgba(255, 255, 255, 0.95);
+      color: #000;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+    }
+
+    input:focus, select:focus, textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 20px rgba(233, 69, 96, 0.3);
+      background: rgba(255, 255, 255, 1);
+      transform: translateY(-2px);
+    }
+
+    input:valid, select:valid, textarea:valid {
+      border-color: var(--border);
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+      font-family: inherit;
+    }
+
+    select {
+      cursor: pointer;
+      appearance: none;
+      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M7 10l5 5 5-5z"/></svg>');
+      background-repeat: no-repeat;
+      background-position: right 15px center;
+      background-size: 20px;
+    }
+
+    .error {
+      color: var(--accentLight);
+      font-size: 0.85rem;
+      margin-top: 8px;
+      padding: 8px 12px;
+      background: rgba(233, 69, 96, 0.1);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent);
+      display: none;
+      animation: slideIn 0.3s ease;
+    }
+
+    .error.show {
+      display: block;
+    }
+
+    .btn-group {
+      margin-top: 30px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      flex: 1;
+      min-width: 140px;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: left 0.5s;
+    }
+
+    button:hover::before {
+      left: 100%;
+    }
+
+    .submit-btn {
+      background: linear-gradient(45deg, var(--accent), var(--accentLight));
+      color: white;
+      transform: translateY(0);
+    }
+
+    .submit-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(233, 69, 96, 0.4);
+    }
+
+    .submit-btn:active {
+      transform: translateY(-1px);
+    }
+
+    .reset-btn {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text);
+      border: 2px solid var(--border);
+    }
+
+    .reset-btn:hover {
+      background: rgba(255, 255, 255, 0.2);
+      border-color: var(--textSecondary);
+      transform: translateY(-2px);
+    }
+
+    .loading {
+      pointer-events: none;
+      opacity: 0.7;
+    }
+
+    .loading::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 20px;
+      height: 20px;
+      margin: -10px 0 0 -10px;
+      border: 2px solid transparent;
+      border-top: 2px solid white;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    .success-message {
+      background: linear-gradient(45deg, var(--success), #00e5c7);
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: 600;
+      box-shadow: 0 10px 30px rgba(0, 212, 170, 0.3);
+      display: none;
+      animation: bounceIn 0.6s ease;
+    }
+
+    .success-message.show {
+      display: block;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes shimmer {
+      0% { left: -100%; }
+      100% { left: 100%; }
+    }
+
+    @keyframes bounceIn {
+      0% {
+        transform: scale(0.3);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      70% {
+        transform: scale(0.9);
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .form-container {
+        padding: 25px;
+        margin: 10px;
+      }
+      
+      .header h1 {
+        font-size: 2rem;
+      }
+      
+      .btn-group {
+        flex-direction: column;
+      }
+      
+      button {
+        width: 100%;
+      }
+    }
+
+    .field-valid {
+      position: relative;
+    }
+
+    .field-valid::after {
+      content: '✓';
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--success);
+      font-weight: bold;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .field-valid.valid::after {
+      opacity: 1;
+    }
+
+    .complaint-counter {
+      text-align: right;
+      font-size: 0.8rem;
+      color: var(--textSecondary);
+      margin-top: 5px;
+    }
+
+    .back-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text);
+  border: 2px solid var(--border);
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 1000;
+}
+
+.back-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.back-btn::before {
+  content: '←';
+  font-size: 1.2rem;
+}
+
+  </style>
+</head>
+<body>
+    <a href="index.html" class="back-btn">Back to Homepage</a>
+  <div class="container">
+    <div class="header">
+      <h1>Complaint Management</h1>
+      <p>Your voice matters. Submit your concerns and help us improve our community.</p>
+    </div>
+
+    <div class="form-container">
+      <form id="complaintForm">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <div class="input-wrapper field-valid">
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="error" id="nameError">Name must be at least 2 characters long</div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <div class="input-wrapper field-valid">
+            <input type="email" id="email" name="email" placeholder="your.email@example.com">
+          </div>
+          <div class="error" id="emailError">Please enter a valid email address</div>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <div class="input-wrapper field-valid">
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+          </div>
+          <div class="error" id="phoneError">Please enter a valid phone number</div>
+        </div>
+
+        <div class="form-group">
+          <label for="village">Village/Town *</label>
+          <div class="input-wrapper field-valid">
+            <input type="text" id="village" name="village" placeholder="Enter your village or town" required>
+          </div>
+          <div class="error" id="villageError">Village/Town is required</div>
+        </div>
+
+        <div class="form-group">
+          <label for="district">District *</label>
+          <div class="input-wrapper field-valid">
+            <input type="text" id="district" name="district" placeholder="Enter your district" required>
+          </div>
+          <div class="error" id="districtError">District is required</div>
+        </div>
+
+        <div class="form-group">
+          <label for="category">Complaint Category *</label>
+          <div class="input-wrapper field-valid">
+            <select id="category" name="category" required>
+              <option value="">-- Select a category --</option>
+              <option value="education">🎓 Education</option>
+              <option value="economic">💰 Economic Status</option>
+              <option value="electricity">⚡ Electricity</option>
+              <option value="sanitation">🧹 Sanitation</option>
+              <option value="road">🛣️ Road Infrastructure</option>
+              <option value="social">👥 Social Issues</option>
+              <option value="water">💧 Water Management</option>
+              <option value="healthcare">🏥 Healthcare</option>
+              <option value="transport">🚌 Public Transport</option>
+              <option value="environment">🌱 Environment</option>
+              <option value="other">📋 Other</option>
+            </select>
+          </div>
+          <div class="error" id="categoryError">Please select a complaint category</div>
+        </div>
+
+        <div class="form-group">
+          <label for="priority">Priority Level</label>
+          <div class="input-wrapper field-valid">
+            <select id="priority" name="priority">
+              <option value="">-- Select priority --</option>
+              <option value="low">🟢 Low</option>
+              <option value="medium">🟡 Medium</option>
+              <option value="high">🟠 High</option>
+              <option value="urgent">🔴 Urgent</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="complaint">Detailed Complaint *</label>
+          <div class="input-wrapper field-valid">
+            <textarea id="complaint" name="complaint" placeholder="Please provide detailed information about your complaint..." required maxlength="1000"></textarea>
+          </div>
+          <div class="complaint-counter">
+            <span id="charCount">0</span>/1000 characters
+          </div>
+          <div class="error" id="complaintError">Complaint must be at least 10 characters long</div>
+        </div>
+
+        <div class="btn-group">
+          <button type="submit" class="submit-btn" id="submitBtn">
+            Submit Complaint
+          </button>
+          <button type="reset" class="reset-btn">
+            Clear Form
+          </button>
+        </div>
+      </form>
+
+      <div class="success-message" id="successMessage">
+        <h3>✅ Complaint Submitted Successfully!</h3>
+        <p>Your complaint ID is: <strong id="complaintId"></strong></p>
+        <p>We will review your complaint and get back to you soon.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById('complaintForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const successMessage = document.getElementById('successMessage');
+    const complaintTextarea = document.getElementById('complaint');
+    const charCount = document.getElementById('charCount');
+    
+    // Character counter for complaint textarea
+    complaintTextarea.addEventListener('input', function() {
+      const count = this.value.length;
+      charCount.textContent = count;
+      
+      if (count > 900) {
+        charCount.style.color = 'var(--accent)';
+      } else {
+        charCount.style.color = 'var(--textSecondary)';
+      }
+    });
+
+    // Real-time validation
+    const inputs = form.querySelectorAll('input, select, textarea');
+    inputs.forEach(input => {
+      input.addEventListener('blur', () => validateField(input));
+      input.addEventListener('input', () => {
+        clearError(input);
+        if (input.value.trim()) {
+          validateField(input);
+        }
+      });
+    });
+
+    function validateField(field) {
+      const fieldName = field.name;
+      const value = field.value.trim();
+      const wrapper = field.closest('.input-wrapper');
+      let isValid = true;
+
+      switch (fieldName) {
+        case 'name':
+          isValid = value.length >= 2;
+          break;
+        case 'email':
+          if (value) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            isValid = emailRegex.test(value);
+          }
+          break;
+        case 'phone':
+          if (value) {
+            const phoneRegex = /^\+?[\d\s\-\(\)]{10,}$/;
+            isValid = phoneRegex.test(value);
+          }
+          break;
+        case 'village':
+        case 'district':
+          isValid = value.length > 0;
+          break;
+        case 'category':
+          isValid = value !== '';
+          break;
+        case 'complaint':
+          isValid = value.length >= 10;
+          break;
+      }
+
+      if (isValid && value) {
+        wrapper.classList.add('valid');
+      } else {
+        wrapper.classList.remove('valid');
+      }
+
+      return isValid;
+    }
+
+    function showError(fieldName, message) {
+      const errorElement = document.getElementById(fieldName + 'Error');
+      if (message) {
+        errorElement.textContent = message;
+      }
+      errorElement.classList.add('show');
+    }
+
+    function clearError(field) {
+      const errorElement = document.getElementById(field.name + 'Error');
+      errorElement.classList.remove('show');
+    }
+
+    function generateComplaintId() {
+      const timestamp = Date.now().toString(36);
+      const random = Math.random().toString(36).substr(2, 5);
+      return `CMP-${timestamp}-${random}`.toUpperCase();
+    }
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      let isValid = true;
+      const requiredFields = ['name', 'village', 'district', 'category', 'complaint'];
+
+      // Clear all previous errors
+      document.querySelectorAll('.error').forEach(el => el.classList.remove('show'));
+
+      // Validate required fields
+      requiredFields.forEach(fieldName => {
+        const field = document.getElementById(fieldName);
+        if (!validateField(field) || !field.value.trim()) {
+          showError(fieldName);
+          isValid = false;
+        }
+      });
+
+      // Validate optional fields if filled
+      const optionalFields = ['email', 'phone'];
+      optionalFields.forEach(fieldName => {
+        const field = document.getElementById(fieldName);
+        if (field.value.trim() && !validateField(field)) {
+          showError(fieldName);
+          isValid = false;
+        }
+      });
+
+      if (isValid) {
+        // Add loading state
+        submitBtn.classList.add('loading');
+        submitBtn.textContent = 'Submitting...';
+        
+        // Simulate API call
+        setTimeout(() => {
+          // Generate complaint ID
+          const complaintId = generateComplaintId();
+          document.getElementById('complaintId').textContent = complaintId;
+          
+          // Hide form and show success message
+          form.style.display = 'none';
+          successMessage.classList.add('show');
+          
+          // Remove loading state
+          submitBtn.classList.remove('loading');
+          submitBtn.textContent = 'Submit Complaint';
+          
+          // Auto-hide success message and reset form after 10 seconds
+          setTimeout(() => {
+            successMessage.classList.remove('show');
+            form.style.display = 'block';
+            form.reset();
+            charCount.textContent = '0';
+            document.querySelectorAll('.valid').forEach(el => el.classList.remove('valid'));
+          }, 10000);
+          
+        }, 1500);
+      } else {
+        // Shake animation for invalid form
+        form.style.animation = 'none';
+        setTimeout(() => {
+          form.style.animation = 'fadeInUp 0.3s ease';
+        }, 10);
+      }
+    });
+
+    // Reset form handler
+    form.addEventListener('reset', function() {
+      setTimeout(() => {
+        charCount.textContent = '0';
+        document.querySelectorAll('.error').forEach(el => el.classList.remove('show'));
+        document.querySelectorAll('.valid').forEach(el => el.classList.remove('valid'));
+      }, 10);
+    });
+  </script>
+</body>
+</html>

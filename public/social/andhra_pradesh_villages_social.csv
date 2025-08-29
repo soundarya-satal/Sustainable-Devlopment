@@ -1,0 +1,501 @@
+Village_Code,District,Village_Name,literacy_rate,primary_school_available,secondary_school_available,health_center_available,immunization_coverage,community_spaces
+1,Chittoor,Charlespalli,81.22,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),58.31,Playground
+2,East Godavari,Nicolepalli,46.32,Yes - nearby (≤3 km),No,Yes - within village,80.79,Community Hall
+3,Vizianagaram,Scottpalli,92.38,Yes - within village,Yes - nearby (≤7 km),Yes - within village,88.25,Library
+4,Krishna,Tinapalli,67.15,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,80.38,Library
+5,YSR Kadapa,Tiffanypalli,84.51,Yes - nearby (≤3 km),Yes - within village,Yes - within village,96.5,Multiple
+6,Visakhapatnam,Triciapalli,90.26,Yes - within village,No,Yes - within village,84.75,Multiple
+7,Kurnool,Adampalli,71.14,Yes - within village,Yes - within village,Yes - nearby (≤10 km),58.63,None
+8,Visakhapatnam,Alexandrapalli,85.09,No,Yes - nearby (≤7 km),No,79.78,Community Hall
+9,Prakasam,Amandapalli,75.83,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,97.61,Multiple
+10,Kurnool,Jamespalli,62.91,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),52.21,None
+11,Kurnool,Janepalli,61.12,No,Yes - within village,Yes - nearby (≤10 km),80.16,Multiple
+12,West Godavari,Robertpalli,62.18,No,No,No,98.18,Community Hall
+13,Prakasam,Kimberlypalli,92.34,Yes - within village,No,Yes - within village,54.47,Community Hall
+14,Kurnool,Jessicapalli,79.97,No,Yes - nearby (≤7 km),Yes - within village,67.5,Playground
+15,Prakasam,Sarahpalli,65.97,Yes - nearby (≤3 km),No,Yes - within village,69.12,Playground
+16,East Godavari,Alexanderpalli,78.37,No,No,Yes - within village,57.16,Community Hall
+17,Nellore,Alyssapalli,45.17,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),63.11,Playground
+18,Krishna,Dustinpalli,87.08,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,87.05,Library
+19,Anantapur,Michellepalli,91.24,No,Yes - within village,Yes - within village,61.0,Multiple
+20,YSR Kadapa,Karenpalli,47.18,Yes - nearby (≤3 km),No,Yes - within village,98.18,Library
+21,Srikakulam,Patrickpalli,58.55,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),64.86,Library
+22,Prakasam,Manuelpalli,92.87,Yes - nearby (≤3 km),No,No,98.68,Multiple
+23,Prakasam,Katiepalli,89.52,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),74.19,None
+24,Nellore,Shannonpalli,59.44,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),99.33,Community Hall
+25,Guntur,Kevinpalli,78.54,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),53.29,Multiple
+26,Visakhapatnam,Kerrypalli,62.13,Yes - within village,Yes - within village,Yes - within village,59.32,Library
+27,West Godavari,Courtneypalli,60.25,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),56.74,Community Hall
+28,Guntur,Timothypalli,66.01,Yes - within village,Yes - within village,Yes - within village,80.7,Playground
+29,Anantapur,Jonathanpalli,62.9,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),78.31,Library
+30,Chittoor,Kimberlypalli,40.16,Yes - nearby (≤3 km),No,No,92.38,Library
+31,Vizianagaram,Rebeccapalli,44.47,Yes - within village,No,Yes - nearby (≤10 km),93.17,Multiple
+32,Anantapur,Kylepalli,49.88,Yes - within village,Yes - nearby (≤7 km),Yes - within village,63.69,Library
+33,Nellore,Michellepalli,84.64,Yes - within village,Yes - within village,Yes - nearby (≤10 km),56.22,None
+34,Prakasam,Melindapalli,44.94,Yes - within village,No,Yes - within village,51.39,Playground
+35,Visakhapatnam,Johnpalli,93.91,Yes - within village,Yes - within village,No,56.03,Playground
+36,Nellore,Kelseypalli,74.8,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),65.65,Library
+37,Visakhapatnam,Dalepalli,65.2,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,93.74,Library
+38,West Godavari,Kimberlypalli,75.39,Yes - within village,Yes - within village,Yes - nearby (≤10 km),65.03,Library
+39,Srikakulam,Josephpalli,75.12,No,No,Yes - nearby (≤10 km),67.59,None
+40,East Godavari,Kimberlypalli,54.14,Yes - nearby (≤3 km),No,No,51.04,Library
+41,Krishna,Billypalli,63.43,Yes - within village,Yes - within village,Yes - nearby (≤10 km),66.74,None
+42,Krishna,Pamelapalli,42.75,No,Yes - within village,Yes - within village,59.36,None
+43,Chittoor,Randypalli,46.68,Yes - nearby (≤3 km),Yes - within village,Yes - within village,93.68,Playground
+44,Nellore,Zacharypalli,71.41,No,No,Yes - nearby (≤10 km),62.3,Multiple
+45,Chittoor,Susanpalli,57.36,Yes - within village,No,Yes - within village,51.04,Playground
+46,East Godavari,Amandapalli,89.32,No,Yes - nearby (≤7 km),No,71.59,None
+47,YSR Kadapa,Wesleypalli,48.48,No,No,Yes - nearby (≤10 km),72.04,Community Hall
+48,Nellore,Danielpalli,83.45,No,No,No,87.63,Multiple
+49,Visakhapatnam,Jenniferpalli,70.99,Yes - nearby (≤3 km),No,Yes - within village,74.75,Library
+50,Nellore,Paigepalli,75.34,No,No,No,69.67,Community Hall
+51,Srikakulam,Jocelynpalli,42.46,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,94.16,None
+52,Srikakulam,Codypalli,60.23,Yes - nearby (≤3 km),Yes - within village,No,63.62,Multiple
+53,Kurnool,Robertpalli,75.3,No,No,No,81.83,Multiple
+54,Krishna,Amberpalli,51.57,Yes - within village,No,Yes - nearby (≤10 km),56.56,Library
+55,Krishna,Dianepalli,79.58,Yes - nearby (≤3 km),Yes - within village,No,76.26,Playground
+56,Vizianagaram,Josephpalli,45.48,Yes - nearby (≤3 km),No,No,81.57,Playground
+57,Chittoor,Victorpalli,67.68,No,No,Yes - within village,67.43,Playground
+58,Vizianagaram,Timothypalli,54.3,Yes - within village,Yes - within village,Yes - nearby (≤10 km),82.64,Playground
+59,Kurnool,Glennpalli,53.88,Yes - within village,No,Yes - within village,77.43,Playground
+60,Visakhapatnam,Shannonpalli,94.84,Yes - within village,Yes - within village,No,82.13,Community Hall
+61,Kurnool,Katiepalli,79.69,Yes - within village,Yes - within village,No,57.05,Multiple
+62,Vizianagaram,Debbiepalli,88.54,Yes - nearby (≤3 km),No,No,76.53,None
+63,Srikakulam,Toddpalli,83.19,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,87.08,None
+64,Anantapur,Bettypalli,59.56,Yes - nearby (≤3 km),No,Yes - within village,76.41,Playground
+65,West Godavari,Jasonpalli,50.79,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,78.16,Community Hall
+66,Vizianagaram,Toddpalli,52.28,No,No,Yes - nearby (≤10 km),96.31,Library
+67,Nellore,Nicolepalli,83.54,Yes - nearby (≤3 km),Yes - within village,No,54.74,Library
+68,YSR Kadapa,Davidpalli,65.29,No,Yes - within village,No,79.68,None
+69,East Godavari,Timothypalli,60.01,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),92.83,None
+70,West Godavari,Nicolepalli,91.62,No,Yes - within village,Yes - nearby (≤10 km),55.18,Community Hall
+71,Krishna,Anthonypalli,47.7,Yes - nearby (≤3 km),Yes - within village,No,79.96,Playground
+72,Prakasam,Glendapalli,57.13,No,Yes - within village,No,75.51,Community Hall
+73,East Godavari,Justinpalli,43.71,Yes - nearby (≤3 km),Yes - nearby (≤7 km),No,79.09,Library
+74,Vizianagaram,Haroldpalli,89.53,Yes - nearby (≤3 km),No,Yes - within village,87.05,Library
+75,Visakhapatnam,Emilypalli,70.06,No,No,Yes - nearby (≤10 km),80.94,None
+76,Prakasam,Sarahpalli,56.08,Yes - nearby (≤3 km),No,Yes - within village,59.49,Library
+77,Guntur,Tracipalli,92.27,No,Yes - nearby (≤7 km),No,68.45,None
+78,Kurnool,Nicholaspalli,66.69,Yes - within village,Yes - within village,Yes - within village,66.86,Multiple
+79,Anantapur,Jonathanpalli,69.32,No,Yes - nearby (≤7 km),Yes - within village,53.27,Playground
+80,Kurnool,Samanthapalli,56.65,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),50.6,Community Hall
+81,Krishna,Patriciapalli,50.34,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),80.66,None
+82,Chittoor,Jacobpalli,80.15,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),86.49,Playground
+83,Nellore,Tinapalli,92.76,Yes - within village,No,Yes - nearby (≤10 km),55.3,Playground
+84,Kurnool,Joshuapalli,79.76,No,No,No,68.89,None
+85,Nellore,Adampalli,73.16,Yes - within village,No,Yes - within village,50.01,Library
+86,Prakasam,Pamelapalli,87.04,No,No,Yes - nearby (≤10 km),87.02,Playground
+87,Chittoor,Kevinpalli,47.1,Yes - within village,Yes - within village,No,70.13,Multiple
+88,Vizianagaram,Cherylpalli,84.3,Yes - within village,Yes - nearby (≤7 km),No,65.88,Community Hall
+89,Chittoor,Karenpalli,66.36,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),96.61,Library
+90,Krishna,Frankpalli,92.56,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,95.25,Library
+91,Anantapur,Matthewpalli,55.19,Yes - nearby (≤3 km),No,Yes - within village,51.74,Multiple
+92,West Godavari,Carolpalli,88.19,No,Yes - within village,Yes - nearby (≤10 km),84.13,Playground
+93,West Godavari,Markpalli,48.15,No,Yes - within village,Yes - within village,93.6,Library
+94,West Godavari,Derekpalli,65.68,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),74.04,Library
+95,YSR Kadapa,Josephpalli,49.34,No,No,No,63.87,Library
+96,Kurnool,Anthonypalli,90.98,Yes - within village,No,Yes - within village,85.02,None
+97,YSR Kadapa,Stephaniepalli,43.99,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),58.05,Community Hall
+98,Vizianagaram,Lisapalli,61.93,No,No,No,67.15,Community Hall
+99,Nellore,Jorgepalli,41.04,No,No,Yes - nearby (≤10 km),60.71,Community Hall
+100,East Godavari,Vanessapalli,67.58,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),62.79,Playground
+101,Prakasam,Amberpalli,48.42,Yes - nearby (≤3 km),Yes - nearby (≤7 km),No,96.67,Community Hall
+102,West Godavari,Jeffpalli,40.97,No,Yes - within village,No,60.02,Multiple
+103,Prakasam,Robertpalli,90.07,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),60.24,Library
+104,Visakhapatnam,Jonpalli,52.18,Yes - within village,Yes - within village,No,90.16,None
+105,Krishna,Richardpalli,83.25,Yes - within village,No,Yes - within village,67.21,None
+106,Srikakulam,Calvinpalli,71.91,No,Yes - nearby (≤7 km),Yes - within village,67.04,None
+107,Krishna,Jamespalli,78.78,No,Yes - within village,Yes - within village,81.87,Community Hall
+108,Krishna,Marissapalli,71.63,Yes - within village,No,No,56.46,None
+109,Chittoor,Mitchellpalli,87.01,Yes - within village,No,No,51.57,Community Hall
+110,Anantapur,Robertpalli,46.25,Yes - within village,Yes - nearby (≤7 km),Yes - within village,88.61,Playground
+111,Anantapur,Michaelpalli,91.15,No,Yes - nearby (≤7 km),No,55.76,None
+112,YSR Kadapa,Nicholaspalli,51.67,Yes - nearby (≤3 km),Yes - nearby (≤7 km),No,78.61,Playground
+113,Kurnool,Sarahpalli,48.22,Yes - nearby (≤3 km),Yes - within village,No,66.38,Community Hall
+114,East Godavari,Alexispalli,66.13,No,No,No,52.17,Playground
+115,East Godavari,Amandapalli,70.45,Yes - within village,Yes - nearby (≤7 km),Yes - within village,67.52,Library
+116,West Godavari,Douglaspalli,69.31,Yes - within village,No,Yes - within village,55.35,Community Hall
+117,Kurnool,Jamespalli,56.19,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),80.79,Playground
+118,Vizianagaram,Melaniepalli,84.58,Yes - within village,Yes - within village,Yes - within village,67.56,Multiple
+119,YSR Kadapa,Crystalpalli,91.04,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),58.25,Playground
+120,Guntur,Michellepalli,42.03,Yes - within village,Yes - nearby (≤7 km),No,65.57,Community Hall
+121,East Godavari,Bradleypalli,80.8,Yes - within village,Yes - within village,Yes - nearby (≤10 km),83.54,Community Hall
+122,Guntur,Kylepalli,62.86,Yes - within village,Yes - within village,No,90.88,None
+123,Nellore,Brendapalli,89.27,Yes - nearby (≤3 km),No,No,52.65,None
+124,Vizianagaram,Melindapalli,94.08,Yes - within village,Yes - within village,Yes - within village,65.57,Community Hall
+125,Visakhapatnam,Sarahpalli,49.13,No,No,No,70.87,Community Hall
+126,Chittoor,Lisapalli,63.38,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,73.09,Playground
+127,Vizianagaram,Russellpalli,71.91,Yes - within village,Yes - nearby (≤7 km),Yes - within village,86.58,Multiple
+128,East Godavari,Jakepalli,78.88,Yes - within village,Yes - within village,Yes - within village,60.09,Playground
+129,Chittoor,Juliapalli,71.54,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),51.47,None
+130,East Godavari,Tracypalli,91.31,Yes - within village,Yes - within village,Yes - nearby (≤10 km),54.03,Multiple
+131,Chittoor,Brettpalli,56.49,Yes - nearby (≤3 km),Yes - within village,No,78.39,Library
+132,Kurnool,Yolandapalli,78.03,No,Yes - nearby (≤7 km),Yes - within village,65.76,Community Hall
+133,Vizianagaram,Lisapalli,82.7,Yes - within village,Yes - nearby (≤7 km),No,86.69,Playground
+134,Srikakulam,Melissapalli,52.23,Yes - within village,Yes - nearby (≤7 km),No,65.86,Community Hall
+135,West Godavari,Taylorpalli,90.24,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,61.71,Library
+136,East Godavari,Briannapalli,46.75,No,No,Yes - nearby (≤10 km),81.76,Multiple
+137,Srikakulam,Jonathanpalli,50.06,Yes - nearby (≤3 km),Yes - within village,Yes - within village,71.17,Multiple
+138,Srikakulam,Andrewpalli,91.45,No,Yes - within village,Yes - within village,87.52,None
+139,Visakhapatnam,Lancepalli,50.54,No,No,No,71.36,Multiple
+140,Vizianagaram,Jamespalli,49.02,Yes - nearby (≤3 km),Yes - within village,No,54.68,None
+141,Kurnool,Donaldpalli,45.31,Yes - nearby (≤3 km),No,Yes - within village,62.76,Community Hall
+142,Visakhapatnam,Melissapalli,87.76,No,Yes - within village,Yes - within village,85.63,Playground
+143,Visakhapatnam,Shellypalli,84.85,Yes - within village,No,Yes - within village,53.7,Library
+144,Vizianagaram,Reneepalli,83.56,No,No,Yes - nearby (≤10 km),59.48,None
+145,Guntur,Johnpalli,81.68,Yes - within village,Yes - nearby (≤7 km),Yes - within village,53.19,None
+146,YSR Kadapa,Davidpalli,56.58,No,Yes - within village,Yes - within village,68.61,Multiple
+147,West Godavari,Jessicapalli,41.7,Yes - within village,No,Yes - nearby (≤10 km),87.32,Library
+148,Prakasam,Bryanpalli,68.55,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,85.56,Library
+149,Visakhapatnam,Robertpalli,67.56,No,Yes - nearby (≤7 km),Yes - within village,76.91,Community Hall
+150,Chittoor,Sheilapalli,69.48,No,Yes - nearby (≤7 km),Yes - within village,68.09,None
+151,Prakasam,Sharonpalli,80.69,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),79.14,None
+152,Prakasam,Margaretpalli,69.62,Yes - within village,No,Yes - nearby (≤10 km),84.93,Playground
+153,West Godavari,Mauricepalli,50.81,No,No,No,94.36,Playground
+154,YSR Kadapa,Denisepalli,64.55,No,No,Yes - within village,53.47,Playground
+155,Vizianagaram,Thomaspalli,63.37,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),58.58,Community Hall
+156,West Godavari,Emilypalli,63.54,Yes - within village,Yes - within village,Yes - nearby (≤10 km),51.24,None
+157,Vizianagaram,Jenniferpalli,56.49,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),72.42,Community Hall
+158,Visakhapatnam,Scottpalli,64.8,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,97.53,Community Hall
+159,Prakasam,Williampalli,74.89,Yes - nearby (≤3 km),No,No,61.52,Multiple
+160,Guntur,Cindypalli,79.2,No,Yes - within village,Yes - within village,55.1,Community Hall
+161,Anantapur,Aaronpalli,52.71,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),60.66,Multiple
+162,Prakasam,Marypalli,70.83,No,Yes - nearby (≤7 km),No,65.07,None
+163,Guntur,Jonathanpalli,63.87,Yes - within village,No,No,86.73,Playground
+164,Anantapur,Richardpalli,42.43,Yes - within village,Yes - within village,Yes - within village,85.97,None
+165,Guntur,Jopalli,93.96,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),68.48,Community Hall
+166,Kurnool,Jackpalli,41.1,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),64.8,None
+167,Srikakulam,Brianapalli,79.9,Yes - within village,No,Yes - nearby (≤10 km),54.66,Multiple
+168,Chittoor,Suzannepalli,82.27,No,No,Yes - within village,63.11,Playground
+169,Anantapur,Vanessapalli,87.54,Yes - within village,No,No,68.06,Library
+170,Chittoor,Robinpalli,64.02,Yes - nearby (≤3 km),Yes - within village,No,62.09,Multiple
+171,Vizianagaram,Tarapalli,53.13,Yes - nearby (≤3 km),No,No,71.93,Multiple
+172,Kurnool,Jessepalli,53.02,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),56.31,None
+173,Krishna,Jonathonpalli,50.86,No,No,Yes - within village,55.99,Playground
+174,Nellore,Jessicapalli,62.99,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - nearby (≤10 km),81.88,Playground
+175,YSR Kadapa,Michaelpalli,59.1,No,No,No,64.25,Community Hall
+176,Guntur,Sandypalli,51.06,Yes - within village,Yes - within village,Yes - nearby (≤10 km),93.62,Playground
+177,Visakhapatnam,Margaretpalli,78.09,No,Yes - within village,No,67.42,None
+178,YSR Kadapa,Jenniferpalli,75.96,Yes - within village,Yes - nearby (≤7 km),Yes - within village,57.11,None
+179,Krishna,Ericpalli,91.34,No,Yes - nearby (≤7 km),Yes - within village,81.66,Community Hall
+180,Visakhapatnam,Amandapalli,60.06,Yes - nearby (≤3 km),Yes - within village,No,86.77,Library
+181,East Godavari,Christinapalli,60.82,No,No,Yes - nearby (≤10 km),82.41,Library
+182,YSR Kadapa,Ericpalli,87.11,Yes - within village,Yes - within village,Yes - within village,59.2,Multiple
+183,Visakhapatnam,Paulpalli,72.22,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),52.03,None
+184,Chittoor,Jamespalli,93.5,Yes - nearby (≤3 km),Yes - within village,Yes - within village,68.93,Library
+185,Visakhapatnam,Jillpalli,74.25,No,Yes - within village,Yes - within village,83.4,Playground
+186,Anantapur,Samuelpalli,84.47,No,Yes - nearby (≤7 km),No,55.77,Multiple
+187,Nellore,Kathrynpalli,94.87,No,Yes - within village,Yes - within village,86.03,Library
+188,Guntur,Douglaspalli,63.57,No,Yes - within village,Yes - within village,88.0,Community Hall
+189,Srikakulam,Karenpalli,63.58,No,Yes - nearby (≤7 km),Yes - within village,75.99,None
+190,Visakhapatnam,Robinpalli,79.5,No,Yes - nearby (≤7 km),No,61.71,Playground
+191,Guntur,Emilypalli,77.97,Yes - nearby (≤3 km),No,No,83.2,Playground
+192,Srikakulam,Jessicapalli,46.65,No,Yes - within village,Yes - within village,51.64,Community Hall
+193,West Godavari,Markpalli,40.78,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),87.84,Playground
+194,Kurnool,Thomaspalli,82.78,Yes - within village,Yes - within village,Yes - nearby (≤10 km),89.89,Playground
+195,Vizianagaram,Jasminepalli,61.48,Yes - within village,No,No,52.01,Multiple
+196,Guntur,Troypalli,54.45,No,No,Yes - nearby (≤10 km),88.33,Library
+197,Prakasam,Chloepalli,76.53,Yes - within village,Yes - within village,Yes - nearby (≤10 km),79.08,None
+198,Chittoor,Shannonpalli,75.19,No,Yes - within village,Yes - within village,95.44,Library
+199,Guntur,Jeremypalli,56.93,No,Yes - within village,Yes - nearby (≤10 km),69.28,None
+200,Vizianagaram,Ericpalli,94.76,No,No,Yes - within village,82.31,Community Hall
+201,Kurnool,Scottpalli,48.48,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),79.35,None
+202,East Godavari,Sharipalli,62.68,No,No,Yes - within village,98.03,Multiple
+203,Vizianagaram,Margaretpalli,42.62,No,Yes - within village,Yes - within village,50.68,Playground
+204,Krishna,Alisonpalli,42.41,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - nearby (≤10 km),51.58,None
+205,Srikakulam,Patrickpalli,73.83,Yes - within village,No,Yes - nearby (≤10 km),66.04,Playground
+206,Nellore,Kaitlynpalli,53.24,Yes - nearby (≤3 km),No,No,53.19,Community Hall
+207,Visakhapatnam,Lindseypalli,71.17,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),86.47,None
+208,Vizianagaram,Christopherpalli,90.04,No,Yes - within village,Yes - nearby (≤10 km),67.55,Playground
+209,Chittoor,Michellepalli,46.84,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),94.59,Playground
+210,East Godavari,Rachelpalli,56.25,No,No,Yes - nearby (≤10 km),93.6,Library
+211,Prakasam,Meganpalli,66.45,Yes - within village,No,Yes - within village,55.68,Playground
+212,Chittoor,Danielpalli,56.71,No,No,No,65.68,Playground
+213,West Godavari,Amandapalli,90.09,Yes - nearby (≤3 km),Yes - within village,No,56.43,Playground
+214,YSR Kadapa,Joshuapalli,41.98,No,Yes - within village,Yes - nearby (≤10 km),69.07,Library
+215,Kurnool,Barbarapalli,53.41,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),61.47,Community Hall
+216,East Godavari,Michellepalli,68.61,Yes - nearby (≤3 km),No,Yes - within village,98.76,Multiple
+217,Kurnool,Robertpalli,75.63,No,Yes - within village,Yes - nearby (≤10 km),57.68,Multiple
+218,Kurnool,Kathleenpalli,91.37,Yes - within village,Yes - nearby (≤7 km),Yes - within village,75.71,None
+219,Visakhapatnam,Kevinpalli,52.83,Yes - within village,No,Yes - nearby (≤10 km),75.53,Community Hall
+220,YSR Kadapa,Tylerpalli,64.38,Yes - nearby (≤3 km),No,Yes - within village,83.69,Community Hall
+221,Nellore,Andreapalli,76.77,Yes - within village,Yes - within village,Yes - nearby (≤10 km),85.56,Library
+222,Vizianagaram,Michaelpalli,75.28,Yes - nearby (≤3 km),Yes - within village,No,58.28,Playground
+223,YSR Kadapa,Derekpalli,81.77,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),68.56,Playground
+224,Vizianagaram,Lisapalli,63.99,No,Yes - nearby (≤7 km),No,78.15,Playground
+225,Krishna,Donnapalli,59.36,Yes - nearby (≤3 km),No,Yes - within village,90.37,Community Hall
+226,Prakasam,Andrewpalli,54.48,No,Yes - nearby (≤7 km),Yes - within village,80.08,Library
+227,Guntur,Lauriepalli,77.0,No,Yes - within village,Yes - nearby (≤10 km),75.68,None
+228,East Godavari,Josephpalli,90.29,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),78.16,Community Hall
+229,Visakhapatnam,Joannapalli,41.2,Yes - nearby (≤3 km),Yes - within village,No,75.1,Community Hall
+230,Anantapur,Aprilpalli,52.72,No,Yes - nearby (≤7 km),No,60.98,Playground
+231,Anantapur,Jimmypalli,78.63,Yes - within village,No,Yes - nearby (≤10 km),82.47,Community Hall
+232,Visakhapatnam,Amypalli,70.38,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,76.95,Library
+233,Prakasam,Latoyapalli,52.95,Yes - within village,Yes - within village,No,86.87,Community Hall
+234,Krishna,Chadpalli,86.22,No,Yes - nearby (≤7 km),No,83.38,Multiple
+235,East Godavari,Morganpalli,55.31,Yes - nearby (≤3 km),Yes - within village,Yes - within village,51.26,Multiple
+236,Kurnool,Curtispalli,41.81,Yes - within village,Yes - nearby (≤7 km),No,86.3,Community Hall
+237,Nellore,Marthapalli,65.85,Yes - within village,No,Yes - within village,71.65,None
+238,Anantapur,Stevenpalli,46.55,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,63.53,Multiple
+239,Srikakulam,Denisepalli,80.21,No,Yes - within village,No,75.08,Community Hall
+240,Nellore,Melissapalli,67.87,No,Yes - within village,Yes - within village,92.48,Multiple
+241,Anantapur,Sarahpalli,51.13,Yes - nearby (≤3 km),Yes - within village,Yes - within village,50.51,None
+242,East Godavari,Richardpalli,40.62,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),55.0,None
+243,East Godavari,Jenniferpalli,94.63,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),69.49,Community Hall
+244,Anantapur,Connorpalli,51.61,Yes - nearby (≤3 km),No,Yes - within village,86.91,Library
+245,Anantapur,Sarahpalli,44.28,No,Yes - within village,Yes - within village,98.49,Multiple
+246,Anantapur,Michaelpalli,76.61,No,Yes - nearby (≤7 km),Yes - within village,58.84,Library
+247,YSR Kadapa,Angelapalli,57.11,No,No,Yes - nearby (≤10 km),92.96,Playground
+248,Nellore,Triciapalli,77.13,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),81.32,Multiple
+249,Vizianagaram,Robertpalli,82.46,Yes - within village,Yes - nearby (≤7 km),No,83.06,Playground
+250,Nellore,Ginapalli,70.65,No,No,Yes - within village,74.12,Playground
+251,Kurnool,Shaunpalli,46.58,Yes - nearby (≤3 km),No,No,93.82,None
+252,Srikakulam,Leahpalli,75.23,No,Yes - within village,No,50.02,None
+253,Srikakulam,Lesliepalli,81.96,Yes - within village,No,Yes - within village,52.72,Community Hall
+254,Guntur,Robertpalli,43.05,Yes - within village,No,Yes - within village,63.55,Playground
+255,Srikakulam,Danielpalli,90.37,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),89.57,Community Hall
+256,Kurnool,Jenniferpalli,66.74,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,70.64,Community Hall
+257,West Godavari,Elizabethpalli,57.39,Yes - within village,Yes - within village,No,97.63,Community Hall
+258,West Godavari,Raymondpalli,87.05,Yes - within village,No,Yes - within village,50.03,Library
+259,Vizianagaram,Susanpalli,87.63,Yes - within village,No,Yes - nearby (≤10 km),96.56,None
+260,Guntur,Aliciapalli,83.87,No,Yes - within village,No,89.72,None
+261,Vizianagaram,Carlpalli,51.81,Yes - within village,No,No,82.49,None
+262,Guntur,Andrewpalli,91.54,No,No,Yes - within village,74.18,Playground
+263,YSR Kadapa,Christinepalli,81.54,No,No,Yes - within village,88.83,Library
+264,Visakhapatnam,Shawnpalli,92.42,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,97.64,Playground
+265,Guntur,Zacharypalli,87.1,No,Yes - nearby (≤7 km),Yes - within village,58.19,Library
+266,Chittoor,Michaelpalli,62.77,No,No,No,50.45,Library
+267,Visakhapatnam,Laurapalli,72.88,Yes - nearby (≤3 km),No,Yes - within village,70.25,Multiple
+268,Kurnool,Gabrielapalli,80.45,No,Yes - within village,No,57.57,Library
+269,YSR Kadapa,Allenpalli,51.8,No,Yes - within village,Yes - within village,75.99,Library
+270,Vizianagaram,Kristapalli,69.01,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,57.14,Library
+271,Vizianagaram,Jasminpalli,61.54,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),51.9,Playground
+272,Guntur,Noahpalli,74.65,Yes - within village,No,Yes - within village,91.07,Playground
+273,East Godavari,Patriciapalli,82.08,No,No,Yes - within village,59.82,Playground
+274,Prakasam,Andrewpalli,87.31,No,Yes - nearby (≤7 km),Yes - within village,58.32,Multiple
+275,Krishna,Sergiopalli,91.77,No,Yes - nearby (≤7 km),No,97.29,Playground
+276,East Godavari,Donnapalli,43.03,No,Yes - nearby (≤7 km),No,52.99,Library
+277,Visakhapatnam,Meredithpalli,62.02,No,Yes - nearby (≤7 km),Yes - within village,76.33,Library
+278,Nellore,Jamiepalli,74.17,No,Yes - within village,Yes - nearby (≤10 km),63.46,Community Hall
+279,Chittoor,Anthonypalli,54.98,No,Yes - within village,Yes - within village,61.79,Multiple
+280,West Godavari,Michelepalli,49.39,No,No,Yes - within village,89.33,Library
+281,Nellore,Christopherpalli,85.36,Yes - nearby (≤3 km),Yes - within village,Yes - within village,74.95,None
+282,Nellore,Danielpalli,67.16,Yes - within village,Yes - within village,No,93.6,None
+283,Prakasam,Stephaniepalli,93.39,Yes - within village,Yes - within village,No,96.57,Playground
+284,Anantapur,Christopherpalli,91.1,Yes - within village,Yes - nearby (≤7 km),Yes - within village,96.44,None
+285,Chittoor,Lorettapalli,40.46,No,No,Yes - nearby (≤10 km),74.38,Community Hall
+286,Vizianagaram,Richardpalli,84.97,No,Yes - within village,Yes - within village,86.91,Playground
+287,Kurnool,Joshuapalli,48.9,No,Yes - nearby (≤7 km),Yes - within village,50.19,Community Hall
+288,YSR Kadapa,Kennethpalli,79.89,Yes - within village,No,Yes - within village,75.98,Library
+289,YSR Kadapa,Brianpalli,79.92,Yes - within village,No,Yes - nearby (≤10 km),61.31,None
+290,Krishna,Michellepalli,82.67,Yes - nearby (≤3 km),No,No,93.73,Multiple
+291,Anantapur,Cristianpalli,42.5,Yes - within village,No,No,72.51,Playground
+292,Krishna,Carolinepalli,89.6,No,No,Yes - nearby (≤10 km),92.48,Multiple
+293,West Godavari,Kristenpalli,56.48,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,54.83,Multiple
+294,Guntur,Ryanpalli,57.29,Yes - nearby (≤3 km),Yes - nearby (≤7 km),No,58.13,None
+295,Anantapur,Jenniferpalli,55.05,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),83.02,Library
+296,Nellore,Samanthapalli,43.12,Yes - within village,Yes - nearby (≤7 km),No,61.78,Community Hall
+297,West Godavari,Robertpalli,56.29,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),60.11,Multiple
+298,Prakasam,Williampalli,78.49,Yes - within village,No,Yes - nearby (≤10 km),53.57,Community Hall
+299,YSR Kadapa,Anitapalli,90.99,Yes - within village,No,No,71.46,Library
+300,Chittoor,Sandypalli,92.9,Yes - within village,Yes - nearby (≤7 km),Yes - within village,75.26,None
+301,Krishna,Amberpalli,76.35,No,No,Yes - within village,72.51,None
+302,Kurnool,Jacquelinepalli,79.68,No,No,No,80.13,None
+303,YSR Kadapa,Caseypalli,52.67,No,Yes - within village,Yes - nearby (≤10 km),83.62,Library
+304,West Godavari,Jamespalli,78.12,Yes - within village,Yes - within village,Yes - nearby (≤10 km),79.67,Community Hall
+305,Anantapur,Emilypalli,49.1,Yes - nearby (≤3 km),Yes - nearby (≤7 km),No,64.78,Multiple
+306,Krishna,Jaredpalli,71.93,Yes - nearby (≤3 km),Yes - within village,Yes - within village,51.23,Playground
+307,Prakasam,Monicapalli,65.01,Yes - within village,No,No,82.5,Library
+308,West Godavari,Brittneypalli,53.47,Yes - within village,Yes - within village,Yes - nearby (≤10 km),97.73,Playground
+309,Nellore,Williampalli,88.64,Yes - nearby (≤3 km),Yes - nearby (≤7 km),No,82.42,Community Hall
+310,Krishna,Nicolepalli,88.63,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),88.64,None
+311,Vizianagaram,Kellypalli,70.38,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),71.18,Community Hall
+312,Krishna,Jessicapalli,82.1,No,Yes - within village,No,57.83,Community Hall
+313,Visakhapatnam,Damonpalli,49.58,Yes - within village,Yes - within village,Yes - nearby (≤10 km),76.98,Multiple
+314,Krishna,Melvinpalli,88.79,Yes - nearby (≤3 km),No,Yes - within village,76.09,Playground
+315,Nellore,Shannonpalli,79.1,Yes - within village,Yes - within village,Yes - nearby (≤10 km),72.74,Playground
+316,Anantapur,Davidpalli,53.72,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - nearby (≤10 km),70.64,Community Hall
+317,Prakasam,Anthonypalli,55.49,Yes - within village,No,Yes - nearby (≤10 km),68.21,Library
+318,West Godavari,Jonathanpalli,63.29,Yes - within village,Yes - within village,Yes - within village,72.13,Playground
+319,Guntur,Danielpalli,74.77,No,Yes - nearby (≤7 km),Yes - within village,78.79,Community Hall
+320,Vizianagaram,Annapalli,82.55,Yes - within village,Yes - nearby (≤7 km),No,67.45,Library
+321,Vizianagaram,Rachelpalli,44.82,Yes - within village,Yes - within village,Yes - within village,75.69,Playground
+322,Chittoor,Oscarpalli,83.42,No,No,Yes - within village,84.91,None
+323,Anantapur,Chelseypalli,75.53,No,Yes - nearby (≤7 km),No,78.01,Library
+324,Srikakulam,Brandonpalli,65.21,Yes - nearby (≤3 km),No,Yes - within village,50.44,Multiple
+325,Krishna,Christopherpalli,72.99,No,Yes - within village,Yes - nearby (≤10 km),95.75,Multiple
+326,Vizianagaram,Thomaspalli,74.25,No,Yes - within village,Yes - within village,92.33,None
+327,Nellore,Jonpalli,69.81,Yes - within village,No,Yes - nearby (≤10 km),88.45,Library
+328,Chittoor,Heatherpalli,46.31,Yes - nearby (≤3 km),No,Yes - within village,88.04,Multiple
+329,YSR Kadapa,Samanthapalli,74.67,Yes - within village,Yes - within village,Yes - within village,53.19,Library
+330,Guntur,Williampalli,83.3,No,Yes - within village,Yes - nearby (≤10 km),60.22,Community Hall
+331,Guntur,Timothypalli,46.5,Yes - within village,Yes - within village,Yes - within village,74.23,Playground
+332,YSR Kadapa,Jenniferpalli,86.91,Yes - within village,Yes - within village,No,87.05,Community Hall
+333,Vizianagaram,Franciscopalli,70.39,Yes - within village,No,No,53.87,Playground
+334,Kurnool,Michaelpalli,50.95,No,No,Yes - nearby (≤10 km),68.5,Library
+335,Visakhapatnam,Timothypalli,74.24,Yes - within village,Yes - nearby (≤7 km),Yes - within village,70.36,Library
+336,Nellore,Sherripalli,93.91,No,Yes - within village,Yes - within village,73.93,Community Hall
+337,Prakasam,Michaelpalli,61.55,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),63.52,Library
+338,Kurnool,Marypalli,91.52,Yes - within village,Yes - within village,Yes - nearby (≤10 km),50.22,Library
+339,Anantapur,Jasonpalli,41.03,No,Yes - nearby (≤7 km),No,68.73,Playground
+340,Prakasam,Briannapalli,91.09,Yes - within village,Yes - nearby (≤7 km),No,95.76,Playground
+341,Visakhapatnam,Stevenpalli,87.14,No,No,Yes - nearby (≤10 km),67.8,None
+342,Vizianagaram,Adrianpalli,79.18,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),82.92,Library
+343,East Godavari,Veronicapalli,58.9,Yes - within village,Yes - within village,Yes - within village,93.06,Library
+344,Srikakulam,Randallpalli,40.01,No,No,Yes - within village,52.38,Library
+345,Vizianagaram,Arthurpalli,60.78,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,92.0,Library
+346,Krishna,Troypalli,75.72,No,No,No,91.61,None
+347,Anantapur,Meganpalli,67.81,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),79.69,Multiple
+348,West Godavari,Michellepalli,83.32,Yes - nearby (≤3 km),No,No,93.29,Multiple
+349,Anantapur,Jamespalli,91.88,Yes - within village,No,No,58.09,Playground
+350,Anantapur,Marilynpalli,91.08,Yes - within village,No,No,71.83,Community Hall
+351,Srikakulam,Amandapalli,74.35,Yes - nearby (≤3 km),Yes - within village,Yes - within village,55.5,Multiple
+352,Anantapur,Jenniferpalli,66.67,Yes - nearby (≤3 km),No,Yes - within village,55.27,Library
+353,Kurnool,Jacquelinepalli,66.03,Yes - within village,Yes - within village,Yes - within village,52.87,Community Hall
+354,Visakhapatnam,Lindsaypalli,55.96,Yes - within village,Yes - within village,No,57.97,Multiple
+355,YSR Kadapa,Teresapalli,72.46,No,Yes - within village,Yes - nearby (≤10 km),90.21,Community Hall
+356,Guntur,Anthonypalli,92.45,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),65.88,Multiple
+357,Guntur,Michaelpalli,43.36,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),69.39,Playground
+358,Visakhapatnam,Nathanpalli,93.47,No,Yes - nearby (≤7 km),No,70.73,Community Hall
+359,West Godavari,Dalepalli,78.34,Yes - within village,No,Yes - within village,62.54,Library
+360,Krishna,Leahpalli,67.19,Yes - nearby (≤3 km),No,Yes - within village,54.08,Playground
+361,Vizianagaram,Samuelpalli,73.79,No,No,Yes - nearby (≤10 km),96.45,None
+362,Nellore,Alexandrapalli,55.08,Yes - nearby (≤3 km),Yes - within village,Yes - within village,88.0,Playground
+363,Prakasam,Robertpalli,45.51,Yes - nearby (≤3 km),Yes - nearby (≤7 km),No,74.77,Multiple
+364,Anantapur,Dariuspalli,94.97,No,Yes - nearby (≤7 km),No,71.53,Library
+365,Anantapur,Christopherpalli,93.03,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),69.67,Multiple
+366,Guntur,Samanthapalli,61.34,Yes - nearby (≤3 km),Yes - within village,Yes - within village,98.53,None
+367,Visakhapatnam,Sethpalli,59.94,Yes - within village,No,No,93.23,Playground
+368,Nellore,Tiffanypalli,41.49,No,Yes - nearby (≤7 km),Yes - within village,62.6,None
+369,Vizianagaram,Aaronpalli,80.89,Yes - within village,Yes - within village,Yes - nearby (≤10 km),53.37,Multiple
+370,Vizianagaram,Alyssapalli,72.21,Yes - within village,Yes - within village,Yes - within village,64.1,Playground
+371,Visakhapatnam,Carlapalli,90.16,No,No,Yes - nearby (≤10 km),87.18,Community Hall
+372,Visakhapatnam,Anthonypalli,57.24,No,Yes - within village,No,80.11,None
+373,Chittoor,Joannapalli,64.95,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),62.07,None
+374,East Godavari,Angelapalli,62.83,No,Yes - within village,Yes - within village,56.03,Library
+375,YSR Kadapa,Josepalli,59.37,Yes - nearby (≤3 km),No,No,63.33,Community Hall
+376,YSR Kadapa,Josephpalli,57.93,Yes - within village,Yes - within village,Yes - nearby (≤10 km),67.4,Library
+377,Nellore,Paulpalli,84.21,No,No,No,72.84,Library
+378,Chittoor,Rebeccapalli,92.82,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),91.31,Community Hall
+379,West Godavari,Michaelpalli,43.22,Yes - nearby (≤3 km),Yes - within village,No,72.45,Community Hall
+380,YSR Kadapa,Priscillapalli,47.13,Yes - within village,Yes - nearby (≤7 km),No,77.74,Community Hall
+381,YSR Kadapa,Andreapalli,48.88,Yes - within village,Yes - nearby (≤7 km),Yes - within village,90.63,Multiple
+382,East Godavari,Patrickpalli,61.58,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),79.34,None
+383,Guntur,Reginapalli,83.58,Yes - within village,Yes - within village,No,59.51,Multiple
+384,Nellore,Michaelpalli,51.67,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),50.29,None
+385,YSR Kadapa,Christopherpalli,43.12,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,51.21,Playground
+386,Srikakulam,Markpalli,72.91,No,Yes - within village,Yes - nearby (≤10 km),99.32,Library
+387,West Godavari,Tammypalli,53.47,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),99.3,None
+388,YSR Kadapa,Bryanpalli,84.14,Yes - within village,Yes - within village,Yes - within village,54.91,Library
+389,Vizianagaram,Michaelpalli,67.03,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - nearby (≤10 km),76.78,Playground
+390,YSR Kadapa,Jenniferpalli,71.86,Yes - nearby (≤3 km),No,No,70.0,Multiple
+391,Kurnool,Jasonpalli,45.5,No,No,Yes - within village,89.79,Playground
+392,Krishna,Angelapalli,78.21,Yes - nearby (≤3 km),Yes - nearby (≤7 km),No,94.94,Multiple
+393,Nellore,Stacypalli,63.15,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - nearby (≤10 km),80.56,Community Hall
+394,East Godavari,Christinapalli,53.54,Yes - nearby (≤3 km),No,No,52.48,Community Hall
+395,Guntur,Jamespalli,71.15,Yes - within village,Yes - nearby (≤7 km),Yes - within village,55.37,Playground
+396,East Godavari,Timothypalli,84.71,Yes - within village,Yes - nearby (≤7 km),Yes - within village,51.47,Community Hall
+397,Nellore,Jamespalli,51.6,No,Yes - within village,Yes - nearby (≤10 km),84.69,Multiple
+398,Chittoor,Jessicapalli,90.79,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),72.69,Community Hall
+399,Chittoor,Rebekahpalli,83.34,No,Yes - within village,No,61.3,Multiple
+400,West Godavari,Laurenpalli,93.22,Yes - within village,Yes - within village,Yes - nearby (≤10 km),52.39,Playground
+401,Krishna,Lynnpalli,81.16,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),97.13,Library
+402,Anantapur,Katiepalli,85.31,Yes - nearby (≤3 km),Yes - within village,Yes - within village,89.66,Library
+403,East Godavari,Kathleenpalli,71.4,No,Yes - nearby (≤7 km),Yes - within village,81.7,Playground
+404,Guntur,Peterpalli,49.29,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),56.72,Community Hall
+405,Kurnool,Trevorpalli,46.38,No,No,Yes - nearby (≤10 km),88.61,Multiple
+406,Chittoor,Brittneypalli,41.13,Yes - within village,No,No,66.62,Multiple
+407,Vizianagaram,Natashapalli,84.13,Yes - nearby (≤3 km),Yes - within village,Yes - within village,78.58,Library
+408,Chittoor,Michaelpalli,93.51,No,Yes - nearby (≤7 km),No,55.59,Community Hall
+409,West Godavari,Josepalli,72.59,No,Yes - nearby (≤7 km),No,80.87,Library
+410,Visakhapatnam,Johnpalli,75.74,No,No,Yes - within village,73.05,None
+411,East Godavari,Bethpalli,77.74,Yes - within village,Yes - nearby (≤7 km),No,52.34,Multiple
+412,YSR Kadapa,Brittanypalli,59.65,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - nearby (≤10 km),74.49,Community Hall
+413,Prakasam,Samanthapalli,41.86,No,Yes - nearby (≤7 km),No,93.38,Multiple
+414,West Godavari,Lisapalli,59.55,Yes - within village,Yes - within village,Yes - within village,64.13,Library
+415,YSR Kadapa,Amandapalli,89.79,No,Yes - nearby (≤7 km),Yes - within village,66.79,Playground
+416,Nellore,Melaniepalli,51.54,Yes - nearby (≤3 km),Yes - within village,Yes - within village,81.66,Library
+417,Nellore,Philippalli,63.73,Yes - nearby (≤3 km),Yes - within village,Yes - within village,81.78,Playground
+418,Guntur,Douglaspalli,72.07,No,Yes - within village,No,56.92,Library
+419,Kurnool,Corypalli,62.97,Yes - within village,Yes - within village,Yes - nearby (≤10 km),50.26,Playground
+420,YSR Kadapa,Meredithpalli,46.62,Yes - nearby (≤3 km),No,No,95.6,Multiple
+421,Visakhapatnam,Karapalli,77.05,No,Yes - nearby (≤7 km),Yes - within village,59.95,Multiple
+422,Prakasam,Jacobpalli,84.67,Yes - nearby (≤3 km),No,Yes - within village,87.9,Playground
+423,Prakasam,Sarahpalli,60.85,No,Yes - within village,Yes - nearby (≤10 km),98.71,Playground
+424,Visakhapatnam,Nathanpalli,91.25,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,52.72,Community Hall
+425,Chittoor,Bobbypalli,43.58,Yes - within village,No,Yes - nearby (≤10 km),79.96,None
+426,East Godavari,Jamespalli,74.93,Yes - within village,Yes - within village,No,67.45,Community Hall
+427,Chittoor,Robertpalli,48.05,No,Yes - nearby (≤7 km),No,96.75,Playground
+428,Srikakulam,Samuelpalli,74.84,No,Yes - within village,Yes - nearby (≤10 km),52.75,None
+429,Prakasam,Markpalli,56.54,No,No,No,74.78,Library
+430,Guntur,Angelapalli,83.1,Yes - within village,Yes - within village,Yes - nearby (≤10 km),86.5,None
+431,YSR Kadapa,Oscarpalli,83.29,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - nearby (≤10 km),66.83,Playground
+432,Anantapur,Briannapalli,72.67,No,No,Yes - within village,88.62,Community Hall
+433,Chittoor,Sarapalli,41.61,Yes - within village,No,Yes - within village,69.57,None
+434,Anantapur,Kristinepalli,61.93,Yes - within village,Yes - within village,No,96.8,Multiple
+435,West Godavari,Laurenpalli,82.21,Yes - nearby (≤3 km),No,No,93.59,None
+436,Vizianagaram,Robertpalli,52.11,No,No,Yes - nearby (≤10 km),75.69,Multiple
+437,Srikakulam,Ashleypalli,72.18,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,66.83,Community Hall
+438,Chittoor,Christinapalli,91.96,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),94.03,Playground
+439,Krishna,Donnapalli,73.29,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),98.34,Library
+440,Srikakulam,Nicolepalli,79.72,Yes - nearby (≤3 km),Yes - within village,Yes - within village,98.72,Library
+441,West Godavari,Brettpalli,59.95,Yes - within village,No,No,76.74,Community Hall
+442,Krishna,Jonathanpalli,40.23,Yes - nearby (≤3 km),No,Yes - nearby (≤10 km),85.61,Community Hall
+443,Srikakulam,Troypalli,43.0,No,No,No,82.31,Community Hall
+444,Prakasam,Donaldpalli,87.04,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),70.25,Playground
+445,Anantapur,Peterpalli,42.43,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),78.8,Library
+446,Anantapur,Tiffanypalli,55.03,No,Yes - within village,No,80.15,Playground
+447,Prakasam,Beverlypalli,47.43,No,Yes - nearby (≤7 km),Yes - within village,65.41,None
+448,Krishna,Dawnpalli,43.31,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),66.71,None
+449,Vizianagaram,Stephenpalli,80.57,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),58.59,Community Hall
+450,Vizianagaram,Williampalli,62.17,Yes - nearby (≤3 km),Yes - within village,No,53.3,Multiple
+451,Chittoor,Angelapalli,92.97,Yes - nearby (≤3 km),No,Yes - within village,67.7,Playground
+452,Guntur,Carriepalli,88.7,Yes - within village,Yes - nearby (≤7 km),Yes - within village,83.65,Playground
+453,Chittoor,Kerrypalli,82.03,Yes - within village,Yes - within village,Yes - within village,61.65,Multiple
+454,Krishna,Jasminepalli,80.06,No,No,No,83.17,Community Hall
+455,Anantapur,Christopherpalli,67.74,Yes - within village,Yes - nearby (≤7 km),No,83.1,Community Hall
+456,Krishna,Josephpalli,70.22,No,No,Yes - nearby (≤10 km),99.2,Community Hall
+457,Chittoor,Robertpalli,62.44,Yes - within village,No,Yes - nearby (≤10 km),79.4,Community Hall
+458,Anantapur,Anthonypalli,66.68,No,Yes - nearby (≤7 km),No,71.14,Playground
+459,Vizianagaram,Bryanpalli,82.0,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),80.59,Community Hall
+460,YSR Kadapa,Parkerpalli,42.86,No,Yes - within village,Yes - nearby (≤10 km),55.47,Multiple
+461,Chittoor,Jeffreypalli,71.87,No,No,Yes - nearby (≤10 km),63.98,None
+462,Krishna,Dylanpalli,49.17,Yes - nearby (≤3 km),No,Yes - within village,70.47,Playground
+463,East Godavari,Haleypalli,61.47,Yes - nearby (≤3 km),No,No,92.0,None
+464,Kurnool,Lisapalli,66.79,Yes - nearby (≤3 km),Yes - within village,Yes - within village,98.16,Library
+465,Vizianagaram,Davidpalli,68.24,Yes - nearby (≤3 km),Yes - within village,Yes - within village,66.81,None
+466,Anantapur,Donnapalli,65.86,Yes - within village,Yes - nearby (≤7 km),Yes - within village,88.41,None
+467,Anantapur,Davidpalli,75.33,No,No,No,57.35,Multiple
+468,Vizianagaram,Jamespalli,61.96,No,Yes - nearby (≤7 km),Yes - within village,94.1,Playground
+469,Nellore,Michaelpalli,84.85,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,50.82,None
+470,Prakasam,Chelseapalli,73.12,No,Yes - nearby (≤7 km),Yes - within village,76.5,Community Hall
+471,YSR Kadapa,Jacobpalli,44.49,No,Yes - nearby (≤7 km),Yes - within village,86.65,Library
+472,Anantapur,Kimberlypalli,92.89,Yes - nearby (≤3 km),Yes - within village,Yes - within village,88.75,None
+473,Chittoor,Karlpalli,88.52,Yes - nearby (≤3 km),No,Yes - within village,91.27,Multiple
+474,Guntur,Heatherpalli,45.81,Yes - within village,Yes - within village,Yes - within village,99.96,Library
+475,Vizianagaram,Brittneypalli,62.65,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - nearby (≤10 km),66.96,Playground
+476,Srikakulam,Lindapalli,56.75,Yes - nearby (≤3 km),Yes - within village,No,61.01,Playground
+477,Vizianagaram,Crystalpalli,85.71,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),57.1,Library
+478,West Godavari,Codypalli,91.98,Yes - within village,No,Yes - nearby (≤10 km),72.74,Library
+479,Srikakulam,Michaelpalli,88.99,Yes - within village,Yes - nearby (≤7 km),Yes - nearby (≤10 km),56.99,Playground
+480,Guntur,Thomaspalli,78.71,No,Yes - nearby (≤7 km),Yes - within village,53.85,None
+481,Krishna,Christopherpalli,57.17,Yes - nearby (≤3 km),Yes - nearby (≤7 km),No,97.74,Community Hall
+482,Krishna,Peterpalli,94.3,Yes - nearby (≤3 km),Yes - within village,No,93.12,Playground
+483,Guntur,Johnpalli,82.14,Yes - within village,Yes - within village,Yes - within village,60.19,Multiple
+484,Guntur,Amberpalli,86.93,No,No,Yes - within village,58.01,Library
+485,YSR Kadapa,Jasonpalli,69.75,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,60.57,None
+486,Krishna,Kylepalli,59.16,Yes - nearby (≤3 km),Yes - within village,No,72.78,Library
+487,Prakasam,Marcuspalli,52.84,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - nearby (≤10 km),68.94,None
+488,Krishna,Deborahpalli,60.35,Yes - within village,Yes - nearby (≤7 km),Yes - within village,64.33,None
+489,Anantapur,Cynthiapalli,82.6,No,Yes - within village,No,75.9,None
+490,East Godavari,Kevinpalli,81.2,No,Yes - within village,No,76.44,Library
+491,YSR Kadapa,Randypalli,89.86,No,Yes - within village,Yes - nearby (≤10 km),98.67,Library
+492,YSR Kadapa,Robertpalli,83.39,Yes - within village,No,Yes - within village,58.93,Playground
+493,Kurnool,Carriepalli,79.66,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),78.99,Library
+494,Chittoor,Anitapalli,71.66,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - nearby (≤10 km),57.83,Library
+495,Anantapur,Jerrypalli,90.0,No,Yes - nearby (≤7 km),Yes - nearby (≤10 km),66.14,Multiple
+496,Anantapur,Johnpalli,48.73,Yes - within village,Yes - within village,Yes - nearby (≤10 km),83.29,Community Hall
+497,East Godavari,Victorpalli,41.46,Yes - nearby (≤3 km),Yes - nearby (≤7 km),Yes - within village,50.63,Library
+498,Kurnool,Blakepalli,87.02,Yes - nearby (≤3 km),No,No,65.68,Library
+499,Anantapur,Emilypalli,93.88,No,Yes - nearby (≤7 km),Yes - within village,64.46,Library
+500,Prakasam,Josephpalli,64.28,Yes - nearby (≤3 km),Yes - within village,Yes - nearby (≤10 km),58.71,Library

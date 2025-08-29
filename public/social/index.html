@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Social Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-village"></i> Village Social Dashboard</h1>
+            <p>Monitoring social metrics across villages</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="controls">
+            <div class="village-selector">
+                <label for="village-select">Select a Village:</label>
+                <select id="village-select">
+                    <option value="">-- Loading Villages --</option>
+                </select>
+            </div>
+            
+            <div class="comparison-controls">
+                <h3>Compare Villages</h3>
+                <div class="comparison-selectors">
+                    <select id="compare-village-1">
+                        <option value="">-- Select Village 1 --</option>
+                    </select>
+                    <select id="compare-village-2">
+                        <option value="">-- Select Village 2 --</option>
+                    </select>
+                    <button id="compare-btn">Compare</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard">
+            <div class="score-card">
+                <h2>Village Score</h2>
+                <div class="score-circle" style="--p:0">
+                    <span id="score-value">--</span>
+                </div>
+                <div id="score-status" class="score-status">Select a village</div>
+            </div>
+
+            <div class="chart-container">
+                <h2>Performance Metrics</h2>
+                <canvas id="metricsChart"></canvas>
+            </div>
+        </section>
+
+        <section class="metrics-grid" id="metrics-grid">
+            <!-- Will be populated by JavaScript -->
+        </section>
+
+        <section class="recommendations">
+            <h2>Recommendations</h2>
+            <div id="recommendations-content" class="recommendations-content">
+                <p class="placeholder">Select a village to see improvement recommendations</p>
+            </div>
+        </section>
+
+        <section class="comparison">
+            <h2>Village Comparison</h2>
+            <div id="comparison-results" class="comparison-results">
+                <p class="placeholder">Select two villages to compare their metrics</p>
+            </div>
+        </section>
+
+        <section class="actions">
+            <button id="download-report" class="download-btn">
+                <i class="fas fa-download"></i> Download Report
+            </button>
+        </section>
+        <div class="management-button">
+        <a href="../management/index.html" class="btn-management">
+          <i class="fas fa-cogs"></i> Go to Management
+        </a>
+      </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Village Social Dashboard. Data updated monthly.</p>
+        </div>
+    </footer>
+
+    <!-- Include PapaParse for CSV parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <!-- Include Chart.js for data visualization -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <!-- Include our custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

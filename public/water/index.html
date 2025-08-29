@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Water Access Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-tint"></i> Andhra Pradesh Village Water Access</h1>
+            <p>Monitoring clean water accessibility across villages</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#overview" class="active">Overview</a></li>
+                <li><a href="#district-view">District View</a></li>
+                <li><a href="#village-details">Village Details</a></li>
+                <li><a href="#comparison">Comparison</a></li>
+                <li><a href="#analysis">Analysis</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="overview" class="dashboard-section">
+            <h2>Water Access Overview</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>Average Water Access</h3>
+                        <p class="stat-value" id="avg-water-access">--%</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-hand-holding-water"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>Primary Water Sources</h3>
+                        <p class="stat-value" id="water-sources">--</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>Villages with Good Quality</h3>
+                        <p class="stat-value" id="good-quality">--%</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-pump-soap"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>Average Supply Hours</h3>
+                        <p class="stat-value" id="avg-supply-hours">-- hrs/day</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <canvas id="waterAccessChart"></canvas>
+            </div>
+        </section>
+
+        <section id="district-view" class="dashboard-section">
+            <h2>District-wise Water Access</h2>
+            <div class="filters">
+                <select id="district-select">
+                    <option value="">All Districts</option>
+                </select>
+                <button id="apply-filters">Apply Filters</button>
+            </div>
+            <div class="chart-container">
+                <canvas id="districtChart"></canvas>
+            </div>
+        </section>
+
+        <section id="village-details" class="dashboard-section">
+            <h2>Village Details</h2>
+            <div class="village-selector">
+                <select id="village-select">
+                    <option value="">Select a Village</option>
+                </select>
+            </div>
+            
+            <div class="village-details-card" id="village-details-card">
+                <div class="placeholder">
+                    <i class="fas fa-search"></i>
+                    <p>Select a village to view detailed information</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparison" class="dashboard-section">
+            <h2>Compare Villages</h2>
+            <div class="comparison-controls">
+                <select id="compare-village-1">
+                    <option value="">Select Village 1</option>
+                </select>
+                <select id="compare-village-2">
+                    <option value="">Select Village 2</option>
+                </select>
+                <button id="compare-btn">Compare</button>
+            </div>
+            <div class="comparison-results" id="comparison-results">
+                <div class="placeholder">
+                    <i class="fas fa-balance-scale"></i>
+                    <p>Select two villages to compare</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="analysis" class="dashboard-section">
+            <h2>Water Access Analysis</h2>
+            <div class="analysis-grid">
+                <div class="analysis-card">
+                    <h3>Water Source Distribution</h3>
+                    <div class="chart-container">
+                        <canvas id="sourceChart"></canvas>
+                    </div>
+                </div>
+                <div class="analysis-card">
+                    <h3>Water Quality Rating</h3>
+                    <div class="chart-container">
+                        <canvas id="qualityChart"></canvas>
+                    </div>
+                </div>
+                <div class="analysis-card">
+                    <h3>Supply Hours Distribution</h3>
+                    <div class="chart-container">
+                        <canvas id="supplyChart"></canvas>
+                    </div>
+                </div>
+                <div class="analysis-card">
+                    <h3>Government Schemes Impact</h3>
+                    <div class="chart-container">
+                        <canvas id="schemesChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="management-button">
+        <a href="../management/index.html" class="btn-management">
+          <i class="fas fa-cogs"></i> Go to Management
+        </a>
+      </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Andhra Pradesh Water Access Dashboard | Data Source: Andhra Pradesh Village Survey</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

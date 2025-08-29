@@ -1,0 +1,501 @@
+Village_Code,District,Village_Name,main_occupation,employment_rate,average_income_per_household,poverty_rate,access_to_credit
+1,Chittoor,Charlespalli,Service,82.38,46178,55.05,Yes - Bank
+2,East Godavari,Nicolepalli,Service,61.85,35546,10.18,Yes - Microfinance
+3,Vizianagaram,Scottpalli,Agriculture,68.5,4200,37.73,Yes - Microfinance
+4,Krishna,Tinapalli,Business,89.99,17491,57.51,Yes - Bank
+5,YSR Kadapa,Tiffanypalli,Agriculture,41.52,14381,42.28,Yes - Microfinance
+6,Visakhapatnam,Triciapalli,Service,78.33,31414,20.6,Yes - Microfinance
+7,Kurnool,Adampalli,Labor,68.82,6183,42.9,Yes - Bank
+8,Visakhapatnam,Alexandrapalli,Mixed,53.7,46478,29.52,Yes - Bank
+9,Prakasam,Amandapalli,Service,47.24,34573,11.34,No
+10,Kurnool,Jamespalli,Labor,51.36,22709,30.35,Yes - Bank
+11,Kurnool,Janepalli,Labor,81.7,10719,12.7,Yes - Bank
+12,West Godavari,Robertpalli,Mixed,59.51,27735,23.38,Yes - Microfinance
+13,Prakasam,Kimberlypalli,Business,90.75,12159,28.38,No
+14,Kurnool,Jessicapalli,Labor,63.62,30489,49.98,No
+15,Prakasam,Sarahpalli,Mixed,48.84,42765,53.46,Yes - Microfinance
+16,East Godavari,Alexanderpalli,Agriculture,85.36,39626,50.0,Yes - Bank
+17,Nellore,Alyssapalli,Business,45.83,31035,9.05,Yes - Bank
+18,Krishna,Dustinpalli,Agriculture,77.25,33509,15.38,Yes - Bank
+19,Anantapur,Michellepalli,Mixed,86.04,24620,49.03,Yes - Microfinance
+20,YSR Kadapa,Karenpalli,Service,62.85,5816,31.41,Yes - Bank
+21,Srikakulam,Patrickpalli,Business,62.69,25781,25.74,Yes - Bank
+22,Prakasam,Manuelpalli,Mixed,51.61,42391,59.02,No
+23,Prakasam,Katiepalli,Mixed,50.92,14234,53.74,Yes - Microfinance
+24,Nellore,Shannonpalli,Agriculture,88.22,34706,39.69,No
+25,Guntur,Kevinpalli,Agriculture,75.66,40631,56.13,Yes - Bank
+26,Visakhapatnam,Kerrypalli,Business,55.95,3347,59.1,No
+27,West Godavari,Courtneypalli,Labor,80.97,30309,23.67,No
+28,Guntur,Timothypalli,Service,88.11,10364,15.05,Yes - Microfinance
+29,Anantapur,Jonathanpalli,Labor,88.7,19843,51.72,No
+30,Chittoor,Kimberlypalli,Business,73.97,15065,23.74,No
+31,Vizianagaram,Rebeccapalli,Agriculture,64.42,42340,21.2,No
+32,Anantapur,Kylepalli,Service,50.44,23730,37.47,No
+33,Nellore,Michellepalli,Labor,64.42,49493,10.33,No
+34,Prakasam,Melindapalli,Agriculture,86.73,47152,54.46,Yes - Bank
+35,Visakhapatnam,Johnpalli,Service,89.14,45069,45.89,No
+36,Nellore,Kelseypalli,Business,78.82,20882,29.52,No
+37,Visakhapatnam,Dalepalli,Service,61.16,23775,10.28,Yes - Microfinance
+38,West Godavari,Kimberlypalli,Labor,74.06,43640,44.42,Yes - Bank
+39,Srikakulam,Josephpalli,Business,91.75,6445,34.25,No
+40,East Godavari,Kimberlypalli,Labor,79.15,37916,51.39,No
+41,Krishna,Billypalli,Service,52.97,3749,45.3,No
+42,Krishna,Pamelapalli,Labor,66.54,45190,59.16,No
+43,Chittoor,Randypalli,Agriculture,73.69,25738,26.83,No
+44,Nellore,Zacharypalli,Business,62.56,17121,8.39,Yes - Microfinance
+45,Chittoor,Susanpalli,Mixed,54.52,48394,31.9,Yes - Microfinance
+46,East Godavari,Amandapalli,Labor,44.23,25348,27.3,No
+47,YSR Kadapa,Wesleypalli,Labor,47.96,9168,55.09,No
+48,Nellore,Danielpalli,Business,76.17,21425,6.84,No
+49,Visakhapatnam,Jenniferpalli,Labor,89.21,40935,51.84,No
+50,Nellore,Paigepalli,Business,70.04,7972,17.77,Yes - Bank
+51,Srikakulam,Jocelynpalli,Agriculture,60.92,28366,16.78,No
+52,Srikakulam,Codypalli,Mixed,46.95,43499,7.79,No
+53,Kurnool,Robertpalli,Agriculture,45.67,26517,9.6,Yes - Bank
+54,Krishna,Amberpalli,Mixed,94.33,31006,15.05,Yes - Bank
+55,Krishna,Dianepalli,Agriculture,88.81,36593,43.02,Yes - Microfinance
+56,Vizianagaram,Josephpalli,Service,51.38,40217,44.89,Yes - Bank
+57,Chittoor,Victorpalli,Mixed,71.37,40087,58.02,Yes - Microfinance
+58,Vizianagaram,Timothypalli,Agriculture,67.92,13057,51.53,Yes - Bank
+59,Kurnool,Glennpalli,Agriculture,63.34,46164,57.38,No
+60,Visakhapatnam,Shannonpalli,Business,66.74,29360,59.49,Yes - Bank
+61,Kurnool,Katiepalli,Business,83.67,4730,7.13,No
+62,Vizianagaram,Debbiepalli,Agriculture,83.28,40171,48.36,No
+63,Srikakulam,Toddpalli,Mixed,76.59,38595,58.93,No
+64,Anantapur,Bettypalli,Service,84.44,34082,26.39,No
+65,West Godavari,Jasonpalli,Service,40.92,23229,51.83,Yes - Microfinance
+66,Vizianagaram,Toddpalli,Service,89.4,21583,8.9,No
+67,Nellore,Nicolepalli,Service,61.81,31231,6.92,No
+68,YSR Kadapa,Davidpalli,Business,58.96,21937,15.64,Yes - Bank
+69,East Godavari,Timothypalli,Mixed,65.52,17932,31.74,Yes - Bank
+70,West Godavari,Nicolepalli,Mixed,87.54,40913,15.7,Yes - Bank
+71,Krishna,Anthonypalli,Agriculture,71.33,20275,42.67,Yes - Bank
+72,Prakasam,Glendapalli,Business,86.3,17623,47.26,No
+73,East Godavari,Justinpalli,Business,73.43,33333,59.75,No
+74,Vizianagaram,Haroldpalli,Service,90.82,14322,49.03,Yes - Microfinance
+75,Visakhapatnam,Emilypalli,Mixed,54.31,23795,54.83,Yes - Microfinance
+76,Prakasam,Sarahpalli,Agriculture,45.36,37295,30.98,No
+77,Guntur,Tracipalli,Service,73.82,24507,53.95,Yes - Bank
+78,Kurnool,Nicholaspalli,Service,50.77,29285,15.45,No
+79,Anantapur,Jonathanpalli,Mixed,62.51,7707,9.95,No
+80,Kurnool,Samanthapalli,Mixed,45.38,11175,16.76,Yes - Bank
+81,Krishna,Patriciapalli,Service,72.59,35299,35.83,Yes - Microfinance
+82,Chittoor,Jacobpalli,Business,50.47,17910,18.84,Yes - Microfinance
+83,Nellore,Tinapalli,Labor,58.91,14851,51.91,No
+84,Kurnool,Joshuapalli,Mixed,42.13,13940,16.87,Yes - Microfinance
+85,Nellore,Adampalli,Business,56.13,22072,37.95,Yes - Bank
+86,Prakasam,Pamelapalli,Service,51.61,21417,53.89,Yes - Microfinance
+87,Chittoor,Kevinpalli,Service,52.76,26602,7.26,No
+88,Vizianagaram,Cherylpalli,Agriculture,66.1,33893,38.1,Yes - Microfinance
+89,Chittoor,Karenpalli,Service,67.71,30878,19.67,Yes - Microfinance
+90,Krishna,Frankpalli,Agriculture,64.9,12010,48.96,Yes - Bank
+91,Anantapur,Matthewpalli,Service,72.11,44288,10.85,Yes - Bank
+92,West Godavari,Carolpalli,Labor,41.52,39405,48.62,Yes - Microfinance
+93,West Godavari,Markpalli,Business,67.02,12834,50.53,Yes - Microfinance
+94,West Godavari,Derekpalli,Mixed,90.17,20217,5.05,No
+95,YSR Kadapa,Josephpalli,Labor,91.22,7079,43.57,Yes - Microfinance
+96,Kurnool,Anthonypalli,Agriculture,88.2,43865,50.91,Yes - Bank
+97,YSR Kadapa,Stephaniepalli,Labor,76.48,16398,52.58,Yes - Microfinance
+98,Vizianagaram,Lisapalli,Mixed,75.85,39417,11.12,Yes - Microfinance
+99,Nellore,Jorgepalli,Service,88.41,39494,44.6,Yes - Bank
+100,East Godavari,Vanessapalli,Mixed,45.79,47143,26.21,Yes - Microfinance
+101,Prakasam,Amberpalli,Service,66.7,5145,7.88,Yes - Bank
+102,West Godavari,Jeffpalli,Agriculture,94.91,9679,7.22,Yes - Bank
+103,Prakasam,Robertpalli,Agriculture,42.73,25319,50.4,Yes - Microfinance
+104,Visakhapatnam,Jonpalli,Labor,40.25,38934,25.81,Yes - Microfinance
+105,Krishna,Richardpalli,Business,47.85,5815,30.6,No
+106,Srikakulam,Calvinpalli,Service,51.61,34451,58.27,No
+107,Krishna,Jamespalli,Agriculture,62.84,23076,26.62,No
+108,Krishna,Marissapalli,Agriculture,77.57,32922,30.6,Yes - Microfinance
+109,Chittoor,Mitchellpalli,Service,41.17,48248,44.1,No
+110,Anantapur,Robertpalli,Labor,66.93,43354,44.96,Yes - Microfinance
+111,Anantapur,Michaelpalli,Labor,50.81,6057,8.04,Yes - Bank
+112,YSR Kadapa,Nicholaspalli,Agriculture,72.88,47743,23.84,Yes - Bank
+113,Kurnool,Sarahpalli,Service,94.63,42039,45.21,No
+114,East Godavari,Alexispalli,Mixed,54.35,32247,7.78,Yes - Microfinance
+115,East Godavari,Amandapalli,Service,74.34,24922,25.97,Yes - Microfinance
+116,West Godavari,Douglaspalli,Labor,46.41,31104,50.82,Yes - Microfinance
+117,Kurnool,Jamespalli,Service,79.84,42546,59.1,Yes - Microfinance
+118,Vizianagaram,Melaniepalli,Mixed,56.6,16707,59.42,No
+119,YSR Kadapa,Crystalpalli,Mixed,52.15,49946,42.66,Yes - Microfinance
+120,Guntur,Michellepalli,Business,61.01,39885,14.28,No
+121,East Godavari,Bradleypalli,Labor,49.41,27411,22.08,Yes - Bank
+122,Guntur,Kylepalli,Business,53.64,48186,51.45,Yes - Bank
+123,Nellore,Brendapalli,Labor,46.12,24871,31.06,No
+124,Vizianagaram,Melindapalli,Business,87.74,31997,33.14,No
+125,Visakhapatnam,Sarahpalli,Mixed,85.17,40979,10.36,Yes - Microfinance
+126,Chittoor,Lisapalli,Business,77.8,5444,22.63,Yes - Microfinance
+127,Vizianagaram,Russellpalli,Business,63.0,20862,14.23,Yes - Microfinance
+128,East Godavari,Jakepalli,Mixed,84.69,30777,36.9,Yes - Bank
+129,Chittoor,Juliapalli,Service,45.49,31971,17.26,No
+130,East Godavari,Tracypalli,Labor,50.07,49491,14.6,Yes - Microfinance
+131,Chittoor,Brettpalli,Service,48.73,47239,51.64,Yes - Bank
+132,Kurnool,Yolandapalli,Labor,66.18,36956,46.81,Yes - Microfinance
+133,Vizianagaram,Lisapalli,Service,67.84,18463,32.97,No
+134,Srikakulam,Melissapalli,Mixed,49.05,31852,17.94,No
+135,West Godavari,Taylorpalli,Mixed,92.79,44183,9.32,Yes - Bank
+136,East Godavari,Briannapalli,Service,90.37,13943,26.31,Yes - Bank
+137,Srikakulam,Jonathanpalli,Mixed,66.32,32354,19.92,Yes - Microfinance
+138,Srikakulam,Andrewpalli,Labor,85.55,23182,32.01,Yes - Microfinance
+139,Visakhapatnam,Lancepalli,Agriculture,73.66,9513,24.09,Yes - Bank
+140,Vizianagaram,Jamespalli,Business,85.63,30278,9.27,Yes - Bank
+141,Kurnool,Donaldpalli,Service,47.97,41101,34.09,Yes - Microfinance
+142,Visakhapatnam,Melissapalli,Service,58.68,8971,17.44,No
+143,Visakhapatnam,Shellypalli,Mixed,62.2,30149,35.71,Yes - Bank
+144,Vizianagaram,Reneepalli,Labor,73.76,33600,23.46,Yes - Bank
+145,Guntur,Johnpalli,Labor,94.4,20112,25.01,No
+146,YSR Kadapa,Davidpalli,Business,63.16,11666,57.23,No
+147,West Godavari,Jessicapalli,Labor,46.66,31461,36.95,Yes - Bank
+148,Prakasam,Bryanpalli,Labor,40.63,15723,51.36,Yes - Microfinance
+149,Visakhapatnam,Robertpalli,Business,53.17,14078,47.95,Yes - Bank
+150,Chittoor,Sheilapalli,Service,61.88,33695,32.16,Yes - Microfinance
+151,Prakasam,Sharonpalli,Labor,45.96,9555,54.31,Yes - Microfinance
+152,Prakasam,Margaretpalli,Business,94.36,17821,44.33,Yes - Bank
+153,West Godavari,Mauricepalli,Agriculture,76.56,30620,17.66,No
+154,YSR Kadapa,Denisepalli,Agriculture,64.68,39396,46.77,No
+155,Vizianagaram,Thomaspalli,Labor,78.92,9123,25.97,Yes - Microfinance
+156,West Godavari,Emilypalli,Labor,60.45,28645,24.94,Yes - Microfinance
+157,Vizianagaram,Jenniferpalli,Labor,59.51,30249,52.13,No
+158,Visakhapatnam,Scottpalli,Business,70.83,10277,50.22,Yes - Bank
+159,Prakasam,Williampalli,Business,45.88,8804,42.59,Yes - Bank
+160,Guntur,Cindypalli,Agriculture,91.95,27134,18.79,No
+161,Anantapur,Aaronpalli,Agriculture,92.49,47043,32.13,Yes - Bank
+162,Prakasam,Marypalli,Agriculture,59.49,3470,5.69,Yes - Bank
+163,Guntur,Jonathanpalli,Labor,89.87,11571,20.18,Yes - Microfinance
+164,Anantapur,Richardpalli,Service,55.57,3598,46.48,Yes - Microfinance
+165,Guntur,Jopalli,Agriculture,72.15,16250,32.53,No
+166,Kurnool,Jackpalli,Agriculture,42.99,42672,24.44,Yes - Microfinance
+167,Srikakulam,Brianapalli,Mixed,52.41,30378,35.76,Yes - Microfinance
+168,Chittoor,Suzannepalli,Service,60.64,19264,15.42,No
+169,Anantapur,Vanessapalli,Business,73.82,40783,15.96,Yes - Bank
+170,Chittoor,Robinpalli,Agriculture,54.41,49541,24.09,Yes - Bank
+171,Vizianagaram,Tarapalli,Labor,63.4,33399,39.37,Yes - Bank
+172,Kurnool,Jessepalli,Mixed,89.8,26696,6.43,No
+173,Krishna,Jonathonpalli,Service,87.24,36850,11.22,Yes - Microfinance
+174,Nellore,Jessicapalli,Labor,68.63,19488,9.19,Yes - Microfinance
+175,YSR Kadapa,Michaelpalli,Labor,75.18,29292,53.56,Yes - Bank
+176,Guntur,Sandypalli,Mixed,61.56,19905,7.23,Yes - Bank
+177,Visakhapatnam,Margaretpalli,Service,50.6,15879,52.71,No
+178,YSR Kadapa,Jenniferpalli,Agriculture,52.89,38922,57.68,Yes - Bank
+179,Krishna,Ericpalli,Mixed,60.06,42728,29.24,No
+180,Visakhapatnam,Amandapalli,Labor,85.12,42610,34.5,Yes - Microfinance
+181,East Godavari,Christinapalli,Business,62.47,45896,59.47,No
+182,YSR Kadapa,Ericpalli,Labor,89.16,32794,58.62,Yes - Microfinance
+183,Visakhapatnam,Paulpalli,Labor,42.93,37901,51.45,Yes - Bank
+184,Chittoor,Jamespalli,Mixed,66.96,38808,29.83,Yes - Microfinance
+185,Visakhapatnam,Jillpalli,Labor,68.13,4622,7.47,No
+186,Anantapur,Samuelpalli,Business,70.55,42531,50.91,No
+187,Nellore,Kathrynpalli,Labor,61.68,13368,51.58,Yes - Bank
+188,Guntur,Douglaspalli,Service,51.91,44838,41.88,No
+189,Srikakulam,Karenpalli,Business,60.31,39926,32.03,Yes - Microfinance
+190,Visakhapatnam,Robinpalli,Mixed,49.36,33402,52.38,No
+191,Guntur,Emilypalli,Business,92.19,30196,29.14,No
+192,Srikakulam,Jessicapalli,Service,92.51,30889,25.42,Yes - Microfinance
+193,West Godavari,Markpalli,Service,60.32,34814,47.32,Yes - Microfinance
+194,Kurnool,Thomaspalli,Agriculture,53.94,28603,42.08,Yes - Bank
+195,Vizianagaram,Jasminepalli,Service,45.45,32614,38.37,Yes - Microfinance
+196,Guntur,Troypalli,Mixed,41.44,21938,17.63,No
+197,Prakasam,Chloepalli,Agriculture,92.02,33195,36.45,Yes - Bank
+198,Chittoor,Shannonpalli,Mixed,50.4,45247,12.29,Yes - Bank
+199,Guntur,Jeremypalli,Business,42.32,18137,42.02,Yes - Bank
+200,Vizianagaram,Ericpalli,Mixed,60.21,13064,42.09,Yes - Bank
+201,Kurnool,Scottpalli,Agriculture,56.51,6242,43.99,No
+202,East Godavari,Sharipalli,Labor,86.15,17245,48.75,Yes - Bank
+203,Vizianagaram,Margaretpalli,Agriculture,82.62,15169,41.71,Yes - Microfinance
+204,Krishna,Alisonpalli,Agriculture,42.93,8318,28.71,Yes - Microfinance
+205,Srikakulam,Patrickpalli,Business,71.99,23044,32.04,Yes - Microfinance
+206,Nellore,Kaitlynpalli,Agriculture,65.52,12389,28.53,Yes - Microfinance
+207,Visakhapatnam,Lindseypalli,Business,67.42,30493,45.0,Yes - Microfinance
+208,Vizianagaram,Christopherpalli,Business,73.2,20391,50.21,No
+209,Chittoor,Michellepalli,Business,72.33,3468,39.02,Yes - Bank
+210,East Godavari,Rachelpalli,Agriculture,59.84,4704,23.59,Yes - Bank
+211,Prakasam,Meganpalli,Business,88.71,33872,41.2,Yes - Bank
+212,Chittoor,Danielpalli,Agriculture,42.3,45735,46.97,No
+213,West Godavari,Amandapalli,Service,68.79,39874,53.04,No
+214,YSR Kadapa,Joshuapalli,Agriculture,80.33,30731,7.46,Yes - Bank
+215,Kurnool,Barbarapalli,Business,64.07,23359,49.78,Yes - Bank
+216,East Godavari,Michellepalli,Labor,53.27,16157,25.03,Yes - Microfinance
+217,Kurnool,Robertpalli,Labor,90.34,28487,50.93,Yes - Microfinance
+218,Kurnool,Kathleenpalli,Business,94.14,20370,54.32,No
+219,Visakhapatnam,Kevinpalli,Labor,76.58,46620,54.06,Yes - Microfinance
+220,YSR Kadapa,Tylerpalli,Labor,56.23,5661,33.46,Yes - Microfinance
+221,Nellore,Andreapalli,Business,41.71,6965,45.33,No
+222,Vizianagaram,Michaelpalli,Mixed,74.25,23902,44.44,Yes - Microfinance
+223,YSR Kadapa,Derekpalli,Mixed,58.97,30119,30.91,No
+224,Vizianagaram,Lisapalli,Labor,67.64,39113,21.13,Yes - Bank
+225,Krishna,Donnapalli,Labor,70.67,18221,21.46,Yes - Bank
+226,Prakasam,Andrewpalli,Mixed,60.22,32190,24.02,No
+227,Guntur,Lauriepalli,Mixed,47.16,40428,22.81,Yes - Bank
+228,East Godavari,Josephpalli,Business,89.81,30108,43.32,Yes - Microfinance
+229,Visakhapatnam,Joannapalli,Agriculture,68.02,7602,55.97,No
+230,Anantapur,Aprilpalli,Business,61.81,3383,12.53,No
+231,Anantapur,Jimmypalli,Mixed,85.62,23031,53.22,Yes - Microfinance
+232,Visakhapatnam,Amypalli,Labor,90.54,7216,20.94,Yes - Microfinance
+233,Prakasam,Latoyapalli,Mixed,49.58,9995,36.35,Yes - Bank
+234,Krishna,Chadpalli,Mixed,88.77,14084,53.04,No
+235,East Godavari,Morganpalli,Business,66.85,26644,24.55,No
+236,Kurnool,Curtispalli,Business,75.86,12258,31.99,No
+237,Nellore,Marthapalli,Agriculture,87.95,7376,45.75,Yes - Bank
+238,Anantapur,Stevenpalli,Labor,86.21,8425,13.8,Yes - Microfinance
+239,Srikakulam,Denisepalli,Business,47.08,18925,20.14,Yes - Microfinance
+240,Nellore,Melissapalli,Service,89.03,33263,19.6,Yes - Microfinance
+241,Anantapur,Sarahpalli,Business,59.28,23761,18.4,Yes - Bank
+242,East Godavari,Richardpalli,Agriculture,78.79,44266,58.95,Yes - Microfinance
+243,East Godavari,Jenniferpalli,Labor,77.82,17711,10.63,Yes - Bank
+244,Anantapur,Connorpalli,Business,87.16,48283,10.71,No
+245,Anantapur,Sarahpalli,Business,56.62,14841,27.33,No
+246,Anantapur,Michaelpalli,Labor,62.17,5371,10.54,Yes - Bank
+247,YSR Kadapa,Angelapalli,Mixed,84.97,44504,19.75,No
+248,Nellore,Triciapalli,Agriculture,79.59,43712,35.2,Yes - Bank
+249,Vizianagaram,Robertpalli,Agriculture,88.01,15139,11.99,Yes - Bank
+250,Nellore,Ginapalli,Agriculture,62.3,32916,51.74,Yes - Bank
+251,Kurnool,Shaunpalli,Service,77.97,10577,29.16,Yes - Bank
+252,Srikakulam,Leahpalli,Business,90.65,8903,53.08,Yes - Microfinance
+253,Srikakulam,Lesliepalli,Mixed,80.74,24301,48.66,Yes - Bank
+254,Guntur,Robertpalli,Labor,45.93,22187,40.56,No
+255,Srikakulam,Danielpalli,Service,67.62,32795,43.45,No
+256,Kurnool,Jenniferpalli,Business,82.73,17190,17.52,Yes - Bank
+257,West Godavari,Elizabethpalli,Business,40.02,7718,57.78,No
+258,West Godavari,Raymondpalli,Labor,64.16,44546,48.47,No
+259,Vizianagaram,Susanpalli,Service,63.68,21112,33.28,Yes - Microfinance
+260,Guntur,Aliciapalli,Agriculture,77.9,6593,24.89,Yes - Microfinance
+261,Vizianagaram,Carlpalli,Business,61.48,44623,24.93,Yes - Microfinance
+262,Guntur,Andrewpalli,Labor,46.19,35940,53.4,Yes - Bank
+263,YSR Kadapa,Christinepalli,Agriculture,88.43,40694,33.62,Yes - Microfinance
+264,Visakhapatnam,Shawnpalli,Business,60.71,16492,52.72,Yes - Bank
+265,Guntur,Zacharypalli,Business,79.46,43991,48.29,Yes - Microfinance
+266,Chittoor,Michaelpalli,Agriculture,83.73,11952,55.62,Yes - Bank
+267,Visakhapatnam,Laurapalli,Service,78.98,27686,32.02,Yes - Bank
+268,Kurnool,Gabrielapalli,Mixed,64.67,49789,30.74,Yes - Microfinance
+269,YSR Kadapa,Allenpalli,Business,80.56,16999,50.34,Yes - Microfinance
+270,Vizianagaram,Kristapalli,Business,63.05,21748,33.53,Yes - Bank
+271,Vizianagaram,Jasminpalli,Labor,69.17,23759,7.56,Yes - Bank
+272,Guntur,Noahpalli,Agriculture,63.97,13477,29.17,Yes - Bank
+273,East Godavari,Patriciapalli,Mixed,59.42,37280,37.37,No
+274,Prakasam,Andrewpalli,Agriculture,51.37,45635,58.66,No
+275,Krishna,Sergiopalli,Service,72.81,42929,42.27,No
+276,East Godavari,Donnapalli,Business,77.43,3577,26.22,No
+277,Visakhapatnam,Meredithpalli,Agriculture,93.66,33698,17.1,Yes - Bank
+278,Nellore,Jamiepalli,Business,42.8,42511,14.37,Yes - Bank
+279,Chittoor,Anthonypalli,Service,62.78,49658,43.94,Yes - Microfinance
+280,West Godavari,Michelepalli,Service,53.5,47375,41.13,Yes - Microfinance
+281,Nellore,Christopherpalli,Service,59.41,45922,58.38,No
+282,Nellore,Danielpalli,Agriculture,67.85,42582,11.12,Yes - Bank
+283,Prakasam,Stephaniepalli,Service,59.37,35481,52.53,No
+284,Anantapur,Christopherpalli,Mixed,80.25,42718,39.06,Yes - Bank
+285,Chittoor,Lorettapalli,Service,54.51,4804,44.16,Yes - Bank
+286,Vizianagaram,Richardpalli,Mixed,67.15,34380,43.97,Yes - Microfinance
+287,Kurnool,Joshuapalli,Agriculture,74.08,6721,39.52,Yes - Microfinance
+288,YSR Kadapa,Kennethpalli,Agriculture,40.86,44089,28.67,No
+289,YSR Kadapa,Brianpalli,Service,79.99,6933,28.82,Yes - Bank
+290,Krishna,Michellepalli,Mixed,51.89,42309,58.38,Yes - Microfinance
+291,Anantapur,Cristianpalli,Business,58.36,24476,21.36,Yes - Microfinance
+292,Krishna,Carolinepalli,Agriculture,84.04,19471,56.75,Yes - Microfinance
+293,West Godavari,Kristenpalli,Agriculture,75.13,38460,21.82,Yes - Microfinance
+294,Guntur,Ryanpalli,Mixed,87.67,20771,13.11,Yes - Microfinance
+295,Anantapur,Jenniferpalli,Mixed,62.94,42714,54.78,No
+296,Nellore,Samanthapalli,Business,55.69,35828,9.9,Yes - Bank
+297,West Godavari,Robertpalli,Service,66.8,12345,13.45,Yes - Microfinance
+298,Prakasam,Williampalli,Mixed,92.91,39584,55.43,Yes - Bank
+299,YSR Kadapa,Anitapalli,Service,48.5,42975,52.76,Yes - Bank
+300,Chittoor,Sandypalli,Business,74.59,14503,10.5,Yes - Bank
+301,Krishna,Amberpalli,Labor,74.68,3151,23.32,No
+302,Kurnool,Jacquelinepalli,Service,66.0,31004,44.66,No
+303,YSR Kadapa,Caseypalli,Service,63.46,17864,8.24,Yes - Microfinance
+304,West Godavari,Jamespalli,Business,64.89,19453,54.17,Yes - Bank
+305,Anantapur,Emilypalli,Mixed,60.49,33159,14.16,Yes - Bank
+306,Krishna,Jaredpalli,Labor,65.58,15895,47.63,No
+307,Prakasam,Monicapalli,Agriculture,75.14,16046,52.4,Yes - Microfinance
+308,West Godavari,Brittneypalli,Agriculture,57.59,38450,59.15,Yes - Bank
+309,Nellore,Williampalli,Mixed,56.12,29158,52.54,Yes - Microfinance
+310,Krishna,Nicolepalli,Mixed,43.51,43727,35.3,Yes - Bank
+311,Vizianagaram,Kellypalli,Mixed,63.25,7058,41.07,Yes - Bank
+312,Krishna,Jessicapalli,Labor,72.2,14141,18.43,Yes - Bank
+313,Visakhapatnam,Damonpalli,Business,44.43,16565,37.54,Yes - Bank
+314,Krishna,Melvinpalli,Service,66.21,10254,50.58,No
+315,Nellore,Shannonpalli,Agriculture,91.49,47205,38.15,Yes - Microfinance
+316,Anantapur,Davidpalli,Service,78.85,14152,53.5,Yes - Microfinance
+317,Prakasam,Anthonypalli,Agriculture,51.58,42300,24.09,Yes - Microfinance
+318,West Godavari,Jonathanpalli,Service,45.57,7477,25.15,No
+319,Guntur,Danielpalli,Agriculture,90.38,6412,9.66,Yes - Bank
+320,Vizianagaram,Annapalli,Mixed,83.44,28806,42.88,No
+321,Vizianagaram,Rachelpalli,Mixed,82.03,33333,21.22,No
+322,Chittoor,Oscarpalli,Business,73.79,22706,24.25,Yes - Bank
+323,Anantapur,Chelseypalli,Mixed,87.82,35674,31.05,Yes - Bank
+324,Srikakulam,Brandonpalli,Business,41.14,41563,55.61,No
+325,Krishna,Christopherpalli,Service,62.48,14666,39.58,Yes - Microfinance
+326,Vizianagaram,Thomaspalli,Labor,42.56,28419,20.86,No
+327,Nellore,Jonpalli,Business,79.74,44475,7.81,Yes - Bank
+328,Chittoor,Heatherpalli,Agriculture,43.58,15892,32.71,No
+329,YSR Kadapa,Samanthapalli,Business,70.24,25878,46.59,No
+330,Guntur,Williampalli,Service,63.23,29459,21.51,Yes - Bank
+331,Guntur,Timothypalli,Service,69.0,23461,21.49,Yes - Bank
+332,YSR Kadapa,Jenniferpalli,Agriculture,72.8,19286,53.15,Yes - Microfinance
+333,Vizianagaram,Franciscopalli,Mixed,94.82,25074,27.88,Yes - Microfinance
+334,Kurnool,Michaelpalli,Agriculture,69.26,16520,39.78,Yes - Microfinance
+335,Visakhapatnam,Timothypalli,Service,67.48,40512,56.11,No
+336,Nellore,Sherripalli,Business,59.52,25751,57.02,No
+337,Prakasam,Michaelpalli,Labor,65.24,19083,15.81,Yes - Bank
+338,Kurnool,Marypalli,Service,79.38,11541,28.7,No
+339,Anantapur,Jasonpalli,Business,67.88,48361,5.24,No
+340,Prakasam,Briannapalli,Labor,40.36,38559,55.92,Yes - Microfinance
+341,Visakhapatnam,Stevenpalli,Agriculture,90.97,21411,47.22,No
+342,Vizianagaram,Adrianpalli,Labor,82.89,48229,54.26,Yes - Microfinance
+343,East Godavari,Veronicapalli,Business,41.22,30909,26.52,No
+344,Srikakulam,Randallpalli,Agriculture,89.28,14769,19.52,No
+345,Vizianagaram,Arthurpalli,Mixed,66.26,34876,52.66,Yes - Bank
+346,Krishna,Troypalli,Agriculture,68.75,23509,39.27,Yes - Bank
+347,Anantapur,Meganpalli,Agriculture,86.28,48973,15.35,Yes - Bank
+348,West Godavari,Michellepalli,Agriculture,90.79,8766,10.54,Yes - Microfinance
+349,Anantapur,Jamespalli,Labor,77.04,32466,46.15,Yes - Microfinance
+350,Anantapur,Marilynpalli,Agriculture,44.88,17710,24.31,No
+351,Srikakulam,Amandapalli,Service,79.54,46364,26.61,Yes - Microfinance
+352,Anantapur,Jenniferpalli,Mixed,48.18,16135,54.02,Yes - Bank
+353,Kurnool,Jacquelinepalli,Mixed,71.99,47920,39.21,Yes - Microfinance
+354,Visakhapatnam,Lindsaypalli,Labor,84.16,15794,6.41,Yes - Microfinance
+355,YSR Kadapa,Teresapalli,Labor,41.48,31050,56.06,Yes - Bank
+356,Guntur,Anthonypalli,Agriculture,65.84,32964,28.19,No
+357,Guntur,Michaelpalli,Service,85.3,35338,19.97,No
+358,Visakhapatnam,Nathanpalli,Mixed,55.62,22391,14.0,No
+359,West Godavari,Dalepalli,Labor,54.69,26530,35.72,Yes - Bank
+360,Krishna,Leahpalli,Service,52.61,18494,53.42,Yes - Microfinance
+361,Vizianagaram,Samuelpalli,Labor,84.31,43964,40.75,Yes - Bank
+362,Nellore,Alexandrapalli,Service,69.21,16068,38.04,No
+363,Prakasam,Robertpalli,Agriculture,72.55,11389,37.93,Yes - Microfinance
+364,Anantapur,Dariuspalli,Labor,64.14,12877,31.42,Yes - Bank
+365,Anantapur,Christopherpalli,Mixed,61.52,15178,57.09,Yes - Microfinance
+366,Guntur,Samanthapalli,Labor,64.7,24264,49.65,Yes - Microfinance
+367,Visakhapatnam,Sethpalli,Labor,73.14,38319,34.73,No
+368,Nellore,Tiffanypalli,Labor,92.85,6275,59.03,No
+369,Vizianagaram,Aaronpalli,Mixed,70.35,12295,5.17,Yes - Bank
+370,Vizianagaram,Alyssapalli,Labor,89.92,15216,33.28,Yes - Bank
+371,Visakhapatnam,Carlapalli,Service,42.31,24812,6.55,Yes - Bank
+372,Visakhapatnam,Anthonypalli,Agriculture,86.18,27695,31.4,Yes - Bank
+373,Chittoor,Joannapalli,Agriculture,60.1,8859,15.85,Yes - Bank
+374,East Godavari,Angelapalli,Agriculture,68.66,21957,12.6,Yes - Microfinance
+375,YSR Kadapa,Josepalli,Labor,48.12,35511,10.55,Yes - Bank
+376,YSR Kadapa,Josephpalli,Mixed,59.41,17387,55.1,No
+377,Nellore,Paulpalli,Business,62.99,34096,30.39,No
+378,Chittoor,Rebeccapalli,Agriculture,47.84,44844,23.1,Yes - Bank
+379,West Godavari,Michaelpalli,Service,80.61,9716,45.36,Yes - Microfinance
+380,YSR Kadapa,Priscillapalli,Agriculture,44.66,32419,34.35,No
+381,YSR Kadapa,Andreapalli,Labor,47.93,8255,51.53,No
+382,East Godavari,Patrickpalli,Business,92.29,34195,54.78,No
+383,Guntur,Reginapalli,Business,94.1,49340,48.84,No
+384,Nellore,Michaelpalli,Labor,72.91,28828,18.25,Yes - Bank
+385,YSR Kadapa,Christopherpalli,Agriculture,90.54,28042,54.42,Yes - Bank
+386,Srikakulam,Markpalli,Business,84.25,17783,12.38,Yes - Bank
+387,West Godavari,Tammypalli,Business,73.11,17841,7.92,Yes - Bank
+388,YSR Kadapa,Bryanpalli,Agriculture,49.91,20645,36.23,Yes - Bank
+389,Vizianagaram,Michaelpalli,Labor,56.75,41848,52.84,Yes - Bank
+390,YSR Kadapa,Jenniferpalli,Agriculture,61.39,11469,32.15,No
+391,Kurnool,Jasonpalli,Business,68.22,9107,18.27,Yes - Microfinance
+392,Krishna,Angelapalli,Business,62.9,40070,27.64,Yes - Microfinance
+393,Nellore,Stacypalli,Business,71.24,4110,35.39,No
+394,East Godavari,Christinapalli,Mixed,72.77,13399,29.73,No
+395,Guntur,Jamespalli,Agriculture,59.49,25607,59.45,Yes - Bank
+396,East Godavari,Timothypalli,Agriculture,79.37,28666,34.86,Yes - Bank
+397,Nellore,Jamespalli,Service,45.97,48648,22.79,Yes - Microfinance
+398,Chittoor,Jessicapalli,Mixed,70.55,7025,33.26,No
+399,Chittoor,Rebekahpalli,Agriculture,64.94,47905,31.97,Yes - Bank
+400,West Godavari,Laurenpalli,Labor,70.48,23075,54.38,No
+401,Krishna,Lynnpalli,Agriculture,45.2,6220,41.98,Yes - Bank
+402,Anantapur,Katiepalli,Business,58.58,24194,31.7,No
+403,East Godavari,Kathleenpalli,Agriculture,85.84,5011,47.81,Yes - Microfinance
+404,Guntur,Peterpalli,Labor,88.26,16654,17.66,No
+405,Kurnool,Trevorpalli,Mixed,72.28,4912,27.63,No
+406,Chittoor,Brittneypalli,Mixed,40.22,20671,9.6,Yes - Bank
+407,Vizianagaram,Natashapalli,Mixed,70.57,24721,34.38,Yes - Bank
+408,Chittoor,Michaelpalli,Business,50.69,42064,7.41,Yes - Bank
+409,West Godavari,Josepalli,Business,69.81,3530,41.87,No
+410,Visakhapatnam,Johnpalli,Labor,78.0,17925,41.44,Yes - Bank
+411,East Godavari,Bethpalli,Labor,57.8,16413,6.09,Yes - Bank
+412,YSR Kadapa,Brittanypalli,Service,88.61,38422,10.1,No
+413,Prakasam,Samanthapalli,Agriculture,76.88,45052,36.78,Yes - Microfinance
+414,West Godavari,Lisapalli,Agriculture,65.43,38749,19.53,Yes - Microfinance
+415,YSR Kadapa,Amandapalli,Agriculture,55.33,32905,54.02,Yes - Microfinance
+416,Nellore,Melaniepalli,Mixed,42.65,31404,20.14,No
+417,Nellore,Philippalli,Labor,90.11,32937,39.71,No
+418,Guntur,Douglaspalli,Agriculture,79.07,7522,29.59,Yes - Microfinance
+419,Kurnool,Corypalli,Agriculture,40.17,47474,40.59,Yes - Bank
+420,YSR Kadapa,Meredithpalli,Mixed,73.47,8405,30.52,No
+421,Visakhapatnam,Karapalli,Mixed,51.92,36603,29.47,No
+422,Prakasam,Jacobpalli,Service,44.67,30081,39.11,No
+423,Prakasam,Sarahpalli,Business,43.97,29643,29.42,Yes - Bank
+424,Visakhapatnam,Nathanpalli,Business,69.12,32141,17.64,No
+425,Chittoor,Bobbypalli,Service,91.86,28897,30.95,Yes - Bank
+426,East Godavari,Jamespalli,Agriculture,63.68,19063,40.17,Yes - Bank
+427,Chittoor,Robertpalli,Labor,87.38,49546,32.25,Yes - Microfinance
+428,Srikakulam,Samuelpalli,Agriculture,45.62,24020,32.7,Yes - Microfinance
+429,Prakasam,Markpalli,Business,74.66,43470,37.03,No
+430,Guntur,Angelapalli,Mixed,81.57,18139,29.76,Yes - Microfinance
+431,YSR Kadapa,Oscarpalli,Service,94.21,42367,59.65,Yes - Microfinance
+432,Anantapur,Briannapalli,Service,72.31,32537,11.3,Yes - Bank
+433,Chittoor,Sarapalli,Service,87.02,20565,56.53,Yes - Microfinance
+434,Anantapur,Kristinepalli,Business,82.83,35331,39.19,No
+435,West Godavari,Laurenpalli,Mixed,60.34,35918,12.4,Yes - Microfinance
+436,Vizianagaram,Robertpalli,Agriculture,77.81,14903,56.24,No
+437,Srikakulam,Ashleypalli,Labor,59.98,37811,52.23,Yes - Microfinance
+438,Chittoor,Christinapalli,Service,45.11,24887,33.6,No
+439,Krishna,Donnapalli,Mixed,84.0,21954,58.77,Yes - Bank
+440,Srikakulam,Nicolepalli,Mixed,80.95,42301,37.02,Yes - Microfinance
+441,West Godavari,Brettpalli,Business,55.87,44299,27.39,Yes - Microfinance
+442,Krishna,Jonathanpalli,Mixed,49.28,3055,11.49,No
+443,Srikakulam,Troypalli,Agriculture,70.37,26584,26.46,Yes - Bank
+444,Prakasam,Donaldpalli,Service,50.66,10896,49.36,Yes - Microfinance
+445,Anantapur,Peterpalli,Agriculture,86.15,38670,28.3,Yes - Bank
+446,Anantapur,Tiffanypalli,Labor,81.82,28363,17.1,Yes - Bank
+447,Prakasam,Beverlypalli,Agriculture,76.1,29562,32.31,No
+448,Krishna,Dawnpalli,Business,40.8,35416,39.87,Yes - Bank
+449,Vizianagaram,Stephenpalli,Mixed,90.82,39682,33.02,No
+450,Vizianagaram,Williampalli,Agriculture,63.96,10644,24.5,No
+451,Chittoor,Angelapalli,Service,74.65,43970,13.65,No
+452,Guntur,Carriepalli,Service,67.94,48524,10.08,Yes - Bank
+453,Chittoor,Kerrypalli,Service,90.78,32036,26.72,No
+454,Krishna,Jasminepalli,Mixed,93.08,25514,15.99,Yes - Bank
+455,Anantapur,Christopherpalli,Labor,43.9,43740,46.9,Yes - Bank
+456,Krishna,Josephpalli,Agriculture,68.08,15747,29.59,Yes - Microfinance
+457,Chittoor,Robertpalli,Labor,59.12,29781,5.16,Yes - Microfinance
+458,Anantapur,Anthonypalli,Mixed,58.89,5867,33.65,Yes - Microfinance
+459,Vizianagaram,Bryanpalli,Business,53.63,44932,45.0,Yes - Bank
+460,YSR Kadapa,Parkerpalli,Service,53.62,7424,27.01,Yes - Bank
+461,Chittoor,Jeffreypalli,Agriculture,52.13,13831,26.6,Yes - Microfinance
+462,Krishna,Dylanpalli,Business,84.31,31896,14.44,No
+463,East Godavari,Haleypalli,Agriculture,79.42,39224,16.09,No
+464,Kurnool,Lisapalli,Mixed,89.0,42959,59.96,Yes - Bank
+465,Vizianagaram,Davidpalli,Agriculture,40.15,10219,6.45,Yes - Microfinance
+466,Anantapur,Donnapalli,Service,52.46,45619,34.01,Yes - Microfinance
+467,Anantapur,Davidpalli,Agriculture,81.62,14914,28.68,Yes - Microfinance
+468,Vizianagaram,Jamespalli,Business,60.05,24255,17.62,Yes - Microfinance
+469,Nellore,Michaelpalli,Mixed,88.48,42354,46.13,Yes - Bank
+470,Prakasam,Chelseapalli,Labor,78.73,5332,18.76,Yes - Bank
+471,YSR Kadapa,Jacobpalli,Agriculture,76.88,25748,10.92,Yes - Bank
+472,Anantapur,Kimberlypalli,Labor,49.68,15152,37.17,No
+473,Chittoor,Karlpalli,Service,48.55,18558,28.54,Yes - Microfinance
+474,Guntur,Heatherpalli,Service,59.54,8290,10.78,Yes - Bank
+475,Vizianagaram,Brittneypalli,Business,77.52,23394,32.49,Yes - Microfinance
+476,Srikakulam,Lindapalli,Business,88.2,13247,40.93,No
+477,Vizianagaram,Crystalpalli,Business,81.86,13182,37.94,Yes - Microfinance
+478,West Godavari,Codypalli,Service,92.7,39106,55.99,No
+479,Srikakulam,Michaelpalli,Business,58.6,22299,25.42,No
+480,Guntur,Thomaspalli,Agriculture,78.08,6940,46.54,Yes - Microfinance
+481,Krishna,Christopherpalli,Labor,84.64,31736,50.64,No
+482,Krishna,Peterpalli,Business,60.31,5598,11.2,No
+483,Guntur,Johnpalli,Mixed,55.9,3553,6.45,Yes - Microfinance
+484,Guntur,Amberpalli,Service,90.58,27679,44.99,Yes - Bank
+485,YSR Kadapa,Jasonpalli,Labor,64.97,11249,13.89,Yes - Bank
+486,Krishna,Kylepalli,Mixed,68.07,35500,48.3,Yes - Microfinance
+487,Prakasam,Marcuspalli,Labor,59.32,21058,27.28,No
+488,Krishna,Deborahpalli,Labor,93.58,44405,59.85,No
+489,Anantapur,Cynthiapalli,Business,44.79,14682,27.25,No
+490,East Godavari,Kevinpalli,Service,86.98,30224,44.95,Yes - Bank
+491,YSR Kadapa,Randypalli,Mixed,50.72,23345,49.25,Yes - Bank
+492,YSR Kadapa,Robertpalli,Service,52.41,34830,29.47,No
+493,Kurnool,Carriepalli,Agriculture,75.68,18800,56.56,Yes - Microfinance
+494,Chittoor,Anitapalli,Service,68.53,5555,12.0,Yes - Microfinance
+495,Anantapur,Jerrypalli,Mixed,88.84,34778,44.36,No
+496,Anantapur,Johnpalli,Agriculture,67.19,46095,38.81,Yes - Bank
+497,East Godavari,Victorpalli,Labor,85.85,49133,12.21,Yes - Bank
+498,Kurnool,Blakepalli,Service,79.98,31743,12.85,Yes - Bank
+499,Anantapur,Emilypalli,Labor,87.78,41490,18.89,Yes - Microfinance
+500,Prakasam,Josephpalli,Mixed,65.53,13387,43.7,Yes - Bank
